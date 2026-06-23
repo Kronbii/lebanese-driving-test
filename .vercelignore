@@ -1,0 +1,11 @@
+HANDOFF.md
+out.txt
+full.txt
+transcribed_raw.json
+baseline_structure.json
+transcribe.workflow.js
+verify.workflow.js
+imgprobe/
+pageimg/
+pages/
+*.pdf

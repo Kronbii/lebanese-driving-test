@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#0f1729" />
+  <title>امتحان الدراجات الآلية — تدريب ذكي</title>
+  <meta name="description" content="تطبيق تدريب ذكي لاجتياز الفحص النظري لرخصة الدراجات الآلية في لبنان، مع إشارات الطرق ونظام مراجعة متكيّف." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8F%8D%EF%B8%8F%3C/text%3E%3C/svg%3E" />
+</head>
+<body>
+  <div class="wrap">
+    <header class="appbar">
+      <div class="brand">
+        <div class="logo">🏍️</div>
+        <div>
+          <h1>تدريب فحص الدراجات الآلية</h1>
+          <p>نظام مراجعة ذكي · لبنان</p>
+        </div>
+      </div>
+      <button class="btn ghost" id="homeBtn" title="الرئيسية">الرئيسية</button>
+    </header>
+
+    <!-- ============ DASHBOARD ============ -->
+    <main id="view-home">
+      <section class="card hero">
+        <h2>جاهز للامتحان؟</h2>
+        <p>
+          امتحان من <b>٣٠ سؤالاً</b> عشوائياً من بنك من <b id="bankCount">…</b> سؤالاً (مع إشارات الطرق).
+          علامة النجاح <b>٢٥ / ٣٠</b>. يتذكّر التطبيق أخطاءك ويركّز عليها بذكاء، ويُنوّع الأسئلة
+          حتى تغطّي كامل البنك عبر محاولاتك.
+        </p>
+        <div class="cta">
+          <button class="btn primary lg" id="startExam">ابدأ امتحاناً جديداً</button>
+          <button class="btn lg" id="startReview">مراجعة أخطائي</button>
+        </div>
+      </section>
+
+      <div class="stats">
+        <div class="stat"><div class="num blue" id="stCoverage">0%</div><div class="lbl">نسبة التغطية</div></div>
+        <div class="stat"><div class="num green" id="stMastery">0%</div><div class="lbl">نسبة الإتقان</div></div>
+        <div class="stat"><div class="num" id="stExams">0</div><div class="lbl">عدد المحاولات</div></div>
+        <div class="stat"><div class="num amber" id="stPasses">0</div><div class="lbl">مرات النجاح</div></div>
+      </div>
+
+      <div class="section-title">التقدّم في تغطية بنك الأسئلة</div>
+      <div class="card">
+        <div class="progress"><span id="coverageBar" style="width:0%"></span></div>
+        <div class="coverage-note" id="coverageNote">لم تبدأ بعد — كل محاولة تُدخل أسئلة جديدة لم ترها.</div>
+        <div class="chips" style="margin-top:14px" id="bankChips"></div>
+      </div>
+
+      <div class="section-title" id="weakTitle">الأسئلة التي تحتاج تركيزاً</div>
+      <div class="card" id="weakCard">
+        <div class="coverage-note">ستظهر هنا الأسئلة التي تخطئ بها أكثر بعد أول محاولة.</div>
+      </div>
+
+      <div class="section-title">آخر المحاولات</div>
+      <div class="card" id="historyCard">
+        <div class="coverage-note">لا توجد محاولات سابقة بعد.</div>
+      </div>
+
+      <div style="margin-top:18px; text-align:center">
+        <button class="btn danger" id="resetBtn">مسح كل التقدّم</button>
+      </div>
+    </main>
+
+    <!-- ============ EXAM ============ -->
+    <main id="view-exam" class="hidden">
+      <div class="exam-head">
+        <div class="meta">السؤال <b id="qPos">1</b> من <b id="qTotal">30</b></div>
+        <div class="meta" id="examMode">امتحان رسمي</div>
+      </div>
+      <div class="progress qcount-bar"><span id="examBar" style="width:0%"></span></div>
+
+      <section class="card">
+        <span class="qnum-badge" id="qBadge">سؤال رقم ١</span>
+        <div class="sign-wrap hidden" id="signWrap"><img id="signImg" alt="إشارة طريق" /></div>
+        <h2 class="qtext" id="qText"></h2>
+        <div class="options" id="optionsBox"></div>
+        <div class="exam-foot">
+          <div>
+            <div class="feedback hidden" id="feedback"></div>
+            <div class="kbd-hint">اختر بالأرقام ١ · ٢ · ٣ — التالي بمفتاح Enter</div>
+          </div>
+          <button class="btn primary hidden" id="nextBtn">التالي ←</button>
+        </div>
+      </section>
+
+      <div style="margin-top:16px; text-align:center">
+        <button class="btn ghost" id="quitExam">إنهاء الامتحان والخروج</button>
+      </div>
+    </main>
+
+    <!-- ============ RESULTS ============ -->
+    <main id="view-result" class="hidden">
+      <section class="card result-hero">
+        <div class="score-ring" id="scoreRing">
+          <div class="inner">
+            <div class="val" id="scoreVal">0</div>
+            <div class="of">من <span id="scoreOf">30</span></div>
+          </div>
+        </div>
+        <div class="verdict" id="verdict">—</div>
+        <p class="verdict-sub" id="verdictSub"></p>
+        <div class="cta" style="display:flex; gap:12px; justify-content:center; flex-wrap:wrap; margin-top:10px">
+          <button class="btn primary lg" id="againBtn">امتحان جديد</button>
+          <button class="btn lg" id="reviewWrongBtn">مراجعة أخطاء هذا الامتحان</button>
+          <button class="btn ghost lg" id="toHomeBtn">الرئيسية</button>
+        </div>
+      </section>
+
+      <div class="section-title" id="reviewTitle">مراجعة الإجابات الخاطئة</div>
+      <div id="reviewList"></div>
+    </main>
+
+    <div class="footer-note">
+      صُمّم هذا التطبيق للتدريب على الفحص النظري لرخصة الدراجات الآلية.<br />
+      جميع الأسئلة وإشارات الطرق مأخوذة من ملف الأسئلة الرسمي. تقدّمك محفوظ على جهازك فقط.
+    </div>
+  </div>
+
+  <div class="toast" id="toast"></div>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/engine.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
