@@ -1,4 +1,7 @@
 .DS_Store
+node_modules/
+dist/
+*.tsbuildinfo
 .vercel/
 
 # Local handoff and extraction/proofing artifacts

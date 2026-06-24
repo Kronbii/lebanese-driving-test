@@ -1,6 +1,6 @@
 # Lebanese Motorcycle Theory Exam Trainer
 
-Static Arabic RTL trainer for the Lebanese motorcycle theory exam.
+Arabic RTL trainer for the Lebanese motorcycle theory exam, built with Vite, React, and TypeScript.
 
 ## Features
 
@@ -13,12 +13,25 @@ Static Arabic RTL trainer for the Lebanese motorcycle theory exam.
 
 ## Run Locally
 
-No build step is required.
+Install dependencies:
 
 ```bash
-python3 -m http.server 4173
+npm install
 ```
 
-Then open `http://localhost:4173/`.
+Start the dev server:
+
+```bash
+npm run dev
+```
+
+Then open the URL printed by Vite.
+
+## Quality Checks
+
+```bash
+npm test
+npm run build
+```
 
 Progress is stored only in the browser's localStorage.
