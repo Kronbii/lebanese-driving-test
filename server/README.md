@@ -17,7 +17,7 @@ server/
   ai.ts / email.ts  Anthropic + Resend integrations
   seed.ts         demo data (npm run seed)
   dev.ts          local Node server (npm run dev:api)
-api/[[...route]].ts  Vercel Function entry (hono/vercel)
+api/index.ts        Vercel Function entry (hono/vercel); vercel.json rewrites /api/* to it
 ```
 
 ## Environment variables
@@ -90,7 +90,8 @@ npm run dev:all    # Vite + API (API on http://localhost:8787/api, Vite proxies 
 
 1. Create a Postgres database and set `DATABASE_URL` (pooled), `APP_URL`, `SUPER_ADMIN_EMAIL`,
    `RESEND_API_KEY`, `EMAIL_FROM`, `CRON_SECRET` and optionally `ANTHROPIC_API_KEY`.
-2. Deploy. `api/[[...route]].ts` serves every `/api/*` route; tables are created automatically on
+2. Deploy. `api/index.ts` serves every `/api/*` route (via a rewrite: plain Vercel functions
+   have no catch-all segments); tables are created automatically on
    the first request (guarded by an advisory lock).
 3. `vercel.json` adds a daily cron hitting `/api/cron/retention`, an SPA rewrite for non-API paths
    and an HSTS header.
@@ -102,7 +103,7 @@ Vercel compiles `api/` and `server/` file by file as native ESM without bundling
 relative import in the function's graph ends in `.js` (TypeScript's Bundler resolution maps it to
 the `.ts` file). `server/imports.test.ts` fails on an extensionless one, which would otherwise
 pass the build and crash the deployed function with `ERR_MODULE_NOT_FOUND`. To check a build
-locally: `vercel build --prod`, then import `.vercel/output/functions/api/[[...route]].func/api/[[...route]].js`.
+locally: `vercel build --prod`, then import `.vercel/output/functions/api/index.func/api/index.js`.
 
 On Vercel without `DATABASE_URL` every API call returns `500 {"message":"DATABASE_URL is not set"}`;
 the public trainer keeps working (it is local-first) and school features stay hidden.
