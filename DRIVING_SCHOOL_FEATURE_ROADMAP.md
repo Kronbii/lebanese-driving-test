@@ -1,6 +1,42 @@
 # Driving School Commercial Feature Roadmap
 
-Last updated: 2026-06-24
+Last updated: 2026-06-24 · Implementation status added 2026-11-16
+
+## Implementation status (2026-11-16, branch `feat/school-platform`)
+
+Everything below has been built except the items under "Not done". Where a feature needs the
+API (`server/`), public mode keeps working without it.
+
+| Roadmap area | Status | Where |
+| --- | --- | --- |
+| 1. School branding | Done: logo, colours, contact, branches, socials, landing page, `/s/<slug>` URLs, custom-domain mapping, QR posters (A4/A5, ref-tagged), branded certificates and reports | `features/school`, `features/print`, `features/staff` (settings), `server` |
+| 2. Student local profiles | Done: picker, PIN, separate history, reset one, PDF report (print), backup by file and QR | `features/trainer/ProfilesPage`, `lib/profiles` |
+| 3. Instructor dashboard | Done: passwordless login, invite codes, students list, readiness, weak topics, most-missed questions, at-risk, inactive 7d, branch/instructor views, CSV/JSON export | `features/staff`, `server` |
+| 4. Pass-readiness score | Done: last 3 exams, mastery, coverage, trend, signs, recency, timed; 4 labels | `domain/readiness` |
+| 5. Multilingual | Done: Arabic/English/French UI, official-wording mode, translated questions with Arabic alongside, explanations in another language | `i18n`, `data/content` |
+| 6. Car question bank | Structure only: bank switch, category field, import pipeline. **No car questions yet** (needs an official source) | `data/banks`, `scripts/bank.ts` |
+| 7. Exam simulation modes | Done: official, timed, strict, untimed practice, signs-only, weak-only, unseen-only, exam-day simulation, by topic | `domain/modes` |
+| 8. Better explanations | Done for all 251 questions: why right, why each wrong option is wrong, common-mistake tips, instructor notes with video links, AI tutor incl. "nervous" mode, read-aloud | `data/content`, `ExplanationPanel`, `server/ai.ts` |
+| 9. Road sign tools | Done: gallery, search, categories, flashcards, hide-until-tap, reverse mode, speed drill, most-confused report, print sheet | `features/trainer/signs`, `features/print` |
+| 10. Mistake notebook | Done: auto-collect, by topic, repeated/fixed, favourites, notes, daily review queue, school-wide notes | `domain/notebook`, `NotebookPage` |
+| Classroom tools | Done: live quiz (QR join, anonymous/named, distribution, reveal, leaderboard, CSV), projector mode, worksheets + answer keys, instructor notes and flags | `features/staff`, `features/live`, `features/projector`, `features/print` |
+| Student engagement | Done: calendar reminders (.ics), WhatsApp share/reminders, streaks, XP, badges, readiness badge, weekly summary, share cards, install prompt, offline, low-data, dark/light, font size, read-aloud | various |
+| School operations | Done: lead capture, WhatsApp inquiry, appointment requests, exam/lesson dates with reminders, packages, payment notes, branches, instructor assignment, status pipeline | `features/school`, `features/staff`, `server` |
+| Marketing | Done: landing page, CTAs, testimonials, verified-only pass rate, anonymous counters, embed widget, story card, QR poster, referral links with scan counts | `features/school`, `features/share`, `features/embed` |
+| Admin / SaaS | Done: super-admin console, tenants, plans and feature flags, branches, users, student limits, activation, usage, manual billing status, audit log, export, deletion | `features/admin`, `server` |
+| Privacy & compliance | Done: privacy policy template (ar/en/fr, Law 81/2018), consent screen, data minimisation (phone optional per school), retention + cron, student export/delete, RBAC, passwordless/invite-code login, HSTS, access/audit log | `features/privacy`, `server` |
+| Technical | Done: PWA + service worker, sign caching, bank versioning + checksum + import pipeline + validation tests, error reporting, anonymous analytics, multi-tenant config, feature flags, CDN cache headers, mobile viewport check | `vite.config.ts`, `scripts`, `vercel.json` |
+| AI | Done: tutor, nervous mode, static explanations, instructor-note drafts, confusing-question detection (stats), study plan, readiness prediction, translations, voice via device text-to-speech | `server/ai.ts`, `domain/plan` |
+
+**Not done / limits**
+
+- Car (category B) questions: needs the official question set.
+- Short video explanations and a Lebanese-dialect voice: the app links to videos instructors add and
+  reads text with the device voice, but no videos or dialect recordings were produced.
+- Billing is manual (plan, paid-until date, notes); no payment provider is connected.
+- Real testimonials and verified pass rates must come from schools; the seed data is labelled "Demo".
+- Daily reminders are calendar events, not push notifications (no push server).
+- Not yet deployed. Vercel deployment of the API is untested (see server/README.md).
 
 ## Goal
 

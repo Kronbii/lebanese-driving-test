@@ -1,0 +1,1004 @@
+[
+  {
+    "id": 178,
+    "topic": "signs_mandatory",
+    "explanation": {
+      "ar": "الإشارات الدائرية الزرقاء تفرض أمراً إلزامياً. هذه الإشارة تعني أنه يجب عليك المرور إما من جهة اليمين أو من جهة اليسار.",
+      "en": "Blue circular signs give an obligation. This one means you must pass either on the right side or on the left side.",
+      "fr": "Les panneaux ronds bleus imposent une obligation. Celui-ci signifie que vous devez passer soit par la droite, soit par la gauche."
+    },
+    "whyWrong": {
+      "ar": ["الإشارة زرقاء إلزامية وسهماها نحو الجهتين، وليست اتجاهاً اختيارياً نحو اليمين فقط.", null, "منع الالتفاف تدل عليه دائرة بإطار أحمر، والدائرة الزرقاء لا تعني المنع أبداً."],
+      "en": ["This is a blue obligation sign with arrows to both sides, not an optional direction to the right only.", null, "A turning ban would be a red-bordered circle; a blue circle never prohibits."],
+      "fr": ["C'est un panneau bleu d'obligation avec des flèches des deux côtés, pas une direction facultative vers la droite.", null, "Une interdiction de tourner serait un cercle à bord rouge ; un cercle bleu n'interdit jamais."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {"text": "", "options": ["Optional direction to the right", "Compulsory passage on the right or left", "No turning right or left"]},
+      "fr": {"text": "", "options": ["Direction facultative vers la droite", "Passage obligatoire à droite ou à gauche", "Interdiction de tourner à droite ou à gauche"]}
+    }
+  },
+  {
+    "id": 179,
+    "topic": "signs_mandatory",
+    "explanation": {
+      "ar": "الخط الأحمر المائل على إشارة زرقاء إلزامية يعني نهاية هذا الإلزام. هنا تنتهي الحلبة المخصصة للدراجات الهوائية.",
+      "en": "A red diagonal bar across a blue obligation sign marks the end of that obligation. Here the compulsory cycle track ends.",
+      "fr": "Une barre rouge oblique sur un panneau d'obligation bleu indique la fin de cette obligation. Ici, la piste cyclable obligatoire se termine."
+    },
+    "whyWrong": {
+      "ar": ["طريق المشاة والدراجات تظهر فيه صورة شخص ودراجة دون خط أحمر.", "الطريق المخصص للدراجات هو الإشارة الزرقاء نفسها دون خط أحمر، والخط يعني النهاية.", null],
+      "en": ["A path for pedestrians and cyclists shows a pedestrian and a bicycle with no red bar.", "A cycle track is the same blue bicycle sign without the red bar; the bar means it ends.", null],
+      "fr": ["Un chemin pour piétons et cyclistes montre un piéton et un vélo, sans barre rouge.", "La piste cyclable est le même panneau bleu sans barre rouge ; la barre en marque la fin.", null]
+    },
+    "tip": {
+      "ar": "لا تخلط بين الخط الأحمر و«ممنوع الدراجات»: المنع دائرة بإطار أحمر، أما الخط على إشارة زرقاء فيعني «نهاية».",
+      "en": "Don't read the red bar as 'no bicycles': a ban is a red-bordered circle, while a bar across a blue sign means 'end of'.",
+      "fr": "Ne confondez pas la barre rouge avec « interdit aux cycles » : l'interdiction est un cercle à bord rouge, la barre sur un panneau bleu signifie « fin de »."
+    },
+    "translation": {
+      "en": {"text": "", "options": ["Path for pedestrians and cyclists", "Road reserved for bicycles", "End of cycle track"]},
+      "fr": {"text": "", "options": ["Chemin pour piétons et cyclistes", "Route réservée aux cycles", "Fin de piste cyclable"]}
+    }
+  },
+  {
+    "id": 180,
+    "topic": "signs_mandatory",
+    "explanation": {
+      "ar": "الإشارات الدائرية الزرقاء تفرض أمراً إلزامياً. هذه الإشارة تحدد طريقاً للمشاة والدراجات الهوائية فقط، فلا يجوز للمركبات الأخرى، ومنها الدراجات النارية، أن تسلكه.",
+      "en": "Blue circular signs give an obligation. This one marks a path for pedestrians and cyclists only, so other vehicles, including motorcycles, must not use it.",
+      "fr": "Les panneaux ronds bleus imposent une obligation. Celui-ci signale un chemin réservé aux piétons et aux cyclistes ; les autres véhicules, motos comprises, ne doivent pas l'emprunter."
+    },
+    "whyWrong": {
+      "ar": [null, "نهاية حلبة الدراجات تظهر بخط أحمر مائل على الإشارة.", "منع مرور المشاة والدراجات تدل عليه دائرة بإطار أحمر، لا دائرة زرقاء."],
+      "en": [null, "The end of a cycle track is shown by a red diagonal bar across the sign.", "A ban on pedestrians and cyclists would be a red-bordered circle, not a blue one."],
+      "fr": [null, "La fin de piste cyclable est indiquée par une barre rouge oblique.", "Une interdiction aux piétons et aux cycles serait un cercle à bord rouge, pas un cercle bleu."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {"text": "", "options": ["Path for pedestrians and cyclists only", "End of cycle track", "No pedestrians or bicycles"]},
+      "fr": {"text": "", "options": ["Chemin réservé aux piétons et aux cyclistes", "Fin de piste cyclable", "Accès interdit aux piétons et aux cycles"]}
+    }
+  },
+  {
+    "id": 181,
+    "topic": "signs_prohibition",
+    "explanation": {
+      "ar": "الدوائر ذات الإطار الأحمر تدل على المنع. السهم المنعطف نحو اليمين مع خط مائل يعني أنه يُمنع الالتفاف يميناً عند التقاطع التالي.",
+      "en": "Red-bordered circles prohibit something. The crossed arrow bending right means turning right is forbidden at the next junction.",
+      "fr": "Les cercles à bord rouge signalent une interdiction. La flèche tournant à droite, barrée, signifie qu'il est interdit de tourner à droite à la prochaine intersection."
+    },
+    "whyWrong": {
+      "ar": ["وجهة السير تظهر على دائرة زرقاء، لا على إشارة منع حمراء.", "الاتجاه الإجباري يميناً سهم أبيض على دائرة زرقاء، أما هنا فالسهم مشطوب.", null],
+      "en": ["A direction to be followed is shown on a blue circle, not on a red prohibition sign.", "A compulsory right turn is a white arrow on a blue circle; here the arrow is crossed out.", null],
+      "fr": ["La direction à suivre figure sur un cercle bleu, pas sur un panneau d'interdiction rouge.", "L'obligation de tourner à droite est une flèche blanche sur cercle bleu ; ici la flèche est barrée.", null]
+    },
+    "tip": null,
+    "translation": {
+      "en": {"text": "", "options": ["Direction to be followed", "Compulsory direction right", "No right turn"]},
+      "fr": {"text": "", "options": ["Direction à suivre", "Direction obligatoire à droite", "Interdiction de tourner à droite"]}
+    }
+  },
+  {
+    "id": 182,
+    "topic": "signs_prohibition",
+    "explanation": {
+      "ar": "الدوائر ذات الإطار الأحمر تدل على المنع. السهم على شكل حرف U مع خط مائل يعني أنه يُمنع الالتفاف والعودة في الاتجاه المعاكس هنا.",
+      "en": "Red-bordered circles prohibit something. The crossed U-shaped arrow means U-turns are forbidden here.",
+      "fr": "Les cercles à bord rouge signalent une interdiction. La flèche en U barrée signifie que le demi-tour est interdit ici."
+    },
+    "whyWrong": {
+      "ar": ["وجهة السير تظهر على دائرة زرقاء، لا على إشارة منع حمراء.", "الالتفاف الإلزامي يظهر باللون الأبيض على دائرة زرقاء، أما الإطار الأحمر مع الخط فيمنع الحركة.", null],
+      "en": ["A direction to be followed is shown on a blue circle, not on a red prohibition sign.", "A compulsory turn would be shown in white on a blue circle; a red border with a bar forbids the move.", null],
+      "fr": ["La direction à suivre figure sur un cercle bleu, pas sur un panneau d'interdiction rouge.", "Un demi-tour obligatoire serait en blanc sur un cercle bleu ; le bord rouge et la barre interdisent la manœuvre.", null]
+    },
+    "tip": null,
+    "translation": {
+      "en": {"text": "", "options": ["Direction to be followed", "Compulsory U-turn", "No U-turn"]},
+      "fr": {"text": "", "options": ["Direction à suivre", "Demi-tour obligatoire", "Demi-tour interdit"]}
+    }
+  },
+  {
+    "id": 183,
+    "topic": "signs_prohibition",
+    "explanation": {
+      "ar": "الدوائر ذات الإطار الأحمر تدل على المنع. صورة الأوتوبيس داخل الدائرة تعني أنه يُمنع مرور الأوتوبيسات على هذه الطريق.",
+      "en": "Red-bordered circles prohibit something. A bus inside the circle means buses are not allowed to use this road.",
+      "fr": "Les cercles à bord rouge signalent une interdiction. Un autobus dans le cercle signifie que les autobus ne peuvent pas emprunter cette route."
+    },
+    "whyWrong": {
+      "ar": ["إشارات النهاية بيضاء مع خط أسود مائل، وليست دائرة بإطار أحمر.", null, "الطريق المخصص للأوتوبيسات يُشار إليه بإشارة زرقاء، أما الإطار الأحمر فيعني المنع."],
+      "en": ["An 'end of' sign is white with a black diagonal bar, not a red-bordered circle.", null, "A road reserved for buses would use a blue sign; a red border means a ban."],
+      "fr": ["Un panneau de fin est blanc avec une barre noire oblique, pas un cercle à bord rouge.", null, "Une voie réservée aux autobus serait signalée en bleu ; le bord rouge signifie une interdiction."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {"text": "", "options": ["End of no overtaking for buses", "No entry for buses", "Road reserved for buses"]},
+      "fr": {"text": "", "options": ["Fin d'interdiction de dépasser pour les autobus", "Accès interdit aux autobus", "Voie réservée aux autobus"]}
+    }
+  },
+  {
+    "id": 184,
+    "topic": "signs_prohibition",
+    "explanation": {
+      "ar": "الدوائر ذات الإطار الأحمر تدل على المنع. صورة الشاحنة دون أي رقم تعني أنه يُمنع مرور جميع الشاحنات على هذه الطريق.",
+      "en": "Red-bordered circles prohibit something. A lorry with no figure on it means all goods vehicles are banned from this road.",
+      "fr": "Les cercles à bord rouge signalent une interdiction. Un camion sans chiffre signifie que tous les camions sont interdits sur cette route."
+    },
+    "whyWrong": {
+      "ar": ["تحديد الوزن يظهر برقم على الشاحنة مثل 6,5 طن، وهذه الإشارة لا رقم عليها.", "الطريق المخصص للشاحنات يُشار إليه بإشارة زرقاء، أما الإطار الأحمر فيعني المنع.", null],
+      "en": ["A weight limit would show a figure such as 6.5 t on the lorry; this sign has none.", "A road reserved for lorries would be a blue sign; a red border means a ban.", null],
+      "fr": ["Une limite de poids afficherait un chiffre comme 6,5 t ; ce panneau n'en a pas.", "Une route réservée aux camions serait signalée en bleu ; le bord rouge signifie une interdiction.", null]
+    },
+    "tip": {
+      "ar": "شاحنة بلا رقم تعني منع جميع الشاحنات، أما رقم مثل 6,5 طن فيعني منع الشاحنات التي تتجاوز هذا الحد فقط.",
+      "en": "No figure on the lorry means all lorries are banned; a figure like 6.5 t means only lorries above that limit are banned.",
+      "fr": "Camion sans chiffre : tous les camions sont interdits ; un chiffre comme 6,5 t : seuls les camions au-delà de cette limite sont interdits."
+    },
+    "translation": {
+      "en": {"text": "", "options": ["No goods vehicles weighing over 6.5 t", "Road reserved for goods vehicles", "No goods vehicles"]},
+      "fr": {"text": "", "options": ["Accès interdit aux camions de plus de 6,5 t", "Route réservée aux camions", "Accès interdit aux camions"]}
+    }
+  },
+  {
+    "id": 185,
+    "topic": "signs_prohibition",
+    "explanation": {
+      "ar": "الدوائر ذات الإطار الأحمر تدل على المنع. الرقم 6,5 طن على الشاحنة يعني منع مرور الشاحنات التي تزيد حمولتها عن 6,5 طن، أما الأخف منها فيمكنها المرور.",
+      "en": "Red-bordered circles prohibit something. The figure 6.5 t on the lorry means lorries with a load over 6.5 tonnes are banned; lighter ones may pass.",
+      "fr": "Les cercles à bord rouge signalent une interdiction. L'inscription 6,5 t sur le camion signifie que les camions dont la charge dépasse 6,5 tonnes sont interdits ; les plus légers peuvent passer."
+    },
+    "whyWrong": {
+      "ar": ["منع الوقوف يظهر بدائرة زرقاء ذات إطار أحمر وخط أحمر مائل.", "الطريق الإلزامي يظهر بدائرة زرقاء، أما الإطار الأحمر فيعني المنع.", null],
+      "en": ["No parking is shown by a blue circle with a red border and a red diagonal bar.", "A compulsory route would be a blue circle; a red border means a ban.", null],
+      "fr": ["Le stationnement interdit est un cercle bleu à bord rouge avec une barre rouge oblique.", "Une voie obligatoire serait un cercle bleu ; le bord rouge signifie une interdiction.", null]
+    },
+    "tip": null,
+    "translation": {
+      "en": {"text": "", "options": ["No parking for goods vehicles", "Compulsory route for goods vehicles", "No goods vehicles with a load over 6.5 t"]},
+      "fr": {"text": "", "options": ["Stationnement interdit aux camions", "Voie obligatoire pour camions", "Accès interdit aux camions dont la charge dépasse 6,5 t"]}
+    }
+  },
+  {
+    "id": 186,
+    "topic": "signs_prohibition",
+    "explanation": {
+      "ar": "الدوائر ذات الإطار الأحمر تدل على المنع. صورة شاحنة تجر مقطورة تعني أنه يُمنع مرور الشاحنات التي تجر قاطرة على هذه الطريق.",
+      "en": "Red-bordered circles prohibit something. A lorry pulling a trailer means goods vehicles towing a trailer may not use this road.",
+      "fr": "Les cercles à bord rouge signalent une interdiction. Un camion tirant une remorque signifie que les camions avec remorque ne peuvent pas emprunter cette route."
+    },
+    "whyWrong": {
+      "ar": [null, "الطريق الإلزامي يظهر بدائرة زرقاء، أما الإطار الأحمر فيعني المنع.", "الرسم يُظهر شاحنة تجر مقطورة، ولا يوجد فيه ما يدل على مواد خطرة."],
+      "en": [null, "A compulsory route would be a blue circle; a red border means a ban.", "The drawing shows a lorry towing a trailer; nothing on it refers to dangerous goods."],
+      "fr": [null, "Une voie obligatoire serait un cercle bleu ; le bord rouge signifie une interdiction.", "Le dessin montre un camion tirant une remorque ; rien n'y indique des marchandises dangereuses."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {"text": "", "options": ["No goods vehicles towing a trailer", "Compulsory route for goods vehicles", "No goods vehicles carrying dangerous goods"]},
+      "fr": {"text": "", "options": ["Accès interdit aux camions tirant une remorque", "Voie obligatoire pour camions", "Accès interdit aux camions transportant des marchandises dangereuses"]}
+    }
+  },
+  {
+    "id": 187,
+    "topic": "signs_prohibition",
+    "explanation": {
+      "ar": "الدوائر ذات الإطار الأحمر تدل على المنع. صورة الجرار داخل الدائرة تعني أنه يُمنع مرور الآليات الزراعية على هذه الطريق.",
+      "en": "Red-bordered circles prohibit something. A tractor inside the circle means agricultural vehicles are banned from this road.",
+      "fr": "Les cercles à bord rouge signalent une interdiction. Un tracteur dans le cercle signifie que les engins agricoles sont interdits sur cette route."
+    },
+    "whyWrong": {
+      "ar": ["إشارات المواقف مربعات زرقاء عليها حرف P، وهذه دائرة منع بإطار أحمر.", "الطريق المخصص للآليات الزراعية يُشار إليه بإشارة زرقاء، أما الإطار الأحمر فيعني المنع.", null],
+      "en": ["Parking signs are blue squares with a P; this is a red-bordered prohibition circle.", "A road reserved for agricultural vehicles would be a blue sign; a red border means a ban.", null],
+      "fr": ["Les panneaux de stationnement sont des carrés bleus avec un P ; ici c'est un cercle d'interdiction à bord rouge.", "Une route réservée aux engins agricoles serait signalée en bleu ; le bord rouge signifie une interdiction.", null]
+    },
+    "tip": null,
+    "translation": {
+      "en": {"text": "", "options": ["Short-term parking for agricultural vehicles", "Road reserved for agricultural vehicles", "No agricultural vehicles"]},
+      "fr": {"text": "", "options": ["Stationnement de courte durée pour engins agricoles", "Route réservée aux engins agricoles", "Accès interdit aux engins agricoles"]}
+    }
+  },
+  {
+    "id": 188,
+    "topic": "signs_prohibition",
+    "explanation": {
+      "ar": "الدائرة البيضاء التي يقطعها خط أسود مائل تدل على نهاية منع سابق. وجود سيارتين جنباً إلى جنب يعني انتهاء منع التجاوز، فيمكنك التجاوز مجدداً عندما يكون ذلك آمناً.",
+      "en": "A white circle crossed by a black diagonal bar marks the end of a restriction. With two cars side by side, it means the ban on overtaking ends, so you may overtake again when it is safe.",
+      "fr": "Un cercle blanc barré d'une bande noire oblique marque la fin d'une restriction. Avec deux voitures côte à côte, il indique la fin de l'interdiction de dépasser : vous pouvez de nouveau dépasser lorsque c'est sûr."
+    },
+    "whyWrong": {
+      "ar": ["إشارات التحذير مثلثات حمراء، وهذه إشارة دائرية تدل على النهاية.", null, "نهاية منع تجاوز الشاحنات تُظهر شاحنة على اليسار، لا سيارتين."],
+      "en": ["Warning signs are red triangles; this is a round 'end of' sign.", null, "The end of no overtaking for lorries shows a lorry on the left, not two cars."],
+      "fr": ["Les panneaux de danger sont des triangles rouges ; celui-ci est un panneau rond de fin.", null, "La fin d'interdiction de dépasser pour les camions montre un camion à gauche, pas deux voitures."]
+    },
+    "tip": {
+      "ar": "انظر إلى المركبة على اليسار: سيارة تعني نهاية منع التجاوز للجميع، وشاحنة تعني نهايته للشاحنات فقط.",
+      "en": "Look at the vehicle on the left: a car means the end of no overtaking for everyone; a lorry means it ends only for lorries.",
+      "fr": "Regardez le véhicule de gauche : une voiture indique la fin d'interdiction de dépasser pour tous ; un camion, la fin pour les camions seulement."
+    },
+    "translation": {
+      "en": {"text": "", "options": ["Caution: two-lane traffic zone", "End of no overtaking", "End of no overtaking for goods vehicles"]},
+      "fr": {"text": "", "options": ["Attention : zone de circulation sur deux voies", "Fin d'interdiction de dépasser", "Fin d'interdiction de dépasser pour les camions"]}
+    }
+  },
+  {
+    "id": 189,
+    "topic": "signs_prohibition",
+    "explanation": {
+      "ar": "الدائرة البيضاء التي يقطعها خط أسود مائل تدل على نهاية منع سابق. وجود شاحنة على اليسار يعني انتهاء منع التجاوز المفروض على الشاحنات.",
+      "en": "A white circle crossed by a black diagonal bar marks the end of a restriction. With a lorry on the left, it means the ban on overtaking for goods vehicles ends here.",
+      "fr": "Un cercle blanc barré d'une bande noire oblique marque la fin d'une restriction. Avec un camion à gauche, il indique la fin de l'interdiction de dépasser pour les camions."
+    },
+    "whyWrong": {
+      "ar": [null, "إشارات التحذير مثلثات حمراء، وهذه إشارة دائرية تدل على النهاية.", "الطريق المخصص للشاحنات يُشار إليه بإشارة زرقاء، والخط الأسود هنا يعني «نهاية»."],
+      "en": [null, "Warning signs are red triangles; this is a round 'end of' sign.", "A road reserved for lorries would be a blue sign; the black bar here means 'end of'."],
+      "fr": [null, "Les panneaux de danger sont des triangles rouges ; celui-ci est un panneau rond de fin.", "Une route réservée aux camions serait signalée en bleu ; la barre noire signifie ici « fin de »."]
+    },
+    "tip": {
+      "ar": "انظر إلى المركبة على اليسار: سيارة تعني نهاية منع التجاوز للجميع، وشاحنة تعني نهايته للشاحنات فقط.",
+      "en": "Look at the vehicle on the left: a car means the end of no overtaking for everyone; a lorry means it ends only for lorries.",
+      "fr": "Regardez le véhicule de gauche : une voiture indique la fin d'interdiction de dépasser pour tous ; un camion, la fin pour les camions seulement."
+    },
+    "translation": {
+      "en": {"text": "", "options": ["End of no overtaking for goods vehicles", "Caution: two-lane traffic zone", "Road reserved for goods vehicles only"]},
+      "fr": {"text": "", "options": ["Fin d'interdiction de dépasser pour les camions", "Attention : zone de circulation sur deux voies", "Route réservée aux camions uniquement"]}
+    }
+  },
+  {
+    "id": 190,
+    "topic": "signs_prohibition",
+    "explanation": {
+      "ar": "الدائرة الزرقاء ذات الإطار الأحمر مع خط أحمر مائل واحد تعني منع الوقوف. لا يجوز لك ركن مركبتك هنا، ويُسمح فقط بالتوقف لفترة قصيرة.",
+      "en": "A blue circle with a red border and a single red diagonal bar means no parking. You must not park here; only a brief stop is allowed.",
+      "fr": "Un cercle bleu à bord rouge avec une seule barre rouge oblique signifie stationnement interdit. Vous ne devez pas stationner ici ; seul un arrêt bref est permis."
+    },
+    "whyWrong": {
+      "ar": [null, "منع التجاوز يظهر بسيارتين إحداهما حمراء داخل دائرة بيضاء بإطار أحمر.", "منع المرور الكامل دائرة بيضاء بإطار أحمر، بلا لون أزرق ولا خط مائل."],
+      "en": [null, "No overtaking shows two cars, one of them red, inside a white circle with a red border.", "A complete traffic ban is a plain white circle with a red border, with no blue and no bar."],
+      "fr": [null, "L'interdiction de dépasser montre deux voitures, dont une rouge, dans un cercle blanc à bord rouge.", "L'interdiction totale de circuler est un cercle blanc à bord rouge, sans bleu ni barre."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {"text": "", "options": ["No parking", "No overtaking for all vehicles", "Closed to all traffic"]},
+      "fr": {"text": "", "options": ["Stationnement interdit", "Interdiction de dépasser pour tous les véhicules", "Circulation interdite"]}
+    }
+  },
+  {
+    "id": 191,
+    "topic": "signs_prohibition",
+    "explanation": {
+      "ar": "الدائرة الزرقاء ذات الإطار الأحمر مع علامة X حمراء تعني منع الوقوف والتوقف. لا يجوز لك أن تتوقف أو تركن مركبتك هنا إطلاقاً.",
+      "en": "A blue circle with a red border and a red X means no stopping and no parking. You must not stop or park your vehicle here at all.",
+      "fr": "Un cercle bleu à bord rouge avec une croix rouge signifie arrêt et stationnement interdits. Vous ne devez ni vous arrêter ni stationner ici."
+    },
+    "whyWrong": {
+      "ar": [null, "منع الوقوف وحده يظهر بخط أحمر مائل واحد، لا بعلامة X.", "منع المرور الكامل دائرة بيضاء بإطار أحمر، بلا لون أزرق ولا خطوط."],
+      "en": [null, "No parking alone has a single red diagonal bar, not a red X.", "A complete traffic ban is a plain white circle with a red border, with no blue and no bars."],
+      "fr": [null, "Le stationnement interdit seul comporte une seule barre rouge, pas une croix.", "L'interdiction totale de circuler est un cercle blanc à bord rouge, sans bleu ni barres."]
+    },
+    "tip": {
+      "ar": "خط أحمر واحد = ممنوع الوقوف، وعلامة X حمراء = ممنوع الوقوف والتوقف.",
+      "en": "One red bar means no parking; a red X means no stopping and no parking.",
+      "fr": "Une barre rouge : stationnement interdit ; une croix rouge : arrêt et stationnement interdits."
+    },
+    "translation": {
+      "en": {"text": "", "options": ["No stopping or parking", "No parking", "Closed to all traffic"]},
+      "fr": {"text": "", "options": ["Arrêt et stationnement interdits", "Stationnement interdit", "Circulation interdite"]}
+    }
+  },
+  {
+    "id": 192,
+    "topic": "signs_mandatory",
+    "explanation": {
+      "ar": "الإشارات الدائرية الزرقاء تفرض أمراً إلزامياً. السهم المتجه إلى الأعلى يعني أنه يجب عليك متابعة السير بشكل مستقيم دون الالتفاف.",
+      "en": "Blue circular signs give an obligation. The upward arrow means you must continue straight ahead without turning.",
+      "fr": "Les panneaux ronds bleus imposent une obligation. La flèche vers le haut signifie que vous devez continuer tout droit, sans tourner."
+    },
+    "whyWrong": {
+      "ar": ["منع الوقوف دائرة زرقاء بإطار أحمر وخط أحمر، لا سهم أبيض.", "ممنوع المرور بهذا الاتجاه دائرة حمراء عليها خط أبيض أفقي.", null],
+      "en": ["No parking is a blue circle with a red border and a red bar, not a white arrow.", "No entry is a red circle with a white horizontal bar.", null],
+      "fr": ["Le stationnement interdit est un cercle bleu à bord rouge barré de rouge, pas une flèche blanche.", "Le sens interdit est un cercle rouge avec une barre blanche horizontale.", null]
+    },
+    "tip": null,
+    "translation": {
+      "en": {"text": "", "options": ["No parking here", "No entry in this direction", "Compulsory direction: straight ahead"]},
+      "fr": {"text": "", "options": ["Stationnement interdit à cet endroit", "Sens interdit", "Direction obligatoire : tout droit"]}
+    }
+  },
+  {
+    "id": 193,
+    "topic": "signs_mandatory",
+    "explanation": {
+      "ar": "الإشارات الدائرية الزرقاء تفرض أمراً إلزامياً. السهم المتجه نحو اليسار يعني أنه يجب عليك السير باتجاه اليسار.",
+      "en": "Blue circular signs give an obligation. The arrow pointing left means you must go to the left.",
+      "fr": "Les panneaux ronds bleus imposent une obligation. La flèche vers la gauche signifie que vous devez aller à gauche."
+    },
+    "whyWrong": {
+      "ar": ["منع الوقوف دائرة زرقاء بإطار أحمر وخط أحمر، لا سهم أبيض.", null, "منع الاتجاه نحو اليسار يظهر بدائرة ذات إطار أحمر وسهم مشطوب، وهذه الإشارة تأمر بعكس ذلك."],
+      "en": ["No parking is a blue circle with a red border and a red bar, not a white arrow.", null, "A ban on going left would be a red-bordered circle with the arrow crossed out; this sign orders the opposite."],
+      "fr": ["Le stationnement interdit est un cercle bleu à bord rouge barré de rouge, pas une flèche blanche.", null, "L'interdiction d'aller à gauche serait un cercle à bord rouge avec une flèche barrée ; ce panneau ordonne le contraire."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {"text": "", "options": ["No parking on the left", "Direction to be followed: left", "No turning to the left"]},
+      "fr": {"text": "", "options": ["Stationnement interdit à gauche", "Direction à suivre : vers la gauche", "Interdiction d'aller à gauche"]}
+    }
+  },
+  {
+    "id": 194,
+    "topic": "signs_mandatory",
+    "explanation": {
+      "ar": "الإشارات الدائرية الزرقاء تفرض أمراً إلزامياً. السهم المتجه نحو اليمين يعني أنه يجب عليك السير باتجاه اليمين.",
+      "en": "Blue circular signs give an obligation. The arrow pointing right means you must go to the right.",
+      "fr": "Les panneaux ronds bleus imposent une obligation. La flèche vers la droite signifie que vous devez aller à droite."
+    },
+    "whyWrong": {
+      "ar": [null, "منع الوقوف دائرة زرقاء بإطار أحمر وخط أحمر، لا سهم أبيض.", "منع الاتجاه نحو اليمين يظهر بدائرة ذات إطار أحمر وسهم مشطوب، وهذه الإشارة تأمر بعكس ذلك."],
+      "en": [null, "No parking is a blue circle with a red border and a red bar, not a white arrow.", "A ban on going right would be a red-bordered circle with the arrow crossed out; this sign orders the opposite."],
+      "fr": [null, "Le stationnement interdit est un cercle bleu à bord rouge barré de rouge, pas une flèche blanche.", "L'interdiction d'aller à droite serait un cercle à bord rouge avec une flèche barrée ; ce panneau ordonne le contraire."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {"text": "", "options": ["Direction to be followed: right", "No parking on the right side", "No turning to the right"]},
+      "fr": {"text": "", "options": ["Direction à suivre : vers la droite", "Stationnement interdit du côté droit", "Interdiction d'aller à droite"]}
+    }
+  },
+  {
+    "id": 195,
+    "topic": "signs_mandatory",
+    "explanation": {
+      "ar": "الإشارات الدائرية الزرقاء تفرض أمراً إلزامياً. الأسهم الثلاثة المرسومة في دائرة تعني وجهة سير مستديرة، فيجب عليك الدوران باتجاه الأسهم.",
+      "en": "Blue circular signs give an obligation. The three arrows in a circle mean a roundabout: you must go around in the direction of the arrows.",
+      "fr": "Les panneaux ronds bleus imposent une obligation. Les trois flèches en cercle indiquent un sens giratoire : vous devez tourner dans le sens des flèches."
+    },
+    "whyWrong": {
+      "ar": ["موقع التوقف يظهر على إشارة إعلامية مربعة زرقاء، لا بأسهم دائرية.", null, "منع الالتفاف يظهر بدائرة ذات إطار أحمر وسهم على شكل U مشطوب."],
+      "en": ["A stopping place is shown on a blue square information sign, not by circular arrows.", null, "A U-turn ban is a red-bordered circle with a crossed U-shaped arrow."],
+      "fr": ["Une aire d'arrêt est indiquée par un panneau carré bleu, pas par des flèches circulaires.", null, "Le demi-tour interdit est un cercle à bord rouge avec une flèche en U barrée."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {"text": "", "options": ["Stopping place", "Roundabout", "No U-turn"]},
+      "fr": {"text": "", "options": ["Aire d'arrêt", "Sens giratoire obligatoire", "Demi-tour interdit"]}
+    }
+  },
+  {
+    "id": 196,
+    "topic": "signs_mandatory",
+    "explanation": {
+      "ar": "الإشارات الدائرية الزرقاء تفرض أمراً إلزامياً. الرقم على دائرة زرقاء يدل على أدنى سرعة إجبارية، فلا يجوز لك السير بسرعة تقل عن 30 كلم/ساعة.",
+      "en": "Blue circular signs give an obligation. A number on a blue circle is a minimum speed: you must not ride slower than 30 km/h.",
+      "fr": "Les panneaux ronds bleus imposent une obligation. Un chiffre sur un cercle bleu indique une vitesse minimale : vous ne devez pas rouler à moins de 30 km/h."
+    },
+    "whyWrong": {
+      "ar": ["تحديد مدة الوقوف يظهر على إشارات المواقف، لا كرقم داخل دائرة زرقاء.", "السرعة القصوى تظهر بأرقام سوداء على دائرة بيضاء ذات إطار أحمر.", null],
+      "en": ["A parking time limit appears on parking signs, not as a bare number in a blue circle.", "A maximum speed is shown in black on a white circle with a red border.", null],
+      "fr": ["Une durée de stationnement figure sur les panneaux de stationnement, pas comme un chiffre seul dans un cercle bleu.", "La vitesse maximale est indiquée en noir dans un cercle blanc à bord rouge.", null]
+    },
+    "tip": {
+      "ar": "إطار أحمر وخلفية بيضاء = سرعة قصوى، وخلفية زرقاء = سرعة دنيا.",
+      "en": "Red border on white means maximum speed; a blue background means minimum speed.",
+      "fr": "Bord rouge sur fond blanc : vitesse maximale ; fond bleu : vitesse minimale."
+    },
+    "translation": {
+      "en": {"text": "", "options": ["No parking for more than thirty minutes", "Compulsory maximum speed", "Compulsory minimum speed"]},
+      "fr": {"text": "", "options": ["Stationnement interdit plus de trente minutes", "Vitesse maximale obligatoire", "Vitesse minimale obligatoire"]}
+    }
+  },
+  {
+    "id": 197,
+    "topic": "signs_mandatory",
+    "explanation": {
+      "ar": "الخط الأحمر المائل على إشارة زرقاء إلزامية يعني نهاية هذا الإلزام. هنا لم تعد السرعة الدنيا 30 كلم/ساعة مفروضة.",
+      "en": "A red diagonal bar across a blue obligation sign marks the end of that obligation. Here the 30 km/h minimum speed no longer applies.",
+      "fr": "Une barre rouge oblique sur un panneau d'obligation bleu marque la fin de cette obligation. Ici, la vitesse minimale de 30 km/h ne s'applique plus."
+    },
+    "whyWrong": {
+      "ar": ["تحديد مدة الوقوف يظهر على إشارات المواقف، لا كرقم داخل دائرة زرقاء.", "تحديد السرعة القصوى 30 يظهر بدائرة بيضاء ذات إطار أحمر وأرقام سوداء، دون خط مائل.", null],
+      "en": ["A parking time limit appears on parking signs, not as a number in a blue circle.", "A 30 speed limit is a white circle with a red border and black numbers, with no bar.", null],
+      "fr": ["Une durée de stationnement figure sur les panneaux de stationnement, pas comme un chiffre dans un cercle bleu.", "La limitation à 30 est un cercle blanc à bord rouge avec des chiffres noirs, sans barre.", null]
+    },
+    "tip": null,
+    "translation": {
+      "en": {"text": "", "options": ["No parking for more than thirty minutes", "Maximum speed 30", "End of minimum speed"]},
+      "fr": {"text": "", "options": ["Stationnement interdit plus de trente minutes", "Vitesse maximale 30", "Fin de vitesse minimale"]}
+    }
+  },
+  {
+    "id": 198,
+    "topic": "signs_mandatory",
+    "explanation": {
+      "ar": "الإشارات الدائرية الزرقاء تفرض أمراً إلزامياً. صورة الإطار الملفوف بالسلاسل تعني أنه لا يُسمح بالمرور إلا للمركبات المجهزة بسلاسل معدنية.",
+      "en": "Blue circular signs give an obligation. A tyre wrapped in chains means only vehicles fitted with snow chains may continue on this road.",
+      "fr": "Les panneaux ronds bleus imposent une obligation. Un pneu entouré de chaînes signifie que seuls les véhicules équipés de chaînes à neige peuvent continuer sur cette route."
+    },
+    "whyWrong": {
+      "ar": ["التحذير من الطريق المنزلق مثلث أحمر فيه سيارة تنزلق.", "الإشارة الزرقاء تفرض استعمال السلاسل، ولا تطلب نزعها.", null],
+      "en": ["A slippery road warning is a red triangle showing a skidding car.", "The blue sign requires chains; it does not tell you to remove them.", null],
+      "fr": ["Le danger « chaussée glissante » est un triangle rouge montrant une voiture qui dérape.", "Le panneau bleu impose les chaînes ; il ne demande pas de les retirer.", null]
+    },
+    "tip": null,
+    "translation": {
+      "en": {"text": "", "options": ["Caution: slippery road", "Snow chains must be removed", "Vehicles fitted with snow chains only"]},
+      "fr": {"text": "", "options": ["Attention : chaussée glissante", "Retrait obligatoire des chaînes à neige", "Véhicules équipés de chaînes à neige uniquement"]}
+    }
+  },
+  {
+    "id": 199,
+    "topic": "signs_mandatory",
+    "explanation": {
+      "ar": "الإشارات الدائرية الزرقاء تفرض أمراً إلزامياً. صورة شخص يمشي على دائرة زرقاء تدل على طريق للمشاة، فلا يجوز للمركبات أن تسلكه.",
+      "en": "Blue circular signs give an obligation. A walking person on a blue circle marks a path for pedestrians; vehicles must not use it.",
+      "fr": "Les panneaux ronds bleus imposent une obligation. Un piéton sur un cercle bleu signale un chemin pour piétons ; les véhicules ne doivent pas l'emprunter."
+    },
+    "whyWrong": {
+      "ar": ["المتنزه يُشار إليه بإشارة إعلامية، أما هذه الدائرة الزرقاء فتدل على طريق للمشاة.", null, "منع مرور المشاة دائرة بإطار أحمر، لا دائرة زرقاء."],
+      "en": ["A park would be shown on an information sign; this round blue sign marks a pedestrian path.", null, "No pedestrians is a red-bordered circle, not a blue one."],
+      "fr": ["Un parc serait indiqué par un panneau d'information ; ce rond bleu signale un chemin pour piétons.", null, "L'accès interdit aux piétons est un cercle à bord rouge, pas un cercle bleu."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {"text": "", "options": ["Park", "Footpath", "No pedestrians"]},
+      "fr": {"text": "", "options": ["Parc", "Chemin pour piétons", "Accès interdit aux piétons"]}
+    }
+  },
+  {
+    "id": 200,
+    "topic": "signs_mandatory",
+    "explanation": {
+      "ar": "الخط الأحمر المائل على إشارة زرقاء إلزامية يعني نهاية هذا الإلزام. هنا ينتهي الطريق المخصص للمشاة.",
+      "en": "A red diagonal bar across a blue obligation sign marks the end of that obligation. Here the pedestrian path ends.",
+      "fr": "Une barre rouge oblique sur un panneau d'obligation bleu marque la fin de cette obligation. Ici, le chemin pour piétons se termine."
+    },
+    "whyWrong": {
+      "ar": ["طريق المشاة هو الإشارة الزرقاء نفسها دون الخط الأحمر.", "لا يظهر على الإشارة أي جسر، والخط الأحمر يعني «نهاية».", null],
+      "en": ["A pedestrian path is the same blue sign without the red bar.", "Nothing on the sign shows a bridge; the red bar means 'end of'.", null],
+      "fr": ["Le chemin pour piétons est le même panneau bleu sans barre rouge.", "Rien sur le panneau ne montre une passerelle ; la barre rouge signifie « fin de ».", null]
+    },
+    "tip": null,
+    "translation": {
+      "en": {"text": "", "options": ["Road reserved for pedestrians", "Pedestrian bridge over the road", "End of footpath"]},
+      "fr": {"text": "", "options": ["Chemin réservé aux piétons", "Passerelle pour piétons au-dessus de la route", "Fin de chemin pour piétons"]}
+    }
+  },
+  {
+    "id": 201,
+    "topic": "signs_mandatory",
+    "explanation": {
+      "ar": "الإشارات الدائرية الزرقاء تفرض أمراً إلزامياً. صورة الدراجة الهوائية على دائرة زرقاء تدل على حلبة مخصصة للدراجات الهوائية، فلا يجوز للدراجات النارية السير عليها.",
+      "en": "Blue circular signs give an obligation. A bicycle on a blue circle marks a track reserved for bicycles; motorcycles must not ride on it.",
+      "fr": "Les panneaux ronds bleus imposent une obligation. Un vélo sur un cercle bleu signale une piste réservée aux cycles ; les motos ne doivent pas y circuler."
+    },
+    "whyWrong": {
+      "ar": ["منع الوقوف يظهر بإطار أحمر وخط أحمر، وهذه الإشارة الزرقاء لا تحمل أياً منهما.", "منع مرور الدراجات دائرة بإطار أحمر فيها دراجة، لا دائرة زرقاء.", null],
+      "en": ["A parking ban uses a red border and a red bar; this blue sign has neither.", "No bicycles is a red-bordered circle with a bicycle, not a blue one.", null],
+      "fr": ["Une interdiction de stationner comporte un bord et une barre rouges ; ce panneau bleu n'en a pas.", "L'accès interdit aux cycles est un cercle à bord rouge avec un vélo, pas un cercle bleu.", null]
+    },
+    "tip": {
+      "ar": "الدراجة نفسها بلون مختلف: دائرة زرقاء = حلبة للدراجات، ودائرة بإطار أحمر = ممنوع مرور الدراجات.",
+      "en": "Same bicycle, different colour: a blue circle is a cycle track, a red-bordered circle means no bicycles.",
+      "fr": "Même vélo, couleur différente : cercle bleu, piste cyclable ; cercle à bord rouge, accès interdit aux cycles."
+    },
+    "translation": {
+      "en": {"text": "", "options": ["No parking for bicycles", "No bicycles", "Cycle track"]},
+      "fr": {"text": "", "options": ["Stationnement interdit aux cycles", "Accès interdit aux cycles", "Piste cyclable"]}
+    }
+  },
+  {
+    "id": 202,
+    "topic": "signs_prohibition",
+    "explanation": {
+      "ar": "الدوائر ذات الإطار الأحمر تدل على المنع. السهم المنعطف نحو اليسار مع خط مائل يعني أنه يُمنع الالتفاف يساراً عند التقاطع التالي.",
+      "en": "Red-bordered circles prohibit something. The crossed arrow bending left means turning left is forbidden at the next junction.",
+      "fr": "Les cercles à bord rouge signalent une interdiction. La flèche tournant à gauche, barrée, signifie qu'il est interdit de tourner à gauche à la prochaine intersection."
+    },
+    "whyWrong": {
+      "ar": ["الاتجاه الإلزامي يساراً سهم أبيض على دائرة زرقاء، أما هنا فالسهم مشطوب.", null, "منع الوقوف دائرة زرقاء مع خط أحمر ومن دون سهم."],
+      "en": ["A compulsory left turn is a white arrow on a blue circle; here the arrow is crossed out.", null, "No parking is a blue circle with a red bar and no arrow."],
+      "fr": ["L'obligation d'aller à gauche est une flèche blanche sur cercle bleu ; ici la flèche est barrée.", null, "Le stationnement interdit est un cercle bleu barré de rouge, sans flèche."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {"text": "", "options": ["Compulsory direction left", "No left turn", "No parking on the left"]},
+      "fr": {"text": "", "options": ["Direction obligatoire à gauche", "Interdiction de tourner à gauche", "Stationnement interdit à gauche"]}
+    }
+  },
+  {
+    "id": 203,
+    "topic": "signs_information",
+    "explanation": {
+      "ar": "الإشارات المربعة الزرقاء تقدّم معلومات. حرف H يدل على وجود مستشفى قريب، فسِر بهدوء وتجنّب الضجيج غير الضروري.",
+      "en": "Blue square signs give information. The letter H shows a hospital nearby, so ride calmly and avoid unnecessary noise.",
+      "fr": "Les panneaux carrés bleus donnent une information. La lettre H signale un hôpital proche : roulez calmement et évitez tout bruit inutile."
+    },
+    "whyWrong": {
+      "ar": ["التحذير من جسر متحرك يكون بمثلث أحمر، لا بمربع أزرق عليه حرف H.", "حرف H ليس رسماً لطريق، بل هو الرمز المعتمد للمستشفى.", null],
+      "en": ["A movable bridge is warned of by a red triangle, not a blue square with an H.", "The H is not a drawing of roads; it is the standard symbol for a hospital.", null],
+      "fr": ["Un pont mobile est signalé par un triangle rouge, pas par un carré bleu avec un H.", "Le H n'est pas un dessin de routes ; c'est le symbole habituel de l'hôpital.", null]
+    },
+    "tip": null,
+    "translation": {
+      "en": {"text": "", "options": ["Caution: movable bridge", "Two-lane road joined by a bridge", "Hospital"]},
+      "fr": {"text": "", "options": ["Attention : pont mobile", "Route à deux voies reliée par un pont", "Hôpital"]}
+    }
+  },
+  {
+    "id": 204,
+    "topic": "signs_information",
+    "explanation": {
+      "ar": "الإشارات المربعة الزرقاء تقدّم معلومات. هذه الإشارة تدل على ممر للمشاة، فخفف سرعتك وأعطِ الأولوية للمشاة العابرين.",
+      "en": "Blue square signs give information. This one marks a pedestrian crossing: slow down and give way to pedestrians who are crossing.",
+      "fr": "Les panneaux carrés bleus donnent une information. Celui-ci signale un passage pour piétons : ralentissez et cédez le passage aux piétons qui traversent."
+    },
+    "whyWrong": {
+      "ar": [null, "نهاية طريق المشاة دائرة زرقاء فيها شخص وخط أحمر مائل.", "منع مرور المشاة دائرة بإطار أحمر، أما هذه الإشارة فتدل على مكان العبور."],
+      "en": [null, "The end of a footpath is a blue circle with a pedestrian and a red bar.", "A ban on pedestrians is a red-bordered circle; this sign shows people where to cross."],
+      "fr": [null, "La fin de chemin pour piétons est un cercle bleu avec un piéton et une barre rouge.", "L'interdiction aux piétons est un cercle à bord rouge ; ce panneau montre où traverser."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {"text": "", "options": ["Caution: pedestrian crossing", "End of footpath", "Caution: no pedestrians"]},
+      "fr": {"text": "", "options": ["Attention : passage pour piétons", "Fin de chemin pour piétons", "Attention : accès interdit aux piétons"]}
+    }
+  },
+  {
+    "id": 205,
+    "topic": "signs_information",
+    "explanation": {
+      "ar": "الإشارات المربعة الزرقاء تقدّم معلومات. هذه الإشارة تدل على ممر مخصص للدراجات، فانتبه لوجود الدراجات الهوائية.",
+      "en": "Blue square signs give information. This one marks a passage reserved for cyclists, so watch out for bicycles.",
+      "fr": "Les panneaux carrés bleus donnent une information. Celui-ci signale un passage réservé aux cyclistes : faites attention aux vélos."
+    },
+    "whyWrong": {
+      "ar": [null, "حلبة الدراجات يُشار إليها بإشارة دائرية زرقاء، وهذه الإشارة مربعة.", "منع ركوب الدراجات يكون بدائرة ذات إطار أحمر، لا بمربع أزرق."],
+      "en": [null, "A cycle track is shown by a round blue sign; this one is square.", "A cycling ban would be a red-bordered circle, not a blue square."],
+      "fr": [null, "La piste cyclable est un panneau rond bleu ; celui-ci est carré.", "Une interdiction aux cycles serait un cercle à bord rouge, pas un carré bleu."]
+    },
+    "tip": {
+      "ar": "انتبه للشكل: مربع أزرق فيه راكب دراجة = ممر للدراجات، ودائرة زرقاء فيها دراجة = حلبة للدراجات.",
+      "en": "Check the shape: a blue square with a cyclist is the cycle passage, a blue circle with a bicycle is the cycle track.",
+      "fr": "Regardez la forme : carré bleu avec un cycliste, passage pour cycles ; cercle bleu avec un vélo, piste cyclable."
+    },
+    "translation": {
+      "en": {"text": "", "options": ["Passage reserved for bicycles", "Cycle track", "No cycling"]},
+      "fr": {"text": "", "options": ["Passage réservé aux cycles", "Piste cyclable", "Interdit aux cycles"]}
+    }
+  },
+  {
+    "id": 206,
+    "topic": "signs_information",
+    "explanation": {
+      "ar": "الإشارات المربعة الزرقاء تقدّم معلومات. شكل حرف T مع خط أحمر في أعلاه يعني طريقاً غير نافذ، أي أن الطريق أمامك مسدودة.",
+      "en": "Blue square signs give information. The T shape with a red bar at the top means a dead end: the road ahead has no way through.",
+      "fr": "Les panneaux carrés bleus donnent une information. Le T barré de rouge en haut signifie une impasse : la route ne débouche pas."
+    },
+    "whyWrong": {
+      "ar": ["الخط الأحمر يسدّ الطريق، ولا يدل على التقاء طريقين.", "الطريق تنتهي عند الخط الأحمر ولا تتصل بطريق رئيسية.", null],
+      "en": ["The red bar closes the road; it does not show two roads meeting.", "The road ends at the red bar instead of joining a main road.", null],
+      "fr": ["La barre rouge ferme la route ; elle ne montre pas deux voies qui se rejoignent.", "La route s'arrête à la barre rouge au lieu de rejoindre une voie principale.", null]
+    },
+    "tip": null,
+    "translation": {
+      "en": {"text": "", "options": ["Meeting point of two lanes", "Road leading to a main road", "Dead end"]},
+      "fr": {"text": "", "options": ["Point de rencontre de deux voies", "Route menant à une voie principale", "Impasse"]}
+    }
+  },
+  {
+    "id": 207,
+    "topic": "signs_information",
+    "explanation": {
+      "ar": "هذه الإشارة المربعة الخضراء التي تُظهر طريقاً مقسومة وجسراً تدل على بداية الأوتوستراد، حيث تُطبَّق قواعد السير على الأوتوستراد.",
+      "en": "This green square sign showing a divided road and a bridge marks the start of a motorway, where motorway rules apply.",
+      "fr": "Ce panneau carré vert montrant une chaussée séparée et un pont signale le début d'une autoroute, où les règles de l'autoroute s'appliquent."
+    },
+    "whyWrong": {
+      "ar": ["التحذير من مدرج طيران يكون بمثلث أحمر، لا بمربع أخضر.", "التحذير من جسر يكون بمثلث أحمر، والجسر هنا جزء من رمز الأوتوستراد.", null],
+      "en": ["Dangers such as an airfield are warned of by red triangles, not green squares.", "A bridge warning would be a red triangle; here the bridge is part of the motorway symbol.", null],
+      "fr": ["Un danger comme un aérodrome est signalé par un triangle rouge, pas par un carré vert.", "Un danger « pont » serait un triangle rouge ; ici le pont fait partie du symbole de l'autoroute.", null]
+    },
+    "tip": null,
+    "translation": {
+      "en": {"text": "", "options": ["Caution: airfield runway", "Caution: bridge", "Motorway"]},
+      "fr": {"text": "", "options": ["Attention : piste d'aviation", "Attention : pont", "Autoroute"]}
+    }
+  },
+  {
+    "id": 208,
+    "topic": "signs_information",
+    "explanation": {
+      "ar": "إشارة الأوتوستراد الخضراء التي يقطعها خط أحمر تدل على نهاية الأوتوستراد، وبعدها تعود قواعد الطرق العادية.",
+      "en": "The green motorway sign crossed by a red bar marks the end of the motorway; ordinary road rules apply again after it.",
+      "fr": "Le panneau vert d'autoroute barré de rouge marque la fin de l'autoroute ; les règles de la route ordinaire s'appliquent ensuite."
+    },
+    "whyWrong": {
+      "ar": ["الجسر جزء من رمز الأوتوستراد، والخط الأحمر يعني «نهاية».", null, "التحذير من طريق ضيق يكون بمثلث أحمر."],
+      "en": ["The bridge is part of the motorway symbol; the red bar means 'end of'.", null, "A narrow road warning is a red triangle."],
+      "fr": ["Le pont fait partie du symbole de l'autoroute ; la barre rouge signifie « fin de ».", null, "Le danger « chaussée rétrécie » est signalé par un triangle rouge."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {"text": "", "options": ["Bridge over the road", "End of motorway", "Caution: narrow road"]},
+      "fr": {"text": "", "options": ["Pont au-dessus de la route", "Fin d'autoroute", "Attention : chaussée rétrécie"]}
+    }
+  },
+  {
+    "id": 209,
+    "topic": "signs_information",
+    "explanation": {
+      "ar": "الإشارات المربعة الزرقاء تقدّم معلومات. شكل الفتحة المقوّسة يدل على نفق أمامك، فاستعد لتغيّر الإضاءة والرؤية.",
+      "en": "Blue square signs give information. The arched opening shows a tunnel ahead, so be ready for the change in light and visibility.",
+      "fr": "Les panneaux carrés bleus donnent une information. L'ouverture en arc annonce un tunnel : préparez-vous au changement de lumière et de visibilité."
+    },
+    "whyWrong": {
+      "ar": ["التحذير من طريق وعرة يكون بمثلث أحمر، لا بمربع أزرق.", "الرسم يُظهر فتحة تدخلها الطريق، لا جسراً.", null],
+      "en": ["A rough road warning is a red triangle, not a blue square.", "The drawing shows an opening that the road goes into, not a bridge.", null],
+      "fr": ["Le danger « chaussée déformée » est un triangle rouge, pas un carré bleu.", "Le dessin montre une ouverture dans laquelle entre la route, pas un pont.", null]
+    },
+    "tip": null,
+    "translation": {
+      "en": {"text": "", "options": ["Caution: rough road", "Bridge", "Tunnel"]},
+      "fr": {"text": "", "options": ["Attention : chaussée déformée", "Pont", "Tunnel"]}
+    }
+  },
+  {
+    "id": 210,
+    "topic": "signs_information",
+    "explanation": {
+      "ar": "هذه الإشارة المربعة الحمراء التي تحمل كلمة SOS تدل على مركز نجدة ومساعدة يمكنك طلب العون فيه.",
+      "en": "This red square marked SOS shows a rescue and assistance point where you can get help.",
+      "fr": "Ce carré rouge marqué SOS signale un poste de secours et d'assistance où vous pouvez obtenir de l'aide."
+    },
+    "whyWrong": {
+      "ar": [null, "موقف المعاقين يظهر برمز الكرسي المتحرك، لا بكلمة SOS.", "لا شيء في الإشارة يخصصها للأطباء، وSOS هو نداء الاستغاثة الدولي."],
+      "en": [null, "Disabled parking shows a wheelchair symbol, not SOS.", "Nothing on the sign limits it to doctors; SOS is the international call for help."],
+      "fr": [null, "Le stationnement pour handicapés montre un fauteuil roulant, pas SOS.", "Rien ne réserve ce panneau aux médecins ; SOS est l'appel de détresse international."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {"text": "", "options": ["Rescue and assistance centre", "Parking reserved for disabled people", "Doctors only"]},
+      "fr": {"text": "", "options": ["Centre de secours et d'assistance", "Stationnement réservé aux personnes handicapées", "Réservé aux médecins"]}
+    }
+  },
+  {
+    "id": 211,
+    "topic": "signs_information",
+    "explanation": {
+      "ar": "الإشارات المربعة الزرقاء تقدّم معلومات. رمز الكرسي المتحرك يدل على موقف مخصص للمعوقين، فلا يجوز لغيرهم الوقوف فيه.",
+      "en": "Blue square signs give information. The wheelchair symbol marks parking reserved for disabled people; others must not park there.",
+      "fr": "Les panneaux carrés bleus donnent une information. Le fauteuil roulant signale un stationnement réservé aux personnes handicapées ; les autres ne doivent pas s'y garer."
+    },
+    "whyWrong": {
+      "ar": [null, "موقف اللحظة يُشار إليه بحرف P، لا بكرسي متحرك.", "المربع الأزرق للإعلام، أما منع الوقوف فيحتاج إطاراً أحمر وخطاً أحمر."],
+      "en": [null, "Short-term parking is shown by a P, not a wheelchair.", "A blue square informs; a parking ban would need a red border and a red bar."],
+      "fr": [null, "Le stationnement de courte durée est indiqué par un P, pas par un fauteuil roulant.", "Le carré bleu informe ; une interdiction de stationner exigerait un bord et une barre rouges."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {"text": "", "options": ["Parking reserved for disabled people", "Short-term parking", "No parking for disabled people"]},
+      "fr": {"text": "", "options": ["Stationnement réservé aux personnes handicapées", "Stationnement de courte durée", "Stationnement interdit aux personnes handicapées"]}
+    }
+  },
+  {
+    "id": 212,
+    "topic": "signs_information",
+    "explanation": {
+      "ar": "الإشارات المربعة الزرقاء تقدّم معلومات. في أسئلة الامتحان، تدل إشارة P المستطيلة الطويلة على موقف لحظة، أي مكان للوقوف لمدة قصيرة.",
+      "en": "Blue square signs give information. In the exam questions, the tall narrow P sign marks short-term parking, a place to park for a short time.",
+      "fr": "Les panneaux carrés bleus donnent une information. Dans les questions de l'examen, le panneau P haut et étroit indique un stationnement de courte durée."
+    },
+    "whyWrong": {
+      "ar": ["في أسئلة الامتحان، «موقف» هي إشارة P المربعة الأعرض.", null, "منع الوقوف دائرة زرقاء بإطار أحمر وخط أحمر، لا حرف P."],
+      "en": ["In the exam questions, plain 'Parking' is the wider square P sign.", null, "No parking is a blue circle with a red border and a red bar, not a P."],
+      "fr": ["Dans les questions de l'examen, « Parking » est le panneau P carré, plus large.", null, "Le stationnement interdit est un cercle bleu à bord rouge barré de rouge, pas un P."]
+    },
+    "tip": {
+      "ar": "في الامتحان إشارتا P: المستطيلة الطويلة = «موقف لحظة»، والمربعة العريضة = «موقف».",
+      "en": "The exam has two P signs: the tall narrow one is 'Short-term parking', the wide square one is 'Parking'.",
+      "fr": "L'examen comporte deux panneaux P : le haut et étroit est « stationnement de courte durée », le carré large est « parking »."
+    },
+    "translation": {
+      "en": {"text": "", "options": ["Parking", "Short-term parking", "No parking"]},
+      "fr": {"text": "", "options": ["Parking", "Stationnement de courte durée", "Stationnement interdit"]}
+    }
+  },
+  {
+    "id": 213,
+    "topic": "signs_information",
+    "explanation": {
+      "ar": "إشارات المعلومات الزرقاء تدل على الخدمات. إشارة TAXI هذه تدل على موقف تاكسي، أي مكان مخصص لسيارات الأجرة.",
+      "en": "Blue information signs mark services. This TAXI sign marks a taxi rank, a place reserved for taxis.",
+      "fr": "Les panneaux d'information bleus signalent des services. Ce panneau TAXI indique une station de taxis, réservée aux taxis."
+    },
+    "whyWrong": {
+      "ar": ["الإشارة تخصص المكان لسيارات التاكسي، وليست موقفاً للعموم.", "المنع يحتاج إطاراً أحمر وخطاً أحمر، وهذه الإشارة الزرقاء تخصص المكان للتاكسي.", null],
+      "en": ["The sign reserves the place for taxis; it is not a public car park.", "A ban would use a red border and a red bar; this blue sign gives the place to taxis.", null],
+      "fr": ["Le panneau réserve l'emplacement aux taxis ; ce n'est pas un parking public.", "Une interdiction utiliserait un bord et une barre rouges ; ce panneau bleu attribue la place aux taxis.", null]
+    },
+    "tip": null,
+    "translation": {
+      "en": {"text": "", "options": ["Public parking – no more than two taxis", "No parking for taxis", "Taxi rank"]},
+      "fr": {"text": "", "options": ["Stationnement public – interdit aux taxis au-delà de deux voitures", "Stationnement interdit aux taxis", "Station de taxis"]}
+    }
+  },
+  {
+    "id": 214,
+    "topic": "signs_information",
+    "explanation": {
+      "ar": "إشارات الخدمات الزرقاء ترشدك إلى أماكن مفيدة. رمز الشرطي مع السهم يدل على اتجاه مركز الشرطة.",
+      "en": "Blue service signs point you to useful places. The police officer symbol with an arrow shows the way to the police.",
+      "fr": "Les panneaux de services bleus indiquent des lieux utiles. Le symbole du policier avec une flèche montre la direction de la police."
+    },
+    "whyWrong": {
+      "ar": ["الإشارة تُظهر شرطياً، وليست تحذيراً من الإزالة الفورية.", null, "الاستعلامات يُرمز إليها بحرف i، لا بصورة شرطي."],
+      "en": ["The sign shows a police officer, not a tow-away warning.", null, "Information is shown by the letter i, not a police officer."],
+      "fr": ["Le panneau montre un policier, pas un avertissement d'enlèvement.", null, "Les renseignements sont indiqués par la lettre i, pas par un policier."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {"text": "", "options": ["Immediate removal", "Police", "Information"]},
+      "fr": {"text": "", "options": ["Enlèvement immédiat", "Police", "Renseignements"]}
+    }
+  },
+  {
+    "id": 215,
+    "topic": "signs_information",
+    "explanation": {
+      "ar": "إشارات الخدمات الزرقاء ترشدك إلى أماكن مفيدة. حرف i مع السهم يدل على اتجاه مكتب الاستعلامات.",
+      "en": "Blue service signs point you to useful places. The letter i with an arrow shows the way to an information point.",
+      "fr": "Les panneaux de services bleus indiquent des lieux utiles. La lettre i avec une flèche montre la direction d'un point de renseignements."
+    },
+    "whyWrong": {
+      "ar": ["حرف i رمز الاستعلامات، وليس رمز مركز إنترنت.", "محطة الوقود يُرمز إليها بصورة مضخة وقود.", null],
+      "en": ["The i is the symbol for information, not for an internet centre.", "A filling station is shown by a fuel pump symbol.", null],
+      "fr": ["Le i est le symbole des renseignements, pas d'un centre Internet.", "Le poste d'essence est représenté par une pompe à carburant.", null]
+    },
+    "tip": null,
+    "translation": {
+      "en": {"text": "", "options": ["Internet centre", "Filling station", "Information"]},
+      "fr": {"text": "", "options": ["Centre Internet", "Poste d'essence", "Renseignements"]}
+    }
+  },
+  {
+    "id": 216,
+    "topic": "signs_information",
+    "explanation": {
+      "ar": "إشارات الخدمات الزرقاء ترشدك إلى أماكن مفيدة. رمز خوذة الشرطي مع السهم يدل على اتجاه شرطة البلدية.",
+      "en": "Blue service signs point you to useful places. The officer's helmet with an arrow shows the way to the municipal police.",
+      "fr": "Les panneaux de services bleus indiquent des lieux utiles. Le casque d'agent avec une flèche montre la direction de la police municipale."
+    },
+    "whyWrong": {
+      "ar": ["السهم يدل على اتجاه خدمة، ولا يخصص موقفاً للشرطة.", "الرمز خوذة شرطي، وليس رمزاً للإطفاء.", null],
+      "en": ["The arrow points the way to a service; it does not reserve parking for the police.", "The symbol is a police helmet, not a fire service symbol.", null],
+      "fr": ["La flèche indique la direction d'un service ; elle ne réserve pas de stationnement à la police.", "Le symbole est un casque de police, pas un symbole de pompiers.", null]
+    },
+    "tip": null,
+    "translation": {
+      "en": {"text": "", "options": ["Parking reserved for police", "Fire brigade", "Municipal police"]},
+      "fr": {"text": "", "options": ["Stationnement réservé à la police", "Pompiers", "Police municipale"]}
+    }
+  },
+  {
+    "id": 217,
+    "topic": "signs_priority",
+    "explanation": {
+      "ar": "هذه اللوحة تُظهر شكل التقاطع: الخط الأسود العريض هو خط الطريق الرئيسية، والخطوط الرفيعة هي الطرق الفرعية. اتبع انعطاف الطريق الرئيسية وانتبه للمركبات القادمة من الطرق الفرعية.",
+      "en": "This panel shows the shape of the junction: the thick black line is the course of the main road and the thin lines are side roads. Follow the bend of the main road and watch for vehicles from the side roads.",
+      "fr": "Ce panonceau montre la forme de l'intersection : le trait noir épais est le tracé de la route principale et les traits fins sont les routes secondaires. Suivez la courbe de la route principale et surveillez les véhicules venant des routes secondaires."
+    },
+    "whyWrong": {
+      "ar": [null, "التحذير من تقاطع خطر يكون بمثلث أحمر، أما هذه اللوحة البيضاء فتبيّن الطريق الرئيسية.", "الرسم لا يحتوي على سهم يدل على مسار الالتفاف، بل يُظهر طريقاً عريضة وطرقاً رفيعة."],
+      "en": [null, "A dangerous crossroads warning is a red triangle; this white panel shows which road is the main one.", "The drawing has no arrow showing a turning route; it shows one thick road and thin side roads."],
+      "fr": [null, "Le danger « intersection » est un triangle rouge ; ce panonceau blanc indique la route principale.", "Le dessin ne montre aucune flèche d'itinéraire, mais une route épaisse et des routes secondaires fines."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {"text": "", "options": ["Course of the main road", "Dangerous crossroads", "Indirect left turn"]},
+      "fr": {"text": "", "options": ["Tracé de la route principale", "Intersection dangereuse", "Tourne-à-gauche indirect"]}
+    }
+  },
+  {
+    "id": 218,
+    "topic": "signs_information",
+    "explanation": {
+      "ar": "الإشارات المربعة الزرقاء تقدّم معلومات. حرف P الكبير على إشارة مربعة يدل على موقف يمكنك ركن مركبتك فيه.",
+      "en": "Blue square signs give information. The large P on a square sign marks a parking place where you may leave your vehicle.",
+      "fr": "Les panneaux carrés bleus donnent une information. Le grand P sur un panneau carré signale un parking où vous pouvez laisser votre véhicule."
+    },
+    "whyWrong": {
+      "ar": ["منع الوقوف دائرة زرقاء بإطار أحمر وخط أحمر، لا حرف P.", null, "في أسئلة الامتحان، موقف اللحظة هو إشارة P المستطيلة الطويلة، لا المربعة العريضة."],
+      "en": ["No parking is a blue circle with a red border and a red bar, not a P.", null, "In the exam questions, short-term parking is the tall narrow P sign, not the wide square one."],
+      "fr": ["Le stationnement interdit est un cercle bleu à bord rouge barré de rouge, pas un P.", null, "Dans les questions de l'examen, le stationnement de courte durée est le panneau P haut et étroit, pas le carré large."]
+    },
+    "tip": {
+      "ar": "في الامتحان إشارتا P: المستطيلة الطويلة = «موقف لحظة»، والمربعة العريضة = «موقف».",
+      "en": "The exam has two P signs: the tall narrow one is 'Short-term parking', the wide square one is 'Parking'.",
+      "fr": "L'examen comporte deux panneaux P : le haut et étroit est « stationnement de courte durée », le carré large est « parking »."
+    },
+    "translation": {
+      "en": {"text": "", "options": ["No parking", "Parking", "Short-term parking"]},
+      "fr": {"text": "", "options": ["Stationnement interdit", "Parking", "Stationnement de courte durée"]}
+    }
+  },
+  {
+    "id": 219,
+    "topic": "signs_information",
+    "explanation": {
+      "ar": "إشارات الخدمات الزرقاء ترشدك إلى أماكن مفيدة. رمز السرير مع السهم يدل على اتجاه فندق.",
+      "en": "Blue service signs point you to useful places. The bed symbol with an arrow shows the way to a hotel.",
+      "fr": "Les panneaux de services bleus indiquent des lieux utiles. Le lit avec une flèche indique la direction d'un hôtel."
+    },
+    "whyWrong": {
+      "ar": ["مركز التصليح يُرمز إليه بأداة مثل مفتاح الشد، لا بسرير.", "المطعم يُرمز إليه بشوكة وسكين.", null],
+      "en": ["A repair centre is shown by a tool such as a spanner, not a bed.", "A restaurant is shown by a fork and knife.", null],
+      "fr": ["Un atelier de réparation est représenté par un outil comme une clé, pas par un lit.", "Le restaurant est représenté par une fourchette et un couteau.", null]
+    },
+    "tip": null,
+    "translation": {
+      "en": {"text": "", "options": ["Repair centre", "Restaurant", "Hotel"]},
+      "fr": {"text": "", "options": ["Atelier de réparation", "Restaurant", "Hôtel"]}
+    }
+  },
+  {
+    "id": 220,
+    "topic": "signs_information",
+    "explanation": {
+      "ar": "إشارات الخدمات الزرقاء ترشدك إلى أماكن مفيدة. الشوكة والسكين المتقاطعتان تدلان على مطعم.",
+      "en": "Blue service signs point you to useful places. The crossed fork and knife mark a restaurant.",
+      "fr": "Les panneaux de services bleus indiquent des lieux utiles. La fourchette et le couteau croisés signalent un restaurant."
+    },
+    "whyWrong": {
+      "ar": ["الاستعلامات يُرمز إليها بحرف i.", null, "المرطبات يُرمز إليها بفنجان، لا بشوكة وسكين."],
+      "en": ["Information is shown by the letter i.", null, "Refreshments are shown by a cup, not a fork and knife."],
+      "fr": ["Les renseignements sont représentés par la lettre i.", null, "La buvette est représentée par une tasse, pas par une fourchette et un couteau."]
+    },
+    "tip": {
+      "ar": "شوكة وسكين = مطعم، وفنجان = مرطبات.",
+      "en": "Fork and knife means a restaurant; a cup means refreshments.",
+      "fr": "Fourchette et couteau : restaurant ; une tasse : buvette."
+    },
+    "translation": {
+      "en": {"text": "", "options": ["Information", "Restaurant", "Refreshments"]},
+      "fr": {"text": "", "options": ["Renseignements", "Restaurant", "Buvette"]}
+    }
+  },
+  {
+    "id": 221,
+    "topic": "signs_information",
+    "explanation": {
+      "ar": "إشارات الخدمات الزرقاء ترشدك إلى أماكن مفيدة. سماعة الهاتف تدل على وجود هاتف.",
+      "en": "Blue service signs point you to useful places. The telephone handset marks a telephone.",
+      "fr": "Les panneaux de services bleus indiquent des lieux utiles. Le combiné téléphonique signale un téléphone."
+    },
+    "whyWrong": {
+      "ar": [null, "المطعم يُرمز إليه بشوكة وسكين.", "محطة الوقود يُرمز إليها بصورة مضخة وقود."],
+      "en": [null, "A restaurant is shown by a fork and knife.", "A filling station is shown by a fuel pump symbol."],
+      "fr": [null, "Le restaurant est représenté par une fourchette et un couteau.", "Le poste d'essence est représenté par une pompe à carburant."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {"text": "", "options": ["Telephone", "Restaurant", "Filling station"]},
+      "fr": {"text": "", "options": ["Téléphone", "Restaurant", "Poste d'essence"]}
+    }
+  },
+  {
+    "id": 222,
+    "topic": "signs_information",
+    "explanation": {
+      "ar": "إشارات الخدمات الزرقاء ترشدك إلى أماكن مفيدة. رمز مضخة الوقود يدل على محطة وقود.",
+      "en": "Blue service signs point you to useful places. The fuel pump symbol marks a filling station.",
+      "fr": "Les panneaux de services bleus indiquent des lieux utiles. La pompe à carburant signale un poste d'essence."
+    },
+    "whyWrong": {
+      "ar": [null, "مركز التصليح يُرمز إليه بأداة مثل مفتاح الشد، لا بمضخة وقود.", "المطعم يُرمز إليه بشوكة وسكين."],
+      "en": [null, "A repair centre is shown by a tool such as a spanner, not a fuel pump.", "A restaurant is shown by a fork and knife."],
+      "fr": [null, "Un atelier de réparation est représenté par un outil comme une clé, pas par une pompe.", "Le restaurant est représenté par une fourchette et un couteau."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {"text": "", "options": ["Filling station", "Repair centre", "Restaurant"]},
+      "fr": {"text": "", "options": ["Poste d'essence", "Atelier de réparation", "Restaurant"]}
+    }
+  },
+  {
+    "id": 223,
+    "topic": "signs_information",
+    "explanation": {
+      "ar": "إشارات المعلومات الزرقاء تدل على الخدمات. رمز الباص يدل على موقف باص، فتوقّع توقف الباصات وصعود الركاب ونزولهم.",
+      "en": "Blue information signs mark services. The bus symbol marks a bus stop, so expect buses stopping and passengers getting on and off.",
+      "fr": "Les panneaux d'information bleus signalent des services. Le symbole du bus indique un arrêt d'autobus : attendez-vous à des bus à l'arrêt et à des passagers qui montent ou descendent."
+    },
+    "whyWrong": {
+      "ar": ["إشارة خط الباصات تبيّن مساراً مخصصاً لها، أما هذه فتدل على مكان توقفها.", "منع الوقوف يحتاج إطاراً أحمر وخطاً أحمر، وهذه الإشارة الزرقاء تدل على مكان توقف الباص.", null],
+      "en": ["A bus lane sign marks a lane reserved for buses; this sign marks the place where buses stop.", "A parking ban would use a red border and a red bar; this blue sign shows where buses stop.", null],
+      "fr": ["Le panneau de voie réservée signale une voie pour les bus ; celui-ci indique l'endroit où ils s'arrêtent.", "Une interdiction de stationner utiliserait un bord et une barre rouges ; ce panneau bleu montre l'arrêt des bus.", null]
+    },
+    "tip": null,
+    "translation": {
+      "en": {"text": "", "options": ["Bus lane", "No parking for buses", "Bus stop"]},
+      "fr": {"text": "", "options": ["Voie réservée aux bus", "Stationnement interdit aux bus", "Arrêt d'autobus"]}
+    }
+  },
+  {
+    "id": 224,
+    "topic": "signs_information",
+    "explanation": {
+      "ar": "إشارات الخدمات الزرقاء ترشدك إلى أماكن مفيدة. رمز المقطورة والخيمة يدل على موقع للمقطورات والخيم.",
+      "en": "Blue service signs point you to useful places. The caravan and tent symbol marks a site for caravans and camping.",
+      "fr": "Les panneaux de services bleus indiquent des lieux utiles. Le symbole de la caravane et de la tente signale un terrain pour caravanes et camping."
+    },
+    "whyWrong": {
+      "ar": ["الرمز مقطورة مع خيمة، وليس نقطة نداء ومساعدة.", null, "منع الوقوف دائرة زرقاء بإطار أحمر وخط أحمر."],
+      "en": ["The symbol is a caravan with a tent, not an emergency call point.", null, "No parking is a blue circle with a red border and a red bar."],
+      "fr": ["Le symbole est une caravane avec une tente, pas un poste d'appel d'urgence.", null, "Le stationnement interdit est un cercle bleu à bord rouge barré de rouge."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {"text": "", "options": ["Stopping, call and assistance point", "Caravan and camping site", "No parking"]},
+      "fr": {"text": "", "options": ["Point d'arrêt, d'appel et d'assistance", "Terrain pour caravanes et camping", "Stationnement interdit"]}
+    }
+  },
+  {
+    "id": 225,
+    "topic": "signs_information",
+    "explanation": {
+      "ar": "الإشارات المستطيلة ذات الرسم التوضيحي تبيّن المسار الذي يجب سلوكه. في الأسئلة الرسمية تعني هذه الإشارة «إنعطاف»، فاتبع المسار المرسوم عليها.",
+      "en": "Rectangular diagram signs show the route to take ahead. In the official question bank this diagram means 'Turn': follow the route drawn on the sign.",
+      "fr": "Les panneaux rectangulaires à schéma montrent l'itinéraire à suivre. Dans la banque officielle, ce schéma signifie « changement de direction » : suivez le trajet dessiné."
+    },
+    "whyWrong": {
+      "ar": [null, "«خفف السرعة» لوحة حمراء مكتوبة، وليست رسماً لمسار.", "الجواب الرسمي لهذا الرسم هو «إنعطاف» بشكل عام، ولا يُقبل «إنعطاف غير مباشر إلى اليسار» هنا."],
+      "en": [null, "'Reduce speed' is a red panel with written words, not a route diagram.", "The official answer for this diagram is the general 'Turn'; 'Indirect left turn' is not accepted here."],
+      "fr": [null, "« Ralentir » est un panneau rouge écrit, pas un schéma d'itinéraire.", "La réponse officielle pour ce schéma est « changement de direction » ; « tourne-à-gauche indirect » n'est pas acceptée ici."]
+    },
+    "tip": {
+      "ar": "يستخدم الامتحان الأجوبة الثلاثة نفسها لإشارتين: رسم المسار = «إنعطاف»، واللوحة الحمراء المكتوبة = «خفف السرعة».",
+      "en": "The exam uses the same three answers for two signs: the route diagram is 'Turn' and the red written panel is 'Reduce speed'.",
+      "fr": "L'examen propose les trois mêmes réponses pour deux panneaux : le schéma d'itinéraire est « changement de direction », le panneau rouge écrit est « ralentir »."
+    },
+    "translation": {
+      "en": {"text": "", "options": ["Turn", "Reduce speed", "Indirect left turn"]},
+      "fr": {"text": "", "options": ["Changement de direction", "Ralentir", "Tourne-à-gauche indirect"]}
+    }
+  },
+  {
+    "id": 226,
+    "topic": "signs_warning",
+    "explanation": {
+      "ar": "هذه اللوحة الحمراء تحمل تحذيراً مكتوباً «خفف السرعة»، فخفف سرعتك وسِر بحذر إضافي.",
+      "en": "This red panel carries a written warning, 'Reduce speed': slow down and ride with extra care.",
+      "fr": "Ce panneau rouge porte un avertissement écrit, « Ralentir » : réduisez votre vitesse et roulez avec plus de prudence."
+    },
+    "whyWrong": {
+      "ar": ["الإشارة رسالة مكتوبة، ولا تُظهر أي انعطاف.", null, "لا يظهر على الإشارة سهم أو رسم لمسار، بل عبارة «خفف السرعة» فقط."],
+      "en": ["The sign is a written message; it does not show any turn.", null, "No arrow or route diagram appears on this sign, only the words 'Reduce speed'."],
+      "fr": ["Le panneau est un message écrit ; il ne montre aucun changement de direction.", null, "Aucune flèche ni schéma n'y figure, seulement les mots « Ralentir »."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {"text": "", "options": ["Turn", "Reduce speed", "Indirect left turn"]},
+      "fr": {"text": "", "options": ["Changement de direction", "Ralentir", "Tourne-à-gauche indirect"]}
+    }
+  },
+  {
+    "id": 227,
+    "topic": "signs_warning",
+    "explanation": {
+      "ar": "المثلثات الحمراء تحذّر من خطر أمامك. الشكل المرتفع يدل على وجود مطبات على الطريق، فخفف سرعتك قبل الوصول إليها.",
+      "en": "Red triangles warn of a danger ahead. The raised hump shows speed bumps on the road, so slow down before you reach them.",
+      "fr": "Les triangles rouges avertissent d'un danger. La bosse dessinée signale des dos-d'âne : ralentissez avant de les atteindre."
+    },
+    "whyWrong": {
+      "ar": ["التحذير من منعطف يمين يُظهر سهماً منحنياً، لا شكلاً مرتفعاً.", null, "الانخفاضات تُرسم كتجويف نحو الأسفل، أما هذا الشكل فمرتفع إلى الأعلى."],
+      "en": ["A right bend warning shows a curved arrow, not a hump.", null, "Dips would be drawn as a hollow going down, while this shape rises up."],
+      "fr": ["Le virage à droite montre une flèche courbe, pas une bosse.", null, "Un cassis serait dessiné en creux vers le bas, alors que cette forme monte."]
+    },
+    "tip": {
+      "ar": "شكل مرتفع إلى الأعلى = مطبات، وشكل منخفض إلى الأسفل = انخفاضات.",
+      "en": "A shape rising up means a bump; a shape dipping down means a dip.",
+      "fr": "Forme en relief vers le haut : dos-d'âne ; forme en creux vers le bas : cassis."
+    },
+    "translation": {
+      "en": {"text": "", "options": ["Caution: bend to the right", "Caution: speed bumps", "Caution: dips"]},
+      "fr": {"text": "", "options": ["Attention : virage à droite", "Attention : dos-d'âne", "Attention : cassis"]}
+    }
+  }
+]

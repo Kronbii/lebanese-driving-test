@@ -13,8 +13,8 @@ body {
   min-height: 100vh;
   background: var(--page);
   color: var(--text);
-  direction: rtl;
-  font-family: "Cairo", "Noto Kufi Arabic", "Segoe UI", Tahoma, Arial, sans-serif;
+  font-size: calc(16px * var(--font-scale));
+  font-family: "Cairo", "Noto Kufi Arabic", "Segoe UI", system-ui, Tahoma, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
@@ -45,4 +45,23 @@ p {
 
 #root {
   min-height: 100vh;
+}
+
+:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 2px;
+}
+
+a {
+  color: var(--accent);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }

@@ -16,3 +16,8 @@ imgprobe/
 pageimg/
 pages/
 .vercel
+
+# Local embedded Postgres (PGlite) data and env
+.data/
+.env
+.env.local

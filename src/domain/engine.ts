@@ -1,58 +1,129 @@
 import type {
+  ExamHistoryItem,
+  ExamMode,
   ProgressState,
   ProgressSummary,
   QuestionProgress,
   WeakQuestion
 } from "./types";
 
+/** Legacy single-profile key (v1). Read once for migration into profiles. */
 export const STORAGE_KEY = "ldt_progress_v1";
 export const MAX_LEVEL = 5;
 const INTERVALS = [0, 1, 2, 4, 8, 16];
 
+export const XP_CORRECT = 10;
+export const XP_WRONG = 2;
+export const XP_PASS = 50;
+
 export function createProgressState(): ProgressState {
   return {
+    version: 2,
     examIndex: 0,
     questions: {},
-    history: []
+    history: [],
+    favorites: [],
+    notes: {},
+    flashcards: {},
+    activity: {},
+    xp: 0,
+    badges: {},
+    updatedAt: 0
+  };
+}
+
+/** Accepts v1 or v2 data (or garbage) and returns a valid v2 state. */
+export function normalizeProgress(raw: unknown): ProgressState {
+  const base = createProgressState();
+  if (!raw || typeof raw !== "object") return base;
+  const parsed = raw as Partial<ProgressState>;
+
+  const questions: Record<number, QuestionProgress> = {};
+  if (parsed.questions && typeof parsed.questions === "object") {
+    for (const [key, value] of Object.entries(parsed.questions)) {
+      if (!value || typeof value !== "object") continue;
+      const item = value as Partial<QuestionProgress>;
+      questions[Number(key)] = {
+        seen: Number(item.seen) || 0,
+        correct: Number(item.correct) || 0,
+        wrong: Number(item.wrong) || 0,
+        level: Math.max(0, Math.min(MAX_LEVEL, Number(item.level) || 0)),
+        lastExam: Number.isFinite(Number(item.lastExam)) ? Number(item.lastExam) : -1,
+        recentWrong: Number(item.recentWrong) || 0,
+        ...(item.lastSeenAt ? { lastSeenAt: Number(item.lastSeenAt) } : {}),
+        ...(item.streak !== undefined ? { streak: Number(item.streak) || 0 } : {}),
+        ...(Array.isArray(item.picks) ? { picks: item.picks.map((n) => Number(n) || 0) } : {})
+      };
+    }
+  }
+
+  return {
+    version: 2,
+    examIndex: Number(parsed.examIndex) || 0,
+    questions,
+    history: Array.isArray(parsed.history)
+      ? (parsed.history.filter((h) => h && typeof h === "object") as ExamHistoryItem[])
+      : [],
+    favorites: Array.isArray(parsed.favorites)
+      ? parsed.favorites.map(Number).filter(Number.isFinite)
+      : [],
+    notes: parsed.notes && typeof parsed.notes === "object" ? { ...parsed.notes } : {},
+    flashcards:
+      parsed.flashcards && typeof parsed.flashcards === "object" ? { ...parsed.flashcards } : {},
+    activity: parsed.activity && typeof parsed.activity === "object" ? { ...parsed.activity } : {},
+    xp: Number(parsed.xp) || 0,
+    badges: parsed.badges && typeof parsed.badges === "object" ? { ...parsed.badges } : {},
+    updatedAt: Number(parsed.updatedAt) || 0
   };
 }
 
 export function cloneProgress(state: ProgressState): ProgressState {
   return {
-    examIndex: state.examIndex,
+    ...state,
     questions: Object.fromEntries(
-      Object.entries(state.questions).map(([id, progress]) => [id, { ...progress }])
+      Object.entries(state.questions).map(([id, progress]) => [
+        id,
+        { ...progress, ...(progress.picks ? { picks: progress.picks.slice() } : {}) }
+      ])
     ),
-    history: state.history.map((item) => ({ ...item }))
+    history: state.history.map((item) => ({ ...item })),
+    favorites: state.favorites.slice(),
+    notes: { ...state.notes },
+    flashcards: Object.fromEntries(
+      Object.entries(state.flashcards).map(([id, card]) => [id, { ...card }])
+    ),
+    activity: Object.fromEntries(
+      Object.entries(state.activity).map(([day, value]) => [day, { ...value }])
+    ),
+    badges: { ...state.badges }
   };
 }
 
-export function loadProgress(storage: Storage = window.localStorage): ProgressState {
+export function loadProgressFrom(storage: Storage, key: string): ProgressState {
   try {
-    const raw = storage.getItem(STORAGE_KEY);
+    const raw = storage.getItem(key);
     if (!raw) return createProgressState();
-    const parsed = JSON.parse(raw) as Partial<ProgressState> | null;
-    if (!parsed || typeof parsed !== "object") return createProgressState();
-
-    return {
-      examIndex: Number(parsed.examIndex) || 0,
-      questions: parsed.questions || {},
-      history: Array.isArray(parsed.history) ? parsed.history : []
-    };
+    return normalizeProgress(JSON.parse(raw));
   } catch {
     return createProgressState();
   }
 }
 
-export function saveProgress(
-  state: ProgressState,
-  storage: Storage = window.localStorage
-): void {
+export function saveProgressTo(storage: Storage, key: string, state: ProgressState): void {
   try {
-    storage.setItem(STORAGE_KEY, JSON.stringify(state));
+    storage.setItem(key, JSON.stringify(state));
   } catch {
     // Progress is helpful but not critical; ignore browser storage failures.
   }
+}
+
+/** v1 helpers kept for tests and migration. */
+export function loadProgress(storage: Storage = window.localStorage): ProgressState {
+  return loadProgressFrom(storage, STORAGE_KEY);
+}
+
+export function saveProgress(state: ProgressState, storage: Storage = window.localStorage): void {
+  saveProgressTo(storage, STORAGE_KEY, state);
 }
 
 export function resetProgress(storage: Storage = window.localStorage): void {
@@ -61,6 +132,13 @@ export function resetProgress(storage: Storage = window.localStorage): void {
   } catch {
     // Ignore browser storage failures.
   }
+}
+
+export function dayKey(at: number = Date.now()): string {
+  const date = new Date(at);
+  const month = String(date.getMonth() + 1).padStart(2, "0");
+  const day = String(date.getDate()).padStart(2, "0");
+  return `${date.getFullYear()}-${month}-${day}`;
 }
 
 export function statFor(state: ProgressState, id: number): QuestionProgress {
@@ -176,19 +254,49 @@ export function buildExam(
   return shuffle(picked, rng).slice(0, size);
 }
 
-export function recordAnswer(state: ProgressState, id: number, correct: boolean): void {
+export interface RecordAnswerOptions {
+  /** Option index the learner picked (enables confusion tracking). */
+  selected?: number;
+  at?: number;
+}
+
+export function recordAnswer(
+  state: ProgressState,
+  id: number,
+  correct: boolean,
+  options: RecordAnswerOptions = {}
+): void {
+  const at = options.at ?? Date.now();
   const question = statFor(state, id);
   question.seen += 1;
   question.lastExam = state.examIndex;
+  question.lastSeenAt = at;
   question.recentWrong = 0.5 * question.recentWrong + 0.5 * (correct ? 0 : 1);
 
   if (correct) {
     question.correct += 1;
     question.level = Math.min(MAX_LEVEL, question.level + 1);
+    question.streak = (question.streak ?? 0) + 1;
   } else {
     question.wrong += 1;
     question.level = Math.max(0, question.level - 2);
+    question.streak = 0;
+    if (typeof options.selected === "number" && options.selected >= 0) {
+      const picks = question.picks ?? [0, 0, 0];
+      while (picks.length <= options.selected) picks.push(0);
+      picks[options.selected] += 1;
+      question.picks = picks;
+    }
   }
+
+  const key = dayKey(at);
+  const day = state.activity[key] ?? { answered: 0, correct: 0 };
+  day.answered += 1;
+  if (correct) day.correct += 1;
+  state.activity[key] = day;
+
+  state.xp += correct ? XP_CORRECT : XP_WRONG;
+  state.updatedAt = at;
 }
 
 export function startExam(state: ProgressState): number {
@@ -196,20 +304,72 @@ export function startExam(state: ProgressState): number {
   return state.examIndex;
 }
 
+export interface ExamResultExtras {
+  mode?: ExamMode;
+  durationMs?: number;
+  timed?: boolean;
+  signCorrect?: number;
+  signTotal?: number;
+}
+
 export function recordExamResult(
   state: ProgressState,
   score: number,
   total: number,
   passed: boolean,
-  at = Date.now()
+  at = Date.now(),
+  extras: ExamResultExtras = {}
 ): void {
   state.history.push({
     at,
     score,
     total,
     passed,
-    examIndex: state.examIndex
+    examIndex: state.examIndex,
+    ...extras
   });
+  const key = dayKey(at);
+  const day = state.activity[key] ?? { answered: 0, correct: 0 };
+  day.exams = (day.exams ?? 0) + 1;
+  state.activity[key] = day;
+  if (passed) state.xp += XP_PASS;
+  state.updatedAt = at;
+}
+
+export function toggleFavorite(state: ProgressState, id: number): boolean {
+  const index = state.favorites.indexOf(id);
+  if (index >= 0) {
+    state.favorites.splice(index, 1);
+    return false;
+  }
+  state.favorites.push(id);
+  return true;
+}
+
+export function setNote(state: ProgressState, id: number, note: string): void {
+  const trimmed = note.trim();
+  if (trimmed) state.notes[id] = trimmed.slice(0, 1000);
+  else delete state.notes[id];
+}
+
+/** Drops progress for ids that are no longer in the question bank (bank updates). */
+export function pruneUnknown(state: ProgressState, allIds: number[]): void {
+  const known = new Set(allIds);
+  for (const key of Object.keys(state.questions)) {
+    if (!known.has(Number(key))) delete state.questions[Number(key)];
+  }
+  state.favorites = state.favorites.filter((id) => known.has(id));
+  for (const key of Object.keys(state.notes)) {
+    if (!known.has(Number(key))) delete state.notes[Number(key)];
+  }
+  for (const key of Object.keys(state.flashcards)) {
+    if (!known.has(Number(key))) delete state.flashcards[Number(key)];
+  }
+}
+
+/** Exam-style attempts that count towards pass statistics (v1 history has no mode). */
+export function isCountedMode(mode: ExamMode | undefined): boolean {
+  return mode === undefined || mode === "official" || mode === "timed" || mode === "strict" || mode === "final";
 }
 
 export function summary(state: ProgressState, allIds: number[]): ProgressSummary {
@@ -240,7 +400,7 @@ export function summary(state: ProgressState, allIds: number[]): ProgressSummary
     masteryPct: total ? Math.round((mastered / total) * 100) : 0,
     avgLevel: seen ? Number((levelSum / seen).toFixed(2)) : 0,
     examsToCover: unseen > 0 ? Math.ceil(unseen / 24) : 0,
-    examsTaken: state.history.length,
+    examsTaken: state.history.filter((item) => isCountedMode(item.mode)).length,
     passes: state.history.filter((item) => item.passed).length
   };
 }

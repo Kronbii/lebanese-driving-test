@@ -1,0 +1,996 @@
+[
+  {
+    "id": 1,
+    "topic": "gear",
+    "explanation": {
+      "ar": "الملابس الخاصة براكبي الدراجات النارية مصممة لحماية الجسم عند السقوط. هي الحماية الحقيقية لأن الدراجة لا تحيط بالسائق كما تحيط السيارة بركابها.",
+      "en": "Clothing made for motorcyclists is designed to protect your body if you fall. It is your real protection, because a motorcycle has no body around you like a car does.",
+      "fr": "Les vêtements conçus pour les motards protègent votre corps en cas de chute. C'est votre vraie protection, car une moto n'a pas de carrosserie autour de vous comme une voiture."
+    },
+    "whyWrong": {
+      "ar": [null, "القيادة على الإطار الخلفي فقط حركة استعراضية خطيرة تُفقدك السيطرة ولا تحميك.", "التأمين يغطي التكاليف المالية لكنه لا يحمي جسمك من الإصابة."],
+      "en": [null, "Riding on the rear wheel only is a dangerous stunt that reduces control and protects nothing.", "Insurance covers costs but does not protect your body from injury."],
+      "fr": [null, "Rouler sur la roue arrière seulement est une acrobatie dangereuse qui fait perdre le contrôle et ne protège de rien.", "L'assurance couvre les frais, mais ne protège pas votre corps des blessures."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {"text": "Real protection for a motorcycle rider is ensured by:", "options": ["Wearing clothing made specially for motorcyclists", "Riding on the rear wheel only", "Making sure the motorcycle is insured"]},
+      "fr": {"text": "La vraie protection du motard est assurée par :", "options": ["Le port de vêtements spéciaux pour motards", "La conduite sur la roue arrière uniquement", "La vérification que la moto est assurée"]}
+    }
+  },
+  {
+    "id": 2,
+    "topic": "gear",
+    "explanation": {
+      "ar": "البدلة الجلدية مصنوعة لتتحمل الاحتكاك القوي. إذا سقطت وانزلقت على الحصى والإسفلت، فهي تحمي جلدك من الجروح والحروق الناتجة عن الاحتكاك.",
+      "en": "A leather suit is made to withstand strong rubbing. If you fall and slide on gravel and asphalt, it protects your skin from cuts and friction burns.",
+      "fr": "La combinaison en cuir est faite pour résister à un fort frottement. Si vous tombez et glissez sur le gravier et l'asphalte, elle protège votre peau des coupures et des brûlures dues au frottement."
+    },
+    "whyWrong": {
+      "ar": [null, "البدلة الجلدية ليست مصممة لمقاومة الحريق، بل لمقاومة الاحتكاك.", "القيادة السريعة بين المركبات تصرف خطير، ولا علاقة لها بما تقاومه البدلة."],
+      "en": [null, "A leather suit is not designed to resist fire; it is designed to resist abrasion.", "Riding fast between vehicles is dangerous behaviour and has nothing to do with what the suit resists."],
+      "fr": [null, "La combinaison en cuir n'est pas conçue pour résister au feu, mais à l'abrasion.", "Rouler vite entre les véhicules est un comportement dangereux qui n'a rien à voir avec la combinaison."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {"text": "Leather protective suits made for motorcyclists are able to resist:", "options": ["Abrasion against gravel and asphalt in a fall", "Fire", "Riding fast between vehicles"]},
+      "fr": {"text": "Les combinaisons de protection en cuir pour motards sont capables de résister :", "options": ["Au frottement sur le gravier et l'asphalte en cas de chute", "Au feu", "À la conduite rapide entre les véhicules"]}
+    }
+  },
+  {
+    "id": 3,
+    "topic": "gear",
+    "explanation": {
+      "ar": "القفازات الخاصة بالدراجات النارية تحمي يديك من الإصابة إذا سقطت، وتحميهما من البرد أثناء القيادة.",
+      "en": "Motorcycle gloves protect your hands from injury if you fall, and protect them from the cold while riding.",
+      "fr": "Les gants de moto protègent vos mains des blessures en cas de chute et les protègent du froid pendant la conduite."
+    },
+    "whyWrong": {
+      "ar": [null, "القفازات أداة لحماية الجسم، ولا تعطيك أي حماية قانونية أو اعتراف من شركات التأمين.", "التحكم بالمقود على المنحنيات يأتي من تقنية القيادة الصحيحة، وليس هذا هدف القفازات."],
+      "en": [null, "Gloves protect the body; they give you no legal protection or recognition from insurance companies.", "Controlling the handlebars in bends comes from good riding technique; that is not what gloves are for."],
+      "fr": [null, "Les gants protègent le corps ; ils ne donnent aucune protection juridique ni reconnaissance des assurances.", "Contrôler le guidon dans les virages dépend de la bonne technique de conduite ; ce n'est pas le rôle des gants."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {"text": "Wearing gloves made for motorcyclists gives the rider:", "options": ["Protection of the hands from injury and from cold", "Legal protection and recognition by insurance companies in the event of a collision", "Control of the handlebars on bends"]},
+      "fr": {"text": "Le port de gants spéciaux pour motards assure au motard :", "options": ["La protection des mains contre les blessures et le froid", "Une protection juridique et la reconnaissance des compagnies d'assurance en cas de collision", "Le contrôle du guidon dans les virages"]}
+    }
+  },
+  {
+    "id": 4,
+    "topic": "gear",
+    "explanation": {
+      "ar": "الحذاء الخاص بالدراجات النارية يغطي القدم وأسفل الساق (القصبة). يحميهما من الإصابة عند السقوط، ومن الماء والبرد.",
+      "en": "Motorcycle boots cover the foot and the lower leg (shin). They protect them from injury in a fall, and from water and cold.",
+      "fr": "Les bottes de moto couvrent le pied et le bas de la jambe (tibia). Elles les protègent des blessures en cas de chute, ainsi que de l'eau et du froid."
+    },
+    "whyWrong": {
+      "ar": ["الحذاء لا يصل إلى الركبة والفخذ، فهو يحمي القدمين والقصبة.", "الحماية من الغبار ليست الهدف الأساسي، فالحذاء يحمي من الإصابة أيضًا.", null],
+      "en": ["Boots do not reach the knee and thigh; they protect the feet and shins.", "Protection from dust is not the main purpose; boots also protect against injury.", null],
+      "fr": ["Les bottes ne montent pas jusqu'au genou et à la cuisse ; elles protègent les pieds et les tibias.", "La protection contre la poussière n'est pas le but principal ; les bottes protègent aussi des blessures.", null]
+    },
+    "tip": null,
+    "translation": {
+      "en": {"text": "Wearing boots made for motorcyclists gives the rider protection for:", "options": ["The knee and thigh, from water and cold", "The legs, from dust", "The feet and shins, from injury, and from water and cold"]},
+      "fr": {"text": "Le port de bottes spéciales pour motards protège le motard au niveau :", "options": ["Du genou et de la cuisse, contre l'eau et le froid", "Des jambes, contre la poussière", "Des pieds et des tibias, contre les blessures, l'eau et le froid"]}
+    }
+  },
+  {
+    "id": 5,
+    "topic": "gear",
+    "explanation": {
+      "ar": "واقي العمود الفقري يحمي الظهر عند السقوط أو الاصطدام. هدفه حماية العمود الفقري والنخاع الشوكي من الإصابة، لأن إصابتهما قد تكون خطيرة جدًا.",
+      "en": "A spine protector protects your back in a fall or crash. Its purpose is to protect the spine and spinal cord from injury, because injuries there can be very serious.",
+      "fr": "La protection dorsale protège votre dos en cas de chute ou de choc. Son rôle est de protéger la colonne vertébrale et la moelle épinière des blessures, car ces blessures peuvent être très graves."
+    },
+    "whyWrong": {
+      "ar": ["الواقي مخصص للظهر وليس للصدر والبطن، وهدفه ليس الحماية من الحر والبرد.", "العضو المحمي صحيح، لكن الواقي يحمي من الإصابة وليس من المطر.", null],
+      "en": ["The protector is for the back, not the chest and abdomen, and it is not meant for heat and cold.", "The body part is right, but the protector guards against injury, not rain.", null],
+      "fr": ["La protection dorsale protège le dos, pas la poitrine et le ventre, et elle n'est pas faite contre la chaleur et le froid.", "La partie du corps est juste, mais la protection agit contre les blessures, pas contre la pluie.", null]
+    },
+    "tip": {
+      "ar": "انتبه: الخياران الثاني والثالث يبدآن بالكلمات نفسها. الفرق في النهاية: الحماية من الإصابة وليس من المطر.",
+      "en": "Careful: the second and third options start with the same words. The difference is at the end: protection from injury, not from rain.",
+      "fr": "Attention : la deuxième et la troisième réponse commencent par les mêmes mots. La différence est à la fin : protection contre les blessures, pas contre la pluie."
+    },
+    "translation": {
+      "en": {"text": "Wearing a spine protector made for motorcyclists gives the rider protection for:", "options": ["The chest and abdomen, from heat and cold", "The spine and spinal cord, from rain", "The spine and spinal cord, from injury"]},
+      "fr": {"text": "Le port d'une protection dorsale spéciale pour motards protège le motard au niveau :", "options": ["De la poitrine et du ventre, contre la chaleur et le froid", "De la colonne vertébrale et de la moelle épinière, contre la pluie", "De la colonne vertébrale et de la moelle épinière, contre les blessures"]}
+    }
+  },
+  {
+    "id": 6,
+    "topic": "gear",
+    "explanation": {
+      "ar": "النظارات الواقية تحمي العينين مما يضربهما أثناء القيادة، مثل الريح والرمال والأمطار والحشرات. هذا يساعدك على الرؤية بوضوح والتحكم بالدراجة.",
+      "en": "Goggles protect your eyes from things that hit them while riding, such as wind, sand, rain and insects. This helps you see clearly and stay in control.",
+      "fr": "Les lunettes de protection protègent vos yeux de ce qui les frappe en roulant, comme le vent, le sable, la pluie et les insectes. Cela vous aide à bien voir et à garder le contrôle."
+    },
+    "whyWrong": {
+      "ar": ["النظارات تحمي العينين، ولا علاقة لها بحماية الأذنين.", null, "ذرف الدموع ليس الخطر الأساسي؛ النظارات تحمي العينين من الريح والرمال والأمطار والحشرات."],
+      "en": ["Goggles protect the eyes; they have nothing to do with protecting the ears.", null, "Tears are not the main danger; goggles protect the eyes from wind, sand, rain and insects."],
+      "fr": ["Les lunettes protègent les yeux ; elles n'ont rien à voir avec les oreilles.", null, "Les larmes ne sont pas le danger principal ; les lunettes protègent les yeux du vent, du sable, de la pluie et des insectes."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {"text": "Wearing protective goggles made for motorcyclists gives the rider protection for:", "options": ["The ears, from cold", "The eyes, from wind, sand, rain and insects", "The eyes, from shedding tears"]},
+      "fr": {"text": "Le port de lunettes de protection spéciales pour motards protège le motard au niveau :", "options": ["Des oreilles, contre le froid", "Des yeux, contre le vent, le sable, la pluie et les insectes", "Des yeux, contre les larmes"]}
+    }
+  },
+  {
+    "id": 7,
+    "topic": "gear",
+    "explanation": {
+      "ar": "الخوذة تحمي الرأس عند السقوط أو الاصطدام. إصابات الرأس من أخطر الإصابات وقد تكون قاتلة، والخوذة تقلل هذا الخطر كثيرًا.",
+      "en": "The helmet protects your head in a fall or crash. Head injuries are among the most serious and can be fatal, and a helmet greatly reduces this risk.",
+      "fr": "Le casque protège votre tête en cas de chute ou de choc. Les blessures à la tête sont parmi les plus graves et peuvent être mortelles ; le casque réduit beaucoup ce risque."
+    },
+    "whyWrong": {
+      "ar": ["الخوذة تحمي الرأس وليس العمود الفقري؛ للظهر واقٍ خاص به.", "الحماية من الضوضاء ليست الهدف الأساسي للخوذة.", null],
+      "en": ["A helmet protects the head, not the spine; the back has its own protector.", "Protection from noise is not the main purpose of a helmet.", null],
+      "fr": ["Le casque protège la tête, pas la colonne vertébrale ; le dos a sa propre protection.", "Se protéger du bruit n'est pas le rôle principal du casque.", null]
+    },
+    "tip": null,
+    "translation": {
+      "en": {"text": "The protective helmet made for motorcyclists gives the rider protection for:", "options": ["The spine", "The sense of hearing, from traffic noise", "The head, from fatal injuries"]},
+      "fr": {"text": "Le casque de protection spécial pour motards protège le conducteur au niveau :", "options": ["De la colonne vertébrale", "De l'ouïe, contre le bruit de la circulation", "De la tête, contre les blessures mortelles"]}
+    }
+  },
+  {
+    "id": 8,
+    "topic": "law_penalties",
+    "explanation": {
+      "ar": "القانون يُلزم سائق الدراجة النارية بارتداء الخوذة وربطها بشكل كامل أثناء القيادة. لذلك عدم ارتدائها، أو ربطها جزئيًا، أو تركها دون ربط، كلها مخالفة قانونية.",
+      "en": "The law requires a motorcycle rider to wear a helmet and fasten it fully while riding. So not wearing it, fastening it only partly, or leaving it unfastened are all legal offences.",
+      "fr": "La loi oblige le motard à porter un casque et à l'attacher complètement pendant la conduite. Ne pas le porter, l'attacher partiellement ou ne pas l'attacher du tout sont donc des infractions."
+    },
+    "whyWrong": {
+      "ar": ["هذا التصرف ليس طبيعيًا، بل يخالف القانون ويعرّضك لخطر كبير.", null, "هذا التصرف ليس قانونيًا، فالقانون يفرض ارتداء الخوذة وربطها."],
+      "en": ["This is not normal behaviour; it breaks the law and puts you at great risk.", null, "This is not lawful; the law requires the helmet to be worn and fastened."],
+      "fr": ["Ce n'est pas un comportement normal ; c'est contraire à la loi et très dangereux.", null, "Ce n'est pas légal ; la loi impose de porter le casque et de l'attacher."]
+    },
+    "tip": {
+      "ar": "انتبه: الخوذة غير المربوطة أو المربوطة جزئيًا تُعتبر مخالفة أيضًا، وليس فقط عدم ارتدائها.",
+      "en": "Careful: an unfastened or partly fastened helmet is also an offence, not just riding without one.",
+      "fr": "Attention : un casque non attaché ou partiellement attaché est aussi une infraction, pas seulement l'absence de casque."
+    },
+    "translation": {
+      "en": {"text": "A motorcycle rider not wearing a helmet while riding, or wearing it partly fastened or not fastened at all:", "options": ["Is considered normal", "Is considered a legal offence", "Is considered lawful behaviour"]},
+      "fr": {"text": "Le fait, pour un motard, de ne pas porter de casque en roulant, ou de le porter partiellement attaché ou pas attaché du tout :", "options": ["Est considéré comme normal", "Est considéré comme une infraction à la loi", "Est considéré comme un comportement légal"]}
+    }
+  },
+  {
+    "id": 9,
+    "topic": "law_penalties",
+    "explanation": {
+      "ar": "الخوذة لا تحميك إلا إذا كانت على رأسك ومربوطة جيدًا. لذلك لا يكفي حملها، ويبقى السائق مسؤولًا أمام القانون إذا لم يرتدِها ويربطها بشكل صحيح.",
+      "en": "A helmet only protects you if it is on your head and properly fastened. So just carrying it is not enough, and the rider remains legally liable if he does not wear and fasten it correctly.",
+      "fr": "Un casque ne protège que s'il est sur la tête et bien attaché. Le transporter ne suffit donc pas, et le conducteur reste responsable devant la loi s'il ne le porte pas et ne l'attache pas correctement."
+    },
+    "whyWrong": {
+      "ar": ["حمل الخوذة دون ارتدائها لا يعفيك من المساءلة، فالمطلوب هو ارتداؤها وربطها.", null, "هذا ليس تصرفًا منطقيًا، لأن الخوذة المحمولة باليد أو على الدراجة لا تحمي رأسك."],
+      "en": ["Carrying a helmet without wearing it does not exempt you; you must wear and fasten it.", null, "This is not sensible, because a helmet carried in your hand or on the bike does not protect your head."],
+      "fr": ["Transporter un casque sans le porter ne vous exonère pas ; il faut le porter et l'attacher.", null, "Ce n'est pas logique, car un casque tenu à la main ou posé sur la moto ne protège pas votre tête."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {"text": "Merely carrying a motorcycle helmet, without wearing it and fastening it correctly while riding:", "options": ["Exempts the rider from legal liability", "Does not exempt the rider from legal liability", "Is sensible behaviour on the rider's part"]},
+      "fr": {"text": "Le simple fait de transporter un casque de moto, sans le porter ni l'attacher correctement pendant la conduite :", "options": ["Exonère le conducteur de sa responsabilité légale", "N'exonère pas le conducteur de sa responsabilité légale", "Est un comportement logique de la part du conducteur"]}
+    }
+  },
+  {
+    "id": 10,
+    "topic": "gear",
+    "explanation": {
+      "ar": "في الليل يصعب على السائقين الآخرين رؤية الدراجة النارية. البدلة الفوسفورية تلمع عندما يصيبها الضوء، فيراك الآخرون من مسافة أبعد.",
+      "en": "At night, other drivers find it hard to see a motorcycle. A fluorescent suit shines when light hits it, so others can see you from further away.",
+      "fr": "La nuit, les autres conducteurs voient difficilement une moto. Une combinaison fluorescente brille quand la lumière l'éclaire, ce qui vous rend visible de plus loin."
+    },
+    "whyWrong": {
+      "ar": ["الملابس الداكنة تجعلك شبه مخفي في الليل، وهذا خطير.", null, "الملابس الرياضية العادية لا تجعلك ظاهرًا في الليل ولا تحميك."],
+      "en": ["Dark clothing makes you almost invisible at night, which is dangerous.", null, "Ordinary sportswear does not make you visible at night and does not protect you."],
+      "fr": ["Les vêtements sombres vous rendent presque invisible la nuit, ce qui est dangereux.", null, "Une tenue de sport ordinaire ne vous rend pas visible la nuit et ne vous protège pas."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {"text": "When riding at night, a motorcycle rider must wear:", "options": ["Ordinary dark-coloured clothes", "A special fluorescent suit", "Sportswear"]},
+      "fr": {"text": "Lors de la conduite de nuit, le motard doit porter :", "options": ["Des vêtements ordinaires de couleur sombre", "Une combinaison fluorescente spéciale", "Des vêtements de sport"]}
+    }
+  },
+  {
+    "id": 11,
+    "topic": "gear",
+    "explanation": {
+      "ar": "الشرائط والإشارات العاكسة تعكس ضوء مصابيح المركبات الأخرى، فيراك سائقوها بسهولة في الظلام.",
+      "en": "Reflective strips and markings reflect the light from other vehicles' headlights, so their drivers can easily see you in the dark.",
+      "fr": "Les bandes et marquages réfléchissants renvoient la lumière des phares des autres véhicules, ce qui permet à leurs conducteurs de vous voir facilement dans le noir."
+    },
+    "whyWrong": {
+      "ar": [null, "إطفاء الأنوار ليلًا خطير جدًا، فالأنوار ضرورية لترى ويراك الآخرون.", "صرير الفرامل لا يجعل الآخرين يرونك، ولا علاقة له بالرؤية في الليل."],
+      "en": [null, "Switching off your lights at night is very dangerous; you need them to see and be seen.", "Squealing brakes do not make others see you; they have nothing to do with visibility at night."],
+      "fr": [null, "Éteindre ses feux la nuit est très dangereux ; ils servent à voir et à être vu.", "Des freins qui grincent ne vous rendent pas visible ; cela n'a rien à voir avec la visibilité de nuit."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {"text": "While riding, and so that others can see him at night, the motorcycle rider is advised to:", "options": ["Put on reflective strips or markings", "Switch off his lights and put on reflective markings", "Make his brakes squeal"]},
+      "fr": {"text": "Pendant la conduite, et pour que les autres puissent le voir la nuit, il est conseillé au motard de :", "options": ["Porter des bandes ou des marquages réfléchissants", "Éteindre ses feux et porter des marquages réfléchissants", "Faire grincer ses freins"]}
+    }
+  },
+  {
+    "id": 12,
+    "topic": "maintenance",
+    "explanation": {
+      "ar": "الفرامل الهيدروليكية تعمل بواسطة زيت الفرامل. إذا انخفض مستوى هذا الزيت تضعف الفرامل، لذلك يجب فحصه بشكل دوري.",
+      "en": "Hydraulic brakes work using brake fluid. If the fluid level drops, the brakes become weaker, so it must be checked regularly.",
+      "fr": "Les freins hydrauliques fonctionnent grâce au liquide de frein. Si son niveau baisse, le freinage s'affaiblit ; il faut donc le vérifier régulièrement."
+    },
+    "whyWrong": {
+      "ar": [null, "التخفيف من استعمال الفرامل ليس صيانة، ويجب استعمالها كلما احتجت إليها.", "سلك الفرامل موجود في الفرامل التي تعمل بالأسلاك، وليس في النظام الهيدروليكي."],
+      "en": [null, "Using the brakes less is not maintenance; you must brake whenever you need to.", "A brake cable belongs to cable-operated brakes, not to a hydraulic system."],
+      "fr": [null, "Freiner moins n'est pas de l'entretien ; il faut freiner chaque fois que c'est nécessaire.", "Le câble de frein concerne les freins à câble, pas un système hydraulique."]
+    },
+    "tip": {
+      "ar": "لا تخلط بين النوعين: الفرامل الهيدروليكية = فحص مستوى الزيت، والفرامل التي تعمل بالأسلاك = ضبط السلك.",
+      "en": "Don't mix up the two types: hydraulic brakes = check the fluid level; cable-operated brakes = adjust the cable.",
+      "fr": "Ne confondez pas : freins hydrauliques = vérifier le niveau du liquide ; freins à câble = régler le câble."
+    },
+    "translation": {
+      "en": {"text": "If the motorcycle is fitted with a hydraulic braking system, you must regularly:", "options": ["Check the brake fluid level", "Use the brakes less", "Adjust the brake cable"]},
+      "fr": {"text": "Si la moto est équipée d'un système de freinage hydraulique, il faut régulièrement :", "options": ["Vérifier le niveau du liquide de frein", "Moins utiliser les freins", "Régler le câble de frein"]}
+    }
+  },
+  {
+    "id": 13,
+    "topic": "maintenance",
+    "explanation": {
+      "ar": "القاعدة هي ألا يقل عمق النقوشات على إطار الدراجة النارية عن 3 مليمتر. النقوشات تساعد الإطار على التماسك مع الطريق، خاصة عندما يكون مبللًا.",
+      "en": "The rule is that the tread depth on a motorcycle tyre must not be less than 3 millimetres. The tread helps the tyre grip the road, especially when it is wet.",
+      "fr": "La règle est que la profondeur des sculptures d'un pneu de moto ne doit pas être inférieure à 3 millimètres. Les sculptures aident le pneu à adhérer à la route, surtout quand elle est mouillée."
+    },
+    "whyWrong": {
+      "ar": ["5 مليمتر ليس الحد الأدنى المطلوب؛ الحد الأدنى هو 3 مليمتر.", null, "6 مليمتر ليس الحد الأدنى المطلوب؛ الحد الأدنى هو 3 مليمتر."],
+      "en": ["5 millimetres is not the required minimum; the minimum is 3 millimetres.", null, "6 millimetres is not the required minimum; the minimum is 3 millimetres."],
+      "fr": ["5 millimètres n'est pas le minimum exigé ; le minimum est de 3 millimètres.", null, "6 millimètres n'est pas le minimum exigé ; le minimum est de 3 millimètres."]
+    },
+    "tip": {
+      "ar": "احفظ الرقم جيدًا: 3 مليمتر. الأرقام القريبة مثل 5 و6 موجودة للتشويش عليك.",
+      "en": "Memorise the number: 3 millimetres. The nearby numbers like 5 and 6 are there to confuse you.",
+      "fr": "Retenez bien le chiffre : 3 millimètres. Les chiffres proches comme 5 et 6 sont là pour vous piéger."
+    },
+    "translation": {
+      "en": {"text": "The minimum tread depth on a motorcycle tyre must not be less than:", "options": ["5 millimetres", "3 millimetres", "6 millimetres"]},
+      "fr": {"text": "La profondeur minimale des sculptures d'un pneu de moto ne doit pas être inférieure à :", "options": ["5 millimètres", "3 millimètres", "6 millimètres"]}
+    }
+  },
+  {
+    "id": 14,
+    "topic": "control",
+    "explanation": {
+      "ar": "عندما تجلس قريبًا من المقود تصل إليه يداك بسهولة دون أن تمدّ ذراعيك كثيرًا. هكذا تستطيع توجيه الدراجة براحة وسيطرة أفضل.",
+      "en": "When you sit close to the handlebars, your hands reach them easily without stretching your arms too far. This lets you steer comfortably and with better control.",
+      "fr": "Quand vous êtes assis près du guidon, vos mains l'atteignent facilement sans trop tendre les bras. Vous pouvez ainsi diriger la moto confortablement et avec un meilleur contrôle."
+    },
+    "whyWrong": {
+      "ar": ["الجلوس بعيدًا عن المقود يجعل ذراعيك ممدودتين ومتوترتين، فيصعب التوجيه.", null, "الإمساك بيد واحدة يضعف السيطرة على الدراجة، ويجب الإمساك بالمقود باليدين."],
+      "en": ["Sitting far from the handlebars leaves your arms stretched and tense, making steering harder.", null, "Holding the handlebars with one hand weakens control; you must use both hands."],
+      "fr": ["Être assis loin du guidon tend et crispe les bras, ce qui rend la direction plus difficile.", null, "Tenir le guidon d'une seule main réduit le contrôle ; il faut le tenir à deux mains."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {"text": "To be able to steer the handlebars without difficulty, the motorcycle rider should:", "options": ["Sit far from the handlebars", "Sit close to the handlebars", "Hold the handlebars with one hand"]},
+      "fr": {"text": "Pour pouvoir diriger le guidon sans difficulté, le motard doit :", "options": ["S'asseoir loin du guidon", "S'asseoir près du guidon", "Tenir le guidon d'une seule main"]}
+    }
+  },
+  {
+    "id": 15,
+    "topic": "control",
+    "explanation": {
+      "ar": "مقبض التسارع (البنزين) موجود في الجهة اليمنى من المقود. عندما يكون معصمك الأيمن إلى الأسفل، يقلّ خطر أن تفتح البنزين وتزيد السرعة بالخطأ.",
+      "en": "The throttle is on the right side of the handlebars. With your right wrist held down, you are much less likely to open the throttle and speed up by mistake.",
+      "fr": "La poignée d'accélérateur est du côté droit du guidon. Avec le poignet droit vers le bas, vous risquez beaucoup moins d'accélérer par erreur."
+    },
+    "whyWrong": {
+      "ar": [null, "المعصم الأيمن إلى الأعلى يجعل من السهل أن تلفّ المقبض وتزيد السرعة بالخطأ.", "المقبض الأيسر لا يتحكم بالسرعة، فوضعية المعصم الأيسر لا تمنع زيادة السرعة بالخطأ."],
+      "en": [null, "A raised right wrist makes it easy to twist the grip and speed up by mistake.", "The left grip does not control speed, so the position of the left wrist does not prevent accidental acceleration."],
+      "fr": [null, "Un poignet droit vers le haut permet facilement de tourner la poignée et d'accélérer par erreur.", "La poignée gauche ne commande pas la vitesse ; la position du poignet gauche n'empêche donc pas d'accélérer par erreur."]
+    },
+    "tip": {
+      "ar": "تذكّر: مقبض التسارع دائمًا في اليد اليمنى، والمعصم الأيمن يكون إلى الأسفل.",
+      "en": "Remember: the throttle is always in the right hand, and the right wrist goes down.",
+      "fr": "Retenez : l'accélérateur est toujours dans la main droite, et le poignet droit va vers le bas."
+    },
+    "translation": {
+      "en": {"text": "So that you do not increase speed by mistake while riding, you should hold the motorcycle's handlebar grip so that the wrist of your:", "options": ["Right hand is downwards", "Right hand is upwards", "Left hand is upwards"]},
+      "fr": {"text": "Pour ne pas augmenter la vitesse par erreur en roulant, vous devez tenir la poignée du guidon de façon que le poignet de votre main :", "options": ["Droite soit vers le bas", "Droite soit vers le haut", "Gauche soit vers le haut"]}
+    }
+  },
+  {
+    "id": 16,
+    "topic": "control",
+    "explanation": {
+      "ar": "استخدام الفرامل الأمامية والخلفية معًا يعطي أقوى قدرة على التوقف. هكذا تتوقف الدراجة في مسافة أقصر وبثبات أكبر.",
+      "en": "Using the front and rear brakes together gives the strongest stopping power. The motorcycle then stops in a shorter distance and more steadily.",
+      "fr": "Utiliser les freins avant et arrière ensemble donne la meilleure puissance de freinage. La moto s'arrête alors sur une distance plus courte et de façon plus stable."
+    },
+    "whyWrong": {
+      "ar": ["الضغط بالقدم على الإسفلت لا يوقف الدراجة، وقد يسبب لك إصابة ويُفقدك التوازن.", "الفرامل الخلفية وحدها أضعف بكثير، فتحتاج الدراجة إلى مسافة أطول للتوقف.", null],
+      "en": ["Pressing your foot on the asphalt does not stop the bike and can injure you and make you lose balance.", "The rear brake alone is much weaker, so the bike needs a longer distance to stop.", null],
+      "fr": ["Appuyer le pied sur l'asphalte n'arrête pas la moto et peut vous blesser et vous déséquilibrer.", "Le frein arrière seul est beaucoup moins efficace ; la moto a besoin d'une distance plus longue pour s'arrêter.", null]
+    },
+    "tip": null,
+    "translation": {
+      "en": {"text": "The brakes are at their most effective when the motorcycle rider uses:", "options": ["His foot, pressing it on the asphalt", "The rear brake only", "The rear and front brakes"]},
+      "fr": {"text": "Le freinage est le plus efficace lorsque le motard utilise :", "options": ["Son pied en appuyant sur l'asphalte", "Le frein arrière seulement", "Les freins arrière et avant"]}
+    }
+  },
+  {
+    "id": 17,
+    "topic": "control",
+    "explanation": {
+      "ar": "إذا كانت سرعتك مناسبة للطريق والظروف، تستطيع أن تفرمل بهدوء دون أن تنزلق العجلات. أما السرعة الزائدة فتجبرك على فرملة قوية ومفاجئة قد تسبب الانزلاق.",
+      "en": "If your speed suits the road and conditions, you can brake smoothly without the wheels skidding. Too much speed forces you to brake hard and suddenly, which can cause a skid.",
+      "fr": "Si votre vitesse est adaptée à la route et aux conditions, vous pouvez freiner en douceur sans que les roues glissent. Une vitesse excessive oblige à freiner fort et brusquement, ce qui peut provoquer un dérapage."
+    },
+    "whyWrong": {
+      "ar": ["الفرملة في المنعطف تزيد خطر الانزلاق ولا تقلله.", null, "السير في خط مستقيم يساعد، لكنه لا يكفي وحده لمنع الانزلاق إذا كانت السرعة غير مناسبة."],
+      "en": ["Braking in a bend increases the risk of skidding rather than reducing it.", null, "Going straight helps, but on its own it does not prevent a skid if your speed is not suitable."],
+      "fr": ["Freiner dans un virage augmente le risque de dérapage au lieu de le réduire.", null, "Rouler en ligne droite aide, mais cela ne suffit pas à éviter un dérapage si la vitesse n'est pas adaptée."]
+    },
+    "tip": {
+      "ar": "لا تخلط هذا السؤال مع سؤال «كيف تستخدم الفرامل في ظروف القيادة العادية» حيث الجواب هو الخط المستقيم. هنا الجواب الصحيح هو «بسرعة مناسبة».",
+      "en": "Don't confuse this with the question on using the brakes in normal riding conditions, where the answer is the straight line. Here the correct answer is “at a suitable speed”.",
+      "fr": "Ne confondez pas avec la question sur l'utilisation des freins en conditions normales, où la réponse est la ligne droite. Ici, la bonne réponse est « à une vitesse adaptée »."
+    },
+    "translation": {
+      "en": {"text": "To avoid skidding when using the motorcycle's brakes, the motorcycle should be travelling:", "options": ["In a bend", "At a suitable speed", "In a straight line"]},
+      "fr": {"text": "Pour éviter de déraper en utilisant les freins, la moto doit rouler :", "options": ["Dans un virage", "À une vitesse adaptée", "En ligne droite"]}
+    }
+  },
+  {
+    "id": 18,
+    "topic": "control",
+    "explanation": {
+      "ar": "الطريق الزلق يقلل تماسك الإطارات مع الأرض. وردة الفعل العصبية، مثل الفرملة القوية المفاجئة أو تحريك المقود بعنف، تُفقد العجلات تماسكها. لذلك هذان هما السببان الرئيسيان للانزلاق.",
+      "en": "A slippery road reduces the tyres' grip. A nervous reaction, such as sudden hard braking or jerking the handlebars, makes the wheels lose grip. That is why these are the two main causes of skidding.",
+      "fr": "Une route glissante réduit l'adhérence des pneus. Une réaction nerveuse, comme un freinage brusque ou un coup de guidon violent, fait perdre l'adhérence aux roues. Ce sont donc les deux causes principales du dérapage."
+    },
+    "whyWrong": {
+      "ar": ["السرعة البطيئة والترس المنخفض لا يسببان الانزلاق عادة.", null, "قوة المحرك وارتفاع المقود ليسا السببين الرئيسيين للانزلاق."],
+      "en": ["Low speed and a low gear do not usually cause skidding.", null, "A fast engine and high handlebars are not the main causes of skidding."],
+      "fr": ["Une vitesse lente et un rapport bas ne provoquent généralement pas de dérapage.", null, "Un moteur rapide et un guidon haut ne sont pas les causes principales du dérapage."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {"text": "There are two main causes of a motorcycle skidding while riding. They are:", "options": ["Low speed and a low gear", "A slippery road surface and a nervous reaction", "A fast engine and high handlebars"]},
+      "fr": {"text": "Il y a deux causes principales du dérapage d'une moto en roulant. Ce sont :", "options": ["Une vitesse lente et un rapport bas", "Une chaussée glissante et une réaction nerveuse", "Un moteur rapide et un guidon haut"]}
+    }
+  },
+  {
+    "id": 19,
+    "topic": "road_conditions",
+    "explanation": {
+      "ar": "في الليل ترى مسافة أقصر، ويصعب عليك رؤية الأخطار في الوقت المناسب. لذلك خفف سرعتك واترك مسافة توقف أكبر حتى يكون لديك وقت كافٍ للتوقف.",
+      "en": "At night you cannot see as far, and it is harder to spot hazards in time. So slow down and leave a greater stopping distance, so that you have enough time to stop.",
+      "fr": "La nuit, vous voyez moins loin et il est plus difficile de repérer les dangers à temps. Ralentissez donc et laissez une plus grande distance d'arrêt pour avoir le temps de vous arrêter."
+    },
+    "whyWrong": {
+      "ar": [null, "زيادة السرعة ليلًا خطيرة، لأن رؤيتك تكون محدودة.", "تخفيف السرعة صحيح، لكن مسافة التوقف يجب أن تكون أكبر وليس أقل."],
+      "en": [null, "Speeding up at night is dangerous because your vision is limited.", "Slowing down is right, but the stopping distance should be greater, not shorter."],
+      "fr": [null, "Accélérer la nuit est dangereux, car votre vision est limitée.", "Ralentir est juste, mais la distance d'arrêt doit être plus grande, pas plus courte."]
+    },
+    "tip": {
+      "ar": "انتبه: الخياران الأول والثالث يبدآن بـ«تخفف سرعتك». الفرق في كلمة «أكبر» أو «أقل»، والصحيح «أكبر».",
+      "en": "Careful: the first and third options both start with “slow down”. The difference is “greater” or “shorter”, and the right one is “greater”.",
+      "fr": "Attention : la première et la troisième réponse commencent toutes deux par « ralentir ». La différence est « plus grande » ou « plus courte », et la bonne est « plus grande »."
+    },
+    "translation": {
+      "en": {"text": "When you ride your motorcycle at night, you should:", "options": ["Slow down and leave a greater stopping distance", "Speed up and use dipped headlights", "Slow down and leave a shorter stopping distance"]},
+      "fr": {"text": "Quand vous conduisez votre moto la nuit, vous devez :", "options": ["Ralentir et laisser une plus grande distance d'arrêt", "Accélérer et utiliser les feux de croisement", "Ralentir et laisser une distance d'arrêt plus courte"]}
+    }
+  },
+  {
+    "id": 20,
+    "topic": "maintenance",
+    "explanation": {
+      "ar": "إذا كانت إحدى العجلتين أو أحد الإطارين ملتويًا، تهتز الدراجة وتتمايل أثناء السير. لذلك يكون هذا عادة سبب الردف.",
+      "en": "If one of the wheels or tyres is twisted, the motorcycle shakes and wobbles while moving. That is why this is usually the cause of wobbling.",
+      "fr": "Si l'une des roues ou l'un des pneus est déformé, la moto vibre et oscille en roulant. C'est pourquoi c'est généralement la cause des oscillations."
+    },
+    "whyWrong": {
+      "ar": [null, "دوران العجلتين على المحور نفسه وضع طبيعي، ولا يسبب الردف.", "التوزيع السيئ للحمولة يؤثر على التوازن، لكن السبب المعتاد للردف هو التواء العجلة أو الإطار."],
+      "en": [null, "Both wheels turning on the same axis is normal and does not cause wobbling.", "Poor load distribution affects balance, but the usual cause of wobbling is a twisted wheel or tyre."],
+      "fr": [null, "Que les deux roues tournent sur le même axe est normal et ne provoque pas d'oscillations.", "Une mauvaise répartition de la charge nuit à l'équilibre, mais la cause habituelle des oscillations est une roue ou un pneu déformé."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {"text": "Wobbling of a motorcycle while riding is usually caused by:", "options": ["A twist in at least one wheel or one tyre", "Both wheels turning on the same axis", "Poor load distribution"]},
+      "fr": {"text": "Les oscillations d'une moto en roulant sont généralement causées par :", "options": ["La déformation d'au moins une roue ou un pneu", "La rotation des deux roues sur le même axe", "Une mauvaise répartition de la charge"]}
+    }
+  },
+  {
+    "id": 21,
+    "topic": "control",
+    "explanation": {
+      "ar": "الزيت والحصى والحفر أخطار موجودة على الطريق، لكن ما يحوّلها إلى حادث هو غالبًا السرعة غير المناسبة. إذا كانت سرعتك مناسبة، يكون لديك وقت لرؤية الخطر والتصرف بأمان.",
+      "en": "Oil, gravel and potholes are hazards on the road, but what usually turns them into a crash is unsuitable speed. If your speed is suitable, you have time to see the hazard and react safely.",
+      "fr": "L'huile, le gravier et les nids-de-poule sont des dangers sur la route, mais ce qui les transforme le plus souvent en accident, c'est une vitesse inadaptée. Avec une vitesse adaptée, vous avez le temps de voir le danger et de réagir en sécurité."
+    },
+    "whyWrong": {
+      "ar": ["الزيوت والحصى خطر حقيقي، لكن الجواب المطلوب هو السبب الذي يتحكم به السائق: السرعة غير المناسبة.", null, "الحفر خطر حقيقي، لكن السرعة المناسبة تسمح لك بتفاديها؛ السبب المطلوب هو السرعة غير المناسبة."],
+      "en": ["Oil and gravel are real hazards, but the expected answer is the cause the rider controls: unsuitable speed.", null, "Potholes are a real hazard, but a suitable speed lets you avoid them; the cause asked for is unsuitable speed."],
+      "fr": ["L'huile et le gravier sont de vrais dangers, mais la réponse attendue est la cause que le conducteur maîtrise : la vitesse inadaptée.", null, "Les nids-de-poule sont un vrai danger, mais une vitesse adaptée permet de les éviter ; la cause demandée est la vitesse inadaptée."]
+    },
+    "tip": {
+      "ar": "قد تبدو الخيارات الثلاثة صحيحة. اختر «السرعة غير المناسبة»، فهي السبب الأساسي الذي يحوّل أي خطر إلى حادث.",
+      "en": "All three options may seem correct. Choose “unsuitable speed”: it is the main cause that turns any hazard into a crash.",
+      "fr": "Les trois réponses peuvent sembler justes. Choisissez « la vitesse inadaptée » : c'est la cause principale qui transforme un danger en accident."
+    },
+    "translation": {
+      "en": {"text": "Among the causes that lead to a motorcycle crashing is the presence of:", "options": ["Oil and gravel on the road surface", "Unsuitable speed", "Potholes in the road"]},
+      "fr": {"text": "Parmi les causes qui entraînent l'accident d'une moto, il y a la présence de :", "options": ["Huile et gravier sur la chaussée", "Une vitesse inadaptée", "Des nids-de-poule sur la route"]}
+    }
+  },
+  {
+    "id": 22,
+    "topic": "traffic_rules",
+    "explanation": {
+      "ar": "التقاطعات من أخطر الأماكن لأن المركبات تأتي من عدة اتجاهات. تخفيف السرعة يعطيك وقتًا للرؤية والتصرف، واختيار المسرب الصحيح يجعل الآخرين يفهمون اتجاهك.",
+      "en": "Junctions are among the most dangerous places because vehicles come from several directions. Slowing down gives you time to look and react, and taking the correct lane lets others understand where you are going.",
+      "fr": "Les intersections sont parmi les endroits les plus dangereux, car les véhicules arrivent de plusieurs directions. Ralentir vous donne le temps d'observer et de réagir, et prendre la bonne voie permet aux autres de comprendre votre direction."
+    },
+    "whyWrong": {
+      "ar": [null, "المرايا مفيدة لكنها لا تكفي وحدها، ففيها نقاط عمياء، ويجب أن تنظر بنفسك أيضًا.", "المرور عن يمين المركبات المتوقفة خطير، فقد تنعطف يمينًا أو تخفي عنك مشاة أو مركبات أخرى."],
+      "en": [null, "Mirrors are useful but not enough on their own; they have blind spots, so you must also look for yourself.", "Passing on the right of stopped vehicles is dangerous; they may turn right or hide pedestrians or other vehicles from you."],
+      "fr": [null, "Les rétroviseurs sont utiles mais ne suffisent pas ; ils ont des angles morts, il faut aussi regarder soi-même.", "Passer à droite des véhicules arrêtés est dangereux : ils peuvent tourner à droite ou vous cacher des piétons ou d'autres véhicules."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {"text": "To avoid an accident on your motorcycle at junctions, you must:", "options": ["Slow down and take the correct lane", "Rely on the mirrors", "Pass on the right of vehicles stopped at the junction"]},
+      "fr": {"text": "Pour éviter un accident à moto aux intersections, vous devez :", "options": ["Ralentir et prendre la bonne voie", "Compter sur les rétroviseurs", "Passer à droite des véhicules arrêtés à l'intersection"]}
+    }
+  },
+  {
+    "id": 23,
+    "topic": "traffic_rules",
+    "explanation": {
+      "ar": "القاعدة هي أن التجاوز يكون من جهة اليسار. السائق الذي أمامك يتوقع ذلك ويراقب هذه الجهة، أما التجاوز من اليمين فخطير لأنه لا يتوقعه.",
+      "en": "The rule is that you overtake on the left. The driver in front expects this and watches that side; overtaking on the right is dangerous because he does not expect it.",
+      "fr": "La règle est de dépasser par la gauche. Le conducteur devant vous s'y attend et surveille ce côté ; dépasser par la droite est dangereux car il ne s'y attend pas."
+    },
+    "whyWrong": {
+      "ar": ["لا يحق لك التجاوز من أي جهة تشاء، فالقاعدة هي التجاوز من اليسار.", "التجاوز من اليمين خطير لأن السائق الذي أمامك لا يتوقعه.", null],
+      "en": ["You may not overtake on whichever side you like; the rule is to overtake on the left.", "Overtaking on the right is dangerous because the driver in front does not expect it.", null],
+      "fr": ["Vous ne pouvez pas dépasser du côté de votre choix ; la règle est de dépasser par la gauche.", "Dépasser par la droite est dangereux, car le conducteur devant ne s'y attend pas.", null]
+    },
+    "tip": null,
+    "translation": {
+      "en": {"text": "As a motorcyclist, you are allowed to overtake the vehicle in front of you:", "options": ["On any side", "On its right", "On its left"]},
+      "fr": {"text": "En tant que motard, vous avez le droit de dépasser le véhicule devant vous :", "options": ["Par n'importe quel côté", "Par sa droite", "Par sa gauche"]}
+    }
+  },
+  {
+    "id": 24,
+    "topic": "traffic_rules",
+    "explanation": {
+      "ar": "عندما تتجاوز مركبة عن يسارها، أخطر شيء هو أن تنعطف يسارًا فجأة، لأنها ستقطع طريقك مباشرة. لذلك راقب إشاراتها وحركتها قبل التجاوز وأثناءه.",
+      "en": "When you overtake a vehicle on its left, the biggest danger is that it suddenly turns left, because it will cut straight across your path. So watch its signals and movement before and during overtaking.",
+      "fr": "Quand vous dépassez un véhicule par la gauche, le plus grand danger est qu'il tourne brusquement à gauche, car il couperait directement votre trajectoire. Surveillez donc ses clignotants et ses mouvements avant et pendant le dépassement."
+    },
+    "whyWrong": {
+      "ar": ["تشغيل إشارات التحذير لا يقطع طريقك، فهو ليس الخطر الأساسي أثناء التجاوز.", "تخفيف السرعة تدريجيًا لا يشكل خطرًا كبيرًا عليك وأنت تتجاوز.", null],
+      "en": ["Switching on hazard lights does not cut across your path, so it is not the main danger when overtaking.", "Slowing down gradually is not a big danger to you while you overtake.", null],
+      "fr": ["Allumer les feux de détresse ne coupe pas votre trajectoire ; ce n'est pas le danger principal lors du dépassement.", "Ralentir progressivement ne représente pas un grand danger pour vous pendant le dépassement.", null]
+    },
+    "tip": null,
+    "translation": {
+      "en": {"text": "When you overtake a vehicle in front of you on its left with your motorcycle, be aware that this vehicle may:", "options": ["Switch on its hazard warning lights", "Slow down gradually", "Suddenly turn left"]},
+      "fr": {"text": "Quand vous dépassez à moto un véhicule devant vous par sa gauche, faites attention, car ce véhicule peut :", "options": ["Allumer ses feux de détresse", "Ralentir progressivement", "Tourner brusquement à gauche"]}
+    }
+  },
+  {
+    "id": 25,
+    "topic": "hazards",
+    "explanation": {
+      "ar": "المركبة القادمة من الاتجاه المعاكس قد تنعطف أمامك لتدخل طريقًا جانبيًا، وقد لا يرى سائقها الدراجة النارية لأنها صغيرة. لذلك كن مستعدًا للإبطاء أو التوقف.",
+      "en": "A vehicle coming the other way may turn across in front of you to enter a side road, and its driver may not see a motorcycle because it is small. So be ready to slow down or stop.",
+      "fr": "Un véhicule venant en sens inverse peut tourner devant vous pour entrer dans une rue latérale, et son conducteur peut ne pas voir la moto car elle est petite. Soyez donc prêt à ralentir ou à vous arrêter."
+    },
+    "whyWrong": {
+      "ar": [null, "توقف المركبة في مسارها لا يقطع طريقك، فهو ليس الخطر الأكبر عليك.", "الانعطاف بعيدًا عن مسارك لا يعرّضك للخطر."],
+      "en": [null, "A vehicle stopping in its own lane does not cut across your path, so it is not the main danger to you.", "Turning away from your path does not put you in danger."],
+      "fr": [null, "Un véhicule qui s'arrête dans sa voie ne coupe pas votre trajectoire ; ce n'est pas le principal danger pour vous.", "Tourner en s'éloignant de votre trajectoire ne vous met pas en danger."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {"text": "When you ride your motorcycle straight ahead, be aware that a vehicle coming from the opposite direction may:", "options": ["Suddenly turn into your path", "Suddenly stop in its lane", "Turn away from your path"]},
+      "fr": {"text": "Quand vous roulez tout droit à moto, faites attention, car un véhicule venant en sens inverse peut :", "options": ["Tourner brusquement sur votre trajectoire", "S'arrêter brusquement dans sa voie", "Tourner en s'éloignant de votre trajectoire"]}
+    }
+  },
+  {
+    "id": 26,
+    "topic": "rider_fitness",
+    "explanation": {
+      "ar": "القيادة المتعرجة بين المركبات تجعلك تظهر فجأة في أماكن لا يتوقعها السائقون، وغالبًا في نقاطهم العمياء. لذلك تزيد احتمال تورطك في حادث.",
+      "en": "Weaving between vehicles makes you appear suddenly where drivers do not expect you, often in their blind spots. That is why it increases your chance of being involved in an accident.",
+      "fr": "Zigzaguer entre les véhicules vous fait apparaître soudainement là où les conducteurs ne vous attendent pas, souvent dans leurs angles morts. Cela augmente donc le risque d'être impliqué dans un accident."
+    },
+    "whyWrong": {
+      "ar": [null, "القيادة المتعرجة لا تقلل الخطر، بل تزيده.", "القيادة المتعرجة لا تخفف الازدحام، بل تربك السائقين الآخرين."],
+      "en": [null, "Weaving does not reduce the risk; it increases it.", "Weaving does not ease congestion; it confuses other drivers."],
+      "fr": [null, "Zigzaguer ne réduit pas le risque ; au contraire, cela l'augmente.", "Zigzaguer ne réduit pas les embouteillages ; cela perturbe les autres conducteurs."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {"text": "When you ride your motorcycle zigzagging between vehicles, this:", "options": ["Increases the likelihood of your being involved in an accident", "Reduces the likelihood of your being involved in an accident", "Helps to ease congestion"]},
+      "fr": {"text": "Quand vous conduisez votre moto en zigzaguant entre les véhicules, cela :", "options": ["Augmente le risque que vous soyez impliqué dans un accident", "Réduit le risque que vous soyez impliqué dans un accident", "Aide à réduire les embouteillages"]}
+    }
+  },
+  {
+    "id": 27,
+    "topic": "law_penalties",
+    "explanation": {
+      "ar": "تفريغ العادم عمدًا ليصدر صوتًا مرتفعًا جدًا يُعتبر مخالفة قانونية صريحة. هذا الضجيج يزعج الناس ويخالف القانون.",
+      "en": "Deliberately gutting the exhaust so that it makes a very loud noise is a clear legal violation. This noise disturbs people and breaks the law.",
+      "fr": "Vider volontairement le pot d'échappement pour qu'il fasse un bruit très fort est une infraction claire. Ce bruit dérange les gens et est contraire à la loi."
+    },
+    "whyWrong": {
+      "ar": ["الضجيج المرتفع لا يدل على أفكار خلّاقة، بل هو مخالفة للقانون.", null, "هذا ليس مسموحًا قانونًا، بل هو مخالفة صريحة."],
+      "en": ["A very loud noise does not show creative ideas; it is against the law.", null, "This is not legally allowed; it is a clear violation."],
+      "fr": ["Un bruit très fort ne montre pas des idées créatives ; c'est contraire à la loi.", null, "Ce n'est pas autorisé par la loi ; c'est une infraction claire."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {"text": "When you ride a motorcycle whose exhaust has been deliberately gutted and makes a very loud noise, this:", "options": ["Shows that you have creative ideas", "Is considered a clear violation of the law", "Is legally permitted"]},
+      "fr": {"text": "Quand vous conduisez une moto dont le pot d'échappement a été volontairement vidé et fait un bruit très fort, cela :", "options": ["Montre que vous avez des idées créatives", "Est considéré comme une infraction claire à la loi", "Est autorisé par la loi"]}
+    }
+  },
+  {
+    "id": 28,
+    "topic": "traffic_rules",
+    "explanation": {
+      "ar": "في التقاطعات تلتقي المركبات من عدة اتجاهات، والدراجة النارية صغيرة ويسهل ألا يلاحظها السائقون. لذلك يجب الانتباه بشكل خاص هناك.",
+      "en": "At junctions vehicles meet from several directions, and a motorcycle is small and easy for drivers to miss. That is why special care is needed there.",
+      "fr": "Aux intersections, les véhicules arrivent de plusieurs directions, et une moto est petite et facile à ne pas remarquer. Il faut donc y être particulièrement attentif."
+    },
+    "whyWrong": {
+      "ar": [null, "يجب الانتباه عند معابر المشاة أيضًا، لكن الخطر الأكبر لتقاطع طرق المركبات والدراجات يكون عند التقاطعات.", "الطرق ذات الاتجاهين تحتاج إلى انتباه، لكن التقاطعات هي المكان الذي يتطلب حذرًا خاصًا."],
+      "en": [null, "Care is needed at pedestrian crossings too, but the biggest risk of vehicles and motorcycles crossing paths is at junctions.", "Two-way roads need attention, but junctions are the place that calls for special care."],
+      "fr": [null, "Il faut aussi être prudent aux passages piétons, mais le plus grand risque de croisement entre véhicules et motos se trouve aux intersections.", "Les routes à double sens demandent de l'attention, mais ce sont les intersections qui exigent une prudence particulière."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {"text": "Where should road users take particular care to watch out for motorcyclists and other vehicles?", "options": ["At junctions", "At pedestrian crossings", "On two-way roads"]},
+      "fr": {"text": "Où les usagers de la route doivent-ils être particulièrement attentifs aux motards et aux autres véhicules ?", "options": ["Aux intersections", "Aux passages piétons", "Sur les routes à double sens"]}
+    }
+  },
+  {
+    "id": 29,
+    "topic": "maintenance",
+    "explanation": {
+      "ar": "سلسلة الدفع تربط المحرك بالعجلة الخلفية. لضبطها ترخي عزق العجلة الخلفية، ثم تحرك العجلة إلى الموقع المناسب حتى يصبح شد السلسلة صحيحًا، ثم تشد العزق من جديد.",
+      "en": "The drive chain connects the engine to the rear wheel. To adjust it, you loosen the rear wheel nuts and move the wheel to the right position so the chain tension is correct, then tighten the nuts again.",
+      "fr": "La chaîne de transmission relie le moteur à la roue arrière. Pour la régler, on desserre les écrous de la roue arrière et on déplace la roue jusqu'à la bonne position pour que la tension de la chaîne soit correcte, puis on resserre les écrous."
+    },
+    "whyWrong": {
+      "ar": [null, "المحرك لا يُحرَّك لضبط السلسلة، بل العجلة الخلفية هي التي تُحرَّك.", "الجواب الثاني خطأ، لذلك لا يمكن أن يكون الجوابان صحيحين."],
+      "en": [null, "The engine is not moved to adjust the chain; it is the rear wheel that is moved.", "The second answer is wrong, so both answers cannot be correct."],
+      "fr": [null, "On ne déplace pas le moteur pour régler la chaîne ; c'est la roue arrière qu'on déplace.", "La deuxième réponse est fausse, donc les deux réponses ne peuvent pas être justes."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {"text": "How is the final “drive chain” adjusted?", "options": ["Loosen the rear wheel nuts and pull it to the correct position", "Loosen the engine nuts and pull it to the correct position", "Both previous answers are correct"]},
+      "fr": {"text": "Comment règle-t-on la « chaîne de transmission » finale ?", "options": ["Desserrer les écrous de la roue arrière et la tirer jusqu'à la bonne position", "Desserrer les écrous du moteur et le tirer jusqu'à la bonne position", "Les deux réponses précédentes sont justes"]}
+    }
+  },
+  {
+    "id": 30,
+    "topic": "maintenance",
+    "explanation": {
+      "ar": "عند ضبط سلسلة الدفع تتحرك العجلة الخلفية من مكانها. إذا لم يتم الضبط بشكل صحيح، قد تصبح العجلة الخلفية غير مستقيمة مع العجلة الأمامية.",
+      "en": "When you adjust the drive chain, the rear wheel is moved. If it is not done correctly, the rear wheel may end up out of line with the front wheel.",
+      "fr": "Quand on règle la chaîne de transmission, on déplace la roue arrière. Si le réglage est mal fait, la roue arrière peut se retrouver mal alignée avec la roue avant."
+    },
+    "whyWrong": {
+      "ar": ["ضبط السلسلة لا يغيّر قراءة عداد السرعة.", null, "المشكلة المباشرة لسوء ضبط السلسلة هي سوء استقامة العجلة الخلفية، وليس فقدان قوة الكبح."],
+      "en": ["Adjusting the chain does not change the speedometer reading.", null, "The direct problem from a badly adjusted chain is rear wheel misalignment, not loss of braking power."],
+      "fr": ["Régler la chaîne ne change pas l'indication du compteur de vitesse.", null, "Le problème direct d'une chaîne mal réglée est le mauvais alignement de la roue arrière, pas une perte de freinage."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {"text": "You have adjusted the “drive chain” incorrectly. What problem could occur?", "options": ["Inaccurate speedometer reading", "Incorrect alignment of the rear wheel", "Loss of braking power"]},
+      "fr": {"text": "Vous avez mal réglé la « chaîne de transmission ». Quel problème peut survenir ?", "options": ["Une indication inexacte du compteur de vitesse", "Un mauvais alignement de la roue arrière", "Une perte de puissance de freinage"]}
+    }
+  },
+  {
+    "id": 31,
+    "topic": "maintenance",
+    "explanation": {
+      "ar": "الضغط المناسب للإطارات يختلف من دراجة إلى أخرى، والشركة المصنعة تكتبه في دليل استخدام الدراجة. لذلك ارجع إلى الدليل لتعرف الضغط الصحيح لدراجتك.",
+      "en": "The right tyre pressure differs from one motorcycle to another, and the manufacturer gives it in the owner's manual. So check the manual to find the correct pressure for your bike.",
+      "fr": "La bonne pression des pneus varie d'une moto à l'autre, et le constructeur l'indique dans le manuel d'utilisation. Consultez donc le manuel pour connaître la bonne pression pour votre moto."
+    },
+    "whyWrong": {
+      "ar": [null, "ما هو مكتوب على جانب الإطار ليس الضغط الموصى به لدراجتك.", "الضغط المناسب ليس مختومًا على العجلة، بل موجود في دليل الاستخدام."],
+      "en": [null, "What is written on the side of the tyre is not the recommended pressure for your bike.", "The correct pressure is not stamped on the wheel; it is in the owner's manual."],
+      "fr": [null, "Ce qui est inscrit sur le flanc du pneu n'est pas la pression recommandée pour votre moto.", "La bonne pression n'est pas gravée sur la roue ; elle figure dans le manuel d'utilisation."]
+    },
+    "tip": {
+      "ar": "قد تجد أرقامًا مكتوبة على جانب الإطار، لكنها ليست الضغط المناسب لدراجتك. المرجع الصحيح هو دليل الاستخدام.",
+      "en": "You may see numbers on the side of the tyre, but they are not the right pressure for your bike. The correct reference is the owner's manual.",
+      "fr": "Vous pouvez voir des chiffres sur le flanc du pneu, mais ce n'est pas la bonne pression pour votre moto. La bonne référence est le manuel d'utilisation."
+    },
+    "translation": {
+      "en": {"text": "You need to inflate your motorcycle's tyres. How can you find out the correct pressure?", "options": ["By checking the motorcycle's owner's manual", "It is shown on the side of the tyre", "It is stamped on the wheel"]},
+      "fr": {"text": "Vous devez gonfler les pneus de votre moto. Comment connaître la bonne pression ?", "options": ["En consultant le manuel d'utilisation de la moto", "Elle est indiquée sur le flanc du pneu", "Elle est gravée sur la roue"]}
+    }
+  },
+  {
+    "id": 32,
+    "topic": "passengers_loads",
+    "explanation": {
+      "ar": "عند زيادة الوزن، يجب تعديل عيار الوزن على ممتص الصدمات الخلفي ليتناسب مع الحمولة الجديدة. هذا يساعد الدراجة على البقاء ثابتة ومتوازنة.",
+      "en": "When the weight increases, you should adjust the load setting on the rear shock absorber to suit the new load. This helps the motorcycle stay steady and balanced.",
+      "fr": "Quand le poids augmente, il faut ajuster le réglage de charge de l'amortisseur arrière à la nouvelle charge. Cela aide la moto à rester stable et équilibrée."
+    },
+    "whyWrong": {
+      "ar": ["ميزان العجلتين لا يُعدَّل بسبب الوزن الزائد، فهو يتعلق باستقامة العجلتين.", "التعديل المطلوب للوزن الزائد يكون على ممتص الصدمات الخلفي، وليس على الشوكة الأمامية.", null],
+      "en": ["Wheel alignment is not adjusted for extra weight; it is about keeping the wheels in line.", "The adjustment needed for extra weight is on the rear shock absorber, not the front forks.", null],
+      "fr": ["L'alignement des roues ne se règle pas en fonction du poids ; il sert à garder les roues alignées.", "Le réglage pour le poids supplémentaire se fait sur l'amortisseur arrière, pas sur la fourche avant.", null]
+    },
+    "tip": null,
+    "translation": {
+      "en": {"text": "You are carrying a passenger in the sidecar. What should you adjust to cope with the extra weight?", "options": ["The front and rear wheel alignment", "The load setting on the front forks", "The load setting on the rear shock absorber"]},
+      "fr": {"text": "Vous transportez un passager dans le side-car. Que devez-vous régler pour supporter le poids supplémentaire ?", "options": ["L'alignement des roues avant et arrière", "Le réglage de charge de la fourche avant", "Le réglage de charge de l'amortisseur arrière"]}
+    }
+  },
+  {
+    "id": 33,
+    "topic": "traffic_rules",
+    "explanation": {
+      "ar": "قبل الانعطاف يسارًا، قد تكون هناك مركبة أو دراجة تحاول تجاوزك من اليسار. النظرة فوق الكتف تكشف ما قد لا تظهره المرايا، فتتأكد أنه لا أحد يتجاوزك قبل أن تنعطف.",
+      "en": "Before you turn left, a vehicle or motorcycle may be trying to overtake you on the left. A look over your shoulder shows what the mirrors may miss, so you can make sure no one is overtaking before you turn.",
+      "fr": "Avant de tourner à gauche, un véhicule ou une moto peut être en train de vous dépasser par la gauche. Un regard par-dessus l'épaule montre ce que les rétroviseurs peuvent manquer, pour vérifier que personne ne vous dépasse avant de tourner."
+    },
+    "whyWrong": {
+      "ar": ["حركة المرور القادمة تراها أمامك، ولا تحتاج للنظر فوق كتفك لرؤيتها.", null, "الطريق الجانبي تراه أمامك، والنظرة فوق الكتف هي لما يأتي من خلفك."],
+      "en": ["You see oncoming traffic in front of you; you do not need to look over your shoulder for it.", null, "You can see the side road ahead of you; the look over your shoulder is for what is behind you."],
+      "fr": ["La circulation venant en face se voit devant vous ; inutile de regarder par-dessus l'épaule pour cela.", null, "La rue latérale se voit devant vous ; le regard par-dessus l'épaule sert à voir ce qui arrive derrière."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {"text": "Why should you look over your shoulder before turning left into a side road?", "options": ["To check for oncoming traffic", "To check that no vehicles are overtaking you", "To make sure the side road is clear"]},
+      "fr": {"text": "Pourquoi devez-vous regarder par-dessus votre épaule avant de tourner à gauche dans une rue latérale ?", "options": ["Pour vérifier la circulation venant en face", "Pour vérifier qu'aucun véhicule ne vous dépasse", "Pour vous assurer que la rue latérale est libre"]}
+    }
+  },
+  {
+    "id": 34,
+    "topic": "maintenance",
+    "explanation": {
+      "ar": "رائحة الوقود القوية قد تعني وجود تسرب، والوقود المتسرب قد يشتعل إذا لامس جزءًا ساخنًا من الدراجة. لذلك التحقق من عدم وجود رائحة وقود قوية يحميك من خطر الحريق.",
+      "en": "A strong smell of fuel may mean there is a leak, and leaking fuel can catch fire if it touches a hot part of the bike. Checking that there is no strong fuel smell protects you from the risk of fire.",
+      "fr": "Une forte odeur de carburant peut signaler une fuite, et le carburant qui fuit peut prendre feu au contact d'une pièce chaude de la moto. Vérifier qu'il n'y a pas de forte odeur de carburant vous protège du risque d'incendie."
+    },
+    "whyWrong": {
+      "ar": ["الخزان الممتلئ ليس سببًا للحريق بحد ذاته، والخطر الحقيقي هو تسرب الوقود.", null, "استخدام البنزين الخالي من الرصاص لا يمنع خطر الحريق."],
+      "en": ["A full tank is not a fire risk in itself; the real danger is a fuel leak.", null, "Using unleaded petrol does not prevent the risk of fire."],
+      "fr": ["Un réservoir plein n'est pas en soi un risque d'incendie ; le vrai danger est une fuite de carburant.", null, "Utiliser de l'essence sans plomb n'empêche pas le risque d'incendie."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {"text": "What preventive measures can you take to protect your motorcycle from the risk of fire?", "options": ["Avoid riding with a full fuel tank", "Check that there is no strong smell of fuel", "Use unleaded petrol"]},
+      "fr": {"text": "Quelles mesures préventives pouvez-vous prendre pour protéger votre moto du risque d'incendie ?", "options": ["Éviter de rouler avec le réservoir plein", "Vérifier qu'il n'y a pas de forte odeur de carburant", "Utiliser de l'essence sans plomb"]}
+    }
+  },
+  {
+    "id": 35,
+    "topic": "traffic_rules",
+    "explanation": {
+      "ar": "عند الانعطاف يسارًا إلى طريق فيه حاجز وسطي، قد تحتاج إلى عبور الاتجاه الأول ثم الانتظار عند الحاجز قبل عبور الاتجاه الثاني. لذلك تحقق أولًا من أن عرض الحاجز يكفي لتقف فيه بأمان دون أن تبرز في طريق المركبات.",
+      "en": "When turning left onto a road with a central reservation, you may need to cross the first direction of traffic and then wait at the reservation before crossing the second. So first check that the reservation is wide enough for you to wait safely without sticking out into traffic.",
+      "fr": "Pour tourner à gauche sur une route avec un terre-plein central, vous devrez peut-être traverser le premier sens de circulation puis attendre au niveau du terre-plein avant de traverser le second. Vérifiez donc d'abord que le terre-plein est assez large pour attendre en sécurité sans empiéter sur la circulation."
+    },
+    "whyWrong": {
+      "ar": [null, "التزام الجانب الأيسر من المسرب ليس الخطوة المهمة هنا، فالمهم معرفة إن كان الحاجز يتسع لك.", "لا حاجة للتوقف إذا كان الطريق خاليًا، ولا لاختيار غيار سرعة منخفض جدًا."],
+      "en": [null, "Keeping to the left side of the lane is not the key step here; what matters is whether the reservation has room for you.", "There is no need to stop if the road is clear, nor to select a very low gear."],
+      "fr": [null, "Se tenir sur le côté gauche de la voie n'est pas l'étape clé ici ; l'important est de savoir si le terre-plein a assez de place pour vous.", "Inutile de s'arrêter si la route est libre, ou d'engager un rapport très bas."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {"text": "You are turning left to leave a two-way road onto another two-way road. What should you do before pulling out?", "options": ["Check the width of the central reservation", "Keep to the left-hand side of the lane", "Stop, then select a very low gear"]},
+      "fr": {"text": "Vous tournez à gauche pour quitter une route à double sens et vous engager sur une route à double sens. Que devez-vous faire avant de sortir ?", "options": ["Vérifier la largeur du terre-plein central", "Rester sur le côté gauche de la voie", "Vous arrêter puis engager un rapport très bas"]}
+    }
+  },
+  {
+    "id": 36,
+    "topic": "gear",
+    "explanation": {
+      "ar": "الألوان الزاهية تلفت النظر في ضوء النهار، فيرى السائقون الآخرون رأسك ودراجتك بسهولة أكبر.",
+      "en": "Bright colours catch the eye in daylight, so other drivers can see your head and your bike more easily.",
+      "fr": "Les couleurs vives attirent l'œil à la lumière du jour, ce qui permet aux autres conducteurs de vous voir plus facilement, vous et votre moto."
+    },
+    "whyWrong": {
+      "ar": ["الخوذة السوداء لونها داكن ولا تلفت النظر، فلا تجعلك أوضح.", null, "السترة الداكنة تجعلك أقل وضوحًا للآخرين."],
+      "en": ["A black helmet is dark and does not catch the eye, so it does not make you more visible.", null, "A dark jacket makes you less visible to others."],
+      "fr": ["Un casque noir est sombre et n'attire pas l'œil ; il ne vous rend pas plus visible.", null, "Une veste sombre vous rend moins visible pour les autres."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {"text": "What makes you and your motorcycle more visible in daylight?", "options": ["Wearing a black helmet", "Wearing a brightly coloured helmet", "Wearing a dark jacket"]},
+      "fr": {"text": "Qu'est-ce qui vous rend, vous et votre moto, plus visibles à la lumière du jour ?", "options": ["Porter un casque noir", "Porter un casque de couleur vive", "Porter une veste sombre"]}
+    }
+  },
+  {
+    "id": 37,
+    "topic": "maintenance",
+    "explanation": {
+      "ar": "عند شد سلسلة الدفع تتحرك العجلة الخلفية من مكانها. لذلك بعد الانتهاء تتحقق من أن ميزان العجلة الخلفية صحيح، أي أنها مستقيمة مع العجلة الأمامية.",
+      "en": "When you tighten the drive chain, the rear wheel is moved. So afterwards you check that the rear wheel alignment is correct, meaning it is in line with the front wheel.",
+      "fr": "Quand on tend la chaîne de transmission, on déplace la roue arrière. Après le réglage, il faut donc vérifier l'alignement de la roue arrière, c'est-à-dire qu'elle soit bien dans l'axe de la roue avant."
+    },
+    "whyWrong": {
+      "ar": [null, "ضغط الإطار لا يتغير بسبب شد السلسلة.", "ممتص الصدمات الخلفي لا يتأثر بشد السلسلة."],
+      "en": [null, "Tyre pressure does not change when you tighten the chain.", "The rear shock absorber is not affected by tightening the chain."],
+      "fr": [null, "La pression du pneu ne change pas quand on tend la chaîne.", "L'amortisseur arrière n'est pas affecté par la tension de la chaîne."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {"text": "What should you check after you have finished tightening the “drive chain”?", "options": ["Rear wheel alignment", "Rear tyre pressure", "Condition of the rear shock absorber"]},
+      "fr": {"text": "Que devez-vous vérifier après avoir fini de tendre la « chaîne de transmission » ?", "options": ["L'alignement de la roue arrière", "La pression du pneu arrière", "L'état de l'amortisseur arrière"]}
+    }
+  },
+  {
+    "id": 38,
+    "topic": "hazards",
+    "explanation": {
+      "ar": "السائق المبتدئ قد يتردد أو يخطئ في تقدير سرعتك ويدخل أمامك. لذلك استعد للإبطاء والتوقف إذا لزم الأمر، حتى تتجنب الاصطدام.",
+      "en": "A novice driver may hesitate or misjudge your speed and pull out in front of you. So be ready to slow down and stop if needed to avoid a collision.",
+      "fr": "Un conducteur débutant peut hésiter ou mal juger votre vitesse et s'engager devant vous. Soyez donc prêt à ralentir et à vous arrêter si nécessaire pour éviter une collision."
+    },
+    "whyWrong": {
+      "ar": [null, "السير خلفه مباشرة خطير، فقد يتوقف فجأة، ويجب ترك مسافة أمان.", "الانعطاف إلى الطريق الجانبي الذي يخرج منه لا يحل المشكلة، وقد يضعك في طريقه."],
+      "en": [null, "Riding right behind him is dangerous because he may stop suddenly; you must leave a safe gap.", "Turning into the side road he is coming out of does not solve the problem and may put you in his way."],
+      "fr": [null, "Le suivre de très près est dangereux, car il peut s'arrêter brusquement ; il faut garder une distance de sécurité.", "Tourner dans la rue latérale d'où il sort ne règle rien et peut vous mettre sur son chemin."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {"text": "A novice car driver starts to pull into your lane from a side road on the right. What do you do?", "options": ["Get ready to slow down and stop", "Let him in, then ride directly behind him", "Turn into the side road"]},
+      "fr": {"text": "Un conducteur débutant commence à s'engager dans votre voie depuis une rue latérale à droite. Que faites-vous ?", "options": ["Vous vous préparez à ralentir et à vous arrêter", "Vous le laissez entrer puis vous roulez juste derrière lui", "Vous tournez dans la rue latérale"]}
+    }
+  },
+  {
+    "id": 39,
+    "topic": "hazards",
+    "explanation": {
+      "ar": "السائق المبتدئ قد يكون بطيئًا أو مترددًا، ويحتاج إلى وقت. الهدوء والصبر يحميانك ويحميانه، أما الضغط عليه فقد يربكه ويجعله يخطئ.",
+      "en": "A novice driver may be slow or hesitant and needs time. Staying calm and patient keeps both of you safe, while pressuring him can confuse him and cause a mistake.",
+      "fr": "Un conducteur débutant peut être lent ou hésitant et a besoin de temps. Rester calme et patient vous protège tous les deux, alors que lui mettre la pression peut le troubler et provoquer une erreur."
+    },
+    "whyWrong": {
+      "ar": [null, "الضوء العالي يبهر السائق ويربكه، وهذا خطير.", "إطلاق البوق والتجاوز بتسرّع يضغط عليه ويربكه، وقد يسبب حادثًا."],
+      "en": [null, "High beam dazzles and confuses the driver, which is dangerous.", "Sounding your horn and rushing past puts pressure on him and can confuse him, which may cause an accident."],
+      "fr": [null, "Les feux de route éblouissent et troublent le conducteur, ce qui est dangereux.", "Klaxonner et dépasser à la hâte lui met la pression et peut le troubler, ce qui risque de provoquer un accident."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {"text": "A novice car driver is driving the vehicle in front of you. What do you do?", "options": ["Stay calm and be patient", "Switch your headlights to high beam", "Sound your horn and overtake him"]},
+      "fr": {"text": "Un conducteur débutant conduit la voiture devant vous. Que faites-vous ?", "options": ["Vous restez calme et patient", "Vous mettez vos phares en feux de route", "Vous klaxonnez et vous le dépassez"]}
+    }
+  },
+  {
+    "id": 40,
+    "topic": "passengers_loads",
+    "explanation": {
+      "ar": "الحمولة غير المثبتة جيدًا قد تتحرك أو تسقط أثناء القيادة. هذا قد يُفقدك توازنك أو يشكل خطرًا على من خلفك، لذلك يجب تثبيتها بإحكام.",
+      "en": "A load that is not well secured can shift or fall off while riding. This can upset your balance or endanger those behind you, so it must be firmly secured.",
+      "fr": "Une charge mal fixée peut bouger ou tomber pendant la conduite. Cela peut vous déséquilibrer ou mettre en danger ceux qui vous suivent ; elle doit donc être solidement fixée."
+    },
+    "whyWrong": {
+      "ar": ["الغطاء البلاستيكي يحمي الحمولة من المطر، لكنه لا يمنعها من التحرك أو السقوط.", "رؤية الحمولة ليست الأمر المهم، فالمهم أن تكون ثابتة ولا تسقط.", null],
+      "en": ["A plastic cover protects the load from rain but does not stop it from moving or falling.", "Whether the load is visible is not what matters; what matters is that it is secure and cannot fall.", null],
+      "fr": ["Une bâche en plastique protège la charge de la pluie, mais ne l'empêche pas de bouger ou de tomber.", "Que la charge soit visible n'est pas l'essentiel ; l'important est qu'elle soit fixée et ne puisse pas tomber.", null]
+    },
+    "tip": null,
+    "translation": {
+      "en": {"text": "You are carrying a load on your motorcycle's luggage rack. What must you make sure of?", "options": ["That the load is covered with a plastic sheet", "That the load is clearly visible", "That the load is firmly secured"]},
+      "fr": {"text": "Vous transportez une charge sur le porte-bagages de votre moto. De quoi devez-vous vous assurer ?", "options": ["Que la charge est couverte d'une bâche en plastique", "Que la charge est bien visible", "Que la charge est solidement fixée"]}
+    }
+  },
+  {
+    "id": 41,
+    "topic": "road_conditions",
+    "explanation": {
+      "ar": "بعد المرور في ماء عميق تصبح الفرامل مبللة وقد لا تعمل جيدًا. لذلك اختبرها بلطف بعد خروجك من الماء لتتأكد أنها تعمل بشكل طبيعي.",
+      "en": "After riding through deep water, the brakes get wet and may not work well. So test them gently once you are out of the water to make sure they work normally.",
+      "fr": "Après avoir traversé une eau profonde, les freins sont mouillés et peuvent mal fonctionner. Testez-les donc doucement une fois sorti de l'eau pour vérifier qu'ils fonctionnent normalement."
+    },
+    "whyWrong": {
+      "ar": [null, "المصابيح الأمامية لا تتأثر عادة بالمرور في الماء كما تتأثر الفرامل.", "التوجيه لا يتأثر بالماء، أما الفرامل فهي التي تضعف."],
+      "en": [null, "Headlights are not usually affected by water the way brakes are.", "Steering is not affected by the water; it is the brakes that become weaker."],
+      "fr": [null, "Les phares ne sont généralement pas affectés par l'eau comme le sont les freins.", "La direction n'est pas affectée par l'eau ; ce sont les freins qui deviennent moins efficaces."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {"text": "You have just ridden through deep water. What should you check once you are clear of the water?", "options": ["The brakes", "The headlights", "The steering"]},
+      "fr": {"text": "Vous venez de traverser une eau profonde. Que devez-vous vérifier une fois sorti de l'eau ?", "options": ["Les freins", "Les phares", "La direction"]}
+    }
+  },
+  {
+    "id": 42,
+    "topic": "road_conditions",
+    "explanation": {
+      "ar": "أثناء الحر والجفاف يتجمع الغبار والزيت على سطح الطريق. عندما ينزل المطر يختلط بهما فيصبح الطريق زلقًا بشكل غير طبيعي، لذلك خفف سرعتك وكن حذرًا.",
+      "en": "During hot, dry weather, dust and oil build up on the road surface. When rain falls, it mixes with them and the road becomes unusually slippery, so slow down and take care.",
+      "fr": "Par temps chaud et sec, la poussière et l'huile s'accumulent sur la chaussée. Quand la pluie tombe, elle s'y mélange et la route devient anormalement glissante ; ralentissez et soyez prudent."
+    },
+    "whyWrong": {
+      "ar": ["المطر لا يغطي الطريق بالحصى.", null, "المطر لا يجعل سطح الطريق يتفتت ويتكسر فجأة."],
+      "en": ["Rain does not cover the road with gravel.", null, "Rain does not make the road surface suddenly crumble and break up."],
+      "fr": ["La pluie ne recouvre pas la route de gravier.", null, "La pluie ne fait pas soudainement s'effriter et se casser la chaussée."]
+    },
+    "tip": {
+      "ar": "تذكّر: أول مطر بعد فترة جفاف طويلة خطير بشكل خاص، لأن الطريق يكون أكثر انزلاقًا من المعتاد.",
+      "en": "Remember: the first rain after a long dry spell is especially dangerous, because the road is more slippery than usual.",
+      "fr": "Retenez : la première pluie après une longue période sèche est particulièrement dangereuse, car la route est plus glissante que d'habitude."
+    },
+    "translation": {
+      "en": {"text": "Rain has fallen after a long period of heat and dry weather. How does this affect the road surface?", "options": ["It may be covered with gravel", "It may become unusually slippery", "The road surface may crumble and break up"]},
+      "fr": {"text": "Il a plu après une longue période de chaleur et de sécheresse. Quel effet cela a-t-il sur la chaussée ?", "options": ["Elle peut être recouverte de gravier", "Elle peut devenir anormalement glissante", "La chaussée peut s'effriter et se casser"]}
+    }
+  },
+  {
+    "id": 43,
+    "topic": "passengers_loads",
+    "explanation": {
+      "ar": "عندما تنحني الدراجة في المنعطف، يجب أن ينحني الراكب الخلفي معك بالشكل نفسه. هذا يحافظ على توازن الدراجة ويساعدك على التحكم بها.",
+      "en": "When the motorcycle leans in a bend, the pillion passenger should lean with you in the same way. This keeps the bike balanced and helps you control it.",
+      "fr": "Quand la moto s'incline dans un virage, le passager doit s'incliner avec vous de la même façon. Cela garde la moto équilibrée et vous aide à la contrôler."
+    },
+    "whyWrong": {
+      "ar": ["إعطاء الإشارات مسؤوليتك أنت كسائق، وحركة ذراعي الراكب قد تُخلّ بالتوازن وتربك الآخرين.", "انحناء الراكب جانبًا لرؤية الأمام يُخلّ بتوازن الدراجة.", null],
+      "en": ["Signalling is your job as the rider, and the passenger moving his arms can upset balance and confuse others.", "The passenger leaning sideways to see ahead upsets the bike's balance.", null],
+      "fr": ["Signaler est votre rôle de conducteur, et les gestes du passager peuvent déséquilibrer la moto et troubler les autres.", "Le passager qui se penche sur le côté pour voir devant déséquilibre la moto.", null]
+    },
+    "tip": null,
+    "translation": {
+      "en": {"text": "When cornering, what should the pillion passenger do?", "options": ["Give arm signals on your behalf", "Lean sideways to see ahead", "Lean with you in the bends"]},
+      "fr": {"text": "Dans un virage, que doit faire le passager arrière ?", "options": ["Faire des signes avec les bras à votre place", "Se pencher sur le côté pour voir devant", "S'incliner avec vous dans les virages"]}
+    }
+  },
+  {
+    "id": 44,
+    "topic": "passengers_loads",
+    "explanation": {
+      "ar": "الحمولة الثقيلة في الصندوق العلوي تكون مرتفعة وفي مؤخرة الدراجة. هذا يجعل الدراجة أقل ثباتًا ويخفض توازنها، خاصة في المنعطفات.",
+      "en": "A heavy load in the top box sits high up and at the back of the motorcycle. This makes the bike less steady and reduces its stability, especially in bends.",
+      "fr": "Une charge lourde dans le top-case se trouve en hauteur et à l'arrière de la moto. Cela rend la moto moins stable et réduit son équilibre, surtout dans les virages."
+    },
+    "whyWrong": {
+      "ar": ["الحمولة الثقيلة في الصندوق العلوي لا تحسّن الكبح.", "الحمولة الثقيلة المرتفعة تُضعف التوازن ولا تحسّنه.", null],
+      "en": ["A heavy load in the top box does not improve braking.", "A heavy load placed high weakens stability rather than improving it.", null],
+      "fr": ["Une charge lourde dans le top-case n'améliore pas le freinage.", "Une charge lourde placée en hauteur réduit l'équilibre au lieu de l'améliorer.", null]
+    },
+    "tip": null,
+    "translation": {
+      "en": {"text": "What can a heavy load in the motorcycle's top box cause?", "options": ["Improved braking", "Improved stability of the motorcycle", "Reduced stability of the motorcycle"]},
+      "fr": {"text": "Que peut provoquer une charge lourde dans le top-case de la moto ?", "options": ["Un meilleur freinage", "Un meilleur équilibre de la moto", "Un équilibre réduit de la moto"]}
+    }
+  },
+  {
+    "id": 45,
+    "topic": "control",
+    "explanation": {
+      "ar": "أفضل وقت للفرملة هو عندما تكون الدراجة مستقيمة وتتحرك في خط مستقيم. في هذه الحالة تتماسك العجلات مع الطريق بشكل أفضل، فتتوقف الدراجة بأمان.",
+      "en": "The best time to brake is when the motorcycle is straight and moving in a straight line. The wheels then grip the road better, so the bike stops safely.",
+      "fr": "Le meilleur moment pour freiner est quand la moto est droite et avance en ligne droite. Les roues adhèrent alors mieux à la route, et la moto s'arrête en sécurité."
+    },
+    "whyWrong": {
+      "ar": ["لا توجد قاعدة تفرض استخدام الفرامل الخلفية أولًا؛ المهم أن تفرمل والدراجة مستقيمة.", "الفرملة أثناء الانعطاف قد تُفقد العجلات تماسكها وتسبب الانزلاق.", null],
+      "en": ["There is no rule that you must use the rear brake first; what matters is braking while the bike is straight.", "Braking while turning can make the wheels lose grip and cause a skid.", null],
+      "fr": ["Aucune règle n'impose de freiner d'abord à l'arrière ; l'important est de freiner moto droite.", "Freiner en tournant peut faire perdre l'adhérence aux roues et provoquer un dérapage.", null]
+    },
+    "tip": null,
+    "translation": {
+      "en": {"text": "In normal riding conditions, how should you use the brakes?", "options": ["Using the rear brake first, then the front", "When turning the motorcycle", "When the motorcycle is pointing straight ahead and moving in a straight line"]},
+      "fr": {"text": "Dans des conditions de conduite normales, comment devez-vous utiliser les freins ?", "options": ["En utilisant d'abord le frein arrière, puis l'avant", "Quand la moto tourne", "Quand la moto est orientée droit devant et avance en ligne droite"]}
+    }
+  },
+  {
+    "id": 46,
+    "topic": "rider_fitness",
+    "explanation": {
+      "ar": "الكحول يؤثر على الدماغ، فيُضعف قدرتك على التمييز وتقدير الأخطار. لذلك لا تقد أبدًا بعد شرب الكحول.",
+      "en": "Alcohol affects the brain and weakens your ability to judge situations and hazards. So never ride after drinking alcohol.",
+      "fr": "L'alcool agit sur le cerveau et affaiblit votre capacité à juger les situations et les dangers. Ne conduisez donc jamais après avoir bu de l'alcool."
+    },
+    "whyWrong": {
+      "ar": ["الكحول يجعل ردود الفعل أبطأ وليس أسرع.", "الكحول يقلل التركيز ولا يزيده.", null],
+      "en": ["Alcohol makes reactions slower, not faster.", "Alcohol reduces concentration; it does not increase it.", null],
+      "fr": ["L'alcool ralentit les réflexes, il ne les accélère pas.", "L'alcool diminue la concentration, il ne l'augmente pas.", null]
+    },
+    "tip": null,
+    "translation": {
+      "en": {"text": "Which of the following results from drinking alcohol?", "options": ["Faster reactions", "Increased concentration", "Impaired judgement"]},
+      "fr": {"text": "Lequel de ces effets résulte de la consommation d'alcool ?", "options": ["Des réactions plus rapides", "Une meilleure concentration", "Une capacité de jugement affaiblie"]}
+    }
+  },
+  {
+    "id": 47,
+    "topic": "maintenance",
+    "explanation": {
+      "ar": "المحوّل الحفّاز يحوّل جزءًا من الغازات الضارة الخارجة من العادم إلى غازات أقل ضررًا. لذلك هو يقلل انبعاثات العادم ويحمي البيئة.",
+      "en": "The catalytic converter turns some of the harmful gases coming out of the exhaust into less harmful ones. So it reduces exhaust emissions and helps protect the environment.",
+      "fr": "Le pot catalytique transforme une partie des gaz nocifs de l'échappement en gaz moins nocifs. Il réduit donc les émissions d'échappement et protège l'environnement."
+    },
+    "whyWrong": {
+      "ar": ["المحوّل الحفّاز لا يخفف ضجيج المحرك.", null, "تخفيف ضجيج العادم هو عمل كاتم الصوت، وليس المحوّل الحفّاز."],
+      "en": ["The catalytic converter does not reduce engine noise.", null, "Reducing exhaust noise is the silencer's job, not the catalytic converter's."],
+      "fr": ["Le pot catalytique ne réduit pas le bruit du moteur.", null, "Réduire le bruit d'échappement est le rôle du silencieux, pas du pot catalytique."]
+    },
+    "tip": {
+      "ar": "لا تخلط بين الضجيج والتلوث: المحوّل الحفّاز يقلل التلوث (الانبعاثات) وليس الصوت.",
+      "en": "Don't confuse noise with pollution: the catalytic converter reduces pollution (emissions), not sound.",
+      "fr": "Ne confondez pas bruit et pollution : le pot catalytique réduit la pollution (les émissions), pas le bruit."
+    },
+    "translation": {
+      "en": {"text": "Your motorcycle is fitted with a catalytic converter. What does it reduce?", "options": ["Engine noise", "Exhaust emissions", "Exhaust noise"]},
+      "fr": {"text": "Votre moto est équipée d'un pot catalytique. Que réduit-il ?", "options": ["Le bruit du moteur", "Les émissions d'échappement", "Le bruit d'échappement"]}
+    }
+  },
+  {
+    "id": 48,
+    "topic": "traffic_rules",
+    "explanation": {
+      "ar": "بعد الانتظار فترة، قد يكون الوضع حولك قد تغيّر، كأن تقترب مركبة من الخلف أو تحاول تجاوزك. لذلك قبل الانعطاف مباشرة انظر يمينًا ويسارًا وألقِ نظرة أخيرة فوق كتفك، وهي النظرة المنقذة للحياة.",
+      "en": "After waiting a while, the situation around you may have changed; for example, a vehicle may be coming up behind or trying to overtake. So just before turning, look right and left and take a final glance over your shoulder, the lifesaver glance.",
+      "fr": "Après avoir attendu un moment, la situation autour de vous a pu changer ; par exemple, un véhicule peut arriver derrière ou essayer de vous dépasser. Juste avant de tourner, regardez donc à droite et à gauche et jetez un dernier coup d'œil par-dessus l'épaule, le regard « qui sauve des vies »."
+    },
+    "whyWrong": {
+      "ar": [null, "للانعطاف يسارًا لا تقترب من جهة الرصيف، فهذا يضعك في موقع خاطئ ويربك الآخرين.", "التلويح لحركة المرور القادمة ليس من دورك، وقد يربك السائقين الآخرين."],
+      "en": [null, "To turn left you do not move towards the kerb; that puts you in the wrong position and confuses others.", "Waving to oncoming traffic is not your role and can confuse other drivers."],
+      "fr": [null, "Pour tourner à gauche, on ne se rapproche pas du trottoir ; cela vous place mal et trouble les autres.", "Faire signe à la circulation venant en face n'est pas votre rôle et peut troubler les autres conducteurs."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {"text": "You have waited for some time to turn left into a side road. What should you do just before turning?", "options": ["Look right and left and take a ‘lifesaver’ glance", "Move closer to the kerb", "Wave to the oncoming traffic"]},
+      "fr": {"text": "Vous attendez depuis un moment pour tourner à gauche dans une rue latérale. Que devez-vous faire juste avant de tourner ?", "options": ["Regarder à droite et à gauche et jeter un regard « qui sauve des vies »", "Vous rapprocher du trottoir", "Faire signe à la circulation venant en face"]}
+    }
+  },
+  {
+    "id": 49,
+    "topic": "maintenance",
+    "explanation": {
+      "ar": "الحمولة الثقيلة تضغط على الإطارات أكثر. لذلك يجب زيادة ضغطها حتى تتحمل الوزن وتبقى الدراجة ثابتة.",
+      "en": "A heavy load puts more pressure on the tyres. So you should increase their pressure so they can carry the weight and keep the bike steady.",
+      "fr": "Une charge lourde pèse davantage sur les pneus. Il faut donc augmenter leur pression pour qu'ils supportent le poids et que la moto reste stable."
+    },
+    "whyWrong": {
+      "ar": [null, "الطقس الحار لا يتطلب زيادة ضغط الإطارات.", "الطقس الممطر لا يتطلب زيادة ضغط الإطارات."],
+      "en": [null, "Hot weather does not call for higher tyre pressure.", "Wet weather does not call for higher tyre pressure."],
+      "fr": [null, "Le temps chaud ne demande pas d'augmenter la pression des pneus.", "Le temps pluvieux ne demande pas d'augmenter la pression des pneus."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {"text": "When should you increase your motorcycle's tyre pressures?", "options": ["When carrying a heavy load", "When riding in hot weather", "When riding in wet weather"]},
+      "fr": {"text": "Quand devez-vous augmenter la pression des pneus de votre moto ?", "options": ["Quand vous transportez une charge lourde", "Quand vous roulez par temps chaud", "Quand vous roulez par temps de pluie"]}
+    }
+  },
+  {
+    "id": 50,
+    "topic": "gear",
+    "explanation": {
+      "ar": "الخوذة المستعملة قد تكون سقطت أو تعرضت لضربة من قبل، والتلف لا يظهر دائمًا من الخارج. الخوذة التالفة قد لا تحمي رأسك عند الحادث.",
+      "en": "A used helmet may have been dropped or hit before, and the damage does not always show on the outside. A damaged helmet may not protect your head in a crash.",
+      "fr": "Un casque d'occasion a pu tomber ou subir un choc, et les dégâts ne se voient pas toujours de l'extérieur. Un casque endommagé risque de ne pas protéger votre tête en cas d'accident."
+    },
+    "whyWrong": {
+      "ar": ["الخوذة التي تغطي كامل الوجه نوع جيد يحمي الرأس والوجه، وليست سببًا لرفضها.", null, "استعمال خوذة مستعملة لا يخالف القانون بحد ذاته؛ المشكلة أنها قد تكون تالفة."],
+      "en": ["A full-face helmet is a good type that protects the head and face; it is no reason to refuse it.", null, "Using a second-hand helmet does not in itself break the law; the problem is that it may be damaged."],
+      "fr": ["Un casque intégral est un bon type qui protège la tête et le visage ; ce n'est pas une raison de le refuser.", null, "Utiliser un casque d'occasion n'est pas en soi illégal ; le problème est qu'il peut être endommagé."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {"text": "A friend offers you a used safety helmet to use. Why might this be a bad idea?", "options": ["It may be a full-face type", "It may be damaged", "You would be breaking the law"]},
+      "fr": {"text": "Un ami vous propose un casque d'occasion. Pourquoi est-ce peut-être une mauvaise idée ?", "options": ["Il pourrait s'agir d'un casque intégral", "Il pourrait être endommagé", "Vous seriez en infraction"]}
+    }
+  }
+]

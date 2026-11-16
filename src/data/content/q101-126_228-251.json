@@ -1,0 +1,1312 @@
+[
+  {
+    "id": 101,
+    "topic": "law_penalties",
+    "explanation": {
+      "ar": "يصنّف قانون السير في لبنان تكرار استعمال المنبه أو إبقاءه يعمل كمخالفة من الفئة الثانية. المنبه للتنبيه عند الحاجة فقط، والإكثار منه يزعج الناس.",
+      "en": "Lebanon's traffic law classes repeated or continuous use of the horn as a second-class violation. The horn is only for warning when needed, and overusing it disturbs people.",
+      "fr": "Le code de la route libanais classe l'utilisation répétée ou continue de l'avertisseur sonore comme une infraction de deuxième catégorie. L'avertisseur sert seulement à prévenir en cas de besoin, et en abuser dérange les gens."
+    },
+    "whyWrong": {
+      "ar": [null, "هذه المخالفة من الفئة الثانية وليست الثالثة.", "هذه المخالفة من الفئة الثانية وليست الرابعة."],
+      "en": [null, "This violation is second class, not third.", "This violation is second class, not fourth."],
+      "fr": [null, "Cette infraction est de deuxième catégorie, pas de troisième.", "Cette infraction est de deuxième catégorie, pas de quatrième."]
+    },
+    "tip": {
+      "ar": "مخالفات المنبه في بنك الأسئلة (التكرار، عدم مراعاة القواعد، الاستعمال ليلًا) كلها من الفئة الثانية.",
+      "en": "The horn violations in the question bank (repeated use, ignoring the rules, use at night) are all second class.",
+      "fr": "Les infractions liées à l'avertisseur dans la banque de questions (usage répété, non-respect des règles, usage la nuit) sont toutes de deuxième catégorie."
+    },
+    "translation": {
+      "en": {
+        "text": "Repeated or continued use of the horn is considered a traffic violation of the:",
+        "options": ["Second class", "Third class", "Fourth class"]
+      },
+      "fr": {
+        "text": "L'utilisation répétée ou prolongée de l'avertisseur sonore est considérée comme une infraction au code de la route de la :",
+        "options": ["Deuxième catégorie", "Troisième catégorie", "Quatrième catégorie"]
+      }
+    }
+  },
+  {
+    "id": 102,
+    "topic": "law_penalties",
+    "explanation": {
+      "ar": "حسب قانون السير في لبنان، عدم الالتزام بقواعد استعمال المنبه مخالفة من الفئة الثانية. يجب استعمال المنبه فقط للتنبيه من خطر.",
+      "en": "Under Lebanon's traffic law, not following the rules for using the horn is a second-class violation. The horn should only be used to warn of danger.",
+      "fr": "Selon le code de la route libanais, ne pas respecter les règles d'utilisation de l'avertisseur est une infraction de deuxième catégorie. L'avertisseur ne doit servir qu'à prévenir d'un danger."
+    },
+    "whyWrong": {
+      "ar": [null, "هذه المخالفة من الفئة الثانية وليست الثالثة.", "هذه المخالفة من الفئة الثانية وليست الرابعة."],
+      "en": [null, "This violation is second class, not third.", "This violation is second class, not fourth."],
+      "fr": [null, "Cette infraction est de deuxième catégorie, pas de troisième.", "Cette infraction est de deuxième catégorie, pas de quatrième."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "Failing to observe the rules for using the horn is considered a traffic violation of the:",
+        "options": ["Second class", "Third class", "Fourth class"]
+      },
+      "fr": {
+        "text": "Le non-respect des règles d'utilisation de l'avertisseur sonore est considéré comme une infraction au code de la route de la :",
+        "options": ["Deuxième catégorie", "Troisième catégorie", "Quatrième catégorie"]
+      }
+    }
+  },
+  {
+    "id": 103,
+    "topic": "law_penalties",
+    "explanation": {
+      "ar": "استعمال المنبه في الليل يزعج الناس النائمين، لذلك يمنعه القانون إلا عند الضرورة القصوى. ويصنّف قانون السير في لبنان هذه المخالفة من الفئة الثانية.",
+      "en": "Using the horn at night disturbs people who are sleeping, so the law forbids it except in cases of extreme necessity. Lebanon's traffic law classes this violation as second class.",
+      "fr": "Utiliser l'avertisseur la nuit dérange les gens qui dorment, c'est pourquoi la loi l'interdit sauf en cas d'extrême nécessité. Le code de la route libanais classe cette infraction en deuxième catégorie."
+    },
+    "whyWrong": {
+      "ar": [null, "هذه المخالفة من الفئة الثانية وليست الثالثة.", "هذه المخالفة من الفئة الثانية وليست الرابعة."],
+      "en": [null, "This violation is second class, not third.", "This violation is second class, not fourth."],
+      "fr": [null, "Cette infraction est de deuxième catégorie, pas de troisième.", "Cette infraction est de deuxième catégorie, pas de quatrième."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "Using the horn at night, except in cases of extreme necessity, is considered a traffic violation of the:",
+        "options": ["Second class", "Third class", "Fourth class"]
+      },
+      "fr": {
+        "text": "L'utilisation de l'avertisseur sonore la nuit, sauf en cas d'extrême nécessité, est considérée comme une infraction au code de la route de la :",
+        "options": ["Deuxième catégorie", "Troisième catégorie", "Quatrième catégorie"]
+      }
+    }
+  },
+  {
+    "id": 104,
+    "topic": "law_penalties",
+    "explanation": {
+      "ar": "التوقف حيث توجد لافتة تمنع الوقوف والتوقف قد يعيق السير أو يحجب الرؤية عن الآخرين. ويعتبره قانون السير في لبنان مخالفة من الفئة الثانية.",
+      "en": "Stopping where a sign forbids parking and stopping can block traffic or hide the view for others. Lebanon's traffic law treats it as a second-class violation.",
+      "fr": "S'arrêter là où un panneau interdit le stationnement et l'arrêt peut gêner la circulation ou cacher la vue aux autres. Le code de la route libanais en fait une infraction de deuxième catégorie."
+    },
+    "whyWrong": {
+      "ar": [null, "هذه المخالفة من الفئة الثانية وليست الثالثة.", "هذه المخالفة من الفئة الثانية وليست الرابعة."],
+      "en": [null, "This violation is second class, not third.", "This violation is second class, not fourth."],
+      "fr": [null, "Cette infraction est de deuxième catégorie, pas de troisième.", "Cette infraction est de deuxième catégorie, pas de quatrième."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "Stopping in places marked with a “No parking and no stopping” sign is considered a traffic violation of the:",
+        "options": ["Second class", "Third class", "Fourth class"]
+      },
+      "fr": {
+        "text": "L'arrêt dans les endroits signalés par un panneau « Stationnement et arrêt interdits » est considéré comme une infraction au code de la route de la :",
+        "options": ["Deuxième catégorie", "Troisième catégorie", "Quatrième catégorie"]
+      }
+    }
+  },
+  {
+    "id": 105,
+    "topic": "law_penalties",
+    "explanation": {
+      "ar": "التمسّك بمركبة أخرى أو ربط الدراجة بها لكي تجرّها أمر خطير جدًا، لأنك لا تتحكم بالسرعة ولا بالتوقف. ويصنّف قانون السير في لبنان هذه المخالفة من الفئة الثالثة.",
+      "en": "Holding on to another vehicle or tying your bike to it so it tows you is very dangerous, because you control neither the speed nor the stopping. Lebanon's traffic law classes this violation as third class.",
+      "fr": "S'accrocher à un autre véhicule ou y attacher son deux-roues pour se faire tracter est très dangereux, car on ne contrôle ni la vitesse ni l'arrêt. Le code de la route libanais classe cette infraction en troisième catégorie."
+    },
+    "whyWrong": {
+      "ar": ["هذه المخالفة من الفئة الثالثة وليست الثانية.", null, "هذه المخالفة من الفئة الثالثة وليست الرابعة."],
+      "en": ["This violation is third class, not second.", null, "This violation is third class, not fourth."],
+      "fr": ["Cette infraction est de troisième catégorie, pas de deuxième.", null, "Cette infraction est de troisième catégorie, pas de quatrième."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "Motorcycle or bicycle riders using other vehicles or cycles to tow them is considered a traffic violation of the:",
+        "options": ["Second class", "Third class", "Fourth class"]
+      },
+      "fr": {
+        "text": "Le fait, pour les conducteurs de motocyclettes ou de bicyclettes, de recourir à d'autres véhicules ou cycles pour se faire tracter est considéré comme une infraction au code de la route de la :",
+        "options": ["Deuxième catégorie", "Troisième catégorie", "Quatrième catégorie"]
+      }
+    }
+  },
+  {
+    "id": 106,
+    "topic": "law_penalties",
+    "explanation": {
+      "ar": "الخوذة غير المربوطة جيدًا قد تطير عن الرأس عند الحادث فلا تحمي. لذلك يعتبر قانون السير في لبنان عدم ربطها بإحكام مخالفة من الفئة الثالثة، سواء للسائق أو للراكب.",
+      "en": "A helmet that is not fastened properly can come off in a crash and give no protection. That is why Lebanon's traffic law treats not fastening it securely as a third-class violation, for both rider and passenger.",
+      "fr": "Un casque mal attaché peut s'arracher lors d'un accident et ne plus protéger. C'est pourquoi le code de la route libanais considère le fait de ne pas l'attacher solidement comme une infraction de troisième catégorie, pour le conducteur comme pour le passager."
+    },
+    "whyWrong": {
+      "ar": ["هذه المخالفة من الفئة الثالثة وليست الثانية.", null, "هذه المخالفة من الفئة الثالثة وليست الرابعة."],
+      "en": ["This violation is third class, not second.", null, "This violation is third class, not fourth."],
+      "fr": ["Cette infraction est de troisième catégorie, pas de deuxième.", null, "Cette infraction est de troisième catégorie, pas de quatrième."]
+    },
+    "tip": {
+      "ar": "لا تخلط: مخالفات المنبه من الفئة الثانية، أما عدم ربط الخوذة بإحكام فمن الفئة الثالثة.",
+      "en": "Don't mix them up: horn violations are second class, but not fastening the helmet securely is third class.",
+      "fr": "Ne confondez pas : les infractions liées à l'avertisseur sont de deuxième catégorie, mais ne pas attacher solidement son casque est de troisième catégorie."
+    },
+    "translation": {
+      "en": {
+        "text": "Failure by the rider or passenger of a motorcycle to fasten the protective helmet securely is considered a traffic violation of the:",
+        "options": ["Second class", "Third class", "Fourth class"]
+      },
+      "fr": {
+        "text": "Le fait, pour le conducteur ou le passager d'une motocyclette, de ne pas attacher solidement le casque de protection est considéré comme une infraction au code de la route de la :",
+        "options": ["Deuxième catégorie", "Troisième catégorie", "Quatrième catégorie"]
+      }
+    }
+  },
+  {
+    "id": 107,
+    "topic": "law_penalties",
+    "explanation": {
+      "ar": "السير في غير الاتجاه المحدد يعرّضك لاصطدام مباشر مع مركبات لا تتوقع وجودك. ويصنّف قانون السير في لبنان هذه المخالفة من الفئة الرابعة.",
+      "en": "Riding in a direction other than the one designated puts you at risk of a head-on crash with vehicles that do not expect you. Lebanon's traffic law classes this violation as fourth class.",
+      "fr": "Rouler dans un sens autre que celui prescrit vous expose à une collision frontale avec des véhicules qui ne s'attendent pas à vous voir. Le code de la route libanais classe cette infraction en quatrième catégorie."
+    },
+    "whyWrong": {
+      "ar": ["هذه المخالفة من الفئة الرابعة وليست الثالثة.", null, "هذه المخالفة من الفئة الرابعة وليست الخامسة."],
+      "en": ["This violation is fourth class, not third.", null, "This violation is fourth class, not fifth."],
+      "fr": ["Cette infraction est de quatrième catégorie, pas de troisième.", null, "Cette infraction est de quatrième catégorie, pas de cinquième."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "Riding the motorcycle in a direction other than the designated one is considered a traffic violation of the:",
+        "options": ["Third class", "Fourth class", "Fifth class"]
+      },
+      "fr": {
+        "text": "Conduire la motocyclette dans un sens autre que celui prescrit est considéré comme une infraction au code de la route de la :",
+        "options": ["Troisième catégorie", "Quatrième catégorie", "Cinquième catégorie"]
+      }
+    }
+  },
+  {
+    "id": 108,
+    "topic": "law_penalties",
+    "explanation": {
+      "ar": "السير بعكس وجهة المرور خطير جدًا لأن السائقين الآخرين لا يتوقعون مركبة قادمة باتجاههم. ويصنّف قانون السير في لبنان هذه المخالفة من الفئة الرابعة.",
+      "en": "Riding against the flow of traffic is very dangerous because other drivers do not expect a vehicle coming towards them. Lebanon's traffic law classes this violation as fourth class.",
+      "fr": "Rouler à contresens est très dangereux, car les autres conducteurs ne s'attendent pas à voir un véhicule venir vers eux. Le code de la route libanais classe cette infraction en quatrième catégorie."
+    },
+    "whyWrong": {
+      "ar": ["هذه المخالفة من الفئة الرابعة وليست الثالثة.", null, "هذه المخالفة من الفئة الرابعة وليست الخامسة."],
+      "en": ["This violation is fourth class, not third.", null, "This violation is fourth class, not fifth."],
+      "fr": ["Cette infraction est de quatrième catégorie, pas de troisième.", null, "Cette infraction est de quatrième catégorie, pas de cinquième."]
+    },
+    "tip": {
+      "ar": "السير بعكس وجهة المرور والسير في غير الاتجاه المحدد كلاهما من الفئة الرابعة.",
+      "en": "Riding against the flow of traffic and riding in a direction other than the designated one are both fourth class.",
+      "fr": "Rouler à contresens et rouler dans un sens autre que celui prescrit sont tous deux de quatrième catégorie."
+    },
+    "translation": {
+      "en": {
+        "text": "Riding the motorcycle against the flow of traffic is considered a traffic violation of the:",
+        "options": ["Third class", "Fourth class", "Fifth class"]
+      },
+      "fr": {
+        "text": "Conduire la motocyclette à contresens de la circulation est considéré comme une infraction au code de la route de la :",
+        "options": ["Troisième catégorie", "Quatrième catégorie", "Cinquième catégorie"]
+      }
+    }
+  },
+  {
+    "id": 109,
+    "topic": "law_penalties",
+    "explanation": {
+      "ar": "الضوضاء العالية، مثل صوت العادم المرتفع أو رفع دوران المحرك بلا حاجة، تزعج الناس على الطريق وفي البيوت المجاورة. ويصنّف قانون السير في لبنان هذه المخالفة من الفئة الرابعة.",
+      "en": "Loud noise, such as a loud exhaust or revving the engine for no reason, disturbs people on the road and in nearby homes. Lebanon's traffic law classes this violation as fourth class.",
+      "fr": "Le bruit fort, comme un échappement bruyant ou un moteur qu'on fait vrombir sans raison, dérange les gens sur la route et dans les maisons voisines. Le code de la route libanais classe cette infraction en quatrième catégorie."
+    },
+    "whyWrong": {
+      "ar": ["هذه المخالفة من الفئة الرابعة وليست الثالثة.", null, "هذه المخالفة من الفئة الرابعة وليست الخامسة."],
+      "en": ["This violation is fourth class, not third.", null, "This violation is fourth class, not fifth."],
+      "fr": ["Cette infraction est de quatrième catégorie, pas de troisième.", null, "Cette infraction est de quatrième catégorie, pas de cinquième."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "Making noise that disturbs other road users and people living nearby is considered a traffic violation of the:",
+        "options": ["Third class", "Fourth class", "Fifth class"]
+      },
+      "fr": {
+        "text": "Faire du bruit qui gêne les autres usagers de la route et les riverains est considéré comme une infraction au code de la route de la :",
+        "options": ["Troisième catégorie", "Quatrième catégorie", "Cinquième catégorie"]
+      }
+    }
+  },
+  {
+    "id": 110,
+    "topic": "law_penalties",
+    "explanation": {
+      "ar": "حسب قانون السير في لبنان، تؤدي مخالفة إحداث الضوضاء إلى حجز الدراجة في مرآب الحجز. هكذا يتوقف الإزعاج ولا يتكرر فورًا.",
+      "en": "Under Lebanon's traffic law, the noise violation leads to the motorcycle being impounded in the impound garage. This way the disturbance stops and cannot continue straight away.",
+      "fr": "Selon le code de la route libanais, l'infraction pour bruit entraîne la mise en fourrière de la motocyclette. Ainsi, la gêne cesse et ne peut pas reprendre aussitôt."
+    },
+    "whyWrong": {
+      "ar": [null, "القانون ينص على الحجز في مرآب الحجز، وليس الاحتجاز في مكان ضبط المخالفة.", "هذه المخالفة لا تستدعي اعتقال السائق، بل حجز الدراجة."],
+      "en": [null, "The law calls for impounding in the impound garage, not holding the bike where the violation was recorded.", "This violation does not call for arresting the rider; it calls for impounding the motorcycle."],
+      "fr": [null, "La loi prévoit la mise en fourrière, et non l'immobilisation sur le lieu de constatation de l'infraction.", "Cette infraction n'entraîne pas l'arrestation du conducteur, mais la mise en fourrière de la moto."]
+    },
+    "tip": {
+      "ar": "انتبه للفرق بين «حجز الدراجة في مرآب الحجز» و«احتجازها في مكان ضبط المخالفة»؛ الجواب الصحيح هو مرآب الحجز.",
+      "en": "Watch the difference between “impounding in the impound garage” and “holding at the place the violation was recorded”; the correct answer is the impound garage.",
+      "fr": "Attention à la différence entre « mise en fourrière » et « immobilisation sur le lieu de l'infraction » : la bonne réponse est la fourrière."
+    },
+    "translation": {
+      "en": {
+        "text": "Making noise that disturbs other road users and people living nearby is a traffic violation that calls for:",
+        "options": ["Impounding the motorcycle in the impound garage", "Holding the motorcycle at the place where the violation was recorded", "Arresting the motorcycle rider"]
+      },
+      "fr": {
+        "text": "Faire du bruit qui gêne les autres usagers de la route et les riverains est une infraction au code de la route qui entraîne :",
+        "options": ["La mise en fourrière de la motocyclette", "L'immobilisation de la motocyclette sur le lieu de constatation de l'infraction", "L'arrestation du conducteur de la motocyclette"]
+      }
+    }
+  },
+  {
+    "id": 111,
+    "topic": "law_penalties",
+    "explanation": {
+      "ar": "السباق على الطرقات العامة يعرّض السائق وكل من حوله لخطر كبير جدًا. لذلك يصنّفه قانون السير في لبنان مخالفة من الفئة الخامسة، وهي أعلى فئة بين الخيارات.",
+      "en": "Racing on public roads puts the rider and everyone nearby in very serious danger. That is why Lebanon's traffic law classes it as a fifth-class violation, the highest class among the options.",
+      "fr": "Faire une course sur la voie publique met le conducteur et tous ceux qui l'entourent en très grand danger. C'est pourquoi le code de la route libanais en fait une infraction de cinquième catégorie, la plus élevée parmi les choix."
+    },
+    "whyWrong": {
+      "ar": ["هذه المخالفة من الفئة الخامسة وليست الثالثة.", "هذه المخالفة من الفئة الخامسة وليست الرابعة.", null],
+      "en": ["This violation is fifth class, not third.", "This violation is fifth class, not fourth.", null],
+      "fr": ["Cette infraction est de cinquième catégorie, pas de troisième.", "Cette infraction est de cinquième catégorie, pas de quatrième.", null]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "Holding a race on public roads without obtaining a permit is considered a traffic violation of the:",
+        "options": ["Third class", "Fourth class", "Fifth class"]
+      },
+      "fr": {
+        "text": "Organiser une course sur la voie publique sans avoir obtenu d'autorisation est considéré comme une infraction au code de la route de la :",
+        "options": ["Troisième catégorie", "Quatrième catégorie", "Cinquième catégorie"]
+      }
+    }
+  },
+  {
+    "id": 112,
+    "topic": "law_penalties",
+    "explanation": {
+      "ar": "الحركات الخطرة، مثل الاستعراض على الدراجة أو القيادة على عجلة واحدة، قد تسبب حوادث خطيرة. ويصنّف قانون السير في لبنان هذه المخالفة من الفئة الخامسة.",
+      "en": "Dangerous moves, such as showing off on the bike or riding on one wheel, can cause serious crashes. Lebanon's traffic law classes this violation as fifth class.",
+      "fr": "Les mouvements dangereux, comme faire des acrobaties ou rouler sur une seule roue, peuvent provoquer des accidents graves. Le code de la route libanais classe cette infraction en cinquième catégorie."
+    },
+    "whyWrong": {
+      "ar": ["هذه المخالفة من الفئة الخامسة وليست الثالثة.", "هذه المخالفة من الفئة الخامسة وليست الرابعة.", null],
+      "en": ["This violation is fifth class, not third.", "This violation is fifth class, not fourth.", null],
+      "fr": ["Cette infraction est de cinquième catégorie, pas de troisième.", "Cette infraction est de cinquième catégorie, pas de quatrième.", null]
+    },
+    "tip": {
+      "ar": "المخالفات الأخطر، مثل السباق دون ترخيص والمناورات الخطرة، هي من الفئة الخامسة، أي الأعلى بين الخيارات.",
+      "en": "The most dangerous violations, like racing without a permit and dangerous manoeuvres, are fifth class, the highest of the options.",
+      "fr": "Les infractions les plus dangereuses, comme les courses sans autorisation et les manœuvres dangereuses, sont de cinquième catégorie, la plus élevée des choix."
+    },
+    "translation": {
+      "en": {
+        "text": "Performing dangerous movements or manoeuvres is considered a traffic violation of the:",
+        "options": ["Third class", "Fourth class", "Fifth class"]
+      },
+      "fr": {
+        "text": "Effectuer des mouvements ou des manœuvres dangereux est considéré comme une infraction au code de la route de la :",
+        "options": ["Troisième catégorie", "Quatrième catégorie", "Cinquième catégorie"]
+      }
+    }
+  },
+  {
+    "id": 113,
+    "topic": "law_penalties",
+    "explanation": {
+      "ar": "حسب قانون السير في لبنان، غرامة مخالفة الفئة الثانية ضمن أول أسبوعين هي مليون ليرة لبنانية. هي أقل غرامة بين الخيارات لأن الفئة الثانية أخف من الفئات الأعلى.",
+      "en": "Under Lebanon's traffic law, the fine for a second-class violation within the first two weeks is one million Lebanese pounds. It is the lowest fine among the options because the second class is lighter than the higher classes.",
+      "fr": "Selon le code de la route libanais, l'amende pour une infraction de deuxième catégorie dans les deux premières semaines est d'un million de livres libanaises. C'est la plus faible des choix, car la deuxième catégorie est moins grave que les catégories supérieures."
+    },
+    "whyWrong": {
+      "ar": [null, "مليونا ليرة لبنانية هي غرامة الفئة الثالثة، وليست الثانية.", "ثلاثة ملايين وخمسمائة ألف ليرة لبنانية هي غرامة الفئة الرابعة، وليست الثانية."],
+      "en": [null, "Two million Lebanese pounds is the third-class fine, not the second-class one.", "Three million five hundred thousand Lebanese pounds is the fourth-class fine, not the second-class one."],
+      "fr": [null, "Deux millions de livres libanaises est l'amende de la troisième catégorie, pas de la deuxième.", "Trois millions cinq cent mille livres libanaises est l'amende de la quatrième catégorie, pas de la deuxième."]
+    },
+    "tip": {
+      "ar": "تذكّر الترتيب: الفئة الثانية مليون، والثالثة مليونان، والرابعة ثلاثة ملايين وخمسمائة ألف ليرة لبنانية. كلما ارتفعت الفئة ارتفعت الغرامة.",
+      "en": "Remember the order: second class is one million, third class two million, fourth class three million five hundred thousand Lebanese pounds. The higher the class, the higher the fine.",
+      "fr": "Retenez l'ordre : deuxième catégorie un million, troisième deux millions, quatrième trois millions cinq cent mille livres libanaises. Plus la catégorie est élevée, plus l'amende l'est aussi."
+    },
+    "translation": {
+      "en": {
+        "text": "The fine for a second-class traffic violation within the first two weeks amounts to:",
+        "options": ["One million Lebanese pounds", "Two million Lebanese pounds", "Three million five hundred thousand Lebanese pounds"]
+      },
+      "fr": {
+        "text": "L'amende pour une infraction au code de la route de deuxième catégorie, dans les deux premières semaines, s'élève à :",
+        "options": ["Un million de livres libanaises", "Deux millions de livres libanaises", "Trois millions cinq cent mille livres libanaises"]
+      }
+    }
+  },
+  {
+    "id": 114,
+    "topic": "law_penalties",
+    "explanation": {
+      "ar": "حسب قانون السير في لبنان، غرامة مخالفة الفئة الثالثة ضمن أول أسبوعين هي مليونا ليرة لبنانية. هي أعلى من غرامة الفئة الثانية وأقل من غرامة الفئة الرابعة.",
+      "en": "Under Lebanon's traffic law, the fine for a third-class violation within the first two weeks is two million Lebanese pounds. It is higher than the second-class fine and lower than the fourth-class fine.",
+      "fr": "Selon le code de la route libanais, l'amende pour une infraction de troisième catégorie dans les deux premières semaines est de deux millions de livres libanaises. Elle est plus élevée que celle de la deuxième catégorie et plus faible que celle de la quatrième."
+    },
+    "whyWrong": {
+      "ar": ["مليون ليرة لبنانية هي غرامة الفئة الثانية، وليست الثالثة.", null, "ثلاثة ملايين وخمسمائة ألف ليرة لبنانية هي غرامة الفئة الرابعة، وليست الثالثة."],
+      "en": ["One million Lebanese pounds is the second-class fine, not the third-class one.", null, "Three million five hundred thousand Lebanese pounds is the fourth-class fine, not the third-class one."],
+      "fr": ["Un million de livres libanaises est l'amende de la deuxième catégorie, pas de la troisième.", null, "Trois millions cinq cent mille livres libanaises est l'amende de la quatrième catégorie, pas de la troisième."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "The fine for a third-class traffic violation within the first two weeks amounts to:",
+        "options": ["One million Lebanese pounds", "Two million Lebanese pounds", "Three million five hundred thousand Lebanese pounds"]
+      },
+      "fr": {
+        "text": "L'amende pour une infraction au code de la route de troisième catégorie, dans les deux premières semaines, s'élève à :",
+        "options": ["Un million de livres libanaises", "Deux millions de livres libanaises", "Trois millions cinq cent mille livres libanaises"]
+      }
+    }
+  },
+  {
+    "id": 115,
+    "topic": "law_penalties",
+    "explanation": {
+      "ar": "حسب قانون السير في لبنان، غرامة مخالفة الفئة الرابعة ضمن أول أسبوعين هي ثلاثة ملايين وخمسمائة ألف ليرة لبنانية.",
+      "en": "Under Lebanon's traffic law, the fine for a fourth-class violation within the first two weeks is three million five hundred thousand Lebanese pounds.",
+      "fr": "Selon le code de la route libanais, l'amende pour une infraction de quatrième catégorie dans les deux premières semaines est de trois millions cinq cent mille livres libanaises."
+    },
+    "whyWrong": {
+      "ar": ["مليونا ليرة لبنانية هي غرامة الفئة الثالثة، وليست الرابعة.", null, "ثلاثون مليون ليرة لبنانية هي الحد الأقصى لغرامة الفئة الخامسة، وليست غرامة الفئة الرابعة."],
+      "en": ["Two million Lebanese pounds is the third-class fine, not the fourth-class one.", null, "Thirty million Lebanese pounds is the maximum fine for the fifth class, not the fourth-class fine."],
+      "fr": ["Deux millions de livres libanaises est l'amende de la troisième catégorie, pas de la quatrième.", null, "Trente millions de livres libanaises est le maximum de l'amende de cinquième catégorie, pas l'amende de la quatrième."]
+    },
+    "tip": {
+      "ar": "لا تخلط بين الفئة الثالثة (مليونا ليرة) والفئة الرابعة (ثلاثة ملايين وخمسمائة ألف ليرة). أما الثلاثون مليونًا فهي للفئة الخامسة.",
+      "en": "Don't confuse the third class (two million pounds) with the fourth class (three million five hundred thousand pounds). Thirty million belongs to the fifth class.",
+      "fr": "Ne confondez pas la troisième catégorie (deux millions de livres) avec la quatrième (trois millions cinq cent mille livres). Les trente millions concernent la cinquième catégorie."
+    },
+    "translation": {
+      "en": {
+        "text": "The fine for a fourth-class traffic violation within the first two weeks amounts to:",
+        "options": ["Two million Lebanese pounds", "Three million five hundred thousand Lebanese pounds", "Thirty million Lebanese pounds"]
+      },
+      "fr": {
+        "text": "L'amende pour une infraction au code de la route de quatrième catégorie, dans les deux premières semaines, s'élève à :",
+        "options": ["Deux millions de livres libanaises", "Trois millions cinq cent mille livres libanaises", "Trente millions de livres libanaises"]
+      }
+    }
+  },
+  {
+    "id": 116,
+    "topic": "law_penalties",
+    "explanation": {
+      "ar": "الفئة الخامسة هي أخطر فئات المخالفات في هذه الأسئلة، لذلك غرامتها هي الأعلى. حسب قانون السير في لبنان، قد تصل غرامتها إلى ثلاثين مليون ليرة لبنانية.",
+      "en": "The fifth class is the most serious class of violation in these questions, so its fine is the highest. Under Lebanon's traffic law, its fine can reach thirty million Lebanese pounds.",
+      "fr": "La cinquième catégorie est la plus grave des catégories d'infractions de ces questions, son amende est donc la plus élevée. Selon le code de la route libanais, elle peut atteindre trente millions de livres libanaises."
+    },
+    "whyWrong": {
+      "ar": ["مليونا ليرة لبنانية هي غرامة الفئة الثالثة، وهي أقل بكثير من غرامة الفئة الخامسة.", "ثلاثة ملايين وخمسمائة ألف ليرة لبنانية هي غرامة الفئة الرابعة، وليست الخامسة.", null],
+      "en": ["Two million Lebanese pounds is the third-class fine, far lower than the fifth-class fine.", "Three million five hundred thousand Lebanese pounds is the fourth-class fine, not the fifth-class one.", null],
+      "fr": ["Deux millions de livres libanaises est l'amende de la troisième catégorie, bien inférieure à celle de la cinquième.", "Trois millions cinq cent mille livres libanaises est l'amende de la quatrième catégorie, pas de la cinquième.", null]
+    },
+    "tip": {
+      "ar": "لاحظ كلمة «تصل لغاية»: ثلاثون مليون ليرة هي الحد الأقصى لغرامة الفئة الخامسة، الأخطر بين الفئات.",
+      "en": "Notice the words “can reach up to”: thirty million pounds is the maximum fine for the fifth class, the most serious class.",
+      "fr": "Remarquez les mots « peut aller jusqu'à » : trente millions de livres est le maximum de l'amende de cinquième catégorie, la plus grave."
+    },
+    "translation": {
+      "en": {
+        "text": "The fine for a fifth-class traffic violation can reach up to:",
+        "options": ["Two million Lebanese pounds", "Three million five hundred thousand Lebanese pounds", "Thirty million Lebanese pounds"]
+      },
+      "fr": {
+        "text": "L'amende pour une infraction au code de la route de cinquième catégorie peut aller jusqu'à :",
+        "options": ["Deux millions de livres libanaises", "Trois millions cinq cent mille livres libanaises", "Trente millions de livres libanaises"]
+      }
+    }
+  },
+  {
+    "id": 117,
+    "topic": "traffic_rules",
+    "explanation": {
+      "ar": "الدراجة صغيرة ويصعب على السائقين الآخرين رؤيتها. لذلك يجب تشغيل أنوارها في جميع الأوقات، ليلًا ونهارًا، حتى يراك الآخرون بسهولة.",
+      "en": "A motorcycle is small and hard for other drivers to see. That is why its lights must be on at all times, day and night, so others can see you easily.",
+      "fr": "Une moto est petite et difficile à voir pour les autres conducteurs. C'est pourquoi ses feux doivent être allumés en tout temps, de jour comme de nuit, pour que les autres vous voient facilement."
+    },
+    "whyWrong": {
+      "ar": ["الأنوار ليست للظلام فقط؛ يجب تشغيلها دائمًا ليراك الآخرون حتى في النهار.", "الأنوار مطلوبة في كل الأوقات، وليس فقط عند السير خلف مركبة.", null],
+      "en": ["Lights are not only for darkness; they must always be on so others see you, even in daytime.", "Lights are required at all times, not only when riding behind a vehicle.", null],
+      "fr": ["Les feux ne servent pas qu'à l'obscurité ; ils doivent toujours être allumés pour qu'on vous voie, même de jour.", "Les feux sont obligatoires en tout temps, pas seulement derrière un véhicule.", null]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "The motorcycle rider must use the motorcycle's lights:",
+        "options": ["When the road lighting is insufficient", "When riding behind a vehicle", "At all times"]
+      },
+      "fr": {
+        "text": "Le conducteur d'une motocyclette doit utiliser les feux de sa motocyclette :",
+        "options": ["Lorsque l'éclairage de la route est insuffisant", "Lorsqu'il circule derrière un véhicule", "En tout temps"]
+      }
+    }
+  },
+  {
+    "id": 118,
+    "topic": "passengers_loads",
+    "explanation": {
+      "ar": "يسمح القانون بنقل راكب خلفي فقط إذا كانت الدراجة مجهزة ومرخصة لذلك، وبشرط ألا يقل عمر الراكب عن عشر سنوات. الطفل الأصغر قد لا يستطيع التمسك جيدًا أو الجلوس بثبات.",
+      "en": "The law allows a pillion passenger only if the motorcycle is equipped and licensed for it, and only if the passenger is at least ten years old. A younger child may not be able to hold on well or sit steadily.",
+      "fr": "La loi n'autorise un passager que si la moto est équipée et autorisée pour cela, et à condition qu'il ait au moins dix ans. Un enfant plus jeune risque de ne pas pouvoir bien se tenir ou rester stable."
+    },
+    "whyWrong": {
+      "ar": ["خمس سنوات عمر صغير جدًا، والحد الأدنى الذي يحدده القانون هو عشر سنوات.", null, "القانون لا يشترط خمسة عشر سنة؛ الحد الأدنى هو عشر سنوات."],
+      "en": ["Five years is far too young; the legal minimum is ten years.", null, "The law does not require fifteen years; the minimum is ten years."],
+      "fr": ["Cinq ans, c'est beaucoup trop jeune ; le minimum légal est de dix ans.", null, "La loi n'exige pas quinze ans ; le minimum est de dix ans."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "Another person is allowed to ride behind the motorcycle rider if the motorcycle is equipped and licensed to carry a passenger, provided the passenger is not younger than:",
+        "options": ["Five years", "Ten years", "Fifteen years"]
+      },
+      "fr": {
+        "text": "Une autre personne est autorisée à monter derrière le conducteur d'une motocyclette si celle-ci est équipée et autorisée à transporter un passager, à condition que le passager n'ait pas moins de :",
+        "options": ["Cinq ans", "Dix ans", "Quinze ans"]
+      }
+    }
+  },
+  {
+    "id": 119,
+    "topic": "gear",
+    "explanation": {
+      "ar": "الخوذة تحمي رأسك فقط إذا كانت مربوطة بإحكام. إذا لم تكن مربوطة فقد تسقط عن رأسك عند الحادث، لذلك يمنع القانون القيادة دون خوذة مربوطة جيدًا.",
+      "en": "A helmet only protects your head if it is securely fastened. If it is not fastened it can fall off in a crash, which is why the law forbids riding without a securely fastened helmet.",
+      "fr": "Un casque ne protège votre tête que s'il est solidement attaché. Sinon, il peut tomber lors d'un accident ; c'est pourquoi la loi interdit de rouler sans casque solidement attaché."
+    },
+    "whyWrong": {
+      "ar": ["عمر الخوذة ليس الشرط المطلوب هنا؛ المطلوب أن تكون مربوطة بإحكام.", null, "وزن الخوذة ليس الشرط المطلوب هنا؛ المطلوب أن تكون مربوطة بإحكام."],
+      "en": ["The helmet's age is not the requirement here; it must be securely fastened.", null, "The helmet's weight is not the requirement here; it must be securely fastened."],
+      "fr": ["L'âge du casque n'est pas l'exigence ici ; il doit être solidement attaché.", null, "Le poids du casque n'est pas l'exigence ici ; il doit être solidement attaché."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "Motorcycle riders are prohibited from riding a motorcycle without using a protective helmet that is:",
+        "options": ["No more than one year old", "Securely fastened", "At least one kilogram in weight"]
+      },
+      "fr": {
+        "text": "Il est interdit aux conducteurs de motocyclettes de conduire une motocyclette sans utiliser un casque de protection :",
+        "options": ["Ayant au plus un an", "Solidement attaché", "Pesant au moins un kilogramme"]
+      }
+    }
+  },
+  {
+    "id": 120,
+    "topic": "law_penalties",
+    "explanation": {
+      "ar": "رخصة A1 مخصصة للدراجات الصغيرة. حسب القانون، تسمح بقيادة دراجة لا تزيد سعة محركها عن 125 س س.",
+      "en": "The A1 licence is for smaller motorcycles. By law, it allows riding a motorcycle whose engine capacity does not exceed 125 cc.",
+      "fr": "Le permis A1 est destiné aux petites motos. Selon la loi, il permet de conduire une moto dont la cylindrée ne dépasse pas 125 cm³."
+    },
+    "whyWrong": {
+      "ar": ["رخصة A1 لا تقتصر على 75 س س؛ حدها هو 125 س س.", null, "250 س س أكبر من حد رخصة A1، وهو 125 س س."],
+      "en": ["The A1 licence is not limited to 75 cc; its limit is 125 cc.", null, "250 cc is above the A1 limit, which is 125 cc."],
+      "fr": ["Le permis A1 n'est pas limité à 75 cm³ ; sa limite est de 125 cm³.", null, "250 cm³ dépasse la limite du permis A1, qui est de 125 cm³."]
+    },
+    "tip": {
+      "ar": "الرقم 125 هو الحد الفاصل: رخصة A1 حتى 125 س س، ورخصة الفئة A لأكثر من 125 س س.",
+      "en": "125 is the dividing line: the A1 licence covers up to 125 cc, and the category A licence covers more than 125 cc.",
+      "fr": "125 est la limite : le permis A1 couvre jusqu'à 125 cm³, et le permis de catégorie A au-delà de 125 cm³."
+    },
+    "translation": {
+      "en": {
+        "text": "An A1 motorcycle licence allows riding a motorcycle whose engine capacity does not exceed:",
+        "options": ["75 cc", "125 cc", "250 cc"]
+      },
+      "fr": {
+        "text": "Le permis de conduire moto A1 permet de conduire une motocyclette dont la cylindrée ne dépasse pas :",
+        "options": ["75 cm³", "125 cm³", "250 cm³"]
+      }
+    }
+  },
+  {
+    "id": 121,
+    "topic": "law_penalties",
+    "explanation": {
+      "ar": "رخصة الفئة A مخصصة للدراجات الأكبر. هي تبدأ حيث تنتهي رخصة A1، أي تسمح بقيادة دراجة تزيد سعة محركها عن 125 س س.",
+      "en": "The category A licence is for larger motorcycles. It starts where the A1 licence ends, so it allows riding a motorcycle whose engine capacity exceeds 125 cc.",
+      "fr": "Le permis de catégorie A est destiné aux motos plus puissantes. Il commence là où s'arrête le permis A1 : il permet de conduire une moto dont la cylindrée dépasse 125 cm³."
+    },
+    "whyWrong": {
+      "ar": ["الحد الذي تبدأ منه رخصة الفئة A هو 125 س س وليس 75 س س.", null, "الحد الذي تبدأ منه رخصة الفئة A هو 125 س س وليس 250 س س."],
+      "en": ["The threshold for the category A licence is 125 cc, not 75 cc.", null, "The threshold for the category A licence is 125 cc, not 250 cc."],
+      "fr": ["Le seuil du permis de catégorie A est de 125 cm³, pas de 75 cm³.", null, "Le seuil du permis de catégorie A est de 125 cm³, pas de 250 cm³."]
+    },
+    "tip": {
+      "ar": "الرقم نفسه في السؤالين: A1 «لا تزيد عن» 125 س س، والفئة A «تزيد عن» 125 س س.",
+      "en": "The same number appears in both questions: A1 is “not exceeding” 125 cc, and category A is “exceeding” 125 cc.",
+      "fr": "Le même nombre revient dans les deux questions : A1 « ne dépasse pas » 125 cm³, et la catégorie A « dépasse » 125 cm³."
+    },
+    "translation": {
+      "en": {
+        "text": "A category A motorcycle licence allows riding a motorcycle whose engine capacity exceeds:",
+        "options": ["75 cc", "125 cc", "250 cc"]
+      },
+      "fr": {
+        "text": "Le permis de conduire moto de catégorie A permet de conduire une motocyclette dont la cylindrée dépasse :",
+        "options": ["75 cm³", "125 cm³", "250 cm³"]
+      }
+    }
+  },
+  {
+    "id": 122,
+    "topic": "maintenance",
+    "explanation": {
+      "ar": "يُضبط عيار الفرامل الخلفية بشد عزقة كولية الفرامل. هذا الشد يقلل ارتخاء الفرامل فتعمل بفعالية أكبر.",
+      "en": "The rear brake is adjusted by tightening the brake collar nut. Tightening it reduces the slack in the brake so it works more effectively.",
+      "fr": "Le frein arrière se règle en serrant l'écrou du collier de frein. Ce serrage réduit le jeu du frein pour qu'il soit plus efficace."
+    },
+    "whyWrong": {
+      "ar": ["شد عزقة مسكة الفرامل ليس الطريقة المعتمدة لضبط عيار الفرامل الخلفية؛ الضبط يتم عند كولية الفرامل.", null, "سلسلة الدفع تنقل الحركة إلى العجلة، ولا علاقة لها بضبط الفرامل."],
+      "en": ["Tightening the brake lever nut is not the standard way to adjust the rear brake; the adjustment is made at the brake collar.", null, "The drive chain transmits power to the wheel and has nothing to do with adjusting the brakes."],
+      "fr": ["Serrer l'écrou de la poignée de frein n'est pas la méthode prévue pour régler le frein arrière ; le réglage se fait au collier de frein.", null, "La chaîne de transmission entraîne la roue et n'a rien à voir avec le réglage des freins."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "The rear brake of a motorcycle is adjusted by:",
+        "options": ["Tightening the brake lever nut", "Tightening the brake collar nut", "Tightening the “drive chain”"]
+      },
+      "fr": {
+        "text": "Le réglage du frein arrière de la motocyclette se fait en :",
+        "options": ["Serrant l'écrou de la poignée de frein", "Serrant l'écrou du collier de frein", "Tendant la « chaîne de transmission »"]
+      }
+    }
+  },
+  {
+    "id": 123,
+    "topic": "maintenance",
+    "explanation": {
+      "ar": "يتلف قشاط المحرك إذا أُجهد المحرك بسرعة تتجاوز حدها الأقصى، ويتلف أيضًا مع الوقت إذا تجاوز عمره المدة التي يوصي بها الصانع. لذلك السببان صحيحان.",
+      "en": "The engine belt fails if the engine is pushed beyond its maximum speed, and it also wears out over time if it is used longer than the manufacturer recommends. So both reasons are correct.",
+      "fr": "La courroie du moteur lâche si le moteur dépasse son régime maximal, et elle s'use aussi avec le temps si elle dépasse la durée recommandée par le constructeur. Les deux raisons sont donc correctes."
+    },
+    "whyWrong": {
+      "ar": ["هذا سبب صحيح، لكنه ليس الوحيد؛ تجاوز عمر القشاط سبب أيضًا.", "هذا سبب صحيح، لكنه ليس الوحيد؛ تجاوز سرعة المحرك القصوى سبب أيضًا.", null],
+      "en": ["This is a correct reason, but not the only one; the belt being too old is also a reason.", "This is a correct reason, but not the only one; exceeding the engine's maximum speed is also a reason.", null],
+      "fr": ["C'est une bonne raison, mais pas la seule ; une courroie trop vieille en est une aussi.", "C'est une bonne raison, mais pas la seule ; dépasser le régime maximal du moteur en est une aussi.", null]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "The motorcycle's engine belt breaks down if:",
+        "options": ["The engine speed exceeds the maximum speed", "The belt's age exceeds the period recommended by the manufacturer", "Both previous answers"]
+      },
+      "fr": {
+        "text": "La courroie du moteur de la moto tombe en panne si :",
+        "options": ["Le régime du moteur dépasse le régime maximal", "L'âge de la courroie dépasse la durée recommandée par le constructeur", "Les deux réponses précédentes"]
+      }
+    }
+  },
+  {
+    "id": 124,
+    "topic": "law_penalties",
+    "explanation": {
+      "ar": "عندما يقع حادث فيه إصابة وأضرار، تحتاج إلى معرفة تفاصيل تأمين المركبة الأخرى. هذه المعلومات ضرورية لتغطية علاج المصاب وتصليح الأضرار.",
+      "en": "When a crash causes injury and damage, you need to know the other vehicle's insurance details. This information is needed to cover the injured person's treatment and the repairs.",
+      "fr": "Quand un accident provoque des blessures et des dégâts, vous devez connaître les détails de l'assurance de l'autre véhicule. Ces informations sont nécessaires pour couvrir les soins du blessé et les réparations."
+    },
+    "whyWrong": {
+      "ar": [null, "معرفة إن كان السائق هو المالك ليست الأهم؛ التأمين هو ما يغطي الأضرار والإصابات.", "رخصة السائق أمر يهم السلطات، لكن ما تحتاج أنت إلى معرفته هو تفاصيل التأمين."],
+      "en": [null, "Whether the driver owns the vehicle is not the key point; the insurance is what covers the damage and injuries.", "The driver's licence matters to the authorities, but what you need to know is the insurance details."],
+      "fr": [null, "Savoir si le conducteur est le propriétaire n'est pas l'essentiel ; c'est l'assurance qui couvre les dégâts et les blessures.", "Le permis du conducteur concerne les autorités, mais ce que vous devez savoir, ce sont les détails de l'assurance."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "You were involved in a collision with a vehicle; a person was injured and your motorcycle was damaged. What must you find out?",
+        "options": ["The insurance details of the driver's vehicle", "Whether the driver is the owner of the vehicle", "Whether the driver is licensed to drive"]
+      },
+      "fr": {
+        "text": "Vous avez eu une collision avec un véhicule ; une personne a été blessée et votre motocyclette a été endommagée. Que devez-vous savoir ?",
+        "options": ["Les détails de l'assurance du véhicule du conducteur", "Si le conducteur est le propriétaire du véhicule", "Si le conducteur est titulaire d'un permis de conduire"]
+      }
+    }
+  },
+  {
+    "id": 125,
+    "topic": "traffic_rules",
+    "explanation": {
+      "ar": "إذا كان العائق على جانبك، فأنت من سيخرج من مسربه للالتفاف حوله. لذلك عليك أن تفسح الطريق للمركبات القادمة من الاتجاه المقابل حتى يصبح المرور آمنًا.",
+      "en": "If the obstruction is on your side, you are the one who has to leave your lane to go around it. So you must give way to oncoming vehicles until it is safe to pass.",
+      "fr": "Si l'obstacle est de votre côté, c'est vous qui devez quitter votre voie pour le contourner. Vous devez donc céder le passage aux véhicules venant en sens inverse jusqu'à ce que le passage soit sûr."
+    },
+    "whyWrong": {
+      "ar": ["زيادة السرعة للمرور أولًا قد تسبب اصطدامًا وجهًا لوجه مع مركبة مقابلة.", "الأفضلية ليست لك، لأن العائق في جهتك وأنت من سيدخل مسرب الآخرين.", null],
+      "en": ["Speeding up to go first can cause a head-on collision with an oncoming vehicle.", "You do not have priority, because the obstruction is on your side and you will enter the other lane.", null],
+      "fr": ["Accélérer pour passer le premier peut provoquer une collision frontale avec un véhicule venant en face.", "Vous n'avez pas la priorité, car l'obstacle est de votre côté et c'est vous qui empiétez sur l'autre voie.", null]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "What do you do when you meet an obstruction on your side of the road?",
+        "options": ["Speed up to pass first", "Carry on, because you have priority", "Give way to oncoming vehicles"]
+      },
+      "fr": {
+        "text": "Que faites-vous lorsque vous rencontrez un obstacle de votre côté de la route ?",
+        "options": ["Vous accélérez pour passer le premier", "Vous continuez, car vous avez la priorité", "Vous cédez le passage aux véhicules venant en sens inverse"]
+      }
+    }
+  },
+  {
+    "id": 126,
+    "topic": "road_conditions",
+    "explanation": {
+      "ar": "الماء يجعل الفرامل أضعف. عندما تسير ببطء وتضغط على الفرامل برفق، تجف الفرامل وتتأكد أنها عادت تعمل جيدًا.",
+      "en": "Water makes brakes weaker. Riding slowly while gently applying the brakes dries them and lets you check they are working well again.",
+      "fr": "L'eau rend les freins moins efficaces. En roulant lentement tout en freinant doucement, vous les séchez et vérifiez qu'ils fonctionnent à nouveau correctement."
+    },
+    "whyWrong": {
+      "ar": ["تجنّب الفرامل لا يجففها، وقد تكتشف ضعفها فقط عندما تحتاجها فجأة.", null, "التوقف ساعة غير ضروري، والضغط الخفيف على الفرامل أثناء السير البطيء يجففها أسرع."],
+      "en": ["Avoiding the brakes does not dry them, and you may only discover they are weak when you suddenly need them.", null, "Stopping for an hour is unnecessary; gentle braking while riding slowly dries them faster."],
+      "fr": ["Éviter de freiner ne les sèche pas, et vous risquez de découvrir leur faiblesse au moment où vous en aurez soudain besoin.", null, "S'arrêter une heure est inutile ; freiner doucement en roulant lentement les sèche plus vite."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "You have just crossed deep water. What should you do to make sure your brakes are working properly?",
+        "options": ["Avoid using the brakes for a few kilometres", "Ride slowly while gently applying the brakes", "Stop for at least an hour"]
+      },
+      "fr": {
+        "text": "Vous venez de traverser une eau profonde. Que devez-vous faire pour vous assurer que vos freins fonctionnent correctement ?",
+        "options": ["Éviter d'utiliser les freins pendant quelques kilomètres", "Rouler lentement en appuyant doucement sur les freins", "Vous arrêter pendant au moins une heure"]
+      }
+    }
+  },
+  {
+    "id": 228,
+    "topic": "maintenance",
+    "explanation": {
+      "ar": "الصيانة المنتظمة تكشف الأعطال مبكرًا، مثل ضعف الفرامل أو تلف الإطارات. هكذا تبقى الدراجة آمنة وصالحة للسير.",
+      "en": "Regular maintenance finds faults early, such as weak brakes or worn tyres. This keeps the motorcycle safe and roadworthy.",
+      "fr": "L'entretien régulier permet de détecter tôt les défauts, comme des freins faibles ou des pneus usés. Ainsi, la moto reste sûre et en état de rouler."
+    },
+    "whyWrong": {
+      "ar": ["حمل الحقائب ليس هدف الصيانة؛ الهدف أن تبقى الدراجة آمنة وصالحة للسير.", "الصيانة ليست لجعل الدراجة أسرع من غيرها، بل لجعلها آمنة.", null],
+      "en": ["Carrying bags is not the purpose of maintenance; the aim is to keep the bike safe and roadworthy.", "Maintenance is not about making the bike faster than others, but about keeping it safe.", null],
+      "fr": ["Porter des bagages n'est pas le but de l'entretien ; le but est que la moto reste sûre et en état de rouler.", "L'entretien ne sert pas à rendre la moto plus rapide que les autres, mais à la garder sûre.", null]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "What is the main reason why regular maintenance of your motorcycle is necessary?",
+        "options": ["To enable the motorcycle to carry bags", "To make the motorcycle faster than other vehicles", "To keep the motorcycle roadworthy"]
+      },
+      "fr": {
+        "text": "Quelle est la principale raison pour laquelle l'entretien régulier de votre motocyclette est nécessaire ?",
+        "options": ["Permettre à la moto de transporter des bagages", "Rendre la moto plus rapide que les autres véhicules", "Maintenir la moto en état de rouler"]
+      }
+    }
+  },
+  {
+    "id": 229,
+    "topic": "hazards",
+    "explanation": {
+      "ar": "الحيوانات لا تفهم قواعد السير وقد تتحرك فجأة إذا خافت. لذلك خفّف سرعتك واترك لها مسافة كافية، ومرّ بهدوء.",
+      "en": "Animals do not understand traffic rules and may move suddenly if frightened. So slow down, give them plenty of room and pass calmly.",
+      "fr": "Les animaux ne comprennent pas le code de la route et peuvent bouger brusquement s'ils ont peur. Ralentissez donc, laissez-leur assez d'espace et passez calmement."
+    },
+    "whyWrong": {
+      "ar": [null, "الاقتراب منها يخيفها، فقد تقفز أو تركض نحوك فجأة.", "صوت البوق يخيف الحيوانات ويجعل حركتها غير متوقعة."],
+      "en": [null, "Getting close frightens them, and they may jump or run towards you suddenly.", "The horn frightens animals and makes their movements unpredictable."],
+      "fr": [null, "S'approcher leur fait peur, et elles peuvent sauter ou courir vers vous brusquement.", "L'avertisseur effraie les animaux et rend leurs mouvements imprévisibles."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "You are riding your motorcycle on a country road. What do you do if you come across livestock using the road?",
+        "options": ["Give them plenty of room", "Get close to them to force them to make way", "Sound your motorcycle's horn"]
+      },
+      "fr": {
+        "text": "Vous circulez à moto sur une route de campagne. Que faites-vous si vous rencontrez du bétail sur la route ?",
+        "options": ["Vous lui laissez suffisamment d'espace", "Vous vous en approchez pour l'obliger à libérer le passage", "Vous actionnez l'avertisseur de votre moto"]
+      }
+    }
+  },
+  {
+    "id": 230,
+    "topic": "traffic_rules",
+    "explanation": {
+      "ar": "في هذه الحالة السيارة لها حق الأولوية عند المفرق. لذلك يجب أن تتوقف وتتركها تمر أولًا، ولا تخاطر بالمرور قبلها.",
+      "en": "In this situation the car has the right of way at the junction. So you must stop and let it go first, and not risk crossing before it.",
+      "fr": "Dans cette situation, la voiture a la priorité à l'intersection. Vous devez donc vous arrêter et la laisser passer en premier, sans prendre le risque de passer avant elle."
+    },
+    "whyWrong": {
+      "ar": ["انتظار إشارة السيارة لا يكفي؛ فالسيارة لها الأولوية ويجب أن تتوقف لها، وقد تكون إشارتها خاطئة أيضًا.", "زيادة السرعة لعبور المفرق خطيرة وتتجاهل أولوية السيارة.", null],
+      "en": ["Waiting for the car's signal is not enough; the car has priority so you must stop for it, and its signal could also be misleading.", "Speeding up to cross the junction is dangerous and ignores the car's priority.", null],
+      "fr": ["Attendre le signal de la voiture ne suffit pas ; elle a la priorité, vous devez donc vous arrêter, et son signal pourrait aussi être trompeur.", "Accélérer pour franchir l'intersection est dangereux et ignore la priorité de la voiture.", null]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "You are riding a motorcycle and approaching a junction on your right, and a car appears, also approaching the same junction. What do you do?",
+        "options": ["Slow down and wait for the car's signal", "Speed up to clear the junction without delay", "Stop, because the car has the right of way"]
+      },
+      "fr": {
+        "text": "Vous conduisez une motocyclette et approchez d'une intersection sur votre droite ; une voiture apparaît et s'approche aussi de la même intersection. Que faites-vous ?",
+        "options": ["Vous ralentissez et attendez le signal de la voiture", "Vous accélérez pour franchir l'intersection sans tarder", "Vous vous arrêtez, car la voiture a la priorité"]
+      }
+    }
+  },
+  {
+    "id": 231,
+    "topic": "control",
+    "explanation": {
+      "ar": "في لبنان تسير المركبات على الجهة اليمنى، فتكون الدراجة المتوقفة عادة على يمين الطريق. الصعود من اليمين يبقيك في جهة الرصيف بعيدًا عن السيارات المارة. ويحدد الجواب الرسمي أيضًا إرخاء الفرامل الخلفية عند الصعود.",
+      "en": "In Lebanon vehicles drive on the right, so a parked motorcycle is usually on the right side of the road. Getting on from the right keeps you on the kerb side, away from passing cars. The official answer also specifies releasing the rear brake when getting on.",
+      "fr": "Au Liban, on circule à droite, donc une moto stationnée se trouve généralement sur le côté droit de la route. Monter par la droite vous garde du côté du trottoir, loin des voitures qui passent. La réponse officielle précise aussi de relâcher le frein arrière en montant."
+    },
+    "whyWrong": {
+      "ar": ["الصعود من اليسار يضعك في جهة السيارات المارة، وهذا خطير.", null, "جهة الصعود صحيحة، لكن الجواب الرسمي يطلب إرخاء الفرامل الخلفية، لا ترك الفرامل دون انتباه."],
+      "en": ["Getting on from the left puts you on the side of passing traffic, which is dangerous.", null, "The side is right, but the official answer asks you to release the rear brake, not to leave the brakes unattended."],
+      "fr": ["Monter par la gauche vous place du côté de la circulation, ce qui est dangereux.", null, "Le côté est correct, mais la réponse officielle demande de relâcher le frein arrière, pas de laisser les freins sans attention."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "Your motorcycle is parked on a two-way road. How do you get on the motorcycle?",
+        "options": ["From the left, applying the front brake", "From the right, releasing the rear brake", "From the right, leaving the brakes"]
+      },
+      "fr": {
+        "text": "Votre motocyclette est stationnée sur une route à double sens. Comment montez-vous sur la moto ?",
+        "options": ["Par la gauche, en actionnant le frein avant", "Par la droite, en relâchant le frein arrière", "Par la droite, en laissant les freins"]
+      }
+    }
+  },
+  {
+    "id": 232,
+    "topic": "road_conditions",
+    "explanation": {
+      "ar": "الأضواء تنعكس على الطريق المبلل وتسبب لمعانًا قويًا. هذا اللمعان يخفي الأشياء غير المضاءة، مثل المشاة أو الحفر، فيصعب رؤيتها.",
+      "en": "Lights reflect off the wet road and cause strong glare. This glare hides unlit objects, such as pedestrians or potholes, making them harder to see.",
+      "fr": "Les lumières se reflètent sur la route mouillée et créent un fort éblouissement. Cet éblouissement cache les objets non éclairés, comme les piétons ou les nids-de-poule, qui deviennent plus difficiles à voir."
+    },
+    "whyWrong": {
+      "ar": ["الانعكاسات تسبب لمعانًا يخفي الأشياء غير المضاءة، ولا تسهّل رؤيتها.", "الطريق المبلل يجعل التوقف أصعب لا أسهل، والانعكاسات لا تساعد على التوقف.", null],
+      "en": ["Reflections cause glare that hides unlit objects; they do not make them easier to see.", "A wet road makes stopping harder, not easier, and reflections do not help you stop.", null],
+      "fr": ["Les reflets créent un éblouissement qui cache les objets non éclairés ; ils ne les rendent pas plus visibles.", "Une route mouillée rend l'arrêt plus difficile, pas plus facile, et les reflets n'aident pas à s'arrêter.", null]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "You are riding your motorcycle in town at night. The roads are wet after rain. How will reflections from the wet surfaces affect you?",
+        "options": ["They will make unlit objects easier to see", "They will make it easier to stop", "They will make unlit objects harder to see"]
+      },
+      "fr": {
+        "text": "Vous circulez à moto en ville la nuit. Les routes sont mouillées après la pluie. Comment les reflets sur les surfaces mouillées vont-ils vous affecter ?",
+        "options": ["Ils faciliteront la vue des objets non éclairés", "Ils faciliteront l'arrêt", "Ils rendront plus difficile la vue des objets non éclairés"]
+      }
+    }
+  },
+  {
+    "id": 233,
+    "topic": "road_conditions",
+    "explanation": {
+      "ar": "البرد يُتعب الجسم ويُشغل تفكيرك بالشعور بعدم الراحة. لذلك تفقد تركيزك ويصبح تحكمك بالدراجة أضعف، فارتدِ ملابس دافئة مناسبة.",
+      "en": "Cold tires your body and fills your mind with discomfort. So you lose concentration and your control of the bike gets weaker; wear suitable warm clothing.",
+      "fr": "Le froid fatigue le corps et occupe l'esprit par l'inconfort. Vous perdez donc votre concentration et votre contrôle de la moto diminue ; portez des vêtements chauds adaptés."
+    },
+    "whyWrong": {
+      "ar": ["البرد لا يزيد اليقظة، بل يشتت الانتباه ويتعب الجسم.", null, "البرد يجعل العضلات متيبسة فتصبح ردة فعلك أبطأ، لا أسرع."],
+      "en": ["Cold does not make you more alert; it distracts you and tires your body.", null, "Cold stiffens your muscles, so you react more slowly, not faster."],
+      "fr": ["Le froid ne rend pas plus vigilant ; il distrait et fatigue le corps.", null, "Le froid raidit les muscles, donc vous réagissez plus lentement, pas plus vite."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "You feel cold while riding your motorcycle. How will this affect you?",
+        "options": ["You will be more alert", "You will lose concentration", "You will react faster"]
+      },
+      "fr": {
+        "text": "Vous avez froid en conduisant votre moto. Comment cela va-t-il vous affecter ?",
+        "options": ["Vous serez plus vigilant", "Vous perdrez votre concentration", "Vous réagirez plus vite"]
+      }
+    }
+  },
+  {
+    "id": 234,
+    "topic": "road_conditions",
+    "explanation": {
+      "ar": "عندما تنبهر بالأضواء لا ترى الطريق جيدًا لثوانٍ. خفّف سرعتك وتوقف إذا لزم الأمر حتى تعود رؤيتك واضحة.",
+      "en": "When you are dazzled by lights, you cannot see the road well for a few seconds. Slow down and stop if necessary until your vision is clear again.",
+      "fr": "Quand vous êtes ébloui, vous ne voyez pas bien la route pendant quelques secondes. Ralentissez et arrêtez-vous si nécessaire jusqu'à ce que votre vue redevienne claire."
+    },
+    "whyWrong": {
+      "ar": [null, "إطفاء مصابيحك يجعلك غير مرئي للآخرين ولا يساعدك على الرؤية.", "الضوء العالي يبهر السائق المقابل أيضًا ويزيد الخطر على الجميع."],
+      "en": [null, "Switching off your headlights makes you invisible to others and does not help you see.", "High beam dazzles the oncoming driver too and increases the danger for everyone."],
+      "fr": [null, "Éteindre vos phares vous rend invisible pour les autres et ne vous aide pas à voir.", "Les feux de route éblouissent aussi le conducteur d'en face et augmentent le danger pour tous."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "You are riding your motorcycle at night and you are dazzled by the lights of a vehicle approaching from ahead. What should you do?",
+        "options": ["Slow down and stop if necessary", "Switch off your headlights", "Use high beam"]
+      },
+      "fr": {
+        "text": "Vous roulez à moto la nuit et vous êtes ébloui par les phares d'un véhicule qui arrive en face. Que devez-vous faire ?",
+        "options": ["Ralentir et vous arrêter si nécessaire", "Éteindre vos phares", "Utiliser les feux de route"]
+      }
+    }
+  },
+  {
+    "id": 235,
+    "topic": "control",
+    "explanation": {
+      "ar": "الفرامل الأمامية هي الأقوى في إيقاف الدراجة. عند التوقف الطارئ، استخدم الفرامل الأمامية ثم الخلفية مباشرة بعدها، لتتوقف بسرعة وبثبات.",
+      "en": "The front brake does most of the work in stopping the motorcycle. In an emergency stop, apply the front brake and then the rear brake straight after, to stop quickly and steadily.",
+      "fr": "Le frein avant est le plus efficace pour arrêter la moto. En cas d'arrêt d'urgence, actionnez le frein avant puis le frein arrière juste après, pour vous arrêter vite et de façon stable."
+    },
+    "whyWrong": {
+      "ar": [null, "البدء بالفرامل الخلفية يضيّع وقتًا، لأن الفرامل الأمامية هي التي توقف الدراجة بقوة أكبر.", "الفرامل الخلفية وحدها ضعيفة، فتحتاج إلى مسافة أطول بكثير للتوقف."],
+      "en": [null, "Starting with the rear brake wastes time, because the front brake is the one that stops the bike most strongly.", "The rear brake alone is weak, so you need a much longer distance to stop."],
+      "fr": [null, "Commencer par le frein arrière fait perdre du temps, car c'est le frein avant qui arrête la moto le plus fortement.", "Le frein arrière seul est faible, il faut donc une distance bien plus longue pour s'arrêter."]
+    },
+    "tip": {
+      "ar": "انتبه للترتيب: الأمامية أولًا ثم الخلفية مباشرة بعدها، وليس العكس.",
+      "en": "Watch the order: front brake first, then rear brake straight after, not the other way round.",
+      "fr": "Attention à l'ordre : d'abord le frein avant, puis le frein arrière juste après, et non l'inverse."
+    },
+    "translation": {
+      "en": {
+        "text": "Your motorcycle does not have “linked brakes”. In an emergency, what should you do to stop quickly?",
+        "options": ["Apply the front brake just before the rear brake", "Apply the rear brake just before the front brake", "Apply the rear brake only"]
+      },
+      "fr": {
+        "text": "Votre motocyclette n'est pas équipée de « freins couplés ». En cas d'urgence, que devez-vous faire pour vous arrêter rapidement ?",
+        "options": ["Actionner le frein avant juste avant le frein arrière", "Actionner le frein arrière juste avant le frein avant", "Actionner uniquement le frein arrière"]
+      }
+    }
+  },
+  {
+    "id": 236,
+    "topic": "passengers_loads",
+    "explanation": {
+      "ar": "وزن الراكب الخلفي يُنزل مؤخرة الدراجة ويرفع مقدمتها قليلًا. فيرتفع ضوء المصابيح الأمامية وقد يبهر السائقين المقابلين، لذلك قد تحتاج إلى تعديلها.",
+      "en": "A pillion passenger's weight lowers the back of the motorcycle and lifts the front slightly. The headlight beam then points higher and may dazzle oncoming drivers, so it may need adjusting.",
+      "fr": "Le poids du passager abaisse l'arrière de la moto et soulève légèrement l'avant. Le faisceau des phares monte alors et peut éblouir les conducteurs d'en face ; il faut donc parfois le régler."
+    },
+    "whyWrong": {
+      "ar": ["وزن الراكب لا يغيّر شيئًا في العادم يحتاج إلى تعديل.", null, "إشارتا الاتجاه تعملان بالطريقة نفسها مع راكب أو دونه."],
+      "en": ["A passenger's weight does not change anything in the exhaust that needs adjusting.", null, "The turn signals work the same way with or without a passenger."],
+      "fr": ["Le poids du passager ne modifie rien à l'échappement qui nécessiterait un réglage.", null, "Les clignotants fonctionnent de la même façon avec ou sans passager."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "Which of the following may need adjusting when carrying a pillion passenger?",
+        "options": ["The exhaust", "The headlights", "The turn signals"]
+      },
+      "fr": {
+        "text": "Lequel des éléments suivants peut nécessiter un réglage lorsque vous transportez un passager ?",
+        "options": ["L'échappement", "Les phares", "Les clignotants"]
+      }
+    }
+  },
+  {
+    "id": 237,
+    "topic": "road_conditions",
+    "explanation": {
+      "ar": "الحصى غير المتماسكة تتحرك تحت الإطارات، فيقل التماسك وتنزلق الدراجة بسهولة. لذلك خفّف السرعة وتجنّب الفرملة القوية والانعطاف الحاد عليها.",
+      "en": "Loose gravel moves under the tyres, so grip drops and the motorcycle slides easily. So slow down and avoid hard braking and sharp turns on it.",
+      "fr": "Les gravillons non stabilisés bougent sous les pneus, l'adhérence diminue et la moto glisse facilement. Ralentissez donc et évitez les freinages brusques et les virages serrés."
+    },
+    "whyWrong": {
+      "ar": [null, "سطح الإسمنت ثابت ويعطي تماسكًا جيدًا عندما يكون جافًا ونظيفًا.", "الإسفلت سطح ثابت ويعطي تماسكًا جيدًا عندما يكون جافًا ونظيفًا."],
+      "en": [null, "Concrete is a firm surface that gives good grip when dry and clean.", "Asphalt is a firm surface that gives good grip when dry and clean."],
+      "fr": [null, "Le béton est une surface ferme qui offre une bonne adhérence lorsqu'il est sec et propre.", "L'asphalte est une surface ferme qui offre une bonne adhérence lorsqu'il est sec et propre."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "Which road surface has the greatest effect on your motorcycle losing stability?",
+        "options": ["Loose gravel", "Cement (concrete)", "Asphalt"]
+      },
+      "fr": {
+        "text": "Quel revêtement routier influe le plus sur la perte de stabilité de votre motocyclette ?",
+        "options": ["Les gravillons non stabilisés", "Le ciment (béton)", "L'asphalte"]
+      }
+    }
+  },
+  {
+    "id": 238,
+    "topic": "maintenance",
+    "explanation": {
+      "ar": "فلتر الهواء ينقّي الهواء الداخل إلى المحرك من الغبار والشوائب، وينظّم أيضًا ضغط الهواء الداخل إليه. لذلك الجوابان صحيحان.",
+      "en": "The air filter cleans the air entering the engine of dust and impurities, and it also regulates the pressure of the air going in. So both answers are correct.",
+      "fr": "Le filtre à air purifie l'air qui entre dans le moteur de la poussière et des impuretés, et il régule aussi la pression de cet air. Les deux réponses sont donc correctes."
+    },
+    "whyWrong": {
+      "ar": ["هذه وظيفة صحيحة، لكنها ليست الوحيدة؛ الفلتر ينقّي الهواء أيضًا.", "هذه وظيفة صحيحة، لكنها ليست الوحيدة؛ الفلتر ينظّم ضغط الهواء أيضًا.", null],
+      "en": ["This is a correct function, but not the only one; the filter also cleans the air.", "This is a correct function, but not the only one; the filter also regulates the air pressure.", null],
+      "fr": ["C'est une fonction correcte, mais pas la seule ; le filtre purifie aussi l'air.", "C'est une fonction correcte, mais pas la seule ; le filtre régule aussi la pression de l'air.", null]
+    },
+    "tip": {
+      "ar": "كثيرون يختارون «تنقية الهواء» فقط، لكن الجواب الرسمي أن الوظيفتين صحيحتان معًا.",
+      "en": "Many people pick “cleaning the air” alone, but the official answer is that both functions are correct.",
+      "fr": "Beaucoup choisissent seulement « purifier l'air », mais la réponse officielle est que les deux fonctions sont correctes."
+    },
+    "translation": {
+      "en": {
+        "text": "The function of the air filter:",
+        "options": ["Regulating the pressure of the air entering the engine", "Cleaning the air of impurities and dust", "Both previous answers are correct"]
+      },
+      "fr": {
+        "text": "La fonction du filtre à air :",
+        "options": ["Réguler la pression de l'air qui entre dans le moteur", "Purifier l'air des impuretés et de la poussière", "Les deux réponses précédentes sont correctes"]
+      }
+    }
+  },
+  {
+    "id": 239,
+    "topic": "maintenance",
+    "explanation": {
+      "ar": "يجب أن تكون الدراجة مستقيمة عند فحص الزيت، حتى يكون الزيت مستويًا داخل المحرك. إذا كانت مائلة تكون القراءة خاطئة.",
+      "en": "The motorcycle must be upright when checking the oil, so the oil sits level inside the engine. If it is leaning, the reading will be wrong.",
+      "fr": "La moto doit être droite pour vérifier l'huile, afin que l'huile soit à niveau dans le moteur. Si elle est inclinée, la lecture sera fausse."
+    },
+    "whyWrong": {
+      "ar": ["عندما تكون الدراجة مائلة على المسند الجانبي يميل الزيت، فتكون القراءة غير دقيقة.", null, "وضع الدراجة مهم، لأن الميل يغيّر مستوى الزيت الظاهر."],
+      "en": ["When the bike leans on the side stand the oil tilts, so the reading is inaccurate.", null, "The bike's position does matter, because leaning changes the oil level you see."],
+      "fr": ["Quand la moto penche sur la béquille latérale, l'huile s'incline et la lecture est inexacte.", null, "La position de la moto compte, car l'inclinaison modifie le niveau d'huile visible."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "The motorcycle's engine oil is checked:",
+        "options": ["With the bike standing on its side", "With the bike standing upright", "It makes no difference"]
+      },
+      "fr": {
+        "text": "L'huile moteur de la moto se vérifie :",
+        "options": ["Moto posée sur le côté", "Moto posée bien droite", "Peu importe"]
+      }
+    }
+  },
+  {
+    "id": 240,
+    "topic": "maintenance",
+    "explanation": {
+      "ar": "حسب الجواب الرسمي، يمكن تشغيل المحرك سواء كانت الدراجة واقفة بشكل مستقيم أو مائلة، فوضع الوقوف لا يؤثر على التشغيل.",
+      "en": "According to the official answer, the engine can be started whether the motorcycle is standing upright or leaning; the standing position does not affect starting.",
+      "fr": "Selon la réponse officielle, le moteur peut être démarré que la moto soit droite ou inclinée ; la position ne change rien au démarrage."
+    },
+    "whyWrong": {
+      "ar": ["التشغيل ممكن والدراجة مستقيمة، لكنه ليس الوضع الوحيد المسموح.", "التشغيل ممكن والدراجة مائلة، لكنه ليس الوضع الوحيد المسموح.", null],
+      "en": ["Starting is possible with the bike upright, but it is not the only allowed position.", "Starting is possible with the bike leaning, but it is not the only allowed position.", null],
+      "fr": ["Le démarrage est possible moto droite, mais ce n'est pas la seule position permise.", "Le démarrage est possible moto inclinée, mais ce n'est pas la seule position permise.", null]
+    },
+    "tip": {
+      "ar": "لا تخلط بين السؤالين: فحص الزيت يتطلب أن تكون الدراجة مستقيمة، أما تشغيل المحرك فلا فرق فيه.",
+      "en": "Don't confuse the two questions: checking the oil requires the bike to be upright, but for starting the engine it makes no difference.",
+      "fr": "Ne confondez pas les deux questions : vérifier l'huile exige que la moto soit droite, mais pour démarrer le moteur, peu importe."
+    },
+    "translation": {
+      "en": {
+        "text": "The engine is started:",
+        "options": ["While the motorcycle is standing upright", "While the motorcycle is standing at a lean", "It makes no difference"]
+      },
+      "fr": {
+        "text": "Le moteur se démarre :",
+        "options": ["Lorsque la moto est posée bien droite", "Lorsque la moto est posée inclinée", "Peu importe"]
+      }
+    }
+  },
+  {
+    "id": 241,
+    "topic": "road_conditions",
+    "explanation": {
+      "ar": "الفرملة المفاجئة على سطح رطب قد تجعل العجلات تنزلق. لذلك حافظ على ثبات الدراجة وأجّل استخدام الفرامل حتى تعود إلى سطح جاف.",
+      "en": "Sudden braking on a wet surface can make the wheels skid. So keep the bike steady and wait to use the brakes until you are back on a dry surface.",
+      "fr": "Un freinage brusque sur une surface humide peut faire déraper les roues. Gardez donc la moto stable et attendez d'être de nouveau sur une surface sèche pour freiner."
+    },
+    "whyWrong": {
+      "ar": ["زيادة السرعة على سطح رطب تقلل التماسك وتزيد خطر الانزلاق.", "الفرملة فوق السطح الرطب نفسه قد تسبب انزلاق العجلات.", null],
+      "en": ["Speeding up on a wet surface reduces grip and increases the risk of skidding.", "Braking on the wet surface itself can make the wheels skid.", null],
+      "fr": ["Accélérer sur une surface humide réduit l'adhérence et augmente le risque de dérapage.", "Freiner sur la surface humide elle-même peut faire déraper les roues.", null]
+    },
+    "tip": {
+      "ar": "قد يبدو استخدام الفرامل هو التصرف الآمن، لكن الجواب الصحيح هو تأجيل الفرملة حتى تصل إلى سطح جاف.",
+      "en": "Braking may seem like the safe choice, but the correct answer is to hold off braking until you reach a dry surface.",
+      "fr": "Freiner peut sembler le bon réflexe, mais la bonne réponse est d'attendre d'avoir atteint une surface sèche."
+    },
+    "translation": {
+      "en": {
+        "text": "When you suddenly come across a wet road surface, you must:",
+        "options": ["Increase speed to get across it", "Slow the motorcycle down using the brakes", "Not use the brakes until after you are riding on a dry surface"]
+      },
+      "fr": {
+        "text": "Lorsque vous rencontrez soudainement une chaussée humide, vous devez :",
+        "options": ["Augmenter la vitesse pour la franchir", "Ralentir la moto à l'aide des freins", "Ne pas utiliser les freins avant de rouler à nouveau sur une surface sèche"]
+      }
+    }
+  },
+  {
+    "id": 242,
+    "topic": "road_conditions",
+    "explanation": {
+      "ar": "في المطر يقل تماسك الإطارات مع الطريق. استعمال الفرامل الأمامية والخلفية معًا وبحذر يوزّع قوة الفرملة على العجلتين، فيقل خطر الانزلاق.",
+      "en": "In the rain, the tyres have less grip on the road. Using the front and rear brakes together, carefully, spreads the braking force over both wheels and lowers the risk of skidding.",
+      "fr": "Sous la pluie, les pneus adhèrent moins à la route. Utiliser les freins avant et arrière ensemble, avec prudence, répartit le freinage sur les deux roues et réduit le risque de dérapage."
+    },
+    "whyWrong": {
+      "ar": ["الاعتماد على الفرامل الخلفية وحدها يضعف الفرملة وقد يجعل العجلة الخلفية تنزلق.", "الاعتماد على الفرامل الأمامية وحدها في المطر قد يجعل العجلة الأمامية تنزلق فتسقط.", null],
+      "en": ["Relying on the rear brake alone weakens braking and can make the rear wheel skid.", "Relying on the front brake alone in the rain can make the front wheel slide and cause a fall.", null],
+      "fr": ["Compter uniquement sur le frein arrière affaiblit le freinage et peut faire déraper la roue arrière.", "Compter uniquement sur le frein avant sous la pluie peut faire glisser la roue avant et provoquer une chute.", null]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "During rainfall, braking is done:",
+        "options": ["By relying on the rear brake", "By relying on the front brake", "By applying the rear and front brakes together, carefully"]
+      },
+      "fr": {
+        "text": "Pendant la pluie, le freinage se fait :",
+        "options": ["En comptant sur le frein arrière", "En comptant sur le frein avant", "En actionnant les freins arrière et avant ensemble, avec prudence"]
+      }
+    }
+  },
+  {
+    "id": 243,
+    "topic": "maintenance",
+    "explanation": {
+      "ar": "الصيانة الدورية كل شهر أو شهرين تشمل التحقق من الفرامل والمحرك، وتشمل أيضًا تنظيف الدبرياج وقشاط المحرك. لذلك الجوابان صحيحان.",
+      "en": "Periodic maintenance every month or two includes checking the brakes and the engine, and also cleaning the clutch and the engine belt. So both answers are correct.",
+      "fr": "L'entretien périodique tous les un ou deux mois comprend la vérification des freins et du moteur, ainsi que le nettoyage de l'embrayage et de la courroie du moteur. Les deux réponses sont donc correctes."
+    },
+    "whyWrong": {
+      "ar": ["هذه فائدة صحيحة، لكن الصيانة تشمل أيضًا تنظيف الدبرياج والقشاط.", "هذه فائدة صحيحة، لكن الصيانة تشمل أيضًا التحقق من الفرامل والمحرك.", null],
+      "en": ["This is a real benefit, but maintenance also includes cleaning the clutch and the belt.", "This is a real benefit, but maintenance also includes checking the brakes and the engine.", null],
+      "fr": ["C'est un vrai avantage, mais l'entretien comprend aussi le nettoyage de l'embrayage et de la courroie.", "C'est un vrai avantage, mais l'entretien comprend aussi la vérification des freins et du moteur.", null]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "Among the benefits of periodic maintenance of the motorcycle every month or two:",
+        "options": ["Checking that the brakes are sound and the engine is effective", "Cleaning the clutch and the engine belt", "Both previous answers are correct"]
+      },
+      "fr": {
+        "text": "Parmi les avantages de l'entretien périodique de la motocyclette tous les un ou deux mois :",
+        "options": ["Vérifier le bon état des freins et l'efficacité du moteur", "Nettoyer l'embrayage et la courroie du moteur", "Les deux réponses précédentes sont correctes"]
+      }
+    }
+  },
+  {
+    "id": 244,
+    "topic": "maintenance",
+    "explanation": {
+      "ar": "في الدراجة الآلية يكون خزان الوقود قريبًا جدًا من المحرك، وغالبًا فوقه مباشرة. إذا انسكب الوقود على المحرك وهو يعمل وساخن، قد تشتعل الدراجة.",
+      "en": "On a motorcycle the fuel tank is very close to the engine, often right above it. If fuel spills onto the engine while it is running and hot, the motorcycle can catch fire.",
+      "fr": "Sur une moto, le réservoir est très proche du moteur, souvent juste au-dessus. Si du carburant coule sur le moteur pendant qu'il tourne et qu'il est chaud, la moto peut prendre feu."
+    },
+    "whyWrong": {
+      "ar": [null, "الجواب الرسمي يربط الخطر بقرب الخزان من المحرك، لا من العادم.", "السبب الصحيح هو الأول وحده، لذلك «الجوابان صحيحان» خطأ."],
+      "en": [null, "The official answer links the danger to the tank being close to the engine, not the exhaust.", "Only the first reason is correct, so “both answers are correct” is wrong."],
+      "fr": [null, "La réponse officielle lie le danger à la proximité du réservoir avec le moteur, pas avec l'échappement.", "Seule la première raison est correcte, donc « les deux réponses sont correctes » est faux."]
+    },
+    "tip": {
+      "ar": "هنا الجواب ليس «الجوابان صحيحان»؛ السبب المعتمد هو قرب الخزان من المحرك فقط.",
+      "en": "Here the answer is not “both are correct”; the accepted reason is only the tank being close to the engine.",
+      "fr": "Ici, la réponse n'est pas « les deux sont correctes » ; la raison retenue est seulement la proximité du réservoir avec le moteur."
+    },
+    "translation": {
+      "en": {
+        "text": "You must not refuel while the engine is running:",
+        "options": ["To avoid the motorcycle catching fire because the fuel tank is close to the engine", "To avoid the motorcycle catching fire because the fuel tank is close to the exhaust", "Both previous answers are correct"]
+      },
+      "fr": {
+        "text": "Il ne faut pas faire le plein de carburant pendant que le moteur tourne :",
+        "options": ["Pour éviter que la moto prenne feu à cause de la proximité du réservoir avec le moteur", "Pour éviter que la moto prenne feu à cause de la proximité du réservoir avec l'échappement", "Les deux réponses précédentes sont correctes"]
+      }
+    }
+  },
+  {
+    "id": 245,
+    "topic": "hazards",
+    "explanation": {
+      "ar": "عندما تقف بجانب مركبة قد تكون في بقعتها العمياء فلا يراك سائقها. كما أن القانون يفرض فراغًا جانبيًا يزيد عن 75 سم. لذلك الجوابان صحيحان.",
+      "en": "When you stop beside a vehicle, you may be in its blind spot so its driver cannot see you. The law also requires a side clearance of more than 75 cm. So both answers are correct.",
+      "fr": "Quand vous vous arrêtez à côté d'un véhicule, vous pouvez être dans son angle mort et son conducteur ne vous voit pas. De plus, la loi impose un espace latéral de plus de 75 cm. Les deux réponses sont donc correctes."
+    },
+    "whyWrong": {
+      "ar": ["هذا سبب صحيح، لكن هناك أيضًا الفراغ الجانبي الذي يفرضه القانون.", "هذا سبب صحيح، لكن هناك أيضًا خطر البقعة العمياء.", null],
+      "en": ["This is a correct reason, but there is also the side clearance required by law.", "This is a correct reason, but there is also the blind-spot danger.", null],
+      "fr": ["C'est une bonne raison, mais il y a aussi l'espace latéral imposé par la loi.", "C'est une bonne raison, mais il y a aussi le danger de l'angle mort.", null]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "The motorcycle should not stop beside a vehicle while waiting in traffic:",
+        "options": ["To avoid the motorcycle disappearing into the vehicle driver's blind spot", "To avoid the motorcycle breaching the legally required side clearance, which must be more than 75 cm", "Both previous answers are correct"]
+      },
+      "fr": {
+        "text": "La moto ne doit pas s'arrêter à côté d'un véhicule pendant l'attente dans la circulation :",
+        "options": ["Pour éviter que la moto disparaisse dans l'angle mort du conducteur du véhicule", "Pour éviter que la moto ne respecte pas l'espace latéral imposé par la loi, qui doit dépasser 75 cm", "Les deux réponses précédentes sont correctes"]
+      }
+    }
+  },
+  {
+    "id": 246,
+    "topic": "traffic_rules",
+    "explanation": {
+      "ar": "المسرب الأوسط مشترك بين الاتجاهين، فقد يدخله سائقان من جهتين متعاكستين للتجاوز في الوقت نفسه. هذا قد يسبب اصطدامًا وجهًا لوجه.",
+      "en": "The middle lane is shared by both directions, so two drivers coming from opposite directions may enter it to overtake at the same time. This can cause a head-on collision.",
+      "fr": "La voie centrale est partagée par les deux sens, donc deux conducteurs venant en sens opposés peuvent s'y engager pour dépasser en même temps. Cela peut provoquer une collision frontale."
+    },
+    "whyWrong": {
+      "ar": ["التجاوز من اليمين ليس هو الخطر الخاص بهذه الطرق.", null, "المسرب الأوسط ليس للطوارئ فقط؛ خطره أنه يُستخدم للتجاوز من الاتجاهين."],
+      "en": ["Overtaking on the right is not the particular danger of these roads.", null, "The middle lane is not only for emergencies; its danger is that it is used for overtaking from both directions."],
+      "fr": ["Le dépassement par la droite n'est pas le danger propre à ces routes.", null, "La voie centrale n'est pas réservée aux urgences ; son danger est qu'elle sert à dépasser dans les deux sens."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "Some two-way roads are divided into three lanes. Why are these roads particularly dangerous?",
+        "options": ["Because vehicles can overtake on the right", "Because the middle lane may be used for overtaking in both directions", "Because the middle lane is used only in emergencies"]
+      },
+      "fr": {
+        "text": "Certaines routes à double sens sont divisées en trois voies. Pourquoi ces routes sont-elles particulièrement dangereuses ?",
+        "options": ["Parce que les véhicules peuvent dépasser par la droite", "Parce que la voie centrale peut être utilisée pour dépasser dans les deux sens", "Parce que la voie centrale n'est utilisée qu'en cas d'urgence"]
+      }
+    }
+  },
+  {
+    "id": 247,
+    "topic": "traffic_rules",
+    "explanation": {
+      "ar": "الخريطة تُظهر لك الطرق والمسافات والمفارق قبل الانطلاق. هكذا تعرف طريقك مسبقًا وتركّز على القيادة بدل البحث عن الاتجاه.",
+      "en": "A map shows you the roads, distances and junctions before you set off. This way you know your route in advance and can focus on riding instead of looking for directions.",
+      "fr": "Une carte vous montre les routes, les distances et les intersections avant de partir. Ainsi, vous connaissez votre itinéraire à l'avance et vous vous concentrez sur la conduite plutôt que sur la recherche du chemin."
+    },
+    "whyWrong": {
+      "ar": ["ورش التصليح لا تساعدك على تخطيط المسار؛ الخريطة هي الأداة المناسبة.", null, "دليل الدراجة يشرح استخدامها وصيانتها، ولا يحتوي على الطرق."],
+      "en": ["Repair workshops do not help you plan the route; a map is the right tool.", null, "The motorcycle manual explains how to use and maintain it; it does not contain roads."],
+      "fr": ["Les garages ne vous aident pas à planifier l'itinéraire ; la carte est le bon outil.", null, "Le manuel de la moto explique son utilisation et son entretien ; il ne contient pas les routes."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "Before starting a journey, it is wise to plan its route. How can you do this?",
+        "options": ["Contact repair workshops near the route", "Look at a map", "Look at your motorcycle's user manual"]
+      },
+      "fr": {
+        "text": "Avant de commencer un trajet, il est sage d'en planifier l'itinéraire. Comment pouvez-vous le faire ?",
+        "options": ["Vous contactez des garages situés près de l'itinéraire", "Vous consultez une carte", "Vous consultez le manuel d'utilisation de votre moto"]
+      }
+    }
+  },
+  {
+    "id": 248,
+    "topic": "gear",
+    "explanation": {
+      "ar": "الحماية الكاملة تغطي الجسم كله، من الرأس إلى القدمين. فالخوذة والسترة والقفازات والسروال والحذاء معًا تحميك من الجروح والحروق عند السقوط.",
+      "en": "Full protection covers the whole body, from head to feet. The helmet, jacket, gloves, trousers and boots together protect you from cuts and burns if you fall.",
+      "fr": "Une protection complète couvre tout le corps, de la tête aux pieds. Le casque, le blouson, les gants, le pantalon et les bottes ensemble vous protègent des coupures et des brûlures en cas de chute."
+    },
+    "whyWrong": {
+      "ar": ["الخوذة والقفازات وحدهما لا تحميان الجسم والساقين والقدمين.", null, "هذه القائمة ناقصة، فهي لا تشمل السترة والسروال لحماية الجسم والساقين."],
+      "en": ["A helmet and gloves alone do not protect the body, legs and feet.", null, "This list is incomplete; it leaves out the jacket and trousers that protect the body and legs."],
+      "fr": ["Le casque et les gants seuls ne protègent ni le corps, ni les jambes, ni les pieds.", null, "Cette liste est incomplète ; il manque le blouson et le pantalon qui protègent le corps et les jambes."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "The personal protective equipment of a motorcycle rider and passenger consists of:",
+        "options": ["Helmet and gloves", "Helmet, jacket, gloves, trousers and boots", "Helmet, gloves and boots"]
+      },
+      "fr": {
+        "text": "L'équipement de protection individuelle du conducteur de motocyclette et de son passager se compose de :",
+        "options": ["Casque et gants", "Casque, blouson, gants, pantalon et bottes", "Casque, gants et bottes"]
+      }
+    }
+  },
+  {
+    "id": 249,
+    "topic": "first_aid",
+    "explanation": {
+      "ar": "الضغط على الجرح يساعد على وقف النزيف. ورفع الذراع يخفف تدفق الدم إليها، فيقل النزيف أكثر.",
+      "en": "Pressing on the wound helps stop the bleeding. Raising the arm reduces the blood flow to it, so the bleeding slows even more.",
+      "fr": "Appuyer sur la plaie aide à arrêter le saignement. Surélever le bras réduit l'afflux de sang, ce qui diminue encore le saignement."
+    },
+    "whyWrong": {
+      "ar": ["إبقاء الذراع منخفضة يجعل الدم يتدفق إليها أكثر فيزيد النزيف.", null, "ترك الجرح ينزف بشدة قد يُفقد المصاب كمية خطيرة من الدم."],
+      "en": ["Keeping the arm low lets more blood flow into it, so the bleeding increases.", null, "Letting a heavily bleeding wound bleed can make the casualty lose a dangerous amount of blood."],
+      "fr": ["Garder le bras en bas y fait affluer plus de sang, ce qui augmente le saignement.", null, "Laisser saigner une plaie qui saigne abondamment peut faire perdre à la victime une quantité dangereuse de sang."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "You arrive at the scene of a crash. A person is bleeding heavily from a wound in their arm, with nothing embedded in it. What should you do?",
+        "options": ["Press on the wound and keep the arm low", "Press on the wound and raise the arm", "Let the wound bleed"]
+      },
+      "fr": {
+        "text": "Vous arrivez sur les lieux d'un accident. Une personne saigne abondamment d'une plaie au bras, sans objet planté dedans. Que devez-vous faire ?",
+        "options": ["Appuyer sur la plaie et laisser le bras en position basse", "Appuyer sur la plaie et surélever le bras", "Laisser la plaie saigner"]
+      }
+    }
+  },
+  {
+    "id": 250,
+    "topic": "first_aid",
+    "explanation": {
+      "ar": "إمالة الرأس للخلف برفق تفتح مجرى الهواء، فلا يسدّه اللسان. هذه خطوة أساسية لمساعدة المصاب على التنفس.",
+      "en": "Gently tilting the head back opens the airway so the tongue does not block it. This is a key step in helping the casualty breathe.",
+      "fr": "Basculer doucement la tête en arrière ouvre les voies respiratoires pour que la langue ne les bloque pas. C'est une étape essentielle pour aider la victime à respirer."
+    },
+    "whyWrong": {
+      "ar": ["وضع المصاب على جنبه يناسب من يتنفس وهو فاقد للوعي، لا من لا يتنفس.", "هزّ المصاب بقوة قد يزيد إصاباته، خاصة في الرقبة والظهر.", null],
+      "en": ["Turning the casualty on their side suits someone unconscious who is breathing, not someone who is not breathing.", "Shaking the casualty hard can make their injuries worse, especially to the neck and back.", null],
+      "fr": ["Mettre la victime sur le côté convient à une personne inconsciente qui respire, pas à une personne qui ne respire pas.", "Secouer fortement la victime peut aggraver ses blessures, surtout au cou et au dos.", null]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "In the event of an accident, the casualty is not breathing. What should you do while helping them get their breathing back?",
+        "options": ["Turn them onto their side", "Shake them hard", "Gently tilt their head back"]
+      },
+      "fr": {
+        "text": "En cas d'accident, la victime ne respire pas. Que devez-vous faire en l'aidant à retrouver sa respiration ?",
+        "options": ["La tourner sur le côté", "La secouer fortement", "Basculer doucement sa tête en arrière"]
+      }
+    }
+  },
+  {
+    "id": 251,
+    "topic": "first_aid",
+    "explanation": {
+      "ar": "قد تكون رقبة المصاب أو عموده الفقري مصابين. نزع الخوذة يحرّك الرأس والرقبة، وقد يحوّل الإصابة إلى إصابة أخطر.",
+      "en": "The casualty's neck or spine may be injured. Removing the helmet moves the head and neck, and can turn the injury into a more serious one.",
+      "fr": "Le cou ou la colonne vertébrale de la victime peuvent être blessés. Retirer le casque fait bouger la tête et le cou, ce qui peut aggraver la blessure."
+    },
+    "whyWrong": {
+      "ar": ["السبب ليس رغبة المصاب، بل خطر زيادة إصابته.", null, "الحر أو البرد ليسا السبب؛ الخطر الحقيقي هو إيذاء الرقبة والعمود الفقري."],
+      "en": ["The reason is not the casualty's wishes, but the risk of making the injury worse.", null, "Heat or cold is not the reason; the real danger is harming the neck and spine."],
+      "fr": ["La raison n'est pas la volonté de la victime, mais le risque d'aggraver sa blessure.", null, "La chaleur ou le froid ne sont pas la raison ; le vrai danger est de blesser le cou et la colonne vertébrale."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "A collision has occurred. The motorcyclist is injured and unconscious. Why should you not usually remove their helmet, except when absolutely necessary?",
+        "options": ["They may not want that", "It could cause a more serious injury", "They could be exposed to extreme heat or cold"]
+      },
+      "fr": {
+        "text": "Une collision s'est produite. Le motocycliste est blessé et inconscient. Pourquoi ne faut-il généralement pas lui retirer son casque, sauf en cas d'absolue nécessité ?",
+        "options": ["Il pourrait ne pas le vouloir", "Cela pourrait provoquer une blessure plus grave", "Il pourrait être exposé à une chaleur ou un froid extrême"]
+      }
+    }
+  }
+]

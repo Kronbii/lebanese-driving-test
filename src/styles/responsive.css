@@ -286,7 +286,7 @@
     border: 1px solid var(--line);
     border-radius: var(--radius);
     padding: 6px;
-    background: #ffffff;
+    background: var(--surface);
   }
 
   .mobile-empty {

@@ -1,0 +1,2357 @@
+[
+  {
+    "id": 127,
+    "topic": "signs_warning",
+    "explanation": {
+      "ar": "المثلث الأحمر يحذّر من خطر أمامك. هذه الإشارة تنبّه إلى انخفاضات في الطريق، فخفّف السرعة وأمسك المقود بثبات.",
+      "en": "Red triangles warn of a danger ahead. This one warns of dips in the road, so slow down and hold the handlebars firmly.",
+      "fr": "Les panneaux triangulaires rouges signalent un danger. Celui-ci annonce des cassis (creux) sur la route : ralentissez et tenez fermement le guidon."
+    },
+    "whyWrong": {
+      "ar": [
+        "إشارة المطبات تُظهر نتوءًا واحدًا بارزًا، أما هنا فالرسم يُظهر سطحًا متموّجًا فيه انخفاضات.",
+        "إشارة الطريق المنزلق تُظهر سيارة وخلفها خطوط متعرجة لآثار الانزلاق.",
+        null
+      ],
+      "en": [
+        "The bumps sign shows a single raised hump; this drawing shows a wavy surface with dips.",
+        "The slippery road sign shows a car with wavy skid marks behind it.",
+        null
+      ],
+      "fr": [
+        "Le panneau dos-d'âne montre une seule bosse ; ici le dessin montre une chaussée ondulée avec des creux.",
+        "Le panneau chaussée glissante montre une voiture suivie de traces de dérapage.",
+        null
+      ]
+    },
+    "tip": {
+      "ar": "انتبه للفرق: رسم نتوء واحد يعني مطبات، أما الرسم المتموّج كهذا فيعني انخفاضات.",
+      "en": "Watch the difference: a single hump means bumps, while a wavy profile like this one means dips.",
+      "fr": "Attention à la différence : une seule bosse signifie dos-d'âne, un profil ondulé comme celui-ci signifie cassis."
+    },
+    "translation": {
+      "en": {
+        "text": "",
+        "options": [
+          "Bumps",
+          "Slippery road",
+          "Dips"
+        ]
+      },
+      "fr": {
+        "text": "",
+        "options": [
+          "Dos-d'âne",
+          "Chaussée glissante",
+          "Cassis"
+        ]
+      }
+    }
+  },
+  {
+    "id": 128,
+    "topic": "signs_warning",
+    "explanation": {
+      "ar": "المثلث الأحمر يحذّر من خطر أمامك. هذه الإشارة تنبّه إلى منعطف خطر إلى اليمين، فخفّف السرعة قبل الدخول فيه.",
+      "en": "Red triangles warn of a danger ahead. This one warns of a dangerous bend to the right, so slow down before entering it.",
+      "fr": "Les panneaux triangulaires rouges signalent un danger. Celui-ci annonce un virage dangereux à droite : ralentissez avant d'y entrer."
+    },
+    "whyWrong": {
+      "ar": [
+        "إشارة المستديرة الإلزامية دائرة زرقاء فيها أسهم تدور، وليست مثلثًا أحمر.",
+        "في إشارة المنعطف إلى اليسار ينحني الخط نحو اليسار، أما هنا فينحني نحو اليمين.",
+        null
+      ],
+      "en": [
+        "The compulsory roundabout sign is a blue circle with circling arrows, not a red triangle.",
+        "In the left bend sign the line curves to the left; here it curves to the right.",
+        null
+      ],
+      "fr": [
+        "Le panneau sens giratoire obligatoire est un rond bleu avec des flèches en cercle, pas un triangle rouge.",
+        "Dans le panneau virage à gauche, la ligne tourne vers la gauche ; ici elle tourne vers la droite.",
+        null
+      ]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "",
+        "options": [
+          "Compulsory roundabout",
+          "Bend to the left",
+          "Bend to the right"
+        ]
+      },
+      "fr": {
+        "text": "",
+        "options": [
+          "Sens giratoire obligatoire",
+          "Virage à gauche",
+          "Virage à droite"
+        ]
+      }
+    }
+  },
+  {
+    "id": 129,
+    "topic": "signs_warning",
+    "explanation": {
+      "ar": "المثلث الأحمر يحذّر من خطر أمامك. هذه الإشارة تنبّه إلى منعطف خطر إلى اليسار، فخفّف السرعة قبل الدخول فيه.",
+      "en": "Red triangles warn of a danger ahead. This one warns of a dangerous bend to the left, so slow down before entering it.",
+      "fr": "Les panneaux triangulaires rouges signalent un danger. Celui-ci annonce un virage dangereux à gauche : ralentissez avant d'y entrer."
+    },
+    "whyWrong": {
+      "ar": [
+        null,
+        "في إشارة المنعطف إلى اليمين ينحني الخط نحو اليمين، أما هنا فينحني نحو اليسار.",
+        "إشارات الاتجاه دوائر زرقاء فيها أسهم بيضاء، وليست مثلثًا أحمر."
+      ],
+      "en": [
+        null,
+        "In the right bend sign the line curves to the right; here it curves to the left.",
+        "Direction signs are blue circles with white arrows, not red triangles."
+      ],
+      "fr": [
+        null,
+        "Dans le panneau virage à droite, la ligne tourne vers la droite ; ici elle tourne vers la gauche.",
+        "Les panneaux de direction sont des ronds bleus avec des flèches blanches, pas des triangles rouges."
+      ]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "",
+        "options": [
+          "Bend to the left",
+          "Bend to the right",
+          "Optional turn to the left"
+        ]
+      },
+      "fr": {
+        "text": "",
+        "options": [
+          "Virage à gauche",
+          "Virage à droite",
+          "Possibilité de tourner à gauche"
+        ]
+      }
+    }
+  },
+  {
+    "id": 130,
+    "topic": "signs_warning",
+    "explanation": {
+      "ar": "المثلث الأحمر يحذّر من خطر أمامك. هذه الإشارة تنبّه إلى منعطفين متتاليين أولهما إلى اليمين، فخفّف السرعة واستعدّ للانعطاف يمينًا ثم يسارًا.",
+      "en": "Red triangles warn of a danger ahead. This one warns of a double bend, the first to the right, so slow down and get ready to turn right and then left.",
+      "fr": "Les panneaux triangulaires rouges signalent un danger. Celui-ci annonce une succession de virages, le premier à droite : ralentissez et préparez-vous à tourner à droite puis à gauche."
+    },
+    "whyWrong": {
+      "ar": [
+        "إشارة السير على خطين تُظهر سهمين متعاكسين، لا خطًا متعرجًا.",
+        "في هذه الإشارة يتجه أول منعطف (من الأسفل) إلى اليمين، لا إلى اليسار.",
+        null
+      ],
+      "en": [
+        "The two-way traffic sign shows two opposite arrows, not a winding line.",
+        "Here the first bend (from the bottom) goes to the right, not to the left.",
+        null
+      ],
+      "fr": [
+        "Le panneau circulation dans les deux sens montre deux flèches opposées, pas une ligne sinueuse.",
+        "Ici, le premier virage (en partant du bas) va vers la droite, pas vers la gauche.",
+        null
+      ]
+    },
+    "tip": {
+      "ar": "اقرأ الخط من الأسفل إلى الأعلى: اتجاه أول انحناء هو اتجاه المنعطف الأول.",
+      "en": "Read the line from the bottom up: the direction of the first curve is the direction of the first bend.",
+      "fr": "Lisez la ligne du bas vers le haut : le sens de la première courbe est celui du premier virage."
+    },
+    "translation": {
+      "en": {
+        "text": "",
+        "options": [
+          "Two-way traffic",
+          "Double bend, first to the left",
+          "Double bend, first to the right"
+        ]
+      },
+      "fr": {
+        "text": "",
+        "options": [
+          "Circulation dans les deux sens",
+          "Succession de virages, le premier à gauche",
+          "Succession de virages, le premier à droite"
+        ]
+      }
+    }
+  },
+  {
+    "id": 131,
+    "topic": "signs_warning",
+    "explanation": {
+      "ar": "المثلث الأحمر يحذّر من خطر أمامك. هذه الإشارة تنبّه إلى منعطفين متتاليين أولهما إلى اليسار، فخفّف السرعة واستعدّ للانعطاف يسارًا ثم يمينًا.",
+      "en": "Red triangles warn of a danger ahead. This one warns of a double bend, the first to the left, so slow down and get ready to turn left and then right.",
+      "fr": "Les panneaux triangulaires rouges signalent un danger. Celui-ci annonce une succession de virages, le premier à gauche : ralentissez et préparez-vous à tourner à gauche puis à droite."
+    },
+    "whyWrong": {
+      "ar": [
+        "إشارة السير على خطين تُظهر سهمين متعاكسين، لا خطًا متعرجًا.",
+        null,
+        "في هذه الإشارة يتجه أول منعطف (من الأسفل) إلى اليسار، لا إلى اليمين."
+      ],
+      "en": [
+        "The two-way traffic sign shows two opposite arrows, not a winding line.",
+        null,
+        "Here the first bend (from the bottom) goes to the left, not to the right."
+      ],
+      "fr": [
+        "Le panneau circulation dans les deux sens montre deux flèches opposées, pas une ligne sinueuse.",
+        null,
+        "Ici, le premier virage (en partant du bas) va vers la gauche, pas vers la droite."
+      ]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "",
+        "options": [
+          "Two-way traffic",
+          "Double bend, first to the left",
+          "Double bend, first to the right"
+        ]
+      },
+      "fr": {
+        "text": "",
+        "options": [
+          "Circulation dans les deux sens",
+          "Succession de virages, le premier à gauche",
+          "Succession de virages, le premier à droite"
+        ]
+      }
+    }
+  },
+  {
+    "id": 132,
+    "topic": "signs_warning",
+    "explanation": {
+      "ar": "المثلث الأحمر يحذّر من خطر أمامك. هذه الإشارة تنبّه إلى طريق منزلق، فخفّف السرعة وتجنّب الكبح أو الميلان المفاجئ.",
+      "en": "Red triangles warn of a danger ahead. This one warns of a slippery road, so slow down and avoid sudden braking or leaning.",
+      "fr": "Les panneaux triangulaires rouges signalent un danger. Celui-ci annonce une chaussée glissante : ralentissez et évitez les freinages et inclinaisons brusques."
+    },
+    "whyWrong": {
+      "ar": [
+        "إشارة الطريق الضيق تُظهر خطين يقتربان من بعضهما، لا سيارة تنزلق.",
+        "إشارة المنحدر الخطر تُظهر خطًا مائلًا مع نسبة الانحدار، لا سيارة تنزلق.",
+        null
+      ],
+      "en": [
+        "The road narrows sign shows two lines moving closer together, not a skidding car.",
+        "The dangerous descent sign shows a slope with a percentage, not a skidding car.",
+        null
+      ],
+      "fr": [
+        "Le panneau chaussée rétrécie montre deux lignes qui se rapprochent, pas une voiture qui dérape.",
+        "Le panneau descente dangereuse montre une pente avec un pourcentage, pas une voiture qui dérape.",
+        null
+      ]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "",
+        "options": [
+          "Road narrows",
+          "Dangerous descent",
+          "Slippery road"
+        ]
+      },
+      "fr": {
+        "text": "",
+        "options": [
+          "Chaussée rétrécie",
+          "Descente dangereuse",
+          "Chaussée glissante"
+        ]
+      }
+    }
+  },
+  {
+    "id": 133,
+    "topic": "signs_warning",
+    "explanation": {
+      "ar": "المثلث الأحمر يحذّر من خطر أمامك. هذه الإشارة تنبّه إلى وجود أولاد أو مدرسة قريبة، فخفّف السرعة وكن مستعدًا للتوقف.",
+      "en": "Red triangles warn of a danger ahead. This one warns of children or a school nearby, so slow down and be ready to stop.",
+      "fr": "Les panneaux triangulaires rouges signalent un danger. Celui-ci annonce la présence d'enfants ou d'une école : ralentissez et soyez prêt à vous arrêter."
+    },
+    "whyWrong": {
+      "ar": [
+        "الرسم يُظهر ولدين يركضان، ولا يدل على ممر غير مؤمن.",
+        null,
+        "إشارة ممنوع المرور دائرة حمراء فيها خط أبيض أفقي، لا مثلث."
+      ],
+      "en": [
+        "The drawing shows two running children, not an unguarded crossing.",
+        null,
+        "The no entry sign is a red disc with a white horizontal bar, not a triangle."
+      ],
+      "fr": [
+        "Le dessin montre deux enfants qui courent, pas un passage non gardé.",
+        null,
+        "Le panneau sens interdit est un disque rouge avec une barre blanche horizontale, pas un triangle."
+      ]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "",
+        "options": [
+          "Unguarded crossing",
+          "Children or school",
+          "No entry"
+        ]
+      },
+      "fr": {
+        "text": "",
+        "options": [
+          "Passage non gardé",
+          "Enfants ou école",
+          "Sens interdit"
+        ]
+      }
+    }
+  },
+  {
+    "id": 134,
+    "topic": "signs_warning",
+    "explanation": {
+      "ar": "المثلث الأحمر يحذّر من خطر أمامك. هذه الإشارة تنبّه إلى احتمال عبور حيوانات للطريق، فخفّف السرعة وراقب جانبي الطريق.",
+      "en": "Red triangles warn of a danger ahead. This one warns that animals may cross the road, so slow down and watch both sides.",
+      "fr": "Les panneaux triangulaires rouges signalent un danger. Celui-ci annonce un passage possible d'animaux : ralentissez et surveillez les deux côtés de la route."
+    },
+    "whyWrong": {
+      "ar": [
+        "الإشارة تنبّه إلى عبور الحيوانات بشكل عام، وليس إلى حيوانات مشردة تحديدًا.",
+        null,
+        "المنع يُعرض في دائرة ذات إطار أحمر، أما المثلث فهو للتحذير فقط."
+      ],
+      "en": [
+        "The sign warns of animals crossing in general, not specifically of stray animals.",
+        null,
+        "A prohibition is shown in a red-bordered circle; a triangle only warns."
+      ],
+      "fr": [
+        "Le panneau signale des animaux en général, pas spécialement des animaux errants.",
+        null,
+        "Une interdiction s'affiche dans un cercle à bordure rouge ; un triangle ne fait qu'avertir."
+      ]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "",
+        "options": [
+          "Stray animals",
+          "Animals",
+          "No animals"
+        ]
+      },
+      "fr": {
+        "text": "",
+        "options": [
+          "Animaux errants",
+          "Passage d'animaux",
+          "Animaux interdits"
+        ]
+      }
+    }
+  },
+  {
+    "id": 135,
+    "topic": "signs_warning",
+    "explanation": {
+      "ar": "المثلث الأحمر يحذّر من خطر أمامك. هذه الإشارة تنبّه إلى أن السير أمامك في الاتجاهين، فالتزم يمين الطريق وانتبه للسيارات القادمة.",
+      "en": "Red triangles warn of a danger ahead. This one warns of two-way traffic ahead, so keep to the right and watch for oncoming vehicles.",
+      "fr": "Les panneaux triangulaires rouges signalent un danger. Celui-ci annonce une circulation dans les deux sens : serrez à droite et surveillez les véhicules en face."
+    },
+    "whyWrong": {
+      "ar": [
+        null,
+        "تلك الإشارة تُظهر خطًا عموديًا عريضًا يقطعه خط رفيع، لا سهمين متعاكسين.",
+        "السهمان في اتجاهين متعاكسين يدلّان على سير في الاتجاهين، لا على السير يمينًا فقط."
+      ],
+      "en": [
+        null,
+        "That sign shows a thick vertical line crossed by a thin one, not two opposite arrows.",
+        "Two arrows pointing opposite ways mean traffic in both directions, not keeping right only."
+      ],
+      "fr": [
+        null,
+        "Ce panneau montre un trait vertical épais coupé par un trait fin, pas deux flèches opposées.",
+        "Deux flèches opposées indiquent une circulation dans les deux sens, pas une obligation de rester à droite."
+      ]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "",
+        "options": [
+          "Two-way traffic",
+          "Junction with non-priority roads",
+          "Traffic keeps to the right"
+        ]
+      },
+      "fr": {
+        "text": "",
+        "options": [
+          "Circulation dans les deux sens",
+          "Intersection avec des routes non prioritaires",
+          "Circulation à droite"
+        ]
+      }
+    }
+  },
+  {
+    "id": 136,
+    "topic": "signs_warning",
+    "explanation": {
+      "ar": "المثلث الأحمر يحذّر من خطر أمامك. هذه الإشارة تنبّه إلى مستديرة قريبة، فخفّف السرعة واستعدّ للدخول فيها بحذر.",
+      "en": "Red triangles warn of a danger ahead. This one warns of a roundabout ahead, so slow down and get ready to enter it carefully.",
+      "fr": "Les panneaux triangulaires rouges signalent un danger. Celui-ci annonce un carrefour giratoire : ralentissez et préparez-vous à y entrer prudemment."
+    },
+    "whyWrong": {
+      "ar": [
+        null,
+        "إشارة منع الالتفاف دائرة ذات إطار أحمر فيها سهم على شكل حرف U مشطوب.",
+        "إشارة الأخطار المتنوعة تُظهر علامة تعجّب، لا أسهمًا تدور."
+      ],
+      "en": [
+        null,
+        "The no U-turn sign is a red-bordered circle with a crossed-out U-shaped arrow.",
+        "The other dangers sign shows an exclamation mark, not circling arrows."
+      ],
+      "fr": [
+        null,
+        "Le panneau demi-tour interdit est un rond à bordure rouge avec une flèche en U barrée.",
+        "Le panneau autres dangers montre un point d'exclamation, pas des flèches en cercle."
+      ]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "",
+        "options": [
+          "Roundabout",
+          "No U-turn",
+          "Other dangers"
+        ]
+      },
+      "fr": {
+        "text": "",
+        "options": [
+          "Carrefour à sens giratoire",
+          "Demi-tour interdit",
+          "Autres dangers"
+        ]
+      }
+    }
+  },
+  {
+    "id": 137,
+    "topic": "signs_warning",
+    "explanation": {
+      "ar": "المثلث الأحمر يحذّر من خطر أمامك. هذه الإشارة تنبّه إلى تقاطع طرق قريب، فخفّف السرعة وانتبه للسيارات القادمة من الجانبين.",
+      "en": "Red triangles warn of a danger ahead. This one warns of a crossroads ahead, so slow down and watch for vehicles coming from both sides.",
+      "fr": "Les panneaux triangulaires rouges signalent un danger. Celui-ci annonce une intersection : ralentissez et surveillez les véhicules venant des deux côtés."
+    },
+    "whyWrong": {
+      "ar": [
+        null,
+        "تلك الإشارة تُظهر خطًا عموديًا عريضًا يقطعه خط رفيع، أما هنا فعلامة ×.",
+        "إشارة أفضلية السيارات المقابلة تُظهر سهمين متعاكسين، لا علامة ×."
+      ],
+      "en": [
+        null,
+        "That sign shows a thick vertical line crossed by a thin one; this one shows an X.",
+        "The oncoming traffic priority sign shows two opposite arrows, not an X."
+      ],
+      "fr": [
+        null,
+        "Ce panneau montre un trait vertical épais coupé par un trait fin ; celui-ci montre un X.",
+        "Le panneau de priorité avec le sens inverse montre deux flèches opposées, pas un X."
+      ]
+    },
+    "tip": {
+      "ar": "علامة × تعني تقاطعًا عاديًا، أما الخط العريض الذي يقطعه خط رفيع فيعني أن طريقك لها الأفضلية على الطرقات الجانبية.",
+      "en": "An X means an ordinary crossroads; a thick line crossed by a thin one means your road has priority over the side roads.",
+      "fr": "Un X signifie une intersection ordinaire ; un trait épais coupé par un trait fin signifie que votre route est prioritaire sur les routes latérales."
+    },
+    "translation": {
+      "en": {
+        "text": "",
+        "options": [
+          "Crossroads",
+          "Junction with non-priority roads",
+          "Priority for oncoming traffic"
+        ]
+      },
+      "fr": {
+        "text": "",
+        "options": [
+          "Carrefour",
+          "Intersection avec des routes non prioritaires",
+          "Priorité aux véhicules venant en sens inverse"
+        ]
+      }
+    }
+  },
+  {
+    "id": 138,
+    "topic": "signs_priority",
+    "explanation": {
+      "ar": "هذه الإشارة المستديرة ذات الإطار الأحمر تنظّم المرور في مقطع ضيّق: الأفضلية للسيارات القادمة من الجهة المقابلة (السهم الأحمر هو اتجاهك)، فأفسح لها الطريق قبل أن تدخل.",
+      "en": "This red-bordered round sign controls a narrow section: vehicles coming from the opposite direction have priority (the red arrow is your direction), so let them pass before you go in.",
+      "fr": "Ce panneau rond à bordure rouge règle un passage étroit : les véhicules venant en sens inverse ont la priorité (la flèche rouge est votre sens), laissez-les passer avant de vous engager."
+    },
+    "whyWrong": {
+      "ar": [
+        "تلك إشارة تحذير مثلثة فيها خط عريض يقطعه خط رفيع، لا دائرة فيها سهمان.",
+        "السهمان المتعاكسان يدلّان على سيارات تسير في اتجاهين متقابلين، لا على التقاء بطريق سريع.",
+        null
+      ],
+      "en": [
+        "That is a warning triangle with a thick line crossed by a thin one, not a circle with two arrows.",
+        "The two opposite arrows show traffic moving in opposite directions, not a merge with an expressway.",
+        null
+      ],
+      "fr": [
+        "C'est un triangle d'avertissement avec un trait épais coupé par un trait fin, pas un rond avec deux flèches.",
+        "Les deux flèches opposées montrent une circulation en sens inverse, pas une jonction avec une voie rapide.",
+        null
+      ]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "",
+        "options": [
+          "Junction with non-priority roads",
+          "Junction with an expressway",
+          "Priority for oncoming traffic"
+        ]
+      },
+      "fr": {
+        "text": "",
+        "options": [
+          "Intersection avec des routes non prioritaires",
+          "Jonction avec une voie rapide",
+          "Priorité aux véhicules venant en sens inverse"
+        ]
+      }
+    }
+  },
+  {
+    "id": 139,
+    "topic": "signs_priority",
+    "explanation": {
+      "ar": "المثلث الأحمر يحذّر من خطر أمامك. هذه الإشارة تنبّه إلى تقاطع مع طرقات ليس لها الأفضلية، أي أن طريقك هي صاحبة الأفضلية، لكن ابقَ حذرًا.",
+      "en": "Red triangles warn of a danger ahead. This one warns of a junction with roads that do not have priority, so your road has priority, but stay alert.",
+      "fr": "Les panneaux triangulaires rouges signalent un danger. Celui-ci annonce une intersection avec des routes non prioritaires : votre route est prioritaire, mais restez vigilant."
+    },
+    "whyWrong": {
+      "ar": [
+        "إشارة التقاطع على اليمين تُظهر طريقًا جانبية من جهة اليمين فقط، أما هنا فالخط الرفيع يقطع من الجهتين.",
+        null,
+        "إشارة أفضلية السيارات المقابلة تُظهر سهمين متعاكسين، لا خطوطًا متقاطعة."
+      ],
+      "en": [
+        "A junction on the right would show a side road on the right only; here the thin line crosses on both sides.",
+        null,
+        "The oncoming traffic priority sign shows two opposite arrows, not crossing lines."
+      ],
+      "fr": [
+        "Une intersection à droite ne montrerait qu'une route à droite ; ici le trait fin traverse des deux côtés.",
+        null,
+        "Le panneau de priorité avec le sens inverse montre deux flèches opposées, pas des traits qui se croisent."
+      ]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "",
+        "options": [
+          "Junction on the right",
+          "Junction with non-priority roads",
+          "Priority for oncoming traffic"
+        ]
+      },
+      "fr": {
+        "text": "",
+        "options": [
+          "Intersection à droite",
+          "Intersection avec des routes non prioritaires",
+          "Priorité aux véhicules venant en sens inverse"
+        ]
+      }
+    }
+  },
+  {
+    "id": 140,
+    "topic": "signs_priority",
+    "explanation": {
+      "ar": "المعيّن الأصفر ذو الإطار الأبيض يدل على طريق أفضلية: لك الأفضلية عند التقاطعات التالية حتى إشارة نهاية الأفضلية.",
+      "en": "The yellow diamond with a white border marks a priority road: you have priority at the junctions ahead until the end of priority sign.",
+      "fr": "Le losange jaune bordé de blanc indique une route prioritaire : vous avez la priorité aux intersections suivantes jusqu'au panneau de fin de priorité."
+    },
+    "whyWrong": {
+      "ar": [
+        null,
+        "إشارة نهاية تحديد السرعة دائرية بيضاء فيها رقم يقطعه خط أسود مائل.",
+        "إشارات المواقف مربعة زرقاء فيها حرف P."
+      ],
+      "en": [
+        null,
+        "The end of speed limit sign is a white circle with a number crossed by a black diagonal bar.",
+        "Parking signs are blue squares with the letter P."
+      ],
+      "fr": [
+        null,
+        "Le panneau fin de limitation de vitesse est un rond blanc avec un chiffre barré d'un trait noir.",
+        "Les panneaux de stationnement sont des carrés bleus avec la lettre P."
+      ]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "",
+        "options": [
+          "Priority road",
+          "End of speed limit",
+          "Short-stay parking"
+        ]
+      },
+      "fr": {
+        "text": "",
+        "options": [
+          "Route prioritaire",
+          "Fin de limitation de vitesse",
+          "Stationnement de courte durée"
+        ]
+      }
+    }
+  },
+  {
+    "id": 141,
+    "topic": "signs_warning",
+    "explanation": {
+      "ar": "المثلث الأحمر يحذّر من خطر أمامك. هذه الإشارة تنبّه إلى ممر للمشاة، فخفّف السرعة واترك المشاة الذين يعبرون يمرّون أولًا.",
+      "en": "Red triangles warn of a danger ahead. This one warns of a pedestrian crossing, so slow down and let crossing pedestrians go first.",
+      "fr": "Les panneaux triangulaires rouges signalent un danger. Celui-ci annonce un passage pour piétons : ralentissez et laissez passer les piétons qui traversent."
+    },
+    "whyWrong": {
+      "ar": [
+        null,
+        "منع مرور المشاة يُعرض في دائرة ذات إطار أحمر، لا في مثلث.",
+        "الرسم يُظهر شخصًا يعبر فوق خطوط المشاة، أي ممرًا مخصصًا لهم."
+      ],
+      "en": [
+        null,
+        "No pedestrians is shown in a red-bordered circle, not in a triangle.",
+        "The drawing shows a person walking over zebra stripes, which means a crossing meant for pedestrians."
+      ],
+      "fr": [
+        null,
+        "L'interdiction aux piétons s'affiche dans un cercle à bordure rouge, pas dans un triangle.",
+        "Le dessin montre une personne sur des bandes zébrées, donc un passage destiné aux piétons."
+      ]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "",
+        "options": [
+          "Pedestrian crossing",
+          "No pedestrians",
+          "Path not intended for pedestrians"
+        ]
+      },
+      "fr": {
+        "text": "",
+        "options": [
+          "Passage pour piétons",
+          "Accès interdit aux piétons",
+          "Passage non réservé aux piétons"
+        ]
+      }
+    }
+  },
+  {
+    "id": 142,
+    "topic": "signs_warning",
+    "explanation": {
+      "ar": "المثلث الأحمر يحذّر من خطر أمامك. هذه الإشارة تنبّه إلى ممر للدراجات الهوائية، فخفّف السرعة وانتبه لراكبي الدراجات.",
+      "en": "Red triangles warn of a danger ahead. This one warns of a cycle crossing, so slow down and watch for cyclists.",
+      "fr": "Les panneaux triangulaires rouges signalent un danger. Celui-ci annonce un passage de cyclistes : ralentissez et surveillez les cyclistes."
+    },
+    "whyWrong": {
+      "ar": [
+        null,
+        "منع مرور الدراجات يُعرض في دائرة ذات إطار أحمر، لا في مثلث.",
+        "الرسم يُظهر شخصًا يركب دراجة هوائية، لا عربة يد."
+      ],
+      "en": [
+        null,
+        "No cycles is shown in a red-bordered circle, not in a triangle.",
+        "The drawing shows a person riding a bicycle, not a handcart."
+      ],
+      "fr": [
+        null,
+        "L'interdiction aux cycles s'affiche dans un cercle à bordure rouge, pas dans un triangle.",
+        "Le dessin montre une personne à vélo, pas une voiture à bras."
+      ]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "",
+        "options": [
+          "Cycle crossing",
+          "No cycles",
+          "Handcart crossing"
+        ]
+      },
+      "fr": {
+        "text": "",
+        "options": [
+          "Passage de cyclistes",
+          "Accès interdit aux cycles",
+          "Passage de voitures à bras"
+        ]
+      }
+    }
+  },
+  {
+    "id": 143,
+    "topic": "signs_warning",
+    "explanation": {
+      "ar": "المثلث الأحمر يحذّر من خطر أمامك. هذه الإشارة تنبّه إلى أن الطريق تضيق من الجهتين، فخفّف السرعة وانتبه للسيارات المقابلة.",
+      "en": "Red triangles warn of a danger ahead. This one warns that the road narrows on both sides, so slow down and watch for oncoming vehicles.",
+      "fr": "Les panneaux triangulaires rouges signalent un danger. Celui-ci annonce une chaussée rétrécie des deux côtés : ralentissez et surveillez les véhicules en face."
+    },
+    "whyWrong": {
+      "ar": [
+        "الخطان يقتربان من بعضهما، أي أن الطريق تضيق ولا تتسع.",
+        "هنا ينحني الخطان كلاهما إلى الداخل، أما في الضيق على اليسار فينحني الخط الأيسر فقط.",
+        null
+      ],
+      "en": [
+        "The two lines move closer together, so the road gets narrower, not wider.",
+        "Here both lines bend inwards; for a narrowing on the left only the left line bends.",
+        null
+      ],
+      "fr": [
+        "Les deux lignes se rapprochent : la route se rétrécit, elle ne s'élargit pas.",
+        "Ici les deux lignes se resserrent ; pour un rétrécissement à gauche, seule la ligne de gauche se resserre.",
+        null
+      ]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "",
+        "options": [
+          "Wide road",
+          "Road narrows on the left",
+          "Road narrows"
+        ]
+      },
+      "fr": {
+        "text": "",
+        "options": [
+          "Route large",
+          "Chaussée rétrécie par la gauche",
+          "Chaussée rétrécie"
+        ]
+      }
+    }
+  },
+  {
+    "id": 144,
+    "topic": "signs_warning",
+    "explanation": {
+      "ar": "المثلث الأحمر يحذّر من خطر أمامك. هذه الإشارة تنبّه إلى أن الطريق تضيق من جهة اليسار، فخفّف السرعة والتزم يمين الطريق.",
+      "en": "Red triangles warn of a danger ahead. This one warns that the road narrows on the left, so slow down and keep to the right.",
+      "fr": "Les panneaux triangulaires rouges signalent un danger. Celui-ci annonce une chaussée rétrécie par la gauche : ralentissez et serrez à droite."
+    },
+    "whyWrong": {
+      "ar": [
+        "إشارات الأفضلية لا تُظهر خطّين يقتربان، وهذا الرسم يُظهر طريقًا تضيق.",
+        null,
+        "هنا الخط الأيسر هو الذي ينحني إلى الداخل، فالضيق من جهة اليسار."
+      ],
+      "en": [
+        "Priority signs do not show two lines closing in; this drawing shows a road narrowing.",
+        null,
+        "Here it is the left line that bends inwards, so the narrowing is on the left."
+      ],
+      "fr": [
+        "Les panneaux de priorité ne montrent pas deux lignes qui se rapprochent ; ce dessin montre une route qui se rétrécit.",
+        null,
+        "Ici c'est la ligne de gauche qui se resserre : le rétrécissement est à gauche."
+      ]
+    },
+    "tip": {
+      "ar": "انظر أيّ خط ينحني إلى الداخل: الخط المنحني يدل على جهة الضيق.",
+      "en": "Look at which line bends inwards: the bent line shows the side where the road narrows.",
+      "fr": "Regardez quelle ligne se resserre : la ligne déviée indique le côté du rétrécissement."
+    },
+    "translation": {
+      "en": {
+        "text": "",
+        "options": [
+          "Priority to the right",
+          "Road narrows on the left",
+          "Road narrows on the right"
+        ]
+      },
+      "fr": {
+        "text": "",
+        "options": [
+          "Priorité à droite",
+          "Chaussée rétrécie par la gauche",
+          "Chaussée rétrécie par la droite"
+        ]
+      }
+    }
+  },
+  {
+    "id": 145,
+    "topic": "signs_warning",
+    "explanation": {
+      "ar": "المثلث الأحمر يحذّر من خطر أمامك. هذه الإشارة تنبّه إلى أن الطريق تضيق من جهة اليمين، فخفّف السرعة وانتبه للحافة اليمنى.",
+      "en": "Red triangles warn of a danger ahead. This one warns that the road narrows on the right, so slow down and watch the right edge.",
+      "fr": "Les panneaux triangulaires rouges signalent un danger. Celui-ci annonce une chaussée rétrécie par la droite : ralentissez et surveillez le bord droit."
+    },
+    "whyWrong": {
+      "ar": [
+        "إشارة أفضلية السيارات المقابلة تُظهر سهمين متعاكسين، لا مثلثًا فيه خطان.",
+        "إشارة نهاية الأفضلية معيّن أصفر يقطعه خط أسود، لا مثلث أحمر.",
+        null
+      ],
+      "en": [
+        "The oncoming traffic priority sign shows two opposite arrows, not a triangle with two lines.",
+        "The end of priority road sign is a yellow diamond crossed by a black bar, not a red triangle.",
+        null
+      ],
+      "fr": [
+        "Le panneau de priorité avec le sens inverse montre deux flèches opposées, pas un triangle avec deux lignes.",
+        "Le panneau fin de route prioritaire est un losange jaune barré de noir, pas un triangle rouge.",
+        null
+      ]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "",
+        "options": [
+          "Priority for oncoming traffic",
+          "End of priority road",
+          "Road narrows on the right"
+        ]
+      },
+      "fr": {
+        "text": "",
+        "options": [
+          "Priorité aux véhicules venant en sens inverse",
+          "Fin de route prioritaire",
+          "Chaussée rétrécie par la droite"
+        ]
+      }
+    }
+  },
+  {
+    "id": 146,
+    "topic": "signs_warning",
+    "explanation": {
+      "ar": "المثلث الأحمر يحذّر من خطر أمامك. هذه الإشارة تنبّه إلى احتمال سقوط صخور أو وجودها على الطريق، فخفّف السرعة وراقب سطح الطريق.",
+      "en": "Red triangles warn of a danger ahead. This one warns of falling rocks or rocks on the road, so slow down and watch the road surface.",
+      "fr": "Les panneaux triangulaires rouges signalent un danger. Celui-ci annonce des chutes de pierres ou des rochers sur la chaussée : ralentissez et surveillez la route."
+    },
+    "whyWrong": {
+      "ar": [
+        "إشارة الطريق الضيق تُظهر خطين يقتربان، لا صخورًا تسقط.",
+        "الرسم يُظهر صخورًا تتساقط من منحدر، وهو تحذير من خطر محدد لا مجرد منطقة جبلية.",
+        null
+      ],
+      "en": [
+        "The road narrows sign shows two lines closing in, not falling rocks.",
+        "The drawing shows rocks falling from a slope, a specific danger, not simply a mountain area.",
+        null
+      ],
+      "fr": [
+        "Le panneau chaussée rétrécie montre deux lignes qui se rapprochent, pas des pierres qui tombent.",
+        "Le dessin montre des pierres qui tombent d'une pente, un danger précis, pas une simple zone de montagne.",
+        null
+      ]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "",
+        "options": [
+          "Road narrows",
+          "Mountain area",
+          "Falling or fallen rocks"
+        ]
+      },
+      "fr": {
+        "text": "",
+        "options": [
+          "Chaussée rétrécie",
+          "Zone de montagne",
+          "Chute de pierres ou rochers sur la route"
+        ]
+      }
+    }
+  },
+  {
+    "id": 147,
+    "topic": "signs_warning",
+    "explanation": {
+      "ar": "المثلث الأحمر يحذّر من خطر أمامك. هذه الإشارة تنبّه إلى إشارات ضوئية (كهربائية) قريبة، فخفّف السرعة واستعدّ للتوقف.",
+      "en": "Red triangles warn of a danger ahead. This one warns of traffic lights ahead, so slow down and be ready to stop.",
+      "fr": "Les panneaux triangulaires rouges signalent un danger. Celui-ci annonce des feux de signalisation : ralentissez et soyez prêt à vous arrêter."
+    },
+    "whyWrong": {
+      "ar": [
+        "المنع يُعرض في دائرة ذات إطار أحمر، أما المثلث فللتحذير.",
+        null,
+        "إشارة المستديرة تُظهر أسهمًا تدور، لا ثلاثة أضواء ملوّنة."
+      ],
+      "en": [
+        "A prohibition is shown in a red-bordered circle; a triangle is for warnings.",
+        null,
+        "The roundabout sign shows circling arrows, not three coloured lights."
+      ],
+      "fr": [
+        "Une interdiction s'affiche dans un cercle à bordure rouge ; le triangle sert aux avertissements.",
+        null,
+        "Le panneau giratoire montre des flèches en cercle, pas trois feux de couleur."
+      ]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "",
+        "options": [
+          "Closed to all vehicles",
+          "Traffic lights",
+          "Roundabout"
+        ]
+      },
+      "fr": {
+        "text": "",
+        "options": [
+          "Circulation interdite à tous les véhicules",
+          "Feux de signalisation",
+          "Carrefour à sens giratoire"
+        ]
+      }
+    }
+  },
+  {
+    "id": 148,
+    "topic": "signs_warning",
+    "explanation": {
+      "ar": "المثلث الأحمر يحذّر من خطر أمامك. علامة التعجّب تعني خطرًا ليست له إشارة خاصة، فخفّف السرعة وابقَ منتبهًا.",
+      "en": "Red triangles warn of a danger ahead. The exclamation mark means a danger that has no specific sign, so slow down and stay alert.",
+      "fr": "Les panneaux triangulaires rouges signalent un danger. Le point d'exclamation signale un danger sans panneau particulier : ralentissez et restez vigilant."
+    },
+    "whyWrong": {
+      "ar": [
+        "إشارة ممنوع المرور دائرة حمراء فيها خط أبيض أفقي، لا مثلث.",
+        "إشارة أفسح الطريق مثلث مقلوب رأسه إلى الأسفل وليس فيه رسم.",
+        null
+      ],
+      "en": [
+        "The no entry sign is a red disc with a white horizontal bar, not a triangle.",
+        "The give way sign is an upside-down triangle with nothing inside.",
+        null
+      ],
+      "fr": [
+        "Le panneau sens interdit est un disque rouge avec une barre blanche horizontale, pas un triangle.",
+        "Le panneau cédez le passage est un triangle pointe en bas, sans dessin.",
+        null
+      ]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "",
+        "options": [
+          "No entry",
+          "Give way: priority road ahead",
+          "Other dangers"
+        ]
+      },
+      "fr": {
+        "text": "",
+        "options": [
+          "Sens interdit",
+          "Cédez le passage : route prioritaire devant",
+          "Autres dangers"
+        ]
+      }
+    }
+  },
+  {
+    "id": 149,
+    "topic": "signs_priority",
+    "explanation": {
+      "ar": "المثلث المقلوب يعني أفسح الطريق: أنت تقترب من طريق أفضلية، فخفّف السرعة واترك السيارات التي عليها تمرّ أولًا، وتوقّف إذا لزم.",
+      "en": "The upside-down triangle means give way: you are approaching a priority road, so slow down and let its traffic pass first, stopping if needed.",
+      "fr": "Le triangle pointe en bas signifie cédez le passage : vous arrivez sur une route prioritaire, ralentissez et laissez passer ses usagers, en vous arrêtant si nécessaire."
+    },
+    "whyWrong": {
+      "ar": [
+        "إشارة ممنوع المرور دائرة حمراء فيها خط أبيض، لا مثلث مقلوب.",
+        null,
+        "إشارة المخاطر المتنوعة مثلث رأسه إلى الأعلى وفيه علامة تعجّب."
+      ],
+      "en": [
+        "The no entry sign is a red disc with a white bar, not an upside-down triangle.",
+        null,
+        "The other dangers sign is a point-up triangle with an exclamation mark."
+      ],
+      "fr": [
+        "Le panneau sens interdit est un disque rouge avec une barre blanche, pas un triangle pointe en bas.",
+        null,
+        "Le panneau autres dangers est un triangle pointe en haut avec un point d'exclamation."
+      ]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "",
+        "options": [
+          "No entry",
+          "Give way: priority road ahead",
+          "Other dangers"
+        ]
+      },
+      "fr": {
+        "text": "",
+        "options": [
+          "Sens interdit",
+          "Cédez le passage : route prioritaire devant",
+          "Autres dangers"
+        ]
+      }
+    }
+  },
+  {
+    "id": 150,
+    "topic": "signs_priority",
+    "explanation": {
+      "ar": "المعيّن الأصفر الذي يقطعه خط أسود يعني نهاية طريق الأفضلية: لم تعد لك الأفضلية، فاتّبع قواعد الأفضلية العادية عند التقاطعات.",
+      "en": "The yellow diamond crossed by a black bar means the end of the priority road: you no longer have priority, so follow the normal priority rules at junctions.",
+      "fr": "Le losange jaune barré de noir signifie la fin de la route prioritaire : vous n'avez plus la priorité, appliquez les règles normales aux intersections."
+    },
+    "whyWrong": {
+      "ar": [
+        "إشارة ممنوع المرور دائرة حمراء فيها خط أبيض، لا معيّن أصفر.",
+        null,
+        "إشارة أفضلية السيارات المقابلة تُظهر سهمين متعاكسين، لا معيّنًا أصفر."
+      ],
+      "en": [
+        "The no entry sign is a red disc with a white bar, not a yellow diamond.",
+        null,
+        "The oncoming traffic priority sign shows two opposite arrows, not a yellow diamond."
+      ],
+      "fr": [
+        "Le panneau sens interdit est un disque rouge avec une barre blanche, pas un losange jaune.",
+        null,
+        "Le panneau de priorité avec le sens inverse montre deux flèches opposées, pas un losange jaune."
+      ]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "",
+        "options": [
+          "No entry",
+          "End of priority road",
+          "Priority for oncoming traffic"
+        ]
+      },
+      "fr": {
+        "text": "",
+        "options": [
+          "Sens interdit",
+          "Fin de route prioritaire",
+          "Priorité aux véhicules venant en sens inverse"
+        ]
+      }
+    }
+  },
+  {
+    "id": 151,
+    "topic": "signs_priority",
+    "explanation": {
+      "ar": "هذه الإشارة المربعة الزرقاء تنظّم الأفضلية مع السيارات القادمة من الجهة المقابلة في مقطع ضيّق، فانتبه لاتجاه السهمين قبل أن تدخل.",
+      "en": "This blue square sign controls priority with vehicles coming from the opposite direction on a narrow section, so check the two arrows before you go in.",
+      "fr": "Ce panneau carré bleu règle la priorité avec les véhicules venant en sens inverse sur un passage étroit : regardez les deux flèches avant de vous engager."
+    },
+    "whyWrong": {
+      "ar": [
+        "إشارة منع التجاوز دائرة ذات إطار أحمر فيها سيارتان، لا مربع أزرق فيه سهمان.",
+        "إشارة نهاية الأفضلية معيّن أصفر يقطعه خط أسود، لا مربع أزرق.",
+        null
+      ],
+      "en": [
+        "The no overtaking sign is a red-bordered circle with two cars, not a blue square with arrows.",
+        "The end of priority road sign is a yellow diamond crossed by a black bar, not a blue square.",
+        null
+      ],
+      "fr": [
+        "Le panneau interdiction de dépasser est un rond à bordure rouge avec deux voitures, pas un carré bleu avec des flèches.",
+        "Le panneau fin de route prioritaire est un losange jaune barré de noir, pas un carré bleu.",
+        null
+      ]
+    },
+    "tip": {
+      "ar": "في بنك الأسئلة، الدائرة الحمراء والمربع الأزرق اللذان فيهما سهمان متعاكسان يحملان الاسم نفسه: أفضلية المرور للسيارات المتجهة من الجهة المقابلة.",
+      "en": "In this question bank, both the red circle and the blue square with two opposite arrows carry the same name: priority for oncoming traffic.",
+      "fr": "Dans cette banque de questions, le rond rouge et le carré bleu avec deux flèches opposées portent le même nom : priorité aux véhicules venant en sens inverse."
+    },
+    "translation": {
+      "en": {
+        "text": "",
+        "options": [
+          "No overtaking for all vehicles",
+          "End of priority road",
+          "Priority for oncoming traffic"
+        ]
+      },
+      "fr": {
+        "text": "",
+        "options": [
+          "Interdiction de dépasser pour tous les véhicules",
+          "Fin de route prioritaire",
+          "Priorité aux véhicules venant en sens inverse"
+        ]
+      }
+    }
+  },
+  {
+    "id": 152,
+    "topic": "signs_priority",
+    "explanation": {
+      "ar": "الإشارة الحمراء المثمّنة تعني قف: يجب أن تتوقف تمامًا عند خط التوقف، ثم تتابع فقط عندما تكون الطريق خالية.",
+      "en": "The red octagon means stop: you must come to a complete stop at the stop line and move on only when the road is clear.",
+      "fr": "L'octogone rouge signifie stop : arrêtez-vous complètement à la ligne d'arrêt et ne repartez que lorsque la voie est libre."
+    },
+    "whyWrong": {
+      "ar": [
+        null,
+        "إشارة ممنوع الدخول دائرة حمراء فيها خط أبيض أفقي، لا مثمّن مكتوب عليه قف.",
+        "إشارة الطريق ذات الاتجاه الواحد مستطيلة زرقاء فيها سهم أبيض."
+      ],
+      "en": [
+        null,
+        "The no entry sign is a red disc with a white horizontal bar, not an octagon reading STOP.",
+        "The one-way road sign is a blue rectangle with a white arrow."
+      ],
+      "fr": [
+        null,
+        "Le panneau sens interdit est un disque rouge avec une barre blanche, pas un octogone marqué STOP.",
+        "Le panneau route à sens unique est un rectangle bleu avec une flèche blanche."
+      ]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "",
+        "options": [
+          "Stop",
+          "No entry",
+          "One-way road"
+        ]
+      },
+      "fr": {
+        "text": "",
+        "options": [
+          "Stop",
+          "Sens interdit",
+          "Route à sens unique"
+        ]
+      }
+    }
+  },
+  {
+    "id": 153,
+    "topic": "signs_prohibition",
+    "explanation": {
+      "ar": "الإشارة المستديرة ذات الإطار الأحمر تدل على منع. هذه الدائرة البيضاء الفارغة تمنع دخول جميع السيارات، فلا تدخل هذه الطريق.",
+      "en": "Round signs with a red border show a prohibition. This empty white circle closes the road to all vehicles, so do not ride into it.",
+      "fr": "Les panneaux ronds à bordure rouge indiquent une interdiction. Ce rond blanc vide interdit la circulation à tous les véhicules : n'y entrez pas."
+    },
+    "whyWrong": {
+      "ar": [
+        null,
+        "إشارة الطريق ذات الاتجاه الواحد مستطيلة زرقاء فيها سهم أبيض.",
+        "إشارة ممنوع الوقوف دائرة زرقاء بإطار أحمر يقطعها خط أحمر مائل."
+      ],
+      "en": [
+        null,
+        "The one-way road sign is a blue rectangle with a white arrow.",
+        "The no parking sign is a blue circle with a red border and a red diagonal bar."
+      ],
+      "fr": [
+        null,
+        "Le panneau route à sens unique est un rectangle bleu avec une flèche blanche.",
+        "Le panneau stationnement interdit est un rond bleu bordé de rouge avec une barre rouge oblique."
+      ]
+    },
+    "tip": {
+      "ar": "الدائرة البيضاء الفارغة تمنع جميع السيارات، أما الدائرة الحمراء التي فيها خط أبيض فتعني ممنوع المرور من هذه الجهة.",
+      "en": "An empty white circle closes the road to all vehicles; a red disc with a white bar means no entry from this side.",
+      "fr": "Un rond blanc vide interdit la circulation à tous les véhicules ; un disque rouge avec une barre blanche signifie sens interdit de ce côté."
+    },
+    "translation": {
+      "en": {
+        "text": "",
+        "options": [
+          "Closed to all vehicles",
+          "One-way road",
+          "No parking"
+        ]
+      },
+      "fr": {
+        "text": "",
+        "options": [
+          "Circulation interdite à tous les véhicules",
+          "Route à sens unique",
+          "Stationnement interdit"
+        ]
+      }
+    }
+  },
+  {
+    "id": 154,
+    "topic": "signs_prohibition",
+    "explanation": {
+      "ar": "الإشارة الحمراء التي يقطعها خط أبيض أفقي تعني ممنوع المرور: لا يجوز لك الدخول إلى هذه الطريق من هذه الجهة.",
+      "en": "A red disc with a white horizontal bar means no entry: you may not enter this road from this side.",
+      "fr": "Un disque rouge avec une barre blanche horizontale signifie sens interdit : vous ne pouvez pas entrer dans cette voie de ce côté."
+    },
+    "whyWrong": {
+      "ar": [
+        "إشارة ممنوع الوقوف دائرة زرقاء بإطار أحمر يقطعها خط أحمر مائل.",
+        "إشارة الأخطار المتنوعة مثلث أحمر فيه علامة تعجّب.",
+        null
+      ],
+      "en": [
+        "The no parking sign is a blue circle with a red border and a red diagonal bar.",
+        "The other dangers sign is a red triangle with an exclamation mark.",
+        null
+      ],
+      "fr": [
+        "Le panneau stationnement interdit est un rond bleu bordé de rouge avec une barre rouge oblique.",
+        "Le panneau autres dangers est un triangle rouge avec un point d'exclamation.",
+        null
+      ]
+    },
+    "tip": {
+      "ar": "لا تخلط بينها وبين الدائرة البيضاء الفارغة ذات الإطار الأحمر، فتلك تمنع دخول جميع السيارات.",
+      "en": "Do not confuse it with the empty white circle with a red border, which closes the road to all vehicles.",
+      "fr": "Ne le confondez pas avec le rond blanc vide à bordure rouge, qui interdit la circulation à tous les véhicules."
+    },
+    "translation": {
+      "en": {
+        "text": "",
+        "options": [
+          "No parking",
+          "Other dangers",
+          "No entry"
+        ]
+      },
+      "fr": {
+        "text": "",
+        "options": [
+          "Stationnement interdit",
+          "Autres dangers",
+          "Sens interdit"
+        ]
+      }
+    }
+  },
+  {
+    "id": 155,
+    "topic": "signs_prohibition",
+    "explanation": {
+      "ar": "الإشارة المستديرة ذات الإطار الأحمر تدل على منع. السيارتان (والحمراء على اليسار) تعنيان منع التجاوز لجميع المركبات، فلا تتجاوز أي مركبة حتى نهاية المنع.",
+      "en": "Round signs with a red border show a prohibition. Two cars (the red one on the left) mean no overtaking for all vehicles, so do not overtake any vehicle until the end of the ban.",
+      "fr": "Les panneaux ronds à bordure rouge indiquent une interdiction. Deux voitures (la rouge à gauche) signifient interdiction de dépasser pour tous les véhicules : ne dépassez aucun véhicule jusqu'à la fin de l'interdiction."
+    },
+    "whyWrong": {
+      "ar": [
+        "في إشارة منع التجاوز للشاحنات تكون المركبة الحمراء شاحنة، أما هنا فهي سيارة.",
+        "إشارة ممنوع المرور دائرة حمراء فيها خط أبيض، لا سيارتان.",
+        null
+      ],
+      "en": [
+        "In the no overtaking for trucks sign the red vehicle is a truck; here it is a car.",
+        "The no entry sign is a red disc with a white bar, not two cars.",
+        null
+      ],
+      "fr": [
+        "Dans le panneau interdiction de dépasser pour les camions, le véhicule rouge est un camion ; ici c'est une voiture.",
+        "Le panneau sens interdit est un disque rouge avec une barre blanche, pas deux voitures.",
+        null
+      ]
+    },
+    "tip": {
+      "ar": "انظر إلى المركبة الحمراء: إذا كانت سيارة فالمنع لجميع المركبات، وإذا كانت شاحنة فالمنع للشاحنات فقط.",
+      "en": "Look at the red vehicle: a car means the ban applies to all vehicles; a truck means it applies to trucks only.",
+      "fr": "Regardez le véhicule rouge : une voiture signifie que l'interdiction vise tous les véhicules ; un camion, seulement les camions."
+    },
+    "translation": {
+      "en": {
+        "text": "",
+        "options": [
+          "No overtaking for trucks",
+          "No entry",
+          "No overtaking for all vehicles"
+        ]
+      },
+      "fr": {
+        "text": "",
+        "options": [
+          "Interdiction de dépasser pour les camions",
+          "Sens interdit",
+          "Interdiction de dépasser pour tous les véhicules"
+        ]
+      }
+    }
+  },
+  {
+    "id": 156,
+    "topic": "signs_prohibition",
+    "explanation": {
+      "ar": "الإشارة المستديرة ذات الإطار الأحمر وفيها رقم تحدّد السرعة القصوى: هنا لا يجوز أن تتجاوز سرعتك 30 كلم في الساعة.",
+      "en": "A red-bordered round sign with a number sets the maximum speed: here you must not ride faster than 30 km/h.",
+      "fr": "Un panneau rond à bordure rouge avec un chiffre fixe la vitesse maximale : ici, ne dépassez pas 30 km/h."
+    },
+    "whyWrong": {
+      "ar": [
+        "الرقم المكتوب على الإشارة هو 30 وليس 80.",
+        "إشارة أفسح الطريق مثلث مقلوب، لا دائرة فيها رقم.",
+        null
+      ],
+      "en": [
+        "The number on the sign is 30, not 80.",
+        "The give way sign is an upside-down triangle, not a circle with a number.",
+        null
+      ],
+      "fr": [
+        "Le chiffre sur le panneau est 30, pas 80.",
+        "Le panneau cédez le passage est un triangle pointe en bas, pas un rond avec un chiffre.",
+        null
+      ]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "",
+        "options": [
+          "Speed 80 km/h",
+          "Give way: priority road ahead",
+          "Maximum speed 30 km/h"
+        ]
+      },
+      "fr": {
+        "text": "",
+        "options": [
+          "Vitesse 80 km/h",
+          "Cédez le passage : route prioritaire devant",
+          "Vitesse maximale 30 km/h"
+        ]
+      }
+    }
+  },
+  {
+    "id": 157,
+    "topic": "signs_prohibition",
+    "explanation": {
+      "ar": "الإشارة المستديرة ذات الإطار الأحمر تدل على منع. البوق المشطوب يعني ممنوع التزمير، فلا تستعمل الزمّور في هذه المنطقة.",
+      "en": "Round signs with a red border show a prohibition. The crossed-out horn means no hooting, so do not use your horn in this area.",
+      "fr": "Les panneaux ronds à bordure rouge indiquent une interdiction. Le klaxon barré signifie signaux sonores interdits : n'utilisez pas votre avertisseur dans cette zone."
+    },
+    "whyWrong": {
+      "ar": [
+        "إشارات الخدمات والمعلومات مربعة زرقاء، أما الدائرة ذات الإطار الأحمر فتدل على منع.",
+        "إشارة ممنوع الوقوف دائرة زرقاء بإطار أحمر وخط مائل، ولا تُظهر بوقًا.",
+        null
+      ],
+      "en": [
+        "Service and information signs are blue squares; a red-bordered circle shows a prohibition.",
+        "The no parking sign is a blue circle with a red border and a diagonal bar; it shows no horn.",
+        null
+      ],
+      "fr": [
+        "Les panneaux de services et d'information sont des carrés bleus ; un rond à bordure rouge indique une interdiction.",
+        "Le panneau stationnement interdit est un rond bleu bordé de rouge avec une barre oblique, sans klaxon.",
+        null
+      ]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "",
+        "options": [
+          "Theatre",
+          "No parking",
+          "Use of horn prohibited"
+        ]
+      },
+      "fr": {
+        "text": "",
+        "options": [
+          "Théâtre",
+          "Stationnement interdit",
+          "Signaux sonores interdits"
+        ]
+      }
+    }
+  },
+  {
+    "id": 158,
+    "topic": "signs_prohibition",
+    "explanation": {
+      "ar": "الإشارة المستديرة ذات الإطار الأحمر تدل على منع. الشاحنة الحمراء بجانب السيارة تعني أنه يُمنع على الشاحنات تجاوز المركبات الأخرى.",
+      "en": "Round signs with a red border show a prohibition. The red truck beside a car means trucks are not allowed to overtake other vehicles.",
+      "fr": "Les panneaux ronds à bordure rouge indiquent une interdiction. Le camion rouge à côté d'une voiture signifie que les camions n'ont pas le droit de dépasser."
+    },
+    "whyWrong": {
+      "ar": [
+        "الطرق المخصصة تُعرض بإشارات زرقاء، أما الإطار الأحمر فيدل على منع.",
+        null,
+        "الإطار الأحمر يدل على منع لا على سماح، ونهاية المنع تُعرض بإشارة بيضاء يقطعها خط مائل."
+      ],
+      "en": [
+        "Reserved roads are shown with blue signs; a red border shows a prohibition.",
+        null,
+        "A red border shows a ban, not permission; the end of a ban is a white sign with a diagonal bar."
+      ],
+      "fr": [
+        "Les voies réservées sont indiquées par des panneaux bleus ; une bordure rouge indique une interdiction.",
+        null,
+        "Une bordure rouge indique une interdiction, pas une autorisation ; la fin d'une interdiction est un panneau blanc barré en diagonale."
+      ]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "",
+        "options": [
+          "Road reserved for trucks",
+          "No overtaking for trucks",
+          "Overtaking allowed for trucks"
+        ]
+      },
+      "fr": {
+        "text": "",
+        "options": [
+          "Route réservée aux camions",
+          "Interdiction de dépasser pour les camions",
+          "Dépassement autorisé pour les camions"
+        ]
+      }
+    }
+  },
+  {
+    "id": 159,
+    "topic": "signs_prohibition",
+    "explanation": {
+      "ar": "الإشارة المستديرة ذات الإطار الأحمر تدل على منع. العربة التي يجرّها حصان تعني أن مرور العربات التي تجرّها الحيوانات ممنوع.",
+      "en": "Round signs with a red border show a prohibition. The horse-drawn cart means animal-drawn vehicles are not allowed.",
+      "fr": "Les panneaux ronds à bordure rouge indiquent une interdiction. La charrette tirée par un cheval signifie que les véhicules à traction animale sont interdits."
+    },
+    "whyWrong": {
+      "ar": [
+        "الإطار الأحمر يدل على منع، لا على سماح.",
+        "إشارة منع المشاة تُظهر شخصًا يمشي، أما هنا فعربة يجرّها حصان.",
+        null
+      ],
+      "en": [
+        "A red border shows a ban, not permission.",
+        "The no pedestrians sign shows a walking person; here it is a horse-drawn cart.",
+        null
+      ],
+      "fr": [
+        "Une bordure rouge indique une interdiction, pas une autorisation.",
+        "Le panneau interdit aux piétons montre un piéton ; ici, c'est une charrette tirée par un cheval.",
+        null
+      ]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "",
+        "options": [
+          "Animal-drawn vehicles allowed",
+          "No pedestrians",
+          "No animal-drawn vehicles"
+        ]
+      },
+      "fr": {
+        "text": "",
+        "options": [
+          "Véhicules à traction animale autorisés",
+          "Accès interdit aux piétons",
+          "Accès interdit aux véhicules à traction animale"
+        ]
+      }
+    }
+  },
+  {
+    "id": 160,
+    "topic": "signs_prohibition",
+    "explanation": {
+      "ar": "الإشارة المستديرة ذات الإطار الأحمر تدل على منع. الشخص الذي يمشي داخلها يعني أن مرور المشاة ممنوع على هذه الطريق.",
+      "en": "Round signs with a red border show a prohibition. The walking person inside means pedestrians are not allowed on this road.",
+      "fr": "Les panneaux ronds à bordure rouge indiquent une interdiction. Le piéton dessiné signifie que les piétons sont interdits sur cette voie."
+    },
+    "whyWrong": {
+      "ar": [
+        null,
+        "الطريق المخصصة للمشاة تُعرض بإشارة زرقاء، أما الإطار الأحمر فيدل على منع.",
+        "الرسم داخل الإشارة شخص يمشي، لا سيارة."
+      ],
+      "en": [
+        null,
+        "A pedestrian-only road is shown with a blue sign; a red border shows a ban.",
+        "The symbol inside is a walking person, not a car."
+      ],
+      "fr": [
+        null,
+        "Une voie réservée aux piétons est indiquée par un panneau bleu ; une bordure rouge indique une interdiction.",
+        "Le symbole est un piéton, pas une voiture."
+      ]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "",
+        "options": [
+          "No pedestrians",
+          "Pedestrian-only road",
+          "No cars"
+        ]
+      },
+      "fr": {
+        "text": "",
+        "options": [
+          "Accès interdit aux piétons",
+          "Voie réservée aux piétons",
+          "Accès interdit aux voitures"
+        ]
+      }
+    }
+  },
+  {
+    "id": 161,
+    "topic": "signs_prohibition",
+    "explanation": {
+      "ar": "الإشارة المستديرة ذات الإطار الأحمر تدل على منع. الدراجة الهوائية داخلها تعني أن مرور الدراجات ممنوع على هذه الطريق.",
+      "en": "Round signs with a red border show a prohibition. The bicycle inside means cycles are not allowed on this road.",
+      "fr": "Les panneaux ronds à bordure rouge indiquent une interdiction. Le vélo dessiné signifie que les cycles sont interdits sur cette voie."
+    },
+    "whyWrong": {
+      "ar": [
+        null,
+        "الرسم دراجة هوائية لا سيارة، والإشارات الإجبارية زرقاء لا حمراء.",
+        "الطريق المخصصة للدراجات تُعرض بدائرة زرقاء فيها دراجة بيضاء، لا بإطار أحمر."
+      ],
+      "en": [
+        null,
+        "The symbol is a bicycle, not a car, and compulsory signs are blue, not red.",
+        "A cycle path is shown by a blue circle with a white bicycle, not a red border."
+      ],
+      "fr": [
+        null,
+        "Le symbole est un vélo, pas une voiture, et les panneaux d'obligation sont bleus, pas rouges.",
+        "Une piste cyclable est indiquée par un rond bleu avec un vélo blanc, pas par une bordure rouge."
+      ]
+    },
+    "tip": {
+      "ar": "الدراجة داخل إطار أحمر تعني منعًا، أما الدراجة البيضاء على دائرة زرقاء فتعني طريقًا مخصصة للدراجات.",
+      "en": "A bicycle inside a red border means a ban; a white bicycle on a blue circle means a cycle path.",
+      "fr": "Un vélo dans une bordure rouge signifie une interdiction ; un vélo blanc sur un rond bleu signifie une piste cyclable."
+    },
+    "translation": {
+      "en": {
+        "text": "",
+        "options": [
+          "No cycles",
+          "Compulsory path for cars",
+          "Cycle path"
+        ]
+      },
+      "fr": {
+        "text": "",
+        "options": [
+          "Accès interdit aux cycles",
+          "Chemin obligatoire pour les voitures",
+          "Piste cyclable"
+        ]
+      }
+    }
+  },
+  {
+    "id": 162,
+    "topic": "signs_prohibition",
+    "explanation": {
+      "ar": "الإشارة المستديرة ذات الإطار الأحمر تدل على منع. الدراجة النارية داخلها تعني أن مرور الدراجات النارية ممنوع، فلا تدخل هذه الطريق بدراجتك.",
+      "en": "Round signs with a red border show a prohibition. The motorcycle inside means motorcycles are not allowed, so do not ride into this road.",
+      "fr": "Les panneaux ronds à bordure rouge indiquent une interdiction. La moto dessinée signifie que les motocyclettes sont interdites : n'empruntez pas cette voie avec votre moto."
+    },
+    "whyWrong": {
+      "ar": [
+        "الطرق المخصصة تُعرض بإشارات زرقاء، أما الإطار الأحمر فيدل على منع.",
+        "الممر الخاص يُعرض بإشارة زرقاء، والإطار الأحمر هنا يعني أن الدراجات النارية ممنوعة.",
+        null
+      ],
+      "en": [
+        "Reserved roads are shown with blue signs; a red border shows a prohibition.",
+        "A special lane is shown with a blue sign; the red border here means motorcycles are banned.",
+        null
+      ],
+      "fr": [
+        "Les voies réservées sont indiquées par des panneaux bleus ; une bordure rouge indique une interdiction.",
+        "Un couloir réservé est indiqué par un panneau bleu ; ici la bordure rouge signifie que les motos sont interdites.",
+        null
+      ]
+    },
+    "tip": {
+      "ar": "هذه الإشارة تخصّك مباشرة: الإطار الأحمر يعني أن دخولك بالدراجة النارية ممنوع، أما اللون الأزرق فيدل على طريق مخصصة.",
+      "en": "This sign concerns you directly: a red border means you may not ride in; blue would mean a reserved road.",
+      "fr": "Ce panneau vous concerne directement : la bordure rouge signifie que vous ne pouvez pas entrer ; le bleu indiquerait une voie réservée."
+    },
+    "translation": {
+      "en": {
+        "text": "",
+        "options": [
+          "Road reserved for motorcycles",
+          "Special lane for motorcycles",
+          "No entry for motorcycles"
+        ]
+      },
+      "fr": {
+        "text": "",
+        "options": [
+          "Voie réservée aux motocyclettes",
+          "Couloir réservé aux motocyclettes",
+          "Accès interdit aux motocyclettes"
+        ]
+      }
+    }
+  },
+  {
+    "id": 163,
+    "topic": "signs_prohibition",
+    "explanation": {
+      "ar": "الإشارة المستديرة ذات الإطار الأحمر تدل على منع. الشخص مع عربة اليد يعني أن مرور عربات اليد ممنوع على هذه الطريق.",
+      "en": "Round signs with a red border show a prohibition. The person with a handcart means handcarts are not allowed on this road.",
+      "fr": "Les panneaux ronds à bordure rouge indiquent une interdiction. La personne avec une voiture à bras signifie que les voitures à bras sont interdites sur cette voie."
+    },
+    "whyWrong": {
+      "ar": [
+        "منع الوقوف يُعرض بدائرة زرقاء ذات إطار أحمر وخط مائل، أما هنا فدائرة بيضاء تمنع المرور.",
+        "الطرق المخصصة تُعرض بإشارات زرقاء، أما الإطار الأحمر فيدل على منع.",
+        null
+      ],
+      "en": [
+        "No parking is shown by a blue circle with a red border and a diagonal bar; this white circle bans passage.",
+        "Reserved roads are shown with blue signs; a red border shows a prohibition.",
+        null
+      ],
+      "fr": [
+        "L'interdiction de stationner s'affiche sur un rond bleu bordé de rouge avec une barre oblique ; ce rond blanc interdit le passage.",
+        "Les voies réservées sont indiquées par des panneaux bleus ; une bordure rouge indique une interdiction.",
+        null
+      ]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "",
+        "options": [
+          "No parking for handcarts",
+          "Road reserved for handcarts",
+          "No handcarts"
+        ]
+      },
+      "fr": {
+        "text": "",
+        "options": [
+          "Stationnement interdit aux voitures à bras",
+          "Voie réservée aux voitures à bras",
+          "Accès interdit aux voitures à bras"
+        ]
+      }
+    }
+  },
+  {
+    "id": 164,
+    "topic": "signs_prohibition",
+    "explanation": {
+      "ar": "الإشارة المستديرة ذات الإطار الأحمر تدل على منع. السيارة داخلها تعني أن مرور السيارات عمومًا ممنوع على هذه الطريق.",
+      "en": "Round signs with a red border show a prohibition. The car inside means cars in general are not allowed on this road.",
+      "fr": "Les panneaux ronds à bordure rouge indiquent une interdiction. La voiture dessinée signifie que les voitures en général sont interdites sur cette voie."
+    },
+    "whyWrong": {
+      "ar": [
+        "منع الوقوف يُعرض بدائرة زرقاء ذات إطار أحمر وخط مائل، لا بدائرة بيضاء فيها سيارة.",
+        null,
+        "الطرق المخصصة تُعرض بإشارات زرقاء، أما الإطار الأحمر فيدل على منع."
+      ],
+      "en": [
+        "No parking is shown by a blue circle with a red border and a diagonal bar, not a white circle with a car.",
+        null,
+        "Reserved roads are shown with blue signs; a red border shows a prohibition."
+      ],
+      "fr": [
+        "L'interdiction de stationner s'affiche sur un rond bleu bordé de rouge avec une barre oblique, pas sur un rond blanc avec une voiture.",
+        null,
+        "Les voies réservées sont indiquées par des panneaux bleus ; une bordure rouge indique une interdiction."
+      ]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "",
+        "options": [
+          "No parking for cars",
+          "No entry for all cars",
+          "Road reserved for cars"
+        ]
+      },
+      "fr": {
+        "text": "",
+        "options": [
+          "Stationnement interdit aux voitures",
+          "Accès interdit à toutes les voitures",
+          "Route réservée aux voitures"
+        ]
+      }
+    }
+  },
+  {
+    "id": 165,
+    "topic": "signs_prohibition",
+    "explanation": {
+      "ar": "الإشارة المستديرة ذات الإطار الأحمر تدل على منع. السهمان الأفقيان حول الرقم يعنيان العرض، فيُمنع مرور السيارات التي يزيد عرضها عن 2,3 متر.",
+      "en": "Round signs with a red border show a prohibition. The horizontal arrows around the number refer to width, so vehicles wider than 2.3 m may not pass.",
+      "fr": "Les panneaux ronds à bordure rouge indiquent une interdiction. Les flèches horizontales autour du chiffre désignent la largeur : les véhicules de plus de 2,3 m de large sont interdits."
+    },
+    "whyWrong": {
+      "ar": [
+        "إشارة منع الشاحنات تُظهر شاحنة فقط، أما هنا فرقم مع سهمين يحدّد العرض.",
+        "إشارة الطول تُظهر شاحنة تحتها سهم برقم الطول، أما السهمان هنا على الجانبين فيدلّان على العرض.",
+        null
+      ],
+      "en": [
+        "The no trucks sign shows only a truck; here a number with arrows sets a width limit.",
+        "The length sign shows a truck with an arrow and the length under it; arrows on the sides mean width.",
+        null
+      ],
+      "fr": [
+        "Le panneau interdit aux camions montre seulement un camion ; ici un chiffre avec des flèches fixe une largeur.",
+        "Le panneau de longueur montre un camion avec une flèche et la longueur dessous ; des flèches sur les côtés indiquent la largeur.",
+        null
+      ]
+    },
+    "tip": {
+      "ar": "سهمان على الجانبين = عرض، سهمان في الأعلى والأسفل = ارتفاع، شاحنة تحتها سهم = طول.",
+      "en": "Arrows on the sides mean width, arrows top and bottom mean height, a truck with an arrow below means length.",
+      "fr": "Flèches sur les côtés = largeur, flèches en haut et en bas = hauteur, camion avec une flèche dessous = longueur."
+    },
+    "translation": {
+      "en": {
+        "text": "",
+        "options": [
+          "No trucks",
+          "No trucks longer than 2.3 m",
+          "No vehicles wider than 2.3 m"
+        ]
+      },
+      "fr": {
+        "text": "",
+        "options": [
+          "Accès interdit aux camions",
+          "Accès interdit aux camions de plus de 2,3 m de long",
+          "Accès interdit aux véhicules de plus de 2,3 m de large"
+        ]
+      }
+    }
+  },
+  {
+    "id": 166,
+    "topic": "signs_prohibition",
+    "explanation": {
+      "ar": "الإشارة المستديرة ذات الإطار الأحمر تدل على منع. السهمان في الأعلى والأسفل يعنيان الارتفاع، فيُمنع مرور الشاحنات التي يزيد علوها عن 3,5 متر.",
+      "en": "Round signs with a red border show a prohibition. The arrows at the top and bottom refer to height, so trucks taller than 3.5 m may not pass.",
+      "fr": "Les panneaux ronds à bordure rouge indiquent une interdiction. Les flèches en haut et en bas désignent la hauteur : les camions de plus de 3,5 m de haut sont interdits."
+    },
+    "whyWrong": {
+      "ar": [
+        "الوزن يُكتب بحرف t (طن)، أما هنا فالرقم بالمتر (m) مع سهمين للارتفاع.",
+        null,
+        "إشارات الاتجاه الإجباري زرقاء فيها أسهم بيضاء، لا دائرة ذات إطار أحمر."
+      ],
+      "en": [
+        "Weight is written with t (tonnes); here the number is in metres (m) with height arrows.",
+        null,
+        "Compulsory direction signs are blue with white arrows, not red-bordered circles."
+      ],
+      "fr": [
+        "Le poids s'écrit avec t (tonnes) ; ici le chiffre est en mètres (m) avec des flèches de hauteur.",
+        null,
+        "Les panneaux de direction obligatoire sont bleus avec des flèches blanches, pas des ronds à bordure rouge."
+      ]
+    },
+    "tip": {
+      "ar": "انظر إلى الوحدة: m تعني مترًا (ارتفاع أو عرض أو طول)، وt تعني طنًا (وزن).",
+      "en": "Check the unit: m means metres (height, width or length) and t means tonnes (weight).",
+      "fr": "Regardez l'unité : m signifie mètres (hauteur, largeur ou longueur) et t signifie tonnes (poids)."
+    },
+    "translation": {
+      "en": {
+        "text": "",
+        "options": [
+          "No trucks heavier than 3.5 t",
+          "No trucks taller than 3.5 m",
+          "Compulsory direction for trucks"
+        ]
+      },
+      "fr": {
+        "text": "",
+        "options": [
+          "Accès interdit aux camions de plus de 3,5 t",
+          "Accès interdit aux camions de plus de 3,5 m de haut",
+          "Direction obligatoire pour les camions"
+        ]
+      }
+    }
+  },
+  {
+    "id": 167,
+    "topic": "signs_prohibition",
+    "explanation": {
+      "ar": "الإشارة المستديرة ذات الإطار الأحمر تدل على منع. الشاحنة وتحتها سهم مكتوب عليه 10 m تعني منع مرور الشاحنات التي يزيد طولها عن 10 أمتار.",
+      "en": "Round signs with a red border show a prohibition. A truck with an arrow marked 10 m below it bans trucks longer than 10 metres.",
+      "fr": "Les panneaux ronds à bordure rouge indiquent une interdiction. Un camion avec une flèche « 10 m » dessous interdit les camions de plus de 10 mètres de long."
+    },
+    "whyWrong": {
+      "ar": [
+        "الإشارة تحدّد طول الشاحنة بالأمتار، ولا تتحدث عن زيادة الحمولة.",
+        null,
+        "الرقم هنا 10 بالمتر (m)، أما الحمولة فتُكتب بالطن (t)."
+      ],
+      "en": [
+        "The sign limits the truck's length in metres; it says nothing about extra load.",
+        null,
+        "The number here is 10 in metres (m); a load limit would be written in tonnes (t)."
+      ],
+      "fr": [
+        "Le panneau limite la longueur du camion en mètres ; il ne parle pas de surcharge.",
+        null,
+        "Le chiffre ici est 10 en mètres (m) ; une limite de charge s'écrirait en tonnes (t)."
+      ]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "",
+        "options": [
+          "No load longer than 10 m",
+          "No trucks longer than 10 m",
+          "No trucks with a laden weight over 6.5 t"
+        ]
+      },
+      "fr": {
+        "text": "",
+        "options": [
+          "Chargement de plus de 10 m interdit",
+          "Accès interdit aux camions de plus de 10 m de long",
+          "Accès interdit aux camions dont le poids en charge dépasse 6,5 t"
+        ]
+      }
+    }
+  },
+  {
+    "id": 168,
+    "topic": "signs_prohibition",
+    "explanation": {
+      "ar": "الإشارة المستديرة ذات الإطار الأحمر تدل على منع. الرقم 7 مع حرف t (طن) يعني منع مرور الشاحنات التي تزيد حمولتها عن 7 أطنان.",
+      "en": "Round signs with a red border show a prohibition. The number 7 with t (tonnes) bans trucks with a laden weight over 7 tonnes.",
+      "fr": "Les panneaux ronds à bordure rouge indiquent une interdiction. Le chiffre 7 suivi de t (tonnes) interdit les camions dont le poids en charge dépasse 7 tonnes."
+    },
+    "whyWrong": {
+      "ar": [
+        "حرف t يعني طنًا (وزن)، أما الارتفاع فيُكتب بالمتر مع سهمين في الأعلى والأسفل.",
+        "الإشارة تُظهر رقمًا وحده بالطن، فهي تحدّد الحمولة الكاملة لا حمولة كل دولاب.",
+        null
+      ],
+      "en": [
+        "The t means tonnes (weight); height is written in metres with arrows at the top and bottom.",
+        "The sign shows only a figure in tonnes, so it limits the whole load, not the load per wheel.",
+        null
+      ],
+      "fr": [
+        "Le t signifie tonnes (poids) ; la hauteur s'écrit en mètres avec des flèches en haut et en bas.",
+        "Le panneau ne montre qu'un chiffre en tonnes : il limite le poids total, pas la charge par roue.",
+        null
+      ]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "",
+        "options": [
+          "No trucks taller than 7 m",
+          "No trucks with more than 7 t on each wheel",
+          "No trucks with a laden weight over 7 t"
+        ]
+      },
+      "fr": {
+        "text": "",
+        "options": [
+          "Accès interdit aux camions de plus de 7 m de haut",
+          "Accès interdit aux camions de plus de 7 t par roue",
+          "Accès interdit aux camions dont le poids en charge dépasse 7 t"
+        ]
+      }
+    }
+  },
+  {
+    "id": 169,
+    "topic": "signs_prohibition",
+    "explanation": {
+      "ar": "الإشارة البيضاء التي يقطعها خط أسود مائل تدل على نهاية منع. هذه الإشارة الخالية من أي رقم أو رسم تعني انتهاء جميع الإشارات الممنوعة السابقة.",
+      "en": "White signs with a black diagonal bar mark the end of a ban. This one, with no number or symbol, means the end of all previous prohibitions.",
+      "fr": "Les panneaux blancs barrés d'un trait noir oblique marquent la fin d'une interdiction. Celui-ci, sans chiffre ni symbole, signifie la fin de toutes les interdictions précédentes."
+    },
+    "whyWrong": {
+      "ar": [
+        "الخط الأسود المائل يدل على نهاية منع، لا على منع جديد للسرعة.",
+        "الخط الأسود المائل يعني النهاية لا البداية.",
+        null
+      ],
+      "en": [
+        "A black diagonal bar marks the end of a ban, not a new speed ban.",
+        "The black diagonal bar means the end, not the start.",
+        null
+      ],
+      "fr": [
+        "Un trait noir oblique marque la fin d'une interdiction, pas une nouvelle interdiction de vitesse.",
+        "Le trait noir oblique signifie la fin, pas le début.",
+        null
+      ]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "",
+        "options": [
+          "No speeding",
+          "Start of prohibitions",
+          "End of all prohibitions"
+        ]
+      },
+      "fr": {
+        "text": "",
+        "options": [
+          "Vitesse interdite",
+          "Début des interdictions",
+          "Fin de toutes les interdictions"
+        ]
+      }
+    }
+  },
+  {
+    "id": 170,
+    "topic": "signs_prohibition",
+    "explanation": {
+      "ar": "الإشارة البيضاء التي يقطعها خط أسود مائل تدل على نهاية منع. الرقم المشطوب يعني نهاية تحديد السرعة الذي كان مفروضًا (هنا 50 كلم في الساعة).",
+      "en": "White signs with a black diagonal bar mark the end of a ban. The crossed-out number means the end of the speed limit that applied before (here 50 km/h).",
+      "fr": "Les panneaux blancs barrés d'un trait noir oblique marquent la fin d'une interdiction. Le chiffre barré signifie la fin de la limitation de vitesse précédente (ici 50 km/h)."
+    },
+    "whyWrong": {
+      "ar": [
+        null,
+        "إشارة تحديد السرعة دائرة ذات إطار أحمر فيها رقم غير مشطوب.",
+        "الخط الأسود المائل يعني النهاية لا البداية."
+      ],
+      "en": [
+        null,
+        "A speed limit sign is a red-bordered circle with a number that is not crossed out.",
+        "The black diagonal bar means the end, not the start."
+      ],
+      "fr": [
+        null,
+        "Un panneau de limitation de vitesse est un rond à bordure rouge avec un chiffre non barré.",
+        "Le trait noir oblique signifie la fin, pas le début."
+      ]
+    },
+    "tip": {
+      "ar": "الخط الأسود المائل فوق رقم يعني نهاية تحديد تلك السرعة، أما الخط وحده بلا رقم فيعني نهاية جميع الإشارات الممنوعة.",
+      "en": "A black diagonal bar over a number ends that speed limit; the bar alone with no number ends all prohibitions.",
+      "fr": "Un trait noir oblique sur un chiffre met fin à cette limitation de vitesse ; le trait seul, sans chiffre, met fin à toutes les interdictions."
+    },
+    "translation": {
+      "en": {
+        "text": "",
+        "options": [
+          "End of speed limit",
+          "Speed limit",
+          "Start of speed limit"
+        ]
+      },
+      "fr": {
+        "text": "",
+        "options": [
+          "Fin de limitation de vitesse",
+          "Limitation de vitesse",
+          "Début de limitation de vitesse"
+        ]
+      }
+    }
+  },
+  {
+    "id": 171,
+    "topic": "signs_mandatory",
+    "explanation": {
+      "ar": "الإشارة المستديرة الزرقاء تدل على أمر إلزامي. السهم المنعطف إلى اليمين يعني أن عليك الالتفاف إلى اليمين.",
+      "en": "Round blue signs give a compulsory instruction. The arrow bending right means you must turn right.",
+      "fr": "Les panneaux ronds bleus indiquent une obligation. La flèche qui tourne à droite signifie que vous devez tourner à droite."
+    },
+    "whyWrong": {
+      "ar": [
+        null,
+        "إشارة منع الالتفاف إلى اليمين دائرة ذات إطار أحمر فيها سهم مشطوب، لا دائرة زرقاء.",
+        "السهم هنا ينعطف إلى اليمين لا إلى اليسار."
+      ],
+      "en": [
+        null,
+        "The no right turn sign is a red-bordered circle with a crossed-out arrow, not a blue circle.",
+        "The arrow here turns right, not left."
+      ],
+      "fr": [
+        null,
+        "Le panneau interdiction de tourner à droite est un rond à bordure rouge avec une flèche barrée, pas un rond bleu.",
+        "La flèche tourne ici à droite, pas à gauche."
+      ]
+    },
+    "tip": {
+      "ar": "السهم على دائرة زرقاء يعني أمرًا بالالتفاف، أما السهم المشطوب داخل إطار أحمر فيعني منع الالتفاف.",
+      "en": "An arrow on a blue circle orders you to turn; a crossed-out arrow in a red border forbids the turn.",
+      "fr": "Une flèche sur un rond bleu impose de tourner ; une flèche barrée dans une bordure rouge interdit de tourner."
+    },
+    "translation": {
+      "en": {
+        "text": "",
+        "options": [
+          "Turn right",
+          "No right turn",
+          "Compulsory left turn"
+        ]
+      },
+      "fr": {
+        "text": "",
+        "options": [
+          "Tourner à droite",
+          "Interdiction de tourner à droite",
+          "Obligation de tourner à gauche"
+        ]
+      }
+    }
+  },
+  {
+    "id": 172,
+    "topic": "signs_mandatory",
+    "explanation": {
+      "ar": "الإشارة المستديرة الزرقاء تدل على أمر إلزامي. السهم المنعطف إلى اليسار يعني أن عليك الالتفاف إلى اليسار.",
+      "en": "Round blue signs give a compulsory instruction. The arrow bending left means you must turn left.",
+      "fr": "Les panneaux ronds bleus indiquent une obligation. La flèche qui tourne à gauche signifie que vous devez tourner à gauche."
+    },
+    "whyWrong": {
+      "ar": [
+        "إشارة منع الالتفاف إلى اليسار دائرة ذات إطار أحمر فيها سهم مشطوب، لا دائرة زرقاء.",
+        null,
+        "هنا سهم واحد فقط ينعطف إلى اليسار، لا سهمان إلى الأمام واليمين."
+      ],
+      "en": [
+        "The no left turn sign is a red-bordered circle with a crossed-out arrow, not a blue circle.",
+        null,
+        "There is a single arrow turning left here, not arrows for straight on and right."
+      ],
+      "fr": [
+        "Le panneau interdiction de tourner à gauche est un rond à bordure rouge avec une flèche barrée, pas un rond bleu.",
+        null,
+        "Il n'y a ici qu'une flèche qui tourne à gauche, pas de flèches tout droit et à droite."
+      ]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "",
+        "options": [
+          "No left turn",
+          "Turn left",
+          "Go straight or turn right"
+        ]
+      },
+      "fr": {
+        "text": "",
+        "options": [
+          "Interdiction de tourner à gauche",
+          "Tourner à gauche",
+          "Aller tout droit ou tourner à droite"
+        ]
+      }
+    }
+  },
+  {
+    "id": 173,
+    "topic": "signs_mandatory",
+    "explanation": {
+      "ar": "الإشارة المستديرة الزرقاء تدل على أمر إلزامي. السهمان إلى اليمين واليسار يعنيان أن عليك الالتفاف يمينًا أو يسارًا حسب اختيارك، ولا يجوز السير مستقيمًا.",
+      "en": "Round blue signs give a compulsory instruction. The two arrows mean you must turn right or left, as you choose, but not go straight on.",
+      "fr": "Les panneaux ronds bleus indiquent une obligation. Les deux flèches signifient que vous devez tourner à droite ou à gauche, au choix, mais pas aller tout droit."
+    },
+    "whyWrong": {
+      "ar": [
+        "الدائرة الزرقاء تأمر ولا تمنع؛ المنع يكون بإطار أحمر.",
+        null,
+        "إشارة السير المستقيم الإجباري فيها سهم واحد إلى الأمام، أما هنا فسهمان إلى اليمين واليسار."
+      ],
+      "en": [
+        "A blue circle gives an order, not a ban; bans use a red border.",
+        null,
+        "The ahead-only sign has a single arrow pointing forward; here two arrows point right and left."
+      ],
+      "fr": [
+        "Un rond bleu impose, il n'interdit pas ; les interdictions ont une bordure rouge.",
+        null,
+        "Le panneau tout droit obligatoire a une seule flèche vers l'avant ; ici deux flèches vont à droite et à gauche."
+      ]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "",
+        "options": [
+          "No right or left turn",
+          "Turn right or left",
+          "Ahead only"
+        ]
+      },
+      "fr": {
+        "text": "",
+        "options": [
+          "Interdiction de tourner à droite et à gauche",
+          "Tourner à droite ou à gauche",
+          "Tout droit obligatoire"
+        ]
+      }
+    }
+  },
+  {
+    "id": 174,
+    "topic": "signs_mandatory",
+    "explanation": {
+      "ar": "الإشارة المستديرة الزرقاء تدل على أمر إلزامي. السهمان يعنيان أنك تستطيع السير مستقيمًا أو الالتفاف إلى اليمين فقط.",
+      "en": "Round blue signs give a compulsory instruction. The two arrows mean you may only go straight on or turn right.",
+      "fr": "Les panneaux ronds bleus indiquent une obligation. Les deux flèches signifient que vous pouvez seulement aller tout droit ou tourner à droite."
+    },
+    "whyWrong": {
+      "ar": [
+        "لا يوجد رسم شاحنة على الإشارة، وفيها سهم إلى الأمام أيضًا.",
+        "الدائرة الزرقاء تأمر ولا تمنع؛ إشارة المنع تكون بإطار أحمر وسهم مشطوب.",
+        null
+      ],
+      "en": [
+        "There is no truck on the sign, and it also has an arrow pointing ahead.",
+        "A blue circle gives an order, not a ban; a ban would have a red border and a crossed-out arrow.",
+        null
+      ],
+      "fr": [
+        "Il n'y a pas de camion sur le panneau, et il comporte aussi une flèche vers l'avant.",
+        "Un rond bleu impose, il n'interdit pas ; une interdiction aurait une bordure rouge et une flèche barrée.",
+        null
+      ]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "",
+        "options": [
+          "Compulsory right turn for trucks",
+          "No left turn",
+          "Turn right or go straight"
+        ]
+      },
+      "fr": {
+        "text": "",
+        "options": [
+          "Obligation de tourner à droite pour les camions",
+          "Interdiction de tourner à gauche",
+          "Tourner à droite ou aller tout droit"
+        ]
+      }
+    }
+  },
+  {
+    "id": 175,
+    "topic": "signs_mandatory",
+    "explanation": {
+      "ar": "الإشارة المستديرة الزرقاء تدل على أمر إلزامي. السهمان يعنيان أنك تستطيع السير مستقيمًا أو الالتفاف إلى اليسار فقط.",
+      "en": "Round blue signs give a compulsory instruction. The two arrows mean you may only go straight on or turn left.",
+      "fr": "Les panneaux ronds bleus indiquent une obligation. Les deux flèches signifient que vous pouvez seulement aller tout droit ou tourner à gauche."
+    },
+    "whyWrong": {
+      "ar": [
+        null,
+        "إشارة الممر الإجباري فيها سهم مائل واحد يشير إلى الأسفل، أما هنا فسهمان إلى الأمام واليسار.",
+        "الدائرة الزرقاء تأمر ولا تمنع؛ إشارة المنع تكون بإطار أحمر وسهم مشطوب."
+      ],
+      "en": [
+        null,
+        "The keep left sign has a single diagonal arrow pointing down; here two arrows point ahead and left.",
+        "A blue circle gives an order, not a ban; a ban would have a red border and a crossed-out arrow."
+      ],
+      "fr": [
+        null,
+        "Le panneau passage obligatoire a une seule flèche oblique vers le bas ; ici deux flèches vont tout droit et à gauche.",
+        "Un rond bleu impose, il n'interdit pas ; une interdiction aurait une bordure rouge et une flèche barrée."
+      ]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "",
+        "options": [
+          "Go straight or turn left",
+          "Keep left",
+          "No left turn"
+        ]
+      },
+      "fr": {
+        "text": "",
+        "options": [
+          "Aller tout droit ou tourner à gauche",
+          "Passage obligatoire à gauche",
+          "Interdiction de tourner à gauche"
+        ]
+      }
+    }
+  },
+  {
+    "id": 176,
+    "topic": "signs_mandatory",
+    "explanation": {
+      "ar": "الإشارة المستديرة الزرقاء تدل على أمر إلزامي. السهم المائل نحو الأسفل إلى اليسار يعني أن عليك المرور من الجهة اليسرى (للجزيرة أو العائق).",
+      "en": "Round blue signs give a compulsory instruction. The arrow pointing down to the left means you must pass on the left side (of an island or obstacle).",
+      "fr": "Les panneaux ronds bleus indiquent une obligation. La flèche oblique vers le bas à gauche signifie que vous devez passer à gauche (d'un îlot ou d'un obstacle)."
+    },
+    "whyWrong": {
+      "ar": [
+        "السهم يشير إلى اليسار لا إلى اليمين.",
+        "إشارة خط الطريق الرئيسية مربعة بيضاء تُظهر شكل التقاطع، لا دائرة زرقاء.",
+        null
+      ],
+      "en": [
+        "The arrow points to the left, not the right.",
+        "The main road layout sign is a white square showing the shape of the junction, not a blue circle.",
+        null
+      ],
+      "fr": [
+        "La flèche pointe vers la gauche, pas vers la droite.",
+        "Le panneau tracé de la route principale est un carré blanc montrant la forme du carrefour, pas un rond bleu.",
+        null
+      ]
+    },
+    "tip": {
+      "ar": "السهم المائل نحو الأسفل يدل على جهة المرور حول العائق، أما السهم المنعطف إلى الأعلى فيدل على اتجاه السير.",
+      "en": "A diagonal arrow pointing down shows which side to pass; an arrow curving upwards shows the direction to take.",
+      "fr": "Une flèche oblique vers le bas indique de quel côté passer ; une flèche qui monte en tournant indique la direction à prendre."
+    },
+    "translation": {
+      "en": {
+        "text": "",
+        "options": [
+          "Optional turn to the right",
+          "Main road layout",
+          "Keep left"
+        ]
+      },
+      "fr": {
+        "text": "",
+        "options": [
+          "Possibilité de tourner à droite",
+          "Tracé de la route principale",
+          "Passage obligatoire à gauche"
+        ]
+      }
+    }
+  },
+  {
+    "id": 177,
+    "topic": "signs_mandatory",
+    "explanation": {
+      "ar": "الإشارة المستديرة الزرقاء تدل على أمر إلزامي. السهم المائل نحو الأسفل إلى اليمين يعني أن عليك المرور من الجهة اليمنى (للجزيرة أو العائق).",
+      "en": "Round blue signs give a compulsory instruction. The arrow pointing down to the right means you must pass on the right side (of an island or obstacle).",
+      "fr": "Les panneaux ronds bleus indiquent une obligation. La flèche oblique vers le bas à droite signifie que vous devez passer à droite (d'un îlot ou d'un obstacle)."
+    },
+    "whyWrong": {
+      "ar": [
+        "الدائرة الزرقاء تأمر ولا تمنع؛ إشارة المنع تكون بإطار أحمر وسهم مشطوب.",
+        null,
+        "السهم مائل نحو الأسفل إلى اليمين، ولا يشير إلى الأمام."
+      ],
+      "en": [
+        "A blue circle gives an order, not a ban; a ban would have a red border and a crossed-out arrow.",
+        null,
+        "The arrow slants down to the right; it does not point straight ahead."
+      ],
+      "fr": [
+        "Un rond bleu impose, il n'interdit pas ; une interdiction aurait une bordure rouge et une flèche barrée.",
+        null,
+        "La flèche descend en oblique vers la droite ; elle ne pointe pas tout droit."
+      ]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "",
+        "options": [
+          "No right turn",
+          "Keep right",
+          "Optional straight ahead"
+        ]
+      },
+      "fr": {
+        "text": "",
+        "options": [
+          "Interdiction de tourner à droite",
+          "Passage obligatoire à droite",
+          "Possibilité d'aller tout droit"
+        ]
+      }
+    }
+  }
+]

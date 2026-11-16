@@ -1,0 +1,1300 @@
+[
+  {
+    "id": 51,
+    "topic": "maintenance",
+    "explanation": {
+      "ar": "الأسلاك تحتاج إلى تزييت كي تتحرك بسهولة ولا تصدأ، وتحتاج إلى ضبط لأنها تتمدد مع الاستعمال. لذلك يجب تزييتها وضبطها بانتظام لتبقى الفرامل فعّالة.",
+      "en": "Cables need lubricating so they move freely and do not rust, and adjusting because they stretch with use. That is why you lubricate and adjust them regularly to keep the brakes working well.",
+      "fr": "Les câbles doivent être graissés pour bouger librement et ne pas rouiller, et réglés car ils s'allongent avec l'usage. C'est pourquoi on les graisse et on les règle régulièrement pour garder des freins efficaces."
+    },
+    "whyWrong": {
+      "ar": ["فحص الحرارة لا يحافظ على الأسلاك؛ المطلوب هو التزييت والضبط.", null, "إزالة كل الحركة الحرة قد تجعل الفرامل تبقى مضغوطة قليلًا وتحتك باستمرار."],
+      "en": ["Checking the temperature does not look after the cables; they need lubricating and adjusting.", null, "Removing all free play can leave the brakes slightly on, so they rub all the time."],
+      "fr": ["Vérifier la température n'entretient pas les câbles ; il faut les graisser et les régler.", null, "Supprimer tout le jeu peut laisser les freins légèrement serrés, et ils frottent alors en permanence."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "How do you maintain cable-operated brakes?",
+        "options": ["By checking them at normal operating temperature", "By lubricating and adjusting them regularly", "By removing any free play in the lever or pedal"]
+      },
+      "fr": {
+        "text": "Comment entretenez-vous des freins à câble ?",
+        "options": ["En les vérifiant à leur température normale de fonctionnement", "En les graissant et en les réglant régulièrement", "En supprimant tout jeu libre du levier ou de la pédale"]
+      }
+    }
+  },
+  {
+    "id": 52,
+    "topic": "control",
+    "explanation": {
+      "ar": "على طريق جاف وبفرامل وإطارات جيدة، تحتاج الدراجة عند سرعة ٧٥ كلم في الساعة إلى نحو ٣٨ مترًا لتتوقف بعد الضغط على الفرامل. هذه مسافة الكبح وحدها، من دون مسافة التفكير.",
+      "en": "On a dry road with good brakes and tyres, at 75 km/h you need about 38 metres to stop after you apply the brakes. This is the braking distance only, without the thinking distance.",
+      "fr": "Sur une route sèche, avec de bons freins et de bons pneus, il faut environ 38 mètres pour s'arrêter à 75 km/h une fois que l'on freine. C'est la distance de freinage seule, sans la distance de réaction."
+    },
+    "whyWrong": {
+      "ar": ["٢٤ مترًا مسافة أقصر من اللازم لهذه السرعة.", null, "٥٥ مترًا أطول من مسافة الكبح النموذجية لهذه السرعة على طريق جاف."],
+      "en": ["24 metres is too short for this speed.", null, "55 metres is longer than the typical braking distance for this speed on a dry road."],
+      "fr": ["24 mètres, c'est trop court pour cette vitesse.", null, "55 mètres, c'est plus long que la distance de freinage typique à cette vitesse sur route sèche."]
+    },
+    "tip": {
+      "ar": "لا تخلط بين مسافة الكبح (٣٨ مترًا) ومسافة التوقف الإجمالية؛ الإجمالية أطول لأنها تضيف إليها مسافة التفكير.",
+      "en": "Do not confuse braking distance (38 metres) with overall stopping distance; the overall distance is longer because it adds the thinking distance.",
+      "fr": "Ne confondez pas la distance de freinage (38 mètres) avec la distance d'arrêt totale ; celle-ci est plus longue car elle ajoute la distance de réaction."
+    },
+    "translation": {
+      "en": {
+        "text": "Overall stopping distance is made up of thinking distance and braking distance. You are on a good, dry road, with good brakes and tyres. What is the typical braking distance at 75 km/h?",
+        "options": ["24 metres", "38 metres", "55 metres"]
+      },
+      "fr": {
+        "text": "La distance d'arrêt totale se compose de la distance de réaction et de la distance de freinage. Vous êtes sur une route sèche et en bon état, avec de bons freins et de bons pneus. Quelle est la distance de freinage typique à 75 km/h ?",
+        "options": ["24 mètres", "38 mètres", "55 mètres"]
+      }
+    }
+  },
+  {
+    "id": 53,
+    "topic": "rider_fitness",
+    "explanation": {
+      "ar": "الطبيب أو الصيدلي يعرف تأثيرات الدواء، مثل النعاس، ويستطيع أن يخبرك إن كانت القيادة آمنة بعد تناوله.",
+      "en": "A doctor or pharmacist knows the medicine's effects, such as drowsiness, and can tell you whether it is safe to ride after taking it.",
+      "fr": "Un médecin ou un pharmacien connaît les effets du médicament, comme la somnolence, et peut vous dire s'il est sûr de conduire après l'avoir pris."
+    },
+    "whyWrong": {
+      "ar": ["الصديق أو القريب لا يملك المعرفة الطبية اللازمة.", null, "قد تحتاج إلى الدواء؛ الخطوة الصحيحة هي أن تسأل مختصًا بدل أن تخمّن."],
+      "en": ["A friend or relative does not have the medical knowledge needed.", null, "You may need the medicine; the right step is to ask an expert instead of guessing."],
+      "fr": ["Un ami ou un proche n'a pas les connaissances médicales nécessaires.", null, "Vous avez peut-être besoin du médicament ; le bon réflexe est de demander à un spécialiste au lieu de deviner."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "You are not sure whether a cough medicine will affect your ability to ride safely. What do you do?",
+        "options": ["Ask a friend or relative for advice", "Ask your doctor or pharmacist for advice", "Do not take the medicine"]
+      },
+      "fr": {
+        "text": "Vous n'êtes pas sûr qu'un médicament contre la toux affecte votre capacité à conduire en sécurité. Que faites-vous ?",
+        "options": ["Vous demandez conseil à un ami ou à un proche", "Vous demandez conseil à votre médecin ou à votre pharmacien", "Vous ne prenez pas le médicament"]
+      }
+    }
+  },
+  {
+    "id": 54,
+    "topic": "rider_fitness",
+    "explanation": {
+      "ar": "قلة الخبرة تجعل السائق الشاب أبطأ في ملاحظة الخطر وأقل قدرة على تقدير السرعة والمسافة، لذلك يتعرض لحوادث أكثر.",
+      "en": "Lack of experience makes young riders slower to spot danger and less able to judge speed and distance, so they have more crashes.",
+      "fr": "Le manque d'expérience rend les jeunes conducteurs plus lents à repérer le danger et moins capables d'évaluer la vitesse et les distances, d'où plus d'accidents."
+    },
+    "whyWrong": {
+      "ar": ["القيادة في مجموعات ليست السبب الأساسي؛ السبب هو قلة الخبرة.", null, "الحذر عند التقاطعات يقلل الحوادث ولا يزيدها."],
+      "en": ["Riding in groups is not the main reason; the reason is lack of experience.", null, "Being careful at junctions reduces crashes; it does not increase them."],
+      "fr": ["Rouler en groupe n'est pas la raison principale ; la raison est le manque d'expérience.", null, "La prudence aux intersections réduit les accidents, elle ne les augmente pas."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "Why are young motorcycle riders more likely to be involved in crashes?",
+        "options": ["Because they ride in groups", "Because they lack experience", "Because they are very careful at junctions"]
+      },
+      "fr": {
+        "text": "Pourquoi les jeunes conducteurs de moto sont-ils plus exposés aux accidents ?",
+        "options": ["Parce qu'ils roulent en groupe", "Parce qu'ils manquent d'expérience", "Parce qu'ils sont très prudents aux intersections"]
+      }
+    }
+  },
+  {
+    "id": 55,
+    "topic": "traffic_rules",
+    "explanation": {
+      "ar": "في الطريق ذي الاتجاه الواحد يسير كل السير في الاتجاه نفسه. لذلك عندما تريد الانعطاف يسارًا تضع دراجتك في المسرب الأيسر، أي في الجهة التي ستنعطف إليها.",
+      "en": "On a one-way road all traffic moves in the same direction. So when you want to turn left, you position your motorcycle in the left-hand lane, on the side you are turning towards.",
+      "fr": "Sur une route à sens unique, toute la circulation va dans le même sens. Pour tourner à gauche, vous placez donc votre moto dans la voie de gauche, du côté où vous allez tourner."
+    },
+    "whyWrong": {
+      "ar": [null, "المسرب الأيمن لمن يتابع سيره أو ينعطف يمينًا، والانعطاف يسارًا منه يقطع طريق الآخرين.", "هذا الموقع يناسب الطريق ذا الاتجاهين، أما هنا فالسير كله في اتجاه واحد."],
+      "en": [null, "The right-hand lane is for going straight on or turning right; turning left from it cuts across other traffic.", "That position is for a two-way road; here all traffic goes in one direction."],
+      "fr": [null, "La voie de droite sert à aller tout droit ou à tourner à droite ; tourner à gauche depuis celle-ci coupe la route aux autres.", "Cette position convient à une route à double sens ; ici, toute la circulation va dans un seul sens."]
+    },
+    "tip": {
+      "ar": "في الطريق ذي الاتجاهين تقف قرب الخط الوسطي للانعطاف يسارًا، أما في الطريق ذي الاتجاه الواحد فتستخدم المسرب الأيسر. لا تخلط بين الحالتين.",
+      "en": "On a two-way road you wait near the centre line to turn left, but on a one-way road you use the left-hand lane. Do not mix the two up.",
+      "fr": "Sur une route à double sens, on se place près de la ligne médiane pour tourner à gauche ; sur une route à sens unique, on utilise la voie de gauche. Ne confondez pas les deux cas."
+    },
+    "translation": {
+      "en": {
+        "text": "You are on a one-way road and want to turn left, and there are two lanes. Which lane should you position your motorcycle in?",
+        "options": ["In the left-hand lane", "In the right-hand lane", "Just to the right of the centre line"]
+      },
+      "fr": {
+        "text": "Vous êtes sur une route à sens unique, vous voulez tourner à gauche et il y a deux voies. Dans quelle voie devez-vous placer votre moto ?",
+        "options": ["Dans la voie de gauche", "Dans la voie de droite", "Juste à droite de la ligne médiane"]
+      }
+    }
+  },
+  {
+    "id": 56,
+    "topic": "hazards",
+    "explanation": {
+      "ar": "كل السائقين يخطئون أحيانًا. الغضب قد يدفعك إلى تصرف خطير، أما الهدوء فيساعدك على التركيز على الطريق.",
+      "en": "Every driver makes mistakes sometimes. Anger can push you into dangerous behaviour, while staying calm helps you keep your focus on the road.",
+      "fr": "Tous les conducteurs font parfois des erreurs. La colère peut vous pousser à un comportement dangereux, alors que le calme vous aide à rester concentré sur la route."
+    },
+    "whyWrong": {
+      "ar": ["الأنوار ليست وسيلة للتعبير عن الغضب، وقد تُربك السائق الآخر أو تُبهره.", null, "البوق يُستعمل للتحذير من الخطر، لا للتعبير عن الانزعاج."],
+      "en": ["Lights are not a way to show anger, and they can confuse or dazzle the other driver.", null, "The horn is for warning of danger, not for showing annoyance."],
+      "fr": ["Les phares ne servent pas à exprimer la colère, et ils peuvent gêner ou éblouir l'autre conducteur.", null, "Le klaxon sert à avertir d'un danger, pas à montrer son agacement."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "A driver pulls out of a side road in front of you, making you brake hard. What should you do?",
+        "options": ["Flash your headlights to show your annoyance", "Ignore the error and stay calm", "Sound your horn to show your annoyance"]
+      },
+      "fr": {
+        "text": "Un conducteur débouche d'une route latérale devant vous, ce qui vous oblige à freiner fort. Que devez-vous faire ?",
+        "options": ["Faire un appel de phares pour montrer votre agacement", "Ignorer l'erreur et garder votre calme", "Klaxonner pour montrer votre agacement"]
+      }
+    }
+  },
+  {
+    "id": 57,
+    "topic": "hazards",
+    "explanation": {
+      "ar": "كبار السن قد يتحركون ببطء وقد لا يقدّرون سرعة الدراجة بشكل صحيح، فيبدؤون العبور وأنت قريب. لذلك خفّف سرعتك وكن مستعدًا للتوقف.",
+      "en": "Elderly people may move slowly and may not judge your speed correctly, so they could start crossing when you are close. Slow down and be ready to stop.",
+      "fr": "Les personnes âgées peuvent se déplacer lentement et mal évaluer votre vitesse, et donc commencer à traverser alors que vous êtes proche. Ralentissez et soyez prêt à vous arrêter."
+    },
+    "whyWrong": {
+      "ar": [null, "لا يمكنك أن تفترض أنهم سينتظرون؛ قد يبدؤون العبور في أي لحظة.", "زيادة السرعة تزيد الخطر وتقلل الوقت المتاح للتوقف."],
+      "en": [null, "You cannot assume they will wait; they may start crossing at any moment.", "Speeding up increases the danger and leaves less time to stop."],
+      "fr": [null, "Vous ne pouvez pas supposer qu'ils attendront ; ils peuvent commencer à traverser à tout moment.", "Accélérer augmente le danger et réduit le temps disponible pour s'arrêter."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "What do you do when you see two elderly pedestrians about to cross the road ahead of you?",
+        "options": ["Be careful, as they may misjudge your speed", "Expect them to wait for you to pass", "Speed up to get past them quickly"]
+      },
+      "fr": {
+        "text": "Que faites-vous lorsque vous voyez deux piétons âgés sur le point de traverser la route devant vous ?",
+        "options": ["Vous êtes prudent, car ils peuvent mal évaluer votre vitesse", "Vous vous attendez à ce qu'ils attendent votre passage", "Vous accélérez pour les dépasser rapidement"]
+      }
+    }
+  },
+  {
+    "id": 58,
+    "topic": "hazards",
+    "explanation": {
+      "ar": "الدراجة صغيرة الحجم، فقد لا يراها السائقون الآخرون عند التقاطعات، وسائقها غير محمي بهيكل مثل السيارة. لذلك هو الأكثر عرضة للخطر.",
+      "en": "A motorcycle is small, so other drivers may not see it at junctions, and the rider has no body shell to protect them like a car does. That makes the motorcyclist the most at risk.",
+      "fr": "Une moto est petite, donc les autres conducteurs peuvent ne pas la voir aux intersections, et le motard n'est pas protégé par une carrosserie comme en voiture. C'est pourquoi il est le plus exposé."
+    },
+    "whyWrong": {
+      "ar": ["سائق السيارة محمي بهيكلها، ورؤية السيارة أسهل من رؤية الدراجة.", "الشاحنة كبيرة يراها الجميع، وسائقها محمي جيدًا.", null],
+      "en": ["A car driver is protected by the car's body, and a car is easier to see than a motorcycle.", "A lorry is big and easy for everyone to see, and its driver is well protected.", null],
+      "fr": ["Le conducteur de voiture est protégé par la carrosserie, et une voiture se voit plus facilement qu'une moto.", "Un camion est grand et visible de tous, et son conducteur est bien protégé.", null]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "Which road user is most at risk at road junctions?",
+        "options": ["A car driver", "A lorry driver", "A motorcyclist"]
+      },
+      "fr": {
+        "text": "Quel usager de la route est le plus exposé au danger aux intersections ?",
+        "options": ["Le conducteur de voiture", "Le conducteur de camion", "Le conducteur de moto"]
+      }
+    }
+  },
+  {
+    "id": 59,
+    "topic": "hazards",
+    "explanation": {
+      "ar": "الخيول قد تخاف من صوت الدراجة وتتحرك فجأة. اترك لها مساحة كبيرة وتقدّم ببطء وهدوء.",
+      "en": "Horses can be frightened by the noise of a motorcycle and move suddenly. Give them plenty of room and go past slowly and quietly.",
+      "fr": "Les chevaux peuvent être effrayés par le bruit d'une moto et faire un mouvement brusque. Laissez-leur beaucoup d'espace et passez lentement et calmement."
+    },
+    "whyWrong": {
+      "ar": [null, "صوت البوق قد يُخيف الخيول فتقفز أو تهرب وتعرّض الجميع للخطر.", "الخيول حيوانات قد تتصرف فجأة، فهي تحتاج إلى حذر أكبر من المركبات."],
+      "en": [null, "The horn can scare the horses, making them jump or bolt and putting everyone in danger.", "Horses are animals that can react suddenly, so they need more care than vehicles."],
+      "fr": [null, "Le klaxon peut effrayer les chevaux, qui risquent de sauter ou de s'emballer et de mettre tout le monde en danger.", "Les chevaux sont des animaux qui peuvent réagir brusquement ; ils demandent plus de prudence qu'un véhicule."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "You are approaching a roundabout and there are horses just ahead of you. What do you do?",
+        "options": ["Give them plenty of room", "Sound your horn as a warning", "Treat them like any other vehicle"]
+      },
+      "fr": {
+        "text": "Vous approchez d'un rond-point et il y a des chevaux juste devant vous. Que faites-vous ?",
+        "options": ["Vous leur laissez suffisamment d'espace", "Vous klaxonnez pour les avertir", "Vous les traitez comme n'importe quel autre véhicule"]
+      }
+    }
+  },
+  {
+    "id": 60,
+    "topic": "road_conditions",
+    "explanation": {
+      "ar": "الرذاذ يكون أكثف قرب الشاحنة. عندما تبتعد عنها ترى الطريق بشكل أفضل، ويصبح لديك وقت أطول للتوقف على الطريق المبلل.",
+      "en": "The spray is thickest close to the lorry. Dropping back lets you see the road better and gives you more time to stop on the wet road.",
+      "fr": "Les projections d'eau sont plus denses près du camion. En vous éloignant, vous voyez mieux la route et vous avez plus de temps pour vous arrêter sur chaussée mouillée."
+    },
+    "whyWrong": {
+      "ar": [null, "الاقتراب يعني رذاذًا أكثر ورؤية أسوأ، ولن يبقى لك وقت كافٍ للتوقف.", "الأنوار القوية لا تزيل الرذاذ، وقد تُبهر سائق الشاحنة عبر مراياه."],
+      "en": [null, "Staying close means more spray and worse vision, and you will not have enough time to stop.", "Stronger lights do not remove the spray and can dazzle the lorry driver through his mirrors."],
+      "fr": [null, "Rester près du camion signifie plus de projections, moins de visibilité et pas assez de temps pour s'arrêter.", "Des feux plus puissants ne suppriment pas les projections et peuvent éblouir le chauffeur dans ses rétroviseurs."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "You are following a lorry on a wet road and the spray from the rain makes it hard to see the road ahead. What do you do?",
+        "options": ["Increase the distance between you and the lorry to see better", "Stay close to the lorry, away from the spray", "Switch your headlights on at maximum"]
+      },
+      "fr": {
+        "text": "Vous suivez un camion sur une route mouillée et les projections de pluie vous empêchent de bien voir la route devant vous. Que faites-vous ?",
+        "options": ["Vous augmentez la distance avec le camion pour mieux voir", "Vous restez près du camion, à l'abri des projections", "Vous allumez vos phares au maximum"]
+      }
+    }
+  },
+  {
+    "id": 61,
+    "topic": "traffic_rules",
+    "explanation": {
+      "ar": "هذا النوع من الطرق مخصص لتبقى حركة السير فيه حرة ومستمرة. لذلك يُمنع التوقف عليه في جميع الأوقات، لا في أوقات معينة فقط.",
+      "en": "This kind of road is meant to keep traffic flowing freely without interruption. That is why stopping on it is banned at all times, not only at certain times.",
+      "fr": "Ce type de route est prévu pour que la circulation reste libre et continue. C'est pourquoi l'arrêt y est interdit à tout moment, et pas seulement à certaines heures."
+    },
+    "whyWrong": {
+      "ar": [null, "المنع لا يقتصر على النهار، بل يشمل الليل أيضًا.", "المنع لا يقتصر على أوقات الذروة، بل يشمل كل الأوقات."],
+      "en": [null, "The ban is not limited to daytime; it applies at night too.", "The ban is not limited to rush hour; it applies at all times."],
+      "fr": [null, "L'interdiction ne se limite pas à la journée ; elle s'applique aussi la nuit.", "L'interdiction ne se limite pas aux heures de pointe ; elle s'applique en permanence."]
+    },
+    "tip": {
+      "ar": "خياران يذكران أوقاتًا محددة، وهذا هو الفخ. على هذا الطريق التوقف ممنوع في كل وقت.",
+      "en": "Two options name specific times, and that is the trap. On this road, stopping is banned at all times.",
+      "fr": "Deux réponses citent des moments précis, et c'est le piège. Sur cette route, l'arrêt est interdit en permanence."
+    },
+    "translation": {
+      "en": {
+        "text": "When must you not stop on a clearway (a free, open road)?",
+        "options": ["At all times", "During daylight hours", "At rush hour and in heavy traffic"]
+      },
+      "fr": {
+        "text": "Quand ne devez-vous pas vous arrêter sur une route à circulation libre et dégagée ?",
+        "options": ["À tout moment", "Pendant la journée", "Aux heures de pointe et quand la circulation est dense"]
+      }
+    }
+  },
+  {
+    "id": 62,
+    "topic": "traffic_rules",
+    "explanation": {
+      "ar": "عندما تدخل سيارة في المسافة التي تركتها، تصبح قريبًا منها جدًا. خفّف سرعتك لتعود المسافة آمنة، فهذا يحميك إذا توقفت فجأة.",
+      "en": "When a car moves into the gap you left, you end up too close to it. Slow down to make the distance safe again; this protects you if it stops suddenly.",
+      "fr": "Quand une voiture s'insère dans l'espace que vous aviez laissé, vous vous retrouvez trop près d'elle. Ralentissez pour retrouver une distance sûre ; cela vous protège si elle freine brusquement."
+    },
+    "whyWrong": {
+      "ar": [null, "وميض الأنوار لا يعيد المسافة الآمنة وقد يُربك السائق.", "البوق للتحذير من الخطر، لا للاعتراض على سائق آخر."],
+      "en": [null, "Flashing your lights does not restore a safe distance and can confuse the driver.", "The horn is for warning of danger, not for protesting at another driver."],
+      "fr": [null, "Un appel de phares ne rétablit pas la distance de sécurité et peut troubler le conducteur.", "Le klaxon sert à avertir d'un danger, pas à protester contre un autre conducteur."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "You are keeping a long following distance while waiting to overtake a large vehicle. What do you do if a car moves into this gap?",
+        "options": ["Slow down to regain a safe following distance", "Flash your headlights", "Sound the horn"]
+      },
+      "fr": {
+        "text": "Vous gardez une grande distance de sécurité en attendant de dépasser un gros véhicule. Que faites-vous si une voiture s'insère dans cet espace ?",
+        "options": ["Vous ralentissez pour retrouver une distance de sécurité suffisante", "Vous faites un appel de phares", "Vous klaxonnez"]
+      }
+    }
+  },
+  {
+    "id": 63,
+    "topic": "hazards",
+    "explanation": {
+      "ar": "إذا كنت قريبًا جدًا من مركبة كبيرة، تكون في مكان لا يراك فيه سائقها. عندما تبقى على مسافة آمنة يستطيع أن يراك في مرآته، وترى أنت الطريق بشكل أفضل.",
+      "en": "If you are too close to a large vehicle, you are in a spot where the driver cannot see you. Keeping a safe distance lets the driver see you in the mirror, and you see the road better too.",
+      "fr": "Si vous êtes trop près d'un gros véhicule, vous êtes dans une zone où le conducteur ne vous voit pas. En gardant une distance de sécurité, il peut vous voir dans son rétroviseur et vous voyez mieux la route."
+    },
+    "whyWrong": {
+      "ar": [null, "المسافة الآمنة لا تهدف إلى الانعطاف بسرعة أكبر.", "المسافة التي تتركها خلفها لا تغيّر قدرة المركبة الكبيرة على التوقف."],
+      "en": [null, "A safe distance is not about turning faster.", "The gap you leave behind it does not change how easily the large vehicle can stop."],
+      "fr": [null, "La distance de sécurité n'a pas pour but de tourner plus vite.", "L'espace que vous laissez derrière lui ne change pas la capacité du gros véhicule à s'arrêter."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "You are following a large vehicle. Why should you keep a safe following distance behind it?",
+        "options": ["Because you will allow the driver to see you in his mirror", "Because you will be able to turn faster", "Because you will help the large vehicle to stop more easily"]
+      },
+      "fr": {
+        "text": "Vous suivez un gros véhicule. Pourquoi devez-vous garder une distance de sécurité derrière lui ?",
+        "options": ["Parce que vous permettrez au conducteur de vous voir dans son rétroviseur", "Parce que vous pourrez tourner plus vite", "Parce que vous aiderez le gros véhicule à s'arrêter plus facilement"]
+      }
+    }
+  },
+  {
+    "id": 64,
+    "topic": "traffic_rules",
+    "explanation": {
+      "ar": "ما دامت إشارة الانعطاف اليسرى مضاءة، فقد ينعطف السائق يسارًا في أي لحظة. لذلك إذا كان ذلك ممكنًا وآمنًا، تتجاوزه من الجهة اليمنى بعيدًا عن الاتجاه الذي قد ينعطف إليه.",
+      "en": "As long as the left-turn signal is on, the driver may turn left at any moment. So, if it is possible and safe, you pass him on the right, away from the direction he might turn into.",
+      "fr": "Tant que le clignotant gauche est allumé, le conducteur peut tourner à gauche à tout moment. Donc, si c'est possible et sans danger, vous le dépassez par la droite, loin de la direction où il pourrait tourner."
+    },
+    "whyWrong": {
+      "ar": ["وميض الأنوار قد يُفهم بشكل خاطئ، ولا يضمن أن ينتبه السائق إلى إشارته.", null, "لست مضطرًا للبقاء خلفه دائمًا؛ إذا كان التجاوز من اليمين ممكنًا وآمنًا يمكنك القيام به."],
+      "en": ["Flashing your lights can be misunderstood and does not make sure the driver notices his signal.", null, "You do not have to stay behind for ever; if passing on the right is possible and safe, you may do it."],
+      "fr": ["Un appel de phares peut être mal compris et ne garantit pas que le conducteur remarque son clignotant.", null, "Vous n'êtes pas obligé de rester derrière indéfiniment ; si le dépassement par la droite est possible et sûr, vous pouvez le faire."]
+    },
+    "tip": {
+      "ar": "عادةً يكون التجاوز من اليسار، لكن هنا الجواب هو التجاوز من اليمين، لأن السائق الذي يضيء إشارته اليسرى قد ينعطف يسارًا في أي لحظة.",
+      "en": "You normally overtake on the left, but here the answer is to pass on the right, because a driver showing a left signal may turn left at any moment.",
+      "fr": "On dépasse normalement par la gauche, mais ici la réponse est de dépasser par la droite, car un conducteur qui met son clignotant gauche peut tourner à gauche à tout moment."
+    },
+    "translation": {
+      "en": {
+        "text": "The driver of the vehicle in front of you is going straight on, and you think he has forgotten to cancel his left-turn signal. What do you do?",
+        "options": ["Flash your lights to alert the driver", "Overtake on the right if that is possible", "Stay behind him and do not overtake"]
+      },
+      "fr": {
+        "text": "Le conducteur du véhicule devant vous roule tout droit et vous pensez qu'il a oublié d'annuler son clignotant gauche. Que faites-vous ?",
+        "options": ["Vous faites un appel de phares pour l'avertir", "Vous le dépassez par la droite si c'est possible", "Vous restez derrière lui sans le dépasser"]
+      }
+    }
+  },
+  {
+    "id": 65,
+    "topic": "traffic_rules",
+    "explanation": {
+      "ar": "على الطريق المبلل تحتاج إلى مسافة أطول للتوقف. عندما يدخل سائق أمامك تقل هذه المسافة، فتخفف سرعتك لتعيدها آمنة من جديد.",
+      "en": "On a wet road you need a longer distance to stop. When a driver cuts in ahead of you that distance shrinks, so you slow down to make it safe again.",
+      "fr": "Sur route mouillée, il faut une plus grande distance pour s'arrêter. Quand un conducteur s'insère devant vous, cette distance diminue ; vous ralentissez donc pour la rendre de nouveau sûre."
+    },
+    "whyWrong": {
+      "ar": [null, "التحذير بالأنوار لا يعيد المسافة الآمنة وقد يُزعج السائق ويُربكه.", "التجاوز المتسرع على طريق مبلل خطير ولا حاجة إليه."],
+      "en": [null, "Flashing a warning does not restore a safe distance and can annoy or confuse the driver.", "Rushing to overtake on a wet road is dangerous and unnecessary."],
+      "fr": [null, "Un appel de phares ne rétablit pas la distance de sécurité et peut agacer ou troubler le conducteur.", "Se précipiter pour dépasser sur route mouillée est dangereux et inutile."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "You are following a vehicle at a safe distance on a wet road. Another driver overtakes you and pulls into the following gap you left. What do you do?",
+        "options": ["Slow down to regain a safe following distance", "Flash your headlights as a warning", "Try to overtake at the first opportunity"]
+      },
+      "fr": {
+        "text": "Vous suivez un véhicule à une distance de sécurité sur une route mouillée. Un autre conducteur vous dépasse et s'insère dans l'espace que vous aviez laissé. Que faites-vous ?",
+        "options": ["Vous ralentissez pour retrouver une distance de sécurité suffisante", "Vous faites un appel de phares pour l'avertir", "Vous essayez de dépasser à la première occasion"]
+      }
+    }
+  },
+  {
+    "id": 66,
+    "topic": "first_aid",
+    "explanation": {
+      "ar": "الشخص الفاقد للوعي قد ينغلق مجرى الهواء عنده فيتوقف عن التنفس. لذلك يجب التأكد دائمًا من أن مجرى الهواء مفتوح ومراقبة تنفسه.",
+      "en": "An unconscious person's airway can become blocked, and they may stop breathing. So you must always make sure the airway is open and keep checking their breathing.",
+      "fr": "Chez une personne inconsciente, les voies respiratoires peuvent se bloquer et elle peut cesser de respirer. Il faut donc toujours s'assurer qu'elles sont dégagées et surveiller sa respiration."
+    },
+    "whyWrong": {
+      "ar": [null, "وضع الذراعين إلى جانبه لا يساعده على التنفس.", "الضغط بقوة على ظهره قد يؤذيه ولا فائدة منه هنا."],
+      "en": [null, "Placing the arms by the side does not help breathing.", "Pressing hard on the back can hurt them and does no good here."],
+      "fr": [null, "Placer les bras le long du corps n'aide pas à respirer.", "Appuyer fort sur le dos peut le blesser et ne sert à rien ici."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "An injured person has been placed in the recovery position. They are unconscious but breathing normally. What else should be done?",
+        "options": ["Make sure the airway is open", "Place their arms by their side", "Press firmly between their shoulders"]
+      },
+      "fr": {
+        "text": "Une personne blessée a été placée en position latérale de sécurité. Elle est inconsciente mais respire normalement. Que faut-il faire d'autre ?",
+        "options": ["S'assurer que les voies respiratoires sont dégagées", "Placer ses bras le long du corps", "Appuyer fortement entre ses épaules"]
+      }
+    }
+  },
+  {
+    "id": 67,
+    "topic": "first_aid",
+    "explanation": {
+      "ar": "المصابون بجروح بالغة يحتاجون إلى مساعدة طبية متخصصة بأسرع وقت. لذلك تأكد من أن أحدًا اتصل بالإسعاف.",
+      "en": "People with serious injuries need professional medical help as soon as possible. So make sure someone has called an ambulance.",
+      "fr": "Les blessés graves ont besoin d'une aide médicale professionnelle le plus vite possible. Assurez-vous donc que quelqu'un a appelé une ambulance."
+    },
+    "whyWrong": {
+      "ar": [null, "تحريك المصابين قد يزيد إصاباتهم سوءًا، خاصة إصابات الرقبة والظهر.", "إيقاف السيارات ليس الأولوية؛ الأهم أن تكون سيارة الإسعاف في طريقها."],
+      "en": [null, "Moving casualties can make their injuries worse, especially neck and back injuries.", "Stopping cars is not the priority; what matters most is that an ambulance is on its way."],
+      "fr": [null, "Déplacer les blessés peut aggraver leurs blessures, surtout au cou et au dos.", "Arrêter les voitures n'est pas la priorité ; l'essentiel est qu'une ambulance soit en route."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "You are the first to arrive at the scene of a crash in which people are seriously injured. After switching on the hazard warning lights and switching off the engines, what else must you do?",
+        "options": ["Make sure an ambulance has been called", "Move the casualties away from their vehicles", "Stop other cars and ask for help"]
+      },
+      "fr": {
+        "text": "Vous êtes le premier à arriver sur les lieux d'un accident où des personnes sont grièvement blessées. Après avoir allumé les feux de détresse et coupé les moteurs, que devez-vous faire d'autre ?",
+        "options": ["Vous assurer qu'une ambulance a été appelée", "Éloigner les blessés de leurs véhicules", "Arrêter les autres voitures et demander de l'aide"]
+      }
+    }
+  },
+  {
+    "id": 68,
+    "topic": "first_aid",
+    "explanation": {
+      "ar": "السائل النظيف والبارد يبرّد الحرق ويخفف الألم ويقلل الضرر، والتعقيم يقلل خطر الالتهاب.",
+      "en": "A clean, cool liquid cools the burn, eases the pain and limits the damage, and being sterile lowers the risk of infection.",
+      "fr": "Un liquide propre et froid refroidit la brûlure, soulage la douleur et limite les dégâts, et le fait qu'il soit stérile réduit le risque d'infection."
+    },
+    "whyWrong": {
+      "ar": ["المرهم يحبس الحرارة داخل الجلد وقد يسبب التهابًا.", null, "نزع ما التصق بالحرق قد يمزق الجلد ويزيد الإصابة سوءًا."],
+      "en": ["Ointment traps heat in the skin and can cause infection.", null, "Pulling off anything stuck to the burn can tear the skin and make the injury worse."],
+      "fr": ["Une pommade retient la chaleur dans la peau et peut provoquer une infection.", null, "Retirer ce qui colle à la brûlure peut arracher la peau et aggraver la blessure."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "There has been a crash and someone has serious burns. What can you do to help them?",
+        "options": ["Put ointment on the injury", "Wash the burns with a clean, cool, sterile liquid", "Remove anything stuck to the burns"]
+      },
+      "fr": {
+        "text": "Un accident a eu lieu et une personne souffre de brûlures graves. Que pouvez-vous faire pour l'aider ?",
+        "options": ["Appliquer une pommade sur la blessure", "Laver les brûlures avec un liquide propre, froid et stérile", "Retirer tout ce qui colle aux brûlures"]
+      }
+    }
+  },
+  {
+    "id": 69,
+    "topic": "first_aid",
+    "explanation": {
+      "ar": "المصاب على طريق مزدحم معرّض لأن تصدمه مركبة أخرى، وأنت أيضًا. لذلك أول خطوة هي تحذير حركة المرور لحمايتكما، ثم تبدأ المساعدة.",
+      "en": "A casualty lying on a busy road could be hit by another vehicle, and so could you. So the first step is to warn other traffic to protect you both, then start helping.",
+      "fr": "Un blessé allongé sur une route très fréquentée risque d'être percuté par un autre véhicule, et vous aussi. La première chose à faire est donc d'avertir les autres usagers pour vous protéger tous les deux, puis de porter secours."
+    },
+    "whyWrong": {
+      "ar": ["إبقاء المصاب دافئًا مهم، لكنه يأتي بعد تأمين المكان.", "معالجة الصدمة مهمة، لكنها تأتي بعد تحذير السير.", null],
+      "en": ["Keeping the casualty warm matters, but it comes after making the scene safe.", "Treating for shock matters, but it comes after warning traffic.", null],
+      "fr": ["Garder le blessé au chaud est important, mais vient après la sécurisation des lieux.", "Traiter l'état de choc est important, mais vient après avoir averti la circulation.", null]
+    },
+    "tip": {
+      "ar": "انتبه لكلمة «أول». كل الخيارات مفيدة، لكن الحماية من السير تأتي قبل أي علاج.",
+      "en": "Watch the word \"first\". All the options help, but protection from traffic comes before any treatment.",
+      "fr": "Attention au mot « première ». Toutes les réponses sont utiles, mais se protéger de la circulation passe avant tout soin."
+    },
+    "translation": {
+      "en": {
+        "text": "A collision has just happened. An injured person is lying on a busy road. What is the first thing you should do to help?",
+        "options": ["Make sure the casualty is kept warm", "Treat the casualty for shock", "Warn other traffic"]
+      },
+      "fr": {
+        "text": "Une collision vient de se produire. Un blessé est allongé sur une route très fréquentée. Quelle est la première chose à faire pour l'aider ?",
+        "options": ["Veiller à ce que le blessé reste au chaud", "Traiter le blessé pour l'état de choc", "Avertir les autres usagers de la route"]
+      }
+    }
+  },
+  {
+    "id": 70,
+    "topic": "passengers_loads",
+    "explanation": {
+      "ar": "الراكب يزيد وزن الدراجة، والدراجة الأثقل تحتاج إلى مسافة أطول لتتوقف.",
+      "en": "A passenger adds weight to the motorcycle, and a heavier motorcycle needs a longer distance to stop.",
+      "fr": "Un passager alourdit la moto, et une moto plus lourde a besoin d'une plus grande distance pour s'arrêter."
+    },
+    "whyWrong": {
+      "ar": ["في الليل ترى أقل، لكن الظلام وحده لا يغيّر قدرة الفرامل على إيقاف الدراجة.", "عند صعود التلة يساعدك الصعود على التباطؤ، فتقصر مسافة التوقف.", null],
+      "en": ["At night you see less, but darkness alone does not change how well the brakes stop the motorcycle.", "Going uphill helps you slow down, so the stopping distance gets shorter.", null],
+      "fr": ["La nuit, on voit moins bien, mais l'obscurité seule ne change pas la capacité des freins à arrêter la moto.", "En montée, la pente aide à ralentir, donc la distance d'arrêt est plus courte.", null]
+    },
+    "tip": {
+      "ar": "قد تختار «القيادة ليلًا» بسرعة، لكن الظلام يؤثر على ما تراه لا على قدرة الفرامل. الوزن الإضافي هو ما يطيل مسافة التوقف هنا.",
+      "en": "\"Riding at night\" is tempting, but darkness affects what you see, not what the brakes can do. Here, the extra weight is what makes the stopping distance longer.",
+      "fr": "« Rouler de nuit » est tentant, mais l'obscurité agit sur ce que vous voyez, pas sur les freins. Ici, c'est le poids supplémentaire qui allonge la distance d'arrêt."
+    },
+    "translation": {
+      "en": {
+        "text": "When will your overall stopping distance be longer?",
+        "options": ["When riding at night", "When going up a hill", "When riding with a passenger"]
+      },
+      "fr": {
+        "text": "Quand votre distance d'arrêt totale sera-t-elle plus longue ?",
+        "options": ["Quand vous roulez de nuit", "Quand vous montez une côte", "Quand vous roulez avec un passager"]
+      }
+    }
+  },
+  {
+    "id": 71,
+    "topic": "traffic_rules",
+    "explanation": {
+      "ar": "مسار القطار أو الترام مخصص لهذه المركبات فقط، ولا يجوز للدراجة أن تستعمله. كما أن القضبان فيه قد تكون زلقة وخطرة على العجلات.",
+      "en": "A train or tram lane is reserved for those vehicles only, and a motorcycle must not use it. The rails in it can also be slippery and dangerous for your wheels.",
+      "fr": "La voie de train ou de tramway est réservée à ces véhicules, et une moto ne doit pas l'emprunter. Les rails peuvent aussi être glissants et dangereux pour les roues."
+    },
+    "whyWrong": {
+      "ar": ["مسار التسارع يستعمله الجميع للدخول إلى الطريق بأمان.", "مسار التجاوز يمكن استعماله للتجاوز عند الحاجة.", null],
+      "en": ["The acceleration lane is used by everyone to join the road safely.", "The overtaking lane can be used to overtake when needed.", null],
+      "fr": ["La voie d'accélération sert à tous pour s'insérer en sécurité.", "La voie de dépassement peut être utilisée pour dépasser si nécessaire.", null]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "Which lane must you not use when riding your motorcycle?",
+        "options": ["The acceleration lane", "The overtaking lane", "The train or tram lane"]
+      },
+      "fr": {
+        "text": "Quelle voie ne devez-vous pas emprunter lorsque vous conduisez votre moto ?",
+        "options": ["La voie d'accélération", "La voie de dépassement", "La voie de train ou de tramway"]
+      }
+    }
+  },
+  {
+    "id": 72,
+    "topic": "road_conditions",
+    "explanation": {
+      "ar": "الحصى غير المتماسكة تقلل تماسك الإطارات مع الطريق، فتنزلق الدراجة بسهولة. لذلك خفّف السرعة قبل الوصول إليها وتجنّب الحركات المفاجئة.",
+      "en": "Loose gravel reduces the grip of your tyres, so the motorcycle can slide easily. Slow down before you reach it and avoid sudden movements.",
+      "fr": "Les gravillons instables réduisent l'adhérence des pneus, et la moto peut glisser facilement. Ralentissez avant d'y arriver et évitez les mouvements brusques."
+    },
+    "whyWrong": {
+      "ar": ["القيادة العادية على الحصى قد تجعل الدراجة تنزلق.", null, "التوقف المفاجئ على الحصى قد يجعل العجلات تنزلق فتسقط."],
+      "en": ["Riding normally on gravel can make the motorcycle slide.", null, "Stopping suddenly on gravel can make the wheels slide and cause a fall."],
+      "fr": ["Rouler normalement sur des gravillons peut faire glisser la moto.", null, "S'arrêter brusquement sur des gravillons peut faire glisser les roues et provoquer une chute."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "You are approaching a road with a loose gravel surface. What should you do?",
+        "options": ["Ride normally", "Reduce your speed", "Stop suddenly"]
+      },
+      "fr": {
+        "text": "Vous approchez d'une route recouverte de gravillons instables. Que devez-vous faire ?",
+        "options": ["Rouler normalement", "Réduire votre vitesse", "Vous arrêter brusquement"]
+      }
+    }
+  },
+  {
+    "id": 73,
+    "topic": "control",
+    "explanation": {
+      "ar": "الدراجة تتجه إلى حيث تنظر. إذا نظرت إلى العجلة الأمامية يختل توازنك ولا ترى ما أمامك. انظر دائمًا إلى الأمام في الاتجاه الذي تريد الذهاب إليه.",
+      "en": "A motorcycle goes where you look. If you look down at the front wheel, your balance suffers and you cannot see what is ahead. Always look ahead in the direction you want to go.",
+      "fr": "La moto va là où vous regardez. Si vous regardez la roue avant, votre équilibre en souffre et vous ne voyez pas ce qui est devant. Regardez toujours loin devant, dans la direction où vous voulez aller."
+    },
+    "whyWrong": {
+      "ar": ["النظر إلى الأسفل يجعل التوجيه أصعب لا أسهل.", null, "اتجاه نظرك لا علاقة له باستهلاك الوقود."],
+      "en": ["Looking down makes steering harder, not easier.", null, "Where you look has nothing to do with fuel use."],
+      "fr": ["Regarder vers le bas rend la direction plus difficile, pas plus facile.", null, "L'endroit où vous regardez n'a aucun lien avec la consommation de carburant."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "What will happen if you look down at the front wheel while riding?",
+        "options": ["It will make your steering easier", "It will badly affect your balance", "You will use less fuel"]
+      },
+      "fr": {
+        "text": "Que se passera-t-il si vous regardez en bas vers la roue avant pendant que vous roulez ?",
+        "options": ["Cela facilitera votre direction", "Cela nuira à votre équilibre", "Vous consommerez moins de carburant"]
+      }
+    }
+  },
+  {
+    "id": 74,
+    "topic": "maintenance",
+    "explanation": {
+      "ar": "بعد إعادة تركيب العجلة الخلفية قد لا تكون مستقيمة تمامًا في مكانها. إذا كانت العجلة غير مستقيمة يتأثر ثبات الدراجة وتوجيهها، لذلك يجب فحص ميزانها.",
+      "en": "After refitting, the rear wheel may not sit perfectly straight. A wheel that is out of line affects the motorcycle's stability and handling, so you must check its alignment.",
+      "fr": "Après remontage, la roue arrière peut ne pas être parfaitement droite. Une roue mal alignée nuit à la stabilité et à la tenue de route de la moto ; il faut donc vérifier son alignement."
+    },
+    "whyWrong": {
+      "ar": ["الحامل الجانبي لا يتأثر بفك العجلة الخلفية وإعادة تركيبها.", "التحميل المسبق للتعليق يُضبط حسب الحمولة، ولا علاقة له بتركيب العجلة.", null],
+      "en": ["The side stand is not affected by removing and refitting the rear wheel.", "Suspension preload is set according to the load and has nothing to do with refitting the wheel.", null],
+      "fr": ["La béquille latérale n'est pas concernée par le démontage et le remontage de la roue arrière.", "La précharge de la suspension se règle selon la charge et n'a rien à voir avec le remontage de la roue.", null]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "What should you check after refitting the rear wheel?",
+        "options": ["Your side stand", "The suspension preload", "The wheel alignment"]
+      },
+      "fr": {
+        "text": "Que devez-vous vérifier après avoir remonté la roue arrière ?",
+        "options": ["Votre béquille latérale", "La précharge de la suspension", "L'alignement de la roue"]
+      }
+    }
+  },
+  {
+    "id": 75,
+    "topic": "passengers_loads",
+    "explanation": {
+      "ar": "الدراجة مع عربة جانبية لا تميل في المنعطفات مثل الدراجة المنفردة، وتتصرف بشكل مختلف عند التوجيه والفرملة. لذلك تحتاج إلى أسلوب قيادة مختلف.",
+      "en": "A motorcycle with a sidecar does not lean into bends like a solo motorcycle, and it behaves differently when steering and braking. That is why it needs a different riding technique.",
+      "fr": "Une moto avec side-car ne se penche pas dans les virages comme une moto seule et se comporte différemment au guidage et au freinage. C'est pourquoi elle demande une technique de conduite différente."
+    },
+    "whyWrong": {
+      "ar": ["العربة الجانبية تزيد الوزن، فلا تسمح لك بالفرملة متأخرًا.", "العربة الجانبية لا تسمح بالانعطاف بسرعة أكبر، بل تتطلب حذرًا أكثر في المنعطفات.", null],
+      "en": ["A sidecar adds weight, so it does not let you brake later.", "A sidecar does not let you turn faster; it calls for more care in bends.", null],
+      "fr": ["Le side-car ajoute du poids, il ne permet donc pas de freiner plus tard.", "Le side-car ne permet pas de tourner plus vite ; il demande plus de prudence dans les virages.", null]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "How does riding a motorcycle with a sidecar differ from riding a solo motorcycle?",
+        "options": ["It allows you to brake later when there are hazards", "It allows you to turn faster", "It requires a different riding technique"]
+      },
+      "fr": {
+        "text": "En quoi la conduite d'une moto avec side-car diffère-t-elle de celle d'une moto seule ?",
+        "options": ["Elle vous permet de freiner plus tard en cas de danger", "Elle vous permet de tourner plus vite", "Elle exige une technique de conduite différente"]
+      }
+    }
+  },
+  {
+    "id": 76,
+    "topic": "maintenance",
+    "explanation": {
+      "ar": "مفتاح فصل المحرك يوقف المحرك فورًا، وهو مخصص لحالات الطوارئ عندما تحتاج إلى إطفاء المحرك بسرعة.",
+      "en": "The engine kill switch stops the engine immediately. It is meant for emergencies, when you need to shut the engine off quickly.",
+      "fr": "Le coupe-circuit arrête le moteur immédiatement. Il est prévu pour les situations d'urgence, quand il faut couper le moteur rapidement."
+    },
+    "whyWrong": {
+      "ar": ["المفتاح لا يخفف السرعة، بل يطفئ المحرك. لتخفيف السرعة تستعمل الفرامل.", null, "لإيقاف المحرك بشكل طبيعي تستعمل مفتاح التشغيل."],
+      "en": ["The switch does not reduce speed; it cuts the engine. To slow down you use the brakes.", null, "To stop the engine normally you use the ignition key."],
+      "fr": ["Le coupe-circuit ne réduit pas la vitesse, il coupe le moteur. Pour ralentir, on utilise les freins.", null, "Pour arrêter le moteur normalement, on utilise la clé de contact."]
+    },
+    "tip": {
+      "ar": "لا تخلط بين خياري الإيقاف: مفتاح فصل المحرك للطوارئ فقط، أما الإيقاف العادي فيكون بمفتاح التشغيل.",
+      "en": "Do not mix up the two \"stop the engine\" options: the kill switch is for emergencies only; a normal stop uses the ignition key.",
+      "fr": "Ne confondez pas les deux réponses « arrêter le moteur » : le coupe-circuit est réservé aux urgences ; l'arrêt normal se fait avec la clé de contact."
+    },
+    "translation": {
+      "en": {
+        "text": "The \"engine kill switch\" is used:",
+        "options": ["To reduce speed in an emergency", "To stop the engine in an emergency", "To stop the engine normally"]
+      },
+      "fr": {
+        "text": "Le « coupe-circuit du moteur » sert :",
+        "options": ["À réduire la vitesse en cas d'urgence", "À arrêter le moteur en cas d'urgence", "À arrêter le moteur normalement"]
+      }
+    }
+  },
+  {
+    "id": 77,
+    "topic": "maintenance",
+    "explanation": {
+      "ar": "مفتاح فصل المحرك مخصص لإيقاف المحرك بسرعة في حالات الطوارئ، وليس للاستعمال اليومي.",
+      "en": "The engine kill switch is for stopping the engine quickly in an emergency, not for everyday use.",
+      "fr": "Le coupe-circuit sert à arrêter rapidement le moteur en cas d'urgence, pas à un usage quotidien."
+    },
+    "whyWrong": {
+      "ar": ["المفتاح ليس مصممًا لتوفير البطارية.", "لإيقاف المحرك لفترة قصيرة في الظروف العادية تستعمل مفتاح التشغيل.", null],
+      "en": ["The switch is not designed to save battery power.", "To stop the engine for a short time in normal conditions you use the ignition key.", null],
+      "fr": ["Le coupe-circuit n'est pas conçu pour économiser la batterie.", "Pour arrêter le moteur un court moment en temps normal, on utilise la clé de contact.", null]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "For what purpose should you use the \"engine kill switch\" on your motorcycle?",
+        "options": ["To save battery power", "To stop the engine for a short time", "To stop the engine in an emergency"]
+      },
+      "fr": {
+        "text": "Dans quel but devez-vous utiliser le « coupe-circuit du moteur » de votre moto ?",
+        "options": ["Pour économiser la batterie", "Pour arrêter le moteur pendant une courte durée", "Pour arrêter le moteur en cas d'urgence"]
+      }
+    }
+  },
+  {
+    "id": 78,
+    "topic": "road_conditions",
+    "explanation": {
+      "ar": "القضبان الفولاذية ملساء، وتصبح أكثر انزلاقًا عندما تكون مبللة، فقد تنزلق عجلات الدراجة عليها. لذلك اعبرها بهدوء ومن دون فرملة أو انعطاف حاد.",
+      "en": "Steel rails are smooth and get even more slippery when wet, so your wheels can slide on them. Cross them calmly, without harsh braking or sharp steering.",
+      "fr": "Les rails en acier sont lisses et deviennent encore plus glissants quand ils sont mouillés, et les roues peuvent déraper dessus. Traversez-les calmement, sans freinage ni braquage brusque."
+    },
+    "whyWrong": {
+      "ar": ["مرور المشاة ليس الخطر الخاص بالسكة على الدراجة؛ الخطر هو انزلاق القضبان.", null, "ليست كل خطوط القطار نشطة دائمًا، والخطر الخاص بالدراجة هنا هو انزلاق القضبان."],
+      "en": ["Pedestrians are not the particular danger of a railway track for a motorcycle; the danger is the slippery rails.", null, "Railway lines are not always active, and the particular danger for a motorcycle here is the slippery rails."],
+      "fr": ["Les piétons ne sont pas le danger propre à la voie ferrée pour une moto ; le danger, ce sont les rails glissants.", null, "Les voies ferrées ne sont pas toujours en service, et le danger propre à la moto ici, ce sont les rails glissants."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "Why should you take care when crossing a railway track?",
+        "options": ["Because pedestrians cross over it", "Because the steel rails are slippery", "Because railway lines are always active"]
+      },
+      "fr": {
+        "text": "Pourquoi devez-vous être prudent en traversant une voie ferrée ?",
+        "options": ["Parce que des piétons la traversent", "Parce que les rails en acier sont glissants", "Parce que les voies ferrées sont toujours en service"]
+      }
+    }
+  },
+  {
+    "id": 79,
+    "topic": "road_conditions",
+    "explanation": {
+      "ar": "الوقود أو الزيت على الطريق يظهر بألوان قوس قزح، خاصة إذا كان الطريق مبللًا. وهو زلق جدًا، فخفّف سرعتك وتجنّب الفرملة أو الانعطاف الحاد فوقه.",
+      "en": "Fuel or oil on the road shows up as rainbow colours, especially when the road is wet. It is very slippery, so slow down and avoid harsh braking or sharp turns over it.",
+      "fr": "Le carburant ou l'huile sur la route forme des reflets aux couleurs de l'arc-en-ciel, surtout quand la route est mouillée. C'est très glissant : ralentissez et évitez de freiner ou de tourner brusquement dessus."
+    },
+    "whyWrong": {
+      "ar": ["الطريق المصقول قد يبدو لامعًا، لكنه لا يُظهر ألوان قوس قزح.", null, "الماء وحده لا يُظهر ألوان قوس قزح؛ هذه الألوان تأتي من الوقود."],
+      "en": ["A polished road may look shiny, but it does not show rainbow colours.", null, "Water alone does not show rainbow colours; those colours come from fuel."],
+      "fr": ["Un revêtement poli peut paraître brillant, mais il ne montre pas les couleurs de l'arc-en-ciel.", null, "L'eau seule ne donne pas ces couleurs ; elles viennent du carburant."]
+    },
+    "tip": {
+      "ar": "الماء وحده لا يصنع ألوان قوس قزح. إذا رأيتها فهناك وقود أو زيت، حتى لو كان الطريق مبللًا.",
+      "en": "Water alone does not make rainbow colours. If you see them, there is fuel or oil, even if the road is wet.",
+      "fr": "L'eau seule ne produit pas de reflets arc-en-ciel. Si vous en voyez, il y a du carburant ou de l'huile, même si la route est mouillée."
+    },
+    "translation": {
+      "en": {
+        "text": "You see a rainbow-coloured pattern on the road. What will this warn you of?",
+        "options": ["A polished road surface", "Fuel spilt on the road", "Water on the road"]
+      },
+      "fr": {
+        "text": "Vous voyez des reflets aux couleurs de l'arc-en-ciel sur la route. De quoi cela vous avertit-il ?",
+        "options": ["D'un revêtement poli", "De carburant répandu sur la route", "De la présence d'eau sur la route"]
+      }
+    }
+  },
+  {
+    "id": 80,
+    "topic": "control",
+    "explanation": {
+      "ar": "استعمال الفرامل الأمامية والخلفية معًا وبسلاسة يعطيك أقصر توقف وأكثره ثباتًا. وبما أن فرامل دراجتك غير مرتبطة، فعليك أن تضغط على الاثنتين بنفسك.",
+      "en": "Using the front and rear brakes together, smoothly, gives you the shortest and most stable stop. Since your brakes are not linked, you have to apply both yourself.",
+      "fr": "Utiliser les freins avant et arrière ensemble, en douceur, donne l'arrêt le plus court et le plus stable. Comme vos freins ne sont pas couplés, vous devez actionner les deux vous-même."
+    },
+    "whyWrong": {
+      "ar": [null, "استعمال فرامل واحدة فقط يطيل مسافة التوقف.", "الفرامل الخلفية وحدها لا تكفي لتوقف قوي وآمن."],
+      "en": [null, "Using only one brake makes the stopping distance longer.", "The rear brake alone is not enough for a strong, safe stop."],
+      "fr": [null, "N'utiliser qu'un seul frein allonge la distance d'arrêt.", "Le frein arrière seul ne suffit pas pour un arrêt puissant et sûr."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "Your motorcycle does not have linked brakes. What do you do when braking normally to a stop?",
+        "options": ["Apply both brake controls smoothly", "Apply either brake control gently", "Apply the rear brake only"]
+      },
+      "fr": {
+        "text": "Votre moto n'est pas équipée de freins couplés. Que faites-vous lors d'un freinage normal jusqu'à l'arrêt ?",
+        "options": ["Vous actionnez les deux commandes de frein en douceur", "Vous actionnez doucement l'une ou l'autre commande de frein", "Vous actionnez uniquement le frein arrière"]
+      }
+    }
+  },
+  {
+    "id": 81,
+    "topic": "road_conditions",
+    "explanation": {
+      "ar": "خلال فترة الجفاف يتجمع الزيت والغبار على الطريق. عندما يأتي المطر يختلط بها فيصبح سطح الطريق زلقًا جدًا.",
+      "en": "During a dry spell, oil and dust build up on the road. When the rain comes it mixes with them, and the road surface becomes very slippery.",
+      "fr": "Pendant une période sèche, l'huile et la poussière s'accumulent sur la route. Quand la pluie arrive, elle s'y mélange et la chaussée devient très glissante."
+    },
+    "whyWrong": {
+      "ar": ["المطر لا يعني دائمًا أن الطريق سيُغمر بالمياه.", "المطر لا يجعل الطريق خشنًا، بل يجعله أكثر انزلاقًا.", null],
+      "en": ["Rain does not always mean the road will be flooded.", "Rain does not make the road rough; it makes it more slippery.", null],
+      "fr": ["La pluie ne signifie pas toujours que la route sera inondée.", "La pluie ne rend pas la route rugueuse, elle la rend plus glissante.", null]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "It has rained after a long dry spell. How will this affect the road surface?",
+        "options": ["It will be flooded", "It will be rough", "It will be slippery"]
+      },
+      "fr": {
+        "text": "Il a plu après une longue période de sécheresse. Quel effet cela aura-t-il sur la chaussée ?",
+        "options": ["Elle sera inondée", "Elle sera rugueuse", "Elle sera glissante"]
+      }
+    }
+  },
+  {
+    "id": 82,
+    "topic": "hazards",
+    "explanation": {
+      "ar": "مع التقدم في السن تصبح ردود الفعل أبطأ، فيحتاج كبار السن إلى وقت أطول لملاحظة الخطر والتصرف. كن صبورًا معهم واترك لهم مسافة إضافية.",
+      "en": "With age, reactions become slower, so older people need more time to notice a hazard and act. Be patient with them and give them extra room.",
+      "fr": "Avec l'âge, les réflexes deviennent plus lents, et les personnes âgées ont besoin de plus de temps pour remarquer un danger et réagir. Soyez patient et laissez-leur plus d'espace."
+    },
+    "whyWrong": {
+      "ar": ["التقدم في السن لا يعني أنهم يتوقفون عن استعمال الإشارات.", "ليس كل كبار السن بحاجة إلى نظارات، والتأثير العام هو بطء الاستجابة.", null],
+      "en": ["Getting older does not mean they stop using signals.", "Not all older people need glasses; the general effect is slower reactions.", null],
+      "fr": ["Vieillir ne signifie pas cesser d'utiliser les signaux.", "Toutes les personnes âgées n'ont pas besoin de lunettes ; l'effet général est un temps de réaction plus long.", null]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "How does ageing affect older people's ability to drive?",
+        "options": ["They will not use traffic signals at junctions", "They will need glasses to read road signs", "They will take longer to react to hazards"]
+      },
+      "fr": {
+        "text": "Comment l'âge affecte-t-il la capacité de conduire des personnes âgées ?",
+        "options": ["Elles n'utiliseront pas les signaux aux intersections", "Elles auront besoin de lunettes pour lire les panneaux", "Elles mettront plus de temps à réagir aux dangers"]
+      }
+    }
+  },
+  {
+    "id": 83,
+    "topic": "traffic_rules",
+    "explanation": {
+      "ar": "المسرب الأيمن هو مسرب السير العادي لجميع المركبات. أما المسارب الأخرى فتُستعمل للتجاوز، ثم تعود بعده إلى اليمين.",
+      "en": "The right-hand lane is the normal lane for all vehicles. The other lanes are for overtaking, after which you move back to the right.",
+      "fr": "La voie de droite est la voie normale de circulation pour tous les véhicules. Les autres voies servent à dépasser, puis on se rabat à droite."
+    },
+    "whyWrong": {
+      "ar": [null, "المسرب الأيمن ليس للمركبات الكبيرة فقط، بل هو المسرب العادي للجميع.", "المسرب الأيمن ليس للمركبات البطيئة فقط، بل يسير فيه الجميع عادة."],
+      "en": [null, "The right-hand lane is not only for large vehicles; it is the normal lane for everyone.", "The right-hand lane is not only for slow vehicles; everyone normally rides in it."],
+      "fr": [null, "La voie de droite n'est pas réservée aux gros véhicules ; c'est la voie normale pour tous.", "La voie de droite n'est pas réservée aux véhicules lents ; tout le monde y circule normalement."]
+    },
+    "tip": {
+      "ar": "قد تظن أن المسرب الأيمن للبطيئين أو للشاحنات فقط، لكن القاعدة أنه للجميع، والمسارب الأخرى للتجاوز.",
+      "en": "You may think the right-hand lane is only for slow vehicles or lorries, but the rule is that it is for everyone, and the other lanes are for overtaking.",
+      "fr": "On peut croire que la voie de droite est réservée aux véhicules lents ou aux camions, mais la règle est qu'elle est pour tous, les autres voies servant au dépassement."
+    },
+    "translation": {
+      "en": {
+        "text": "Which vehicles should use the right-hand lane on a motorway carriageway made up of several lanes?",
+        "options": ["All types of vehicle", "Large vehicles only", "Slow vehicles only"]
+      },
+      "fr": {
+        "text": "Quels véhicules doivent emprunter la voie de droite sur une chaussée d'autoroute à plusieurs voies ?",
+        "options": ["Tous les types de véhicules", "Les gros véhicules uniquement", "Les véhicules lents uniquement"]
+      }
+    }
+  },
+  {
+    "id": 84,
+    "topic": "traffic_rules",
+    "explanation": {
+      "ar": "لا تتجاوز أبدًا إلا إذا كنت متأكدًا أن الطريق أمامك خالٍ وآمن. إذا شككت، ابقَ خلف الجرار وانتظر فرصة أفضل.",
+      "en": "Never overtake unless you are sure the road ahead is clear and safe. If in doubt, stay behind the tractor and wait for a better chance.",
+      "fr": "Ne dépassez jamais sans être sûr que la route devant est libre et sans danger. En cas de doute, restez derrière le tracteur et attendez une meilleure occasion."
+    },
+    "whyWrong": {
+      "ar": ["اللحاق بمركبة أخرى يمنعك من رؤية الطريق أمامك، وقد لا يبقى لك مكان آمن.", "لا يحق لك إجبار الجرار على التوقف، والبوق ليس لهذا الغرض.", null],
+      "en": ["Following another vehicle past blocks your view of the road ahead, and there may be no safe space left for you.", "You have no right to force the tractor to stop, and the horn is not for that.", null],
+      "fr": ["Suivre un autre véhicule qui dépasse vous empêche de voir la route devant, et il peut ne plus rester de place sûre pour vous.", "Vous n'avez pas le droit d'obliger le tracteur à s'arrêter, et le klaxon ne sert pas à cela.", null]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "There is a farm tractor in front of you and you want to overtake it, but you are not sure that overtaking is safe. What do you do?",
+        "options": ["Follow another vehicle that is overtaking the tractor", "Sound your horn to force the tractor to stop", "Stay behind the tractor if you have doubts about the safety of overtaking"]
+      },
+      "fr": {
+        "text": "Un tracteur agricole roule devant vous et vous voulez le dépasser, mais vous n'êtes pas sûr que le dépassement soit sans danger. Que faites-vous ?",
+        "options": ["Vous suivez un autre véhicule qui dépasse le tracteur", "Vous klaxonnez pour obliger le tracteur à s'arrêter", "Vous restez derrière le tracteur si vous doutez de la sécurité du dépassement"]
+      }
+    }
+  },
+  {
+    "id": 85,
+    "topic": "traffic_rules",
+    "explanation": {
+      "ar": "تغيير المسرب في اللحظة الأخيرة عند تقاطع مزدحم قد يفاجئ الآخرين ويسبب حادثًا. الأفضل أن تتابع في المسرب الذي أنت فيه، ثم تجد طريقًا آخر للوصول إلى وجهتك.",
+      "en": "Changing lanes at the last moment at a busy junction can take others by surprise and cause a crash. It is better to carry on in your lane and then find another way to your destination.",
+      "fr": "Changer de voie au dernier moment à une intersection chargée peut surprendre les autres et provoquer un accident. Mieux vaut continuer dans votre voie, puis trouver un autre itinéraire vers votre destination."
+    },
+    "whyWrong": {
+      "ar": [null, "التوقف المفاجئ عند التقاطع قد يجعل المركبات خلفك تصطدم بك.", "حتى مع استعمال الإشارة، الانتقال المفاجئ في اللحظة الأخيرة خطير على الآخرين."],
+      "en": [null, "Stopping suddenly at the junction could cause the vehicles behind to run into you.", "Even with a signal, a sudden last-moment lane change is dangerous for others."],
+      "fr": [null, "S'arrêter brusquement à l'intersection peut provoquer une collision avec les véhicules qui vous suivent.", "Même avec le clignotant, un changement de voie brusque au dernier moment est dangereux pour les autres."]
+    },
+    "tip": {
+      "ar": "قد يبدو الجواب الصحيح غريبًا، لكن الوصول متأخرًا أفضل من تغيير خطير للمسرب في آخر لحظة.",
+      "en": "The correct answer may feel strange, but arriving late is better than a dangerous last-moment lane change.",
+      "fr": "La bonne réponse peut sembler étrange, mais mieux vaut arriver en retard que changer de voie dangereusement au dernier moment."
+    },
+    "translation": {
+      "en": {
+        "text": "You are approaching a busy junction and realise at the last moment that you are in the wrong lane. What do you do?",
+        "options": ["Carry on in this lane", "Stop until the junction is clear", "Use your indicators to move into the correct lane"]
+      },
+      "fr": {
+        "text": "Vous approchez d'une intersection très fréquentée et vous vous rendez compte au dernier moment que vous êtes dans la mauvaise voie. Que faites-vous ?",
+        "options": ["Vous continuez dans cette voie", "Vous vous arrêtez jusqu'à ce que l'intersection soit dégagée", "Vous utilisez vos clignotants pour passer dans la bonne voie"]
+      }
+    }
+  },
+  {
+    "id": 86,
+    "topic": "hazards",
+    "explanation": {
+      "ar": "السائق قليل الخبرة قد يتردد أو يتصرف ببطء أو يخطئ. الصبر وترك مسافة إضافية يمنحانك وقتًا للتصرف.",
+      "en": "An inexperienced driver may hesitate, react slowly or make mistakes. Being patient and leaving extra space gives you time to react.",
+      "fr": "Un conducteur inexpérimenté peut hésiter, réagir lentement ou se tromper. La patience et un espace supplémentaire vous laissent le temps de réagir."
+    },
+    "whyWrong": {
+      "ar": [null, "التجاوز المتسرع قد يكون خطيرًا ويُربك السائق قليل الخبرة.", "البوق قد يُفزعه فيرتكب خطأً."],
+      "en": [null, "Rushing to overtake can be dangerous and can unsettle the inexperienced driver.", "The horn may startle them into making a mistake."],
+      "fr": [null, "Dépasser précipitamment peut être dangereux et déstabiliser le conducteur inexpérimenté.", "Le klaxon peut l'effrayer et lui faire commettre une erreur."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "How will you behave towards drivers who seem inexperienced?",
+        "options": ["Be patient and be ready for their slow reactions", "Overtake them as quickly as possible", "Sound your horn to warn them of your presence"]
+      },
+      "fr": {
+        "text": "Comment vous comporterez-vous avec des conducteurs qui semblent inexpérimentés ?",
+        "options": ["Vous êtes patient et vous vous préparez à leurs réactions lentes", "Vous les dépassez le plus vite possible", "Vous klaxonnez pour les avertir de votre présence"]
+      }
+    }
+  },
+  {
+    "id": 87,
+    "topic": "road_conditions",
+    "explanation": {
+      "ar": "في الضباب تكون الرؤية ضعيفة، فيجب أن تقود ببطء وحذر، لذلك تستغرق الرحلة وقتًا أطول. خطط لذلك مسبقًا كي لا تستعجل.",
+      "en": "In fog visibility is poor, so you must ride slowly and carefully, which makes the journey take longer. Plan for this in advance so you do not rush.",
+      "fr": "Dans le brouillard, la visibilité est réduite : il faut rouler lentement et prudemment, donc le trajet dure plus longtemps. Prévoyez-le à l'avance pour ne pas vous presser."
+    },
+    "whyWrong": {
+      "ar": ["في الضباب يجب أن تستعمل المصابيح الأمامية الخافتة لترى ويراك الآخرون.", "اللحاق بأضواء المركبات الأخرى عن قرب لا يترك لك مسافة كافية للتوقف.", null],
+      "en": ["In fog you should use dipped headlights so you can see and be seen.", "Following other vehicles' lights closely leaves you too little distance to stop.", null],
+      "fr": ["Dans le brouillard, il faut utiliser les feux de croisement pour voir et être vu.", "Suivre de près les feux des autres véhicules ne vous laisse pas assez de distance pour vous arrêter.", null]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "What do you do when riding in foggy conditions?",
+        "options": ["Avoid using dipped headlights", "Follow other vehicles' lights closely", "Allow extra time for your expected journey"]
+      },
+      "fr": {
+        "text": "Que faites-vous lorsque vous roulez par temps de brouillard ?",
+        "options": ["Vous évitez d'utiliser les feux de croisement", "Vous suivez de près les feux des autres véhicules", "Vous prévoyez du temps supplémentaire pour la durée prévue de votre trajet"]
+      }
+    }
+  },
+  {
+    "id": 88,
+    "topic": "traffic_rules",
+    "explanation": {
+      "ar": "في تحويلة السير قد تكون المسارب ضيقة، وقد يتوقف من أمامك فجأة. المسافة الكافية تعطيك وقتًا للتوقف بأمان.",
+      "en": "In a traffic diversion the lanes may be narrow, and the vehicle in front may stop suddenly. A sufficient gap gives you time to stop safely.",
+      "fr": "Dans une déviation, les voies peuvent être étroites et le véhicule devant peut s'arrêter brusquement. Une distance suffisante vous laisse le temps de vous arrêter en sécurité."
+    },
+    "whyWrong": {
+      "ar": [null, "الاقتراب من المركبة التي أمامك لا يترك لك وقتًا للتوقف إذا توقفت فجأة.", "تغيير المسارب في التحويلة يزيد خطر الاصطدام ويُربك السير."],
+      "en": [null, "Staying close to the vehicle in front leaves you no time to stop if it stops suddenly.", "Changing lanes in a diversion increases the risk of a collision and disrupts traffic."],
+      "fr": [null, "Rester près du véhicule devant ne vous laisse pas le temps de vous arrêter s'il freine brusquement.", "Changer de voie dans une déviation augmente le risque de collision et perturbe la circulation."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "What do you do when riding through a traffic diversion on a road?",
+        "options": ["Keep a sufficient distance from the vehicle in front", "Stay close to the vehicle in front", "Change lanes to keep traffic flowing"]
+      },
+      "fr": {
+        "text": "Que faites-vous lorsque vous roulez dans une déviation sur une route ?",
+        "options": ["Vous gardez une distance suffisante avec le véhicule devant vous", "Vous restez près du véhicule devant vous", "Vous changez de voie pour garder la circulation fluide"]
+      }
+    }
+  },
+  {
+    "id": 89,
+    "topic": "traffic_rules",
+    "explanation": {
+      "ar": "البوق وسيلة تحذير فقط، تستعمله لتنبيه الآخرين إلى وجودك عند الحاجة. وهو لا يعطيك أي حق إضافي على الطريق.",
+      "en": "The horn is only a warning device: you use it to alert others to your presence when needed. It does not give you any extra rights on the road.",
+      "fr": "Le klaxon est seulement un avertisseur : on l'utilise pour signaler sa présence aux autres en cas de besoin. Il ne donne aucun droit supplémentaire sur la route."
+    },
+    "whyWrong": {
+      "ar": ["البوق لا يعطيك حق الأولوية.", "لا يجوز استعمال البوق للضغط على السائقين الآخرين أو إجبارهم.", null],
+      "en": ["The horn does not give you right of way.", "You must not use the horn to pressure or force other drivers.", null],
+      "fr": ["Le klaxon ne vous donne pas la priorité.", "On ne doit pas utiliser le klaxon pour faire pression sur les autres conducteurs ou les forcer.", null]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "You are allowed to use your motorcycle's horn:",
+        "options": ["To give yourself right of way", "To force slow drivers to let you overtake", "To warn others of your presence"]
+      },
+      "fr": {
+        "text": "Vous êtes autorisé à utiliser le klaxon de votre moto :",
+        "options": ["Pour vous donner la priorité", "Pour forcer les conducteurs lents à vous laisser dépasser", "Pour avertir les autres de votre présence"]
+      }
+    }
+  },
+  {
+    "id": 90,
+    "topic": "traffic_rules",
+    "explanation": {
+      "ar": "عندما يكون السير سريعًا أو كثيفًا، يحتاج السائقون إلى رؤية دراجتك المتوقفة من بعيد كي لا يصطدموا بها. أضواء الوقوف تجعلها ظاهرة في الليل.",
+      "en": "When traffic is fast or heavy, drivers need to see your parked motorcycle from far away so they do not hit it. Parking lights make it visible at night.",
+      "fr": "Quand la circulation est rapide ou dense, les conducteurs doivent voir votre moto stationnée de loin pour ne pas la percuter. Les feux de stationnement la rendent visible la nuit."
+    },
+    "whyWrong": {
+      "ar": [null, "الخطوط المتواصلة تنظّم التجاوز، وليست هي ما يحدد استعمال أضواء الوقوف.", "مواجهة السير القادم ليست ما يحدد استعمال أضواء الوقوف؛ المهم هو سرعة السير وكثافته."],
+      "en": [null, "Solid lines control overtaking; they are not what decides the use of parking lights.", "Facing oncoming traffic is not what decides the use of parking lights; the speed and amount of traffic do."],
+      "fr": [null, "Les lignes continues règlent le dépassement ; ce ne sont pas elles qui imposent les feux de stationnement.", "Faire face à la circulation en sens inverse n'est pas ce qui impose les feux de stationnement ; c'est la vitesse et la densité de la circulation."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "Your motorcycle is parked on the road at night. Where must you use parking lights?",
+        "options": ["When traffic is fast or heavy", "When there are solid lines in the middle of the road", "When you are facing oncoming traffic"]
+      },
+      "fr": {
+        "text": "Votre moto est stationnée sur la route la nuit. Où devez-vous utiliser les feux de stationnement ?",
+        "options": ["Lorsque la circulation est rapide ou dense", "Lorsqu'il y a des lignes continues au milieu de la route", "Lorsque vous faites face à la circulation venant en sens inverse"]
+      }
+    }
+  },
+  {
+    "id": 91,
+    "topic": "maintenance",
+    "explanation": {
+      "ar": "إذا كان نظام الفرامل معطلًا، قد تبقى الفرامل ضاغطة على العجلة أو تقفلها فجأة، فيحتك الإطار بالطريق ويتآكل بسرعة أو بشكل غير متساوٍ.",
+      "en": "If the braking system is faulty, the brakes may keep dragging on the wheel or lock it suddenly, so the tyre scrubs on the road and wears quickly or unevenly.",
+      "fr": "Si le système de freinage est défectueux, les freins peuvent frotter en permanence sur la roue ou la bloquer brusquement ; le pneu frotte alors sur la route et s'use vite ou de façon irrégulière."
+    },
+    "whyWrong": {
+      "ar": [null, "النظام الكهربائي لا يؤثر مباشرة على احتكاك الإطار بالطريق.", "عطل علبة التروس يؤثر على نقل الحركة، لا على تآكل الإطار مباشرة."],
+      "en": [null, "The electrical system does not directly affect how the tyre rubs on the road.", "A gearbox fault affects the transmission, not tyre wear directly."],
+      "fr": [null, "Le système électrique n'agit pas directement sur le frottement du pneu sur la route.", "Un défaut de boîte de vitesses touche la transmission, pas directement l'usure des pneus."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "What can cause excessive or uneven tyre wear?",
+        "options": ["A fault in the braking system", "A fault in the electrical system", "A fault in the gearbox"]
+      },
+      "fr": {
+        "text": "Qu'est-ce qui peut provoquer une usure excessive ou irrégulière des pneus ?",
+        "options": ["Un défaut du système de freinage", "Un défaut du système électrique", "Un défaut de la boîte de vitesses"]
+      }
+    }
+  },
+  {
+    "id": 92,
+    "topic": "hazards",
+    "explanation": {
+      "ar": "الغضب يضعف تركيزك ويدفعك إلى قرارات خطيرة. التوقف وأخذ استراحة يساعدانك على الهدوء قبل متابعة القيادة.",
+      "en": "Anger weakens your concentration and pushes you into dangerous decisions. Stopping and taking a break helps you calm down before you ride on.",
+      "fr": "La colère réduit votre concentration et vous pousse à des décisions dangereuses. S'arrêter et faire une pause vous aide à vous calmer avant de repartir."
+    },
+    "whyWrong": {
+      "ar": ["ملاحقة السائق ووميض الأنوار قد يحوّلان الموقف إلى شجار أو حادث.", "الصراخ والشتائم تزيد التوتر ولا تحل شيئًا.", null],
+      "en": ["Following the driver and flashing your lights can turn the situation into a fight or a crash.", "Shouting and swearing raise the tension and solve nothing.", null],
+      "fr": ["Suivre le conducteur et lui faire des appels de phares peut transformer la situation en dispute ou en accident.", "Crier et insulter augmente la tension et ne règle rien.", null]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "A driver's behaviour has upset you. What can you do to get through this situation safely?",
+        "options": ["Follow them and flash your headlights", "Shout abuse", "Stop and take a break"]
+      },
+      "fr": {
+        "text": "Le comportement d'un conducteur vous a énervé. Que pouvez-vous faire pour surmonter cette situation en toute sécurité ?",
+        "options": ["Le suivre et lui faire des appels de phares", "Crier des insultes", "Vous arrêter et faire une pause"]
+      }
+    }
+  },
+  {
+    "id": 93,
+    "topic": "traffic_rules",
+    "explanation": {
+      "ar": "عندما تبقى على مسافة كافية خلف المركبة الطويلة ترى الطريق أمامها بشكل أوضح، فتعرف متى يكون التجاوز آمنًا.",
+      "en": "Keeping a good distance behind a long vehicle lets you see the road ahead of it more clearly, so you can tell when it is safe to overtake.",
+      "fr": "En restant à une distance suffisante derrière un véhicule long, vous voyez mieux la route devant lui et pouvez juger quand le dépassement est sans danger."
+    },
+    "whyWrong": {
+      "ar": ["الاقتراب منها يحجب عنك رؤية الطريق أمامها.", null, "إشارة السائق قد تكون خاطئة؛ عليك أن تحكم بنفسك على سلامة التجاوز."],
+      "en": ["Getting close blocks your view of the road ahead of it.", null, "The driver's wave could be wrong; you must judge for yourself whether overtaking is safe."],
+      "fr": ["S'approcher vous empêche de voir la route devant lui.", null, "Le signe du conducteur peut être une erreur ; c'est à vous de juger si le dépassement est sûr."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "How do you overtake a long, slow-moving vehicle on a busy road?",
+        "options": ["Follow it closely to see the road ahead", "Keep a sufficient distance behind it to see the road", "Stay behind it until the driver waves you past"]
+      },
+      "fr": {
+        "text": "Comment dépassez-vous un véhicule long et lent sur une route très fréquentée ?",
+        "options": ["Vous le suivez de près pour voir la route devant", "Vous gardez une distance suffisante derrière lui pour voir la route", "Vous restez derrière lui jusqu'à ce que le conducteur vous fasse signe de passer"]
+      }
+    }
+  },
+  {
+    "id": 94,
+    "topic": "traffic_rules",
+    "explanation": {
+      "ar": "التوقف على جانب الطريق السريعة خطير بسبب سرعة السير العالية، لذلك هو مسموح فقط في حالة طوارئ أو عطل.",
+      "en": "Stopping at the side of a motorway is dangerous because traffic is fast, so it is only allowed in an emergency or breakdown.",
+      "fr": "S'arrêter sur le bord de l'autoroute est dangereux à cause de la vitesse de la circulation ; ce n'est donc permis qu'en cas d'urgence ou de panne."
+    },
+    "whyWrong": {
+      "ar": ["قراءة الخريطة ليست حالة طارئة؛ خطط لرحلتك مسبقًا أو توقف في مكان مخصص.", null, "إذا كنت متعبًا، اخرج من الطريق السريعة وتوقف في مكان مخصص للاستراحة."],
+      "en": ["Reading a map is not an emergency; plan your journey beforehand or stop in a proper place.", null, "If you are tired, leave the motorway and stop in a place meant for resting."],
+      "fr": ["Lire une carte n'est pas une urgence ; préparez votre trajet à l'avance ou arrêtez-vous dans un endroit prévu.", null, "Si vous êtes fatigué, quittez l'autoroute et arrêtez-vous dans un endroit prévu pour le repos."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "When are you allowed to stop on the right-hand side of the motorway?",
+        "options": ["If you need to read a map", "In an emergency or breakdown", "When you are tired and need a rest"]
+      },
+      "fr": {
+        "text": "Quand êtes-vous autorisé à vous arrêter sur le côté droit de l'autoroute ?",
+        "options": ["Si vous devez lire une carte", "En cas d'urgence ou de panne", "Lorsque vous êtes fatigué et avez besoin d'une pause"]
+      }
+    }
+  },
+  {
+    "id": 95,
+    "topic": "first_aid",
+    "explanation": {
+      "ar": "الضغطات على الصدر يجب أن تكون سريعة ومنتظمة، بمعدل ١٢٠ ضغطة في الدقيقة، أي ضغطتان في كل ثانية تقريبًا، ليستمر الدم في الوصول إلى الدماغ والقلب.",
+      "en": "Chest compressions must be fast and steady, at a rate of 120 per minute, which is about two every second, to keep blood reaching the brain and heart.",
+      "fr": "Les compressions thoraciques doivent être rapides et régulières, au rythme de 120 par minute, soit environ deux par seconde, pour que le sang continue d'arriver au cerveau et au cœur."
+    },
+    "whyWrong": {
+      "ar": ["٦٠ ضغطة في الدقيقة بطيئة جدًا ولا تكفي لدفع الدم.", null, "٢٤٠ ضغطة في الدقيقة سريعة جدًا ولا يمكن أداؤها بشكل صحيح وفعّال."],
+      "en": ["60 compressions per minute is too slow to keep the blood moving.", null, "240 compressions per minute is too fast to do properly and effectively."],
+      "fr": ["60 compressions par minute, c'est trop lent pour faire circuler le sang.", null, "240 compressions par minute, c'est trop rapide pour être fait correctement et efficacement."]
+    },
+    "tip": {
+      "ar": "تذكّر: ضغطتان في كل ثانية تقريبًا تساوي ١٢٠ ضغطة في الدقيقة.",
+      "en": "Remember: about two compressions every second equals 120 per minute.",
+      "fr": "Retenez : environ deux compressions par seconde, cela fait 120 par minute."
+    },
+    "translation": {
+      "en": {
+        "text": "The casualty cannot breathe normally and chest compressions must be given. At what rate should you press?",
+        "options": ["60 compressions per minute", "120 compressions per minute", "240 compressions per minute"]
+      },
+      "fr": {
+        "text": "La victime ne peut pas respirer normalement et il faut pratiquer des compressions thoraciques. À quel rythme faut-il comprimer ?",
+        "options": ["60 compressions par minute", "120 compressions par minute", "240 compressions par minute"]
+      }
+    }
+  },
+  {
+    "id": 96,
+    "topic": "first_aid",
+    "explanation": {
+      "ar": "رفع الساق النازفة يخفف وصول الدم إلى الجرح، فيقل النزيف.",
+      "en": "Raising the bleeding leg reduces the flow of blood to the wound, so the bleeding slows down.",
+      "fr": "Surélever la jambe qui saigne réduit l'arrivée du sang vers la plaie, et le saignement diminue."
+    },
+    "whyWrong": {
+      "ar": ["الربت على الجرح لا يوقف النزيف وقد يزيده.", "إبقاء الساقين ممدودتين على الأرض لا يساعد على تخفيف النزيف.", null],
+      "en": ["Patting the wound does not stop the bleeding and may make it worse.", "Keeping the legs flat on the ground does not help reduce the bleeding.", null],
+      "fr": ["Tapoter la plaie n'arrête pas le saignement et peut l'aggraver.", "Garder les jambes allongées au sol n'aide pas à réduire le saignement.", null]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "You arrive at a crash and a pedestrian is bleeding heavily from a wound in the leg. What should you do?",
+        "options": ["Pat the wound to stop the bleeding", "Keep both legs stretched out on the ground", "Raise the bleeding leg to reduce the bleeding"]
+      },
+      "fr": {
+        "text": "Vous arrivez sur les lieux d'un accident et un piéton saigne abondamment d'une plaie à la jambe. Que devez-vous faire ?",
+        "options": ["Tapoter la plaie pour arrêter le saignement", "Garder les jambes allongées au sol", "Surélever la jambe qui saigne pour réduire le saignement"]
+      }
+    }
+  },
+  {
+    "id": 97,
+    "topic": "law_penalties",
+    "explanation": {
+      "ar": "قانون السير يضع الالتفاف وسط الشارع العام ضمن مخالفات الفئة الثانية. هذه قاعدة يجب حفظها كما هي.",
+      "en": "The traffic law places turning around in the middle of a public street among second-class violations. This is a rule you simply need to remember.",
+      "fr": "Le code de la route classe le demi-tour au milieu d'une voie publique parmi les infractions de deuxième classe. C'est une règle à retenir telle quelle."
+    },
+    "whyWrong": {
+      "ar": [null, "القانون لا يضع هذه المخالفة في الفئة الثالثة.", "القانون لا يضع هذه المخالفة في الفئة الرابعة."],
+      "en": [null, "The law does not place this violation in the third class.", "The law does not place this violation in the fourth class."],
+      "fr": [null, "La loi ne classe pas cette infraction dans la troisième classe.", "La loi ne classe pas cette infraction dans la quatrième classe."]
+    },
+    "tip": {
+      "ar": "الالتفاف وسط الشارع، ومخالفة مواصفات الخوذة، والاقتراب من المركبات بأقل من ٥٠ سم، والسير جنبًا إلى جنب: كلها من الفئة الثانية. احفظها معًا.",
+      "en": "Turning around in the middle of the street, a helmet that does not meet the specifications, getting closer than 50 cm to vehicles, and riding side by side are all second-class violations. Learn them together.",
+      "fr": "Le demi-tour au milieu de la rue, le casque non conforme, l'approche des véhicules à moins de 50 cm et la circulation côte à côte sont toutes des infractions de deuxième classe. Retenez-les ensemble."
+    },
+    "translation": {
+      "en": {
+        "text": "Turning around in the middle of a public street is a traffic violation of class:",
+        "options": ["Second", "Third", "Fourth"]
+      },
+      "fr": {
+        "text": "Faire demi-tour au milieu d'une voie publique est une infraction routière de la classe :",
+        "options": ["Deuxième", "Troisième", "Quatrième"]
+      }
+    }
+  },
+  {
+    "id": 98,
+    "topic": "law_penalties",
+    "explanation": {
+      "ar": "قانون السير يضع مخالفة مواصفات الخوذة الواقية ضمن مخالفات الفئة الثانية. الخوذة المطابقة للمواصفات ضرورية لحماية رأسك.",
+      "en": "The traffic law places a breach of the protective helmet specifications among second-class violations. A helmet that meets the specifications is essential to protect your head.",
+      "fr": "Le code de la route classe le non-respect des normes du casque de protection parmi les infractions de deuxième classe. Un casque conforme est indispensable pour protéger votre tête."
+    },
+    "whyWrong": {
+      "ar": [null, "القانون لا يضع هذه المخالفة في الفئة الثالثة.", "القانون لا يضع هذه المخالفة في الفئة الرابعة."],
+      "en": [null, "The law does not place this violation in the third class.", "The law does not place this violation in the fourth class."],
+      "fr": [null, "La loi ne classe pas cette infraction dans la troisième classe.", "La loi ne classe pas cette infraction dans la quatrième classe."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "Breaching the protective helmet specifications is a traffic violation of class:",
+        "options": ["Second", "Third", "Fourth"]
+      },
+      "fr": {
+        "text": "Le non-respect des normes du casque de protection est une infraction routière de la classe :",
+        "options": ["Deuxième", "Troisième", "Quatrième"]
+      }
+    }
+  },
+  {
+    "id": 99,
+    "topic": "law_penalties",
+    "explanation": {
+      "ar": "قانون السير يضع الاقتراب من المركبات بمسافة تقل عن ٥٠ سم ضمن مخالفات الفئة الثانية. هذه قاعدة يجب حفظها كما هي.",
+      "en": "The traffic law places getting closer than 50 cm to vehicles among second-class violations. This is a rule you simply need to remember.",
+      "fr": "Le code de la route classe le fait de s'approcher des véhicules à moins de 50 cm parmi les infractions de deuxième classe. C'est une règle à retenir telle quelle."
+    },
+    "whyWrong": {
+      "ar": [null, "القانون لا يضع هذه المخالفة في الفئة الثالثة.", "القانون لا يضع هذه المخالفة في الفئة الرابعة."],
+      "en": [null, "The law does not place this violation in the third class.", "The law does not place this violation in the fourth class."],
+      "fr": [null, "La loi ne classe pas cette infraction dans la troisième classe.", "La loi ne classe pas cette infraction dans la quatrième classe."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "Getting closer than 50 cm to vehicles is a traffic violation of class:",
+        "options": ["Second", "Third", "Fourth"]
+      },
+      "fr": {
+        "text": "S'approcher des véhicules à moins de 50 cm est une infraction routière de la classe :",
+        "options": ["Deuxième", "Troisième", "Quatrième"]
+      }
+    }
+  },
+  {
+    "id": 100,
+    "topic": "law_penalties",
+    "explanation": {
+      "ar": "قانون السير يضع السير جنبًا إلى جنب مع مركبة أو دراجة أخرى ضمن مخالفات الفئة الثانية. هذه قاعدة يجب حفظها كما هي.",
+      "en": "The traffic law places riding side by side with another vehicle or motorcycle among second-class violations. This is a rule you simply need to remember.",
+      "fr": "Le code de la route classe le fait de rouler côte à côte avec un autre véhicule ou une autre moto parmi les infractions de deuxième classe. C'est une règle à retenir telle quelle."
+    },
+    "whyWrong": {
+      "ar": [null, "القانون لا يضع هذه المخالفة في الفئة الثالثة.", "القانون لا يضع هذه المخالفة في الفئة الرابعة."],
+      "en": [null, "The law does not place this violation in the third class.", "The law does not place this violation in the fourth class."],
+      "fr": [null, "La loi ne classe pas cette infraction dans la troisième classe.", "La loi ne classe pas cette infraction dans la quatrième classe."]
+    },
+    "tip": null,
+    "translation": {
+      "en": {
+        "text": "Riding side by side with another vehicle or motorcycle is a traffic violation of class:",
+        "options": ["Second", "Third", "Fourth"]
+      },
+      "fr": {
+        "text": "Rouler côte à côte avec un autre véhicule ou une autre moto est une infraction routière de la classe :",
+        "options": ["Deuxième", "Troisième", "Quatrième"]
+      }
+    }
+  }
+]
