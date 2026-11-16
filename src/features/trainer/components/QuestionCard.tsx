@@ -24,6 +24,8 @@ interface QuestionCardProps {
   hideExplanation?: boolean;
   /** In "end feedback" modes: show that an answer was recorded without saying if it is right. */
   lockedNeutral?: boolean;
+  /** Exam layout: smaller header row (no topic chip) so answers fit on a phone screen. */
+  compact?: boolean;
 }
 
 export function QuestionCard({
@@ -33,13 +35,17 @@ export function QuestionCard({
   onChoose,
   heading,
   hideExplanation,
-  lockedNeutral
+  lockedNeutral,
+  compact
 }: QuestionCardProps) {
   const { t, num, pick } = useI18n();
   const { settings } = useSettings();
   const { progress, mutate } = useProfile();
   const view = useQuestionView(question);
   const [noteOpen, setNoteOpen] = useState(false);
+  // In exams (compact) the Arabic under each translated answer is one tap away, so all
+  // three answers fit on a phone screen. The choice sticks for the rest of the session.
+  const [officialOptionsOpen, setOfficialOptionsOpen] = useState(!compact);
   const [noteDraft, setNoteDraft] = useState(progress.notes[question.id] ?? "");
   const favorite = progress.favorites.includes(question.id);
   const topic = TOPICS_BY_ID.get(topicOf(question.id));
@@ -58,6 +64,9 @@ export function QuestionCard({
 
   if (!view) return null;
 
+  const showOfficial = view.translated && settings.showOfficial;
+  const showOfficialOptions = showOfficial && officialOptionsOpen;
+
   const optionState = (index: number) => {
     if (!answered) return "";
     if (lockedNeutral) return index === selected ? "is-picked" : "is-muted";
@@ -68,11 +77,11 @@ export function QuestionCard({
   };
 
   return (
-    <section className="question-panel question-card">
+    <section className={`question-panel question-card ${compact ? "compact" : ""}`}>
       <div className="question-card-top">
         <div className="question-meta">
           {heading ?? t("trainer.questionNumber", { n: question.id })}
-          {topic ? <span className="chip topic-chip">{pick(topic.label)}</span> : null}
+          {topic && !compact ? <span className="chip topic-chip">{pick(topic.label)}</span> : null}
         </div>
         <div className="row question-tools">
           {canSpeak() ? (
@@ -115,9 +124,22 @@ export function QuestionCard({
       <div lang={view.lang} dir={view.dir} className="question-body">
         <h3>{view.text}</h3>
       </div>
-      {view.translated && settings.showOfficial ? (
-        <p className="official-text" lang="ar" dir="rtl">
-          <span className="badge">{t("trainer.officialWording")}</span> {view.officialText}
+      {showOfficial ? (
+        <p className="official-text">
+          <span className="badge">{t("trainer.officialWording")}</span>{" "}
+          <span lang="ar" dir="rtl">
+            {view.officialText}
+          </span>
+          {compact ? (
+            <button
+              type="button"
+              className="link-button official-toggle"
+              aria-pressed={officialOptionsOpen}
+              onClick={() => setOfficialOptionsOpen((open) => !open)}
+            >
+              {officialOptionsOpen ? t("trainer.hideArabicAnswers") : t("trainer.showArabicAnswers")}
+            </button>
+          ) : null}
         </p>
       ) : null}
 
@@ -133,7 +155,7 @@ export function QuestionCard({
             <span className="option-marker">{num(index + 1)}</span>
             <span>
               {option}
-              {view.translated && settings.showOfficial ? (
+              {showOfficialOptions ? (
                 <span className="official-option" lang="ar" dir="rtl">
                   {view.officialOptions[index]}
                 </span>

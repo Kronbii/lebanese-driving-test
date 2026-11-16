@@ -6,7 +6,10 @@ import {
   Home,
   Languages,
   ListChecks,
+  Menu,
+  School,
   Settings,
+  ShieldCheck,
   SignpostBig,
   WifiOff,
   X
@@ -22,7 +25,7 @@ import { LANGS } from "../../i18n/core";
 import { useI18n } from "../../i18n/useI18n";
 import { useInstallPrompt, useOnline } from "../../lib/pwa";
 import { ProfileGate } from "./ProfileGate";
-import { ProfileAvatar } from "./components/ProfileAvatar";
+import { ProfileAvatar, profileName } from "./components/ProfileAvatar";
 
 const NAV = [
   { path: "", icon: Home, label: "common.navHome", end: true },
@@ -41,6 +44,11 @@ export function TrainerShell() {
   const online = useOnline();
   const install = useInstallPrompt();
   const inExam = location.pathname.endsWith("/play");
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  useEffect(() => {
+    setMenuOpen(false);
+  }, [location.pathname]);
 
   useEffect(() => {
     window.scrollTo({ top: 0 });
@@ -80,6 +88,23 @@ export function TrainerShell() {
   const nextLang = LANGS[(LANGS.findIndex((item) => item.code === lang) + 1) % LANGS.length];
   const brandName = school ? pick(school.name) : t("common.appName");
 
+  const offlineBanner = !online ? (
+    <div className="notice warning offline-banner" role="status">
+      <WifiOff aria-hidden="true" size={18} />
+      {t("common.offline")}
+    </div>
+  ) : null;
+
+  // Exams get the whole screen: the exam page draws its own one-line bar.
+  if (inExam) {
+    return (
+      <div className="app-shell trainer-shell exam-mode">
+        {offlineBanner}
+        {locked ? <ProfileGate /> : <Outlet />}
+      </div>
+    );
+  }
+
   return (
     <div className="app-shell trainer-shell">
       <header className="topbar trainer-topbar">
@@ -95,17 +120,15 @@ export function TrainerShell() {
           <span>{school ? t("common.poweredTrainer") : t("common.country")}</span>
         </div>
         <div className="topbar-actions">
-          {!inExam ? (
-            <nav className="desktop-nav" aria-label={t("common.mainNav")}>
-              {NAV.map((item) => (
-                <NavLink key={item.path} to={link(item.path)} end={item.end} className="tab">
-                  {t(item.label)}
-                </NavLink>
-              ))}
-            </nav>
-          ) : null}
+          <nav className="desktop-nav" aria-label={t("common.mainNav")}>
+            {NAV.map((item) => (
+              <NavLink key={item.path} to={link(item.path)} end={item.end} className="tab">
+                {t(item.label)}
+              </NavLink>
+            ))}
+          </nav>
           <button
-            className="icon-button"
+            className="icon-button desktop-only"
             type="button"
             onClick={() => update({ lang: nextLang.code })}
             aria-label={t("common.switchLanguage", { lang: nextLang.label })}
@@ -113,23 +136,31 @@ export function TrainerShell() {
           >
             <Languages aria-hidden="true" size={18} />
           </button>
-          <Link className="icon-button" to={link("profiles")} aria-label={t("common.profiles")}>
+          <Link className="icon-button desktop-only" to={link("profiles")} aria-label={t("common.profiles")}>
             <ProfileAvatar profile={active} size={26} />
           </Link>
-          <Link className="icon-button" to={link("settings")} aria-label={t("common.navSettings")}>
+          <Link className="icon-button desktop-only" to={link("settings")} aria-label={t("common.navSettings")}>
             <Settings aria-hidden="true" size={18} />
           </Link>
+          <button
+            className="menu-button mobile-only"
+            type="button"
+            aria-label={t("common.menu")}
+            aria-expanded={menuOpen}
+            aria-haspopup="dialog"
+            onClick={() => setMenuOpen(true)}
+          >
+            <ProfileAvatar profile={active} size={30} />
+            <Menu aria-hidden="true" size={18} />
+          </button>
         </div>
       </header>
 
-      {!online ? (
-        <div className="notice warning offline-banner" role="status">
-          <WifiOff aria-hidden="true" size={18} />
-          {t("common.offline")}
-        </div>
-      ) : null}
+      {menuOpen ? <AppMenu onClose={() => setMenuOpen(false)} /> : null}
 
-      {install.canInstall && !inExam ? <InstallBanner onInstall={install.prompt} /> : null}
+      {offlineBanner}
+
+      {install.canInstall ? <InstallBanner onInstall={install.prompt} /> : null}
 
       {locked ? <ProfileGate /> : <Outlet />}
 
@@ -148,16 +179,87 @@ export function TrainerShell() {
         </span>
       </footer>
 
-      {!inExam ? (
-        <nav className="bottom-nav" aria-label={t("common.mainNav")}>
-          {NAV.map((item) => (
-            <NavLink key={item.path} to={link(item.path)} end={item.end}>
-              <item.icon aria-hidden="true" size={20} />
-              <span>{t(item.label)}</span>
-            </NavLink>
-          ))}
+      <nav className="bottom-nav" aria-label={t("common.mainNav")}>
+        {NAV.map((item) => (
+          <NavLink key={item.path} to={link(item.path)} end={item.end}>
+            <item.icon aria-hidden="true" size={20} />
+            <span>{t(item.label)}</span>
+          </NavLink>
+        ))}
+      </nav>
+    </div>
+  );
+}
+
+/** Phone menu: profile, language and the less-used pages, so the header stays one row. */
+function AppMenu({ onClose }: { onClose: () => void }) {
+  const { t, lang } = useI18n();
+  const { update } = useSettings();
+  const { active } = useProfile();
+  const { link, school, slug } = useSchool();
+
+  useEffect(() => {
+    const onKey = (event: KeyboardEvent) => {
+      if (event.key === "Escape") onClose();
+    };
+    document.addEventListener("keydown", onKey);
+    return () => document.removeEventListener("keydown", onKey);
+  }, [onClose]);
+
+  return (
+    <div className="menu-backdrop" onClick={onClose}>
+      <div
+        className="app-menu"
+        role="dialog"
+        aria-modal="true"
+        aria-label={t("common.menu")}
+        onClick={(event) => event.stopPropagation()}
+      >
+        <div className="row between">
+          <Link className="row app-menu-profile" to={link("profiles")} onClick={onClose}>
+            <ProfileAvatar profile={active} size={36} />
+            <span className="stack tight">
+              <strong>{profileName(active, t)}</strong>
+              <span className="muted small">{t("common.switchProfile")}</span>
+            </span>
+          </Link>
+          <button className="icon-button" type="button" aria-label={t("common.dismiss")} onClick={onClose}>
+            <X aria-hidden="true" size={18} />
+          </button>
+        </div>
+        <div className="field">
+          <span>{t("common.language")}</span>
+          <div className="row">
+            {LANGS.map((item) => (
+              <button
+                key={item.code}
+                type="button"
+                className="chip"
+                aria-pressed={lang === item.code}
+                onClick={() => update({ lang: item.code })}
+              >
+                {item.label}
+              </button>
+            ))}
+          </div>
+        </div>
+        <nav className="list app-menu-links">
+          <Link className="list-row" to={link("settings")} onClick={onClose}>
+            <Settings aria-hidden="true" size={18} />
+            {t("common.navSettings")}
+          </Link>
+          {school ? (
+            <Link className="list-row" to={`/s/${slug}`} onClick={onClose}>
+              <School aria-hidden="true" size={18} />
+              {t("common.aboutSchool")}
+            </Link>
+          ) : null}
+          <Link className="list-row" to={slug ? `/s/${slug}/privacy` : "/privacy"} onClick={onClose}>
+            <ShieldCheck aria-hidden="true" size={18} />
+            {t("common.privacy")}
+          </Link>
         </nav>
-      ) : null}
+      </div>
     </div>
   );
 }

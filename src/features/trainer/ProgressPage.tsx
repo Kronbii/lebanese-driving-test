@@ -11,6 +11,7 @@ import { topicStats, weeklySummary } from "../../domain/stats";
 import { useI18n } from "../../i18n/useI18n";
 import { ShareProgressCard } from "../share/ShareProgressCard";
 import { PlanCard } from "./components/PlanCard";
+import { ProgressStats } from "./components/ProgressStats";
 import { ReadinessCard } from "./components/ReadinessCard";
 import { useBank } from "./hooks";
 
@@ -51,6 +52,8 @@ export function ProgressPage() {
           ) : null}
         </div>
       </header>
+
+      <ProgressStats />
 
       <div className="grid cols-2">
         <ReadinessCard readiness={readiness} />

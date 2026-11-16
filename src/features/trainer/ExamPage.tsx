@@ -1,4 +1,4 @@
-import { ArrowLeft, ArrowRight, Clock, Inbox, LogOut } from "lucide-react";
+import { ArrowLeft, ArrowRight, Clock, Inbox, X } from "lucide-react";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { Link, Navigate, useNavigate, useParams, useSearchParams } from "react-router-dom";
 import { useSchool } from "../../app/SchoolContext";
@@ -117,37 +117,42 @@ export function ExamPage() {
 
   return (
     <main className="exam-view">
-      <div className="exam-status">
-        <div>
-          <span className="eyebrow">{t(`trainer.mode_${session.mode}`)}</span>
-          <h2>{t("trainer.questionOf", { n: session.index + 1, total: session.ids.length })}</h2>
-        </div>
-        <div className="row">
-          {remaining !== null ? (
-            <span className={`chip timer ${remaining < 60_000 ? "danger" : ""}`} role="timer" aria-live="off">
-              <Clock aria-hidden="true" size={16} />
-              <span className="ltr">{duration(remaining)}</span>
+      <header className="exam-bar">
+        <button
+          className="icon-button exam-quit"
+          type="button"
+          aria-label={t("trainer.quit")}
+          title={t("trainer.quit")}
+          onClick={() => {
+            if (window.confirm(t("trainer.quitConfirm"))) {
+              quit();
+              navigate(link(""));
+            }
+          }}
+        >
+          <X aria-hidden="true" size={20} />
+        </button>
+        <div className="exam-bar-title">
+          <h2>
+            <span className="exam-bar-mode">{t(`trainer.mode_${session.mode}`)}</span>
+            <span className="visually-hidden">{t("trainer.questionOf", { n: session.index + 1, total: session.ids.length })}</span>
+            <span aria-hidden="true" className="ltr exam-bar-count">
+              {num(session.index + 1)} / {num(session.ids.length)}
             </span>
-          ) : null}
-          <button
-            className="button button-ghost"
-            type="button"
-            onClick={() => {
-              if (window.confirm(t("trainer.quitConfirm"))) {
-                quit();
-                navigate(link(""));
-              }
-            }}
-          >
-            <LogOut aria-hidden="true" size={18} />
-            {t("trainer.quit")}
-          </button>
+          </h2>
         </div>
-      </div>
-
-      <div className="progress-track exam-progress" aria-label={t("trainer.progressLabel")}>
-        <span style={{ width: `${Math.round((answeredCount / session.ids.length) * 100)}%` }} />
-      </div>
+        {remaining !== null ? (
+          <span className={`chip timer ${remaining < 60_000 ? "danger" : ""}`} role="timer" aria-live="off">
+            <Clock aria-hidden="true" size={16} />
+            <span className="ltr">{duration(remaining)}</span>
+          </span>
+        ) : (
+          <span className="exam-bar-spacer" aria-hidden="true" />
+        )}
+        <div className="progress-track exam-progress" aria-label={t("trainer.progressLabel")}>
+          <span style={{ width: `${Math.round((answeredCount / session.ids.length) * 100)}%` }} />
+        </div>
+      </header>
 
       <QuestionCard
         question={question}
@@ -156,10 +161,11 @@ export function ExamPage() {
         lockedNeutral={config.feedback === "end"}
         onChoose={choose}
         heading={t("trainer.questionNumber", { n: question.id })}
+        compact
       />
 
       <div className="question-footer exam-footer">
-        <p className="feedback muted">
+        <p className={`feedback muted ${answer && config.feedback === "end" ? "" : "exam-hint"}`}>
           {!answer
             ? t("trainer.chooseAnswer")
             : config.feedback === "end"

@@ -1,14 +1,13 @@
 import {
+  BarChart3,
   CalendarCheck,
   CheckCircle2,
   Flag,
-  Flame,
   History,
   MessageCircle,
   Play,
   School,
   Sparkles,
-  Star,
   TriangleAlert
 } from "lucide-react";
 import { useMemo } from "react";
@@ -17,33 +16,29 @@ import { useProfile } from "../../app/ProfileContext";
 import { useSchool } from "../../app/SchoolContext";
 import { useTrainer } from "../../app/TrainerContext";
 import { QUESTIONS_BY_ID } from "../../data/banks";
-import { summary, weakestIds } from "../../domain/engine";
-import { xpLevel } from "../../domain/gamification";
+import { weakestIds } from "../../domain/engine";
 import { dailyQueue } from "../../domain/notebook";
 import { studyPlan } from "../../domain/plan";
 import { computeReadiness } from "../../domain/readiness";
-import { practiceStreak } from "../../domain/stats";
 import { useI18n } from "../../i18n/useI18n";
 import { PlanCard } from "./components/PlanCard";
+import { ProgressStats } from "./components/ProgressStats";
 import { ReadinessCard } from "./components/ReadinessCard";
 import { profileName } from "./components/ProfileAvatar";
 import { SIGN_PROMPT, useBank, useQuestionView } from "./hooks";
 
 export function HomePage() {
-  const { t, num, pct, date, pick } = useI18n();
+  const { t, num, date, pick } = useI18n();
   const { progress, active, profiles } = useProfile();
   const { session, start } = useTrainer();
   const { school, link, can } = useSchool();
   const { bank, meta, ids } = useBank();
   const navigate = useNavigate();
 
-  const stats = useMemo(() => summary(progress, ids), [progress, ids]);
   const readiness = useMemo(() => computeReadiness(progress, meta), [progress, meta]);
   const plan = useMemo(() => studyPlan(progress, meta), [progress, meta]);
   const due = useMemo(() => dailyQueue(progress, ids, Date.now(), 15), [progress, ids]);
   const weak = useMemo(() => weakestIds(progress, ids, 5), [progress, ids]);
-  const streak = practiceStreak(progress);
-  const level = xpLevel(progress.xp);
   const recent = progress.history.slice(-5).reverse();
 
   const go = (ok: boolean) => {
@@ -92,28 +87,14 @@ export function HomePage() {
             <CalendarCheck aria-hidden="true" size={18} />
             {due.length ? t("trainer.dailyReview", { n: due.length }) : t("trainer.dailyReviewDone")}
           </button>
-          <Link className="button button-ghost" to={link("practice")}>
+          <Link className="button button-ghost home-more-modes" to={link("practice")}>
             <Sparkles aria-hidden="true" size={18} />
             {t("trainer.moreModes")}
           </Link>
         </div>
       </section>
 
-      <section className="grid cols-4 home-stats">
-        <Stat label={t("trainer.coverage")} value={pct(stats.coveragePct)} meter={stats.coveragePct} />
-        <Stat label={t("trainer.mastery")} value={pct(stats.masteryPct)} meter={stats.masteryPct} />
-        <Stat
-          label={t("trainer.streak")}
-          value={t("trainer.streakDays", { n: streak })}
-          icon={<Flame aria-hidden="true" size={18} className={streak ? "flame" : ""} />}
-        />
-        <Stat
-          label={t("trainer.level", { n: level.level })}
-          value={t("trainer.xp", { n: progress.xp })}
-          meter={Math.round((level.into / level.next) * 100)}
-          icon={<Star aria-hidden="true" size={18} />}
-        />
-      </section>
+      <ProgressStats />
 
       <div className="grid cols-2">
         <ReadinessCard readiness={readiness} compact />
@@ -128,7 +109,12 @@ export function HomePage() {
         </Link>
       ) : null}
 
-      <div className="grid cols-2">
+      <Link className="home-more-link" to={link("progress")}>
+        <BarChart3 aria-hidden="true" size={18} />
+        {t("common.seeAllProgress")}
+      </Link>
+
+      <div className="grid cols-2 home-secondary">
         <section className="card stack">
           <div className="card-title">
             <TriangleAlert aria-hidden="true" size={20} />
@@ -168,23 +154,6 @@ export function HomePage() {
         </section>
       </div>
     </main>
-  );
-}
-
-function Stat({ label, value, meter, icon }: { label: string; value: string; meter?: number; icon?: React.ReactNode }) {
-  return (
-    <div className="card stat">
-      <span className="stat-label row">
-        {icon}
-        {label}
-      </span>
-      <span className="stat-value">{value}</span>
-      {meter !== undefined ? (
-        <div className="meter" aria-hidden="true">
-          <span style={{ width: `${Math.min(100, Math.max(0, meter))}%` }} />
-        </div>
-      ) : null}
-    </div>
   );
 }
 

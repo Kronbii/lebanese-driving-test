@@ -906,3 +906,370 @@
     flex-basis: calc(100% - 60px);
   }
 }
+
+/* =========================================================
+   Phone layout pass: one-row header, exam focus mode, short home
+   ========================================================= */
+
+.option-button {
+  text-align: start;
+}
+
+.mobile-only {
+  display: none !important;
+}
+
+@media (max-width: 860px) {
+  .desktop-only {
+    display: none !important;
+  }
+
+  .mobile-only {
+    display: inline-flex !important;
+  }
+}
+
+/* Header: always one row (overrides the older two-row rule in responsive.css). */
+.trainer-shell .topbar.trainer-topbar {
+  grid-template-columns: auto minmax(0, 1fr) auto;
+}
+
+.trainer-shell .trainer-topbar .topbar-actions {
+  grid-column: auto;
+  justify-content: flex-end;
+}
+
+@media (max-width: 860px) {
+  .trainer-shell .topbar.trainer-topbar {
+    min-height: 48px;
+    margin-bottom: 12px;
+    gap: 10px;
+  }
+
+  .trainer-shell .trainer-topbar .brand-mark {
+    width: 40px;
+    height: 40px;
+  }
+
+  .trainer-shell .trainer-topbar .brand-text h1 {
+    font-size: 1rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .trainer-shell .trainer-topbar .brand-text span {
+    font-size: 0.75rem;
+    margin-top: 0;
+  }
+}
+
+.menu-button {
+  align-items: center;
+  gap: 6px;
+  min-height: 44px;
+  padding-block: 4px;
+  padding-inline: 6px 10px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--text-soft);
+  cursor: pointer;
+}
+
+.menu-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  background: rgba(10, 15, 25, 0.45);
+}
+
+.app-menu {
+  position: absolute;
+  top: 10px;
+  inset-inline: 10px;
+  display: grid;
+  gap: 14px;
+  max-height: calc(100vh - 20px);
+  overflow-y: auto;
+  padding: 16px;
+  border-radius: 14px;
+  background: var(--surface);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
+}
+
+.app-menu-profile {
+  gap: 10px;
+  color: var(--text);
+  text-decoration: none;
+}
+
+.app-menu-links .list-row {
+  gap: 10px;
+  font-weight: 800;
+}
+
+.app-menu-links .list-row svg {
+  color: var(--primary);
+}
+
+/* Exam focus mode: no app header, no bottom nav, a one-line bar and a pinned Next button. */
+.trainer-shell.exam-mode {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.exam-bar {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+  padding: 10px 0 8px;
+  background: var(--page);
+}
+
+.exam-bar-title {
+  display: grid;
+  justify-items: center;
+  text-align: center;
+  min-width: 0;
+}
+
+.exam-bar-title h2 {
+  font-size: 1.15rem;
+  font-weight: 900;
+  line-height: 1.25;
+}
+
+.exam-bar-spacer {
+  width: 40px;
+}
+
+.exam-bar .exam-progress {
+  grid-column: 1 / -1;
+  margin: 2px 0 0;
+}
+
+.question-card.compact .question-card-top {
+  flex-wrap: nowrap;
+  margin-bottom: 8px;
+}
+
+.question-card.compact .question-meta {
+  min-height: 28px;
+  padding: 3px 8px;
+  font-size: 12px;
+}
+
+.question-card.compact .question-tools .icon-button {
+  width: 36px;
+  height: 36px;
+}
+
+@media (max-width: 760px) {
+  .exam-view .question-panel {
+    padding: 12px;
+  }
+
+  .exam-view .question-sign {
+    margin: 4px 0;
+  }
+
+  .exam-view .question-sign img {
+    width: auto;
+    height: min(170px, 24vh);
+    padding: 8px;
+    box-shadow: none;
+  }
+
+  .exam-view .question-panel h3 {
+    margin-top: 8px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+
+  .exam-view .option-list {
+    margin-top: 12px;
+    gap: 8px;
+  }
+
+  .exam-view .option-button {
+    min-height: 50px;
+    padding: 9px 12px;
+    align-items: center;
+  }
+
+  .exam-view .option-button > span:last-child {
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+
+  .exam-view .option-marker {
+    width: 30px;
+    height: 30px;
+  }
+
+  .exam-view .exam-footer {
+    position: sticky;
+    bottom: 0;
+    z-index: 15;
+    gap: 6px;
+    margin-top: 12px;
+    padding: 10px 0 calc(10px + env(safe-area-inset-bottom));
+    border-top: 1px solid var(--line);
+    background: var(--page);
+  }
+
+  .exam-view .exam-footer .exam-hint {
+    display: none;
+  }
+
+  .exam-view .exam-footer .feedback {
+    font-size: 0.85rem;
+  }
+
+  .exam-view .exam-footer .row {
+    flex-wrap: nowrap;
+  }
+
+  .exam-view .exam-footer .next-button {
+    flex: 1;
+    min-width: 0;
+  }
+}
+
+/* Home on phones: start, readiness and plan first; stats and lists live on Progress. */
+.home-more-link {
+  display: none;
+}
+
+@media (max-width: 760px) {
+  .dashboard .home-stats,
+  .dashboard .home-secondary,
+  .home-actions .home-more-modes {
+    display: none;
+  }
+
+  .home-more-link {
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    font-weight: 800;
+    text-decoration: none;
+  }
+
+  .home-hero {
+    gap: 12px;
+    padding: 16px;
+  }
+
+  .home-hero h2 {
+    font-size: 1.2rem;
+  }
+}
+
+/* One-line exam bar: "Official exam  3 / 30". */
+.exam-bar-title h2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: center;
+  gap: 2px 8px;
+}
+
+.exam-bar-mode {
+  color: var(--primary);
+  font-size: 0.8rem;
+  font-weight: 800;
+}
+
+.exam-bar {
+  padding: 6px 0;
+}
+
+/* Short phones (≤ 700px tall): smaller sign and tighter answers so all three fit. */
+@media (max-width: 760px) and (max-height: 700px) {
+  .exam-view .question-sign img {
+    height: min(120px, 19vh);
+    padding: 6px;
+  }
+
+  .exam-view .question-panel h3 {
+    font-size: 1rem;
+    margin-top: 4px;
+  }
+
+  .exam-view .option-list {
+    margin-top: 8px;
+    gap: 6px;
+  }
+
+  .exam-view .option-button {
+    min-height: 44px;
+    padding: 7px 10px;
+  }
+
+  .exam-view .official-option {
+    font-size: 0.75rem;
+    line-height: 1.4;
+  }
+
+  .exam-view .official-text {
+    margin-top: 4px;
+    font-size: 0.8rem;
+  }
+
+  .question-card.compact .question-card-top {
+    margin-bottom: 4px;
+  }
+}
+
+.exam-bar {
+  row-gap: 6px;
+}
+
+.exam-bar .exam-quit {
+  width: 38px;
+  height: 38px;
+}
+
+.official-toggle {
+  display: inline;
+  margin-inline-start: 6px;
+  font-size: 0.8rem;
+  font-weight: 800;
+  text-decoration: underline;
+}
+
+.exam-bar {
+  margin-bottom: 0;
+}
+
+@media (max-width: 760px) {
+  /* Fill the screen so the Next button always sits at the bottom edge, under the thumb. */
+  .trainer-shell.exam-mode .exam-view {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-height: 100vh;
+    min-height: 100dvh;
+  }
+
+  .trainer-shell.exam-mode .exam-view .exam-footer {
+    margin-top: auto;
+  }
+}
+
+/* Keep Next reachable on every screen size, not only phones. */
+.exam-view .exam-footer {
+  position: sticky;
+  bottom: 0;
+  z-index: 15;
+  padding: 10px 0 calc(10px + env(safe-area-inset-bottom));
+  border-top: 1px solid var(--line);
+  background: var(--page);
+}

@@ -29,7 +29,11 @@ export const common = {
     back: "رجوع",
     cancel: "إلغاء",
     save: "حفظ",
-    comingSoon: "قريباً."
+    comingSoon: "قريباً.",
+    menu: "القائمة",
+    language: "اللغة",
+    switchProfile: "تبديل الملف الشخصي",
+    seeAllProgress: "كل التقدّم والإحصاءات"
   },
   en: {
     appName: "Motorcycle Theory Test",
@@ -59,7 +63,11 @@ export const common = {
     back: "Back",
     cancel: "Cancel",
     save: "Save",
-    comingSoon: "Coming soon."
+    comingSoon: "Coming soon.",
+    menu: "Menu",
+    language: "Language",
+    switchProfile: "Switch profile",
+    seeAllProgress: "All progress and stats"
   },
   fr: {
     appName: "Code moto",
@@ -89,6 +97,10 @@ export const common = {
     back: "Retour",
     cancel: "Annuler",
     save: "Enregistrer",
-    comingSoon: "Bientôt disponible."
+    comingSoon: "Bientôt disponible.",
+    menu: "Menu",
+    language: "Langue",
+    switchProfile: "Changer de profil",
+    seeAllProgress: "Toute la progression"
   }
 } satisfies NamespaceMessages;
