@@ -98,7 +98,11 @@ npm run dev:all    # Vite + API (API on http://localhost:8787/api, Vite proxies 
 
 The embedded PGlite fallback is for local development only; on Vercel always set `DATABASE_URL`.
 
-If a deploy fails at runtime with `ERR_MODULE_NOT_FOUND` for a `server/...` import, the function
-was compiled without bundling (Node ESM needs file extensions). Fix by switching the relative
-imports in `server/` and `api/` to `.js` extensions (TypeScript's Bundler resolution accepts them)
-or by bundling the function.
+Vercel compiles `api/` and `server/` file by file as native ESM without bundling, so every
+relative import in the function's graph ends in `.js` (TypeScript's Bundler resolution maps it to
+the `.ts` file). `server/imports.test.ts` fails on an extensionless one, which would otherwise
+pass the build and crash the deployed function with `ERR_MODULE_NOT_FOUND`. To check a build
+locally: `vercel build --prod`, then import `.vercel/output/functions/api/[[...route]].func/api/[[...route]].js`.
+
+On Vercel without `DATABASE_URL` every API call returns `500 {"message":"DATABASE_URL is not set"}`;
+the public trainer keeps working (it is local-first) and school features stay hidden.

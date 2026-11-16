@@ -17,9 +17,9 @@ import type {
   StaffStudentDetail,
   StaffUser,
   StudentSelf
-} from "../src/api/types";
-import { iso, isoRequired, type Db } from "./db";
-import { effectiveFeatures, type BranchRow, type SchoolRow, type StudentRow, type UserRow } from "./context";
+} from "../src/api/types.js";
+import { iso, isoRequired, type Db } from "./db.js";
+import { effectiveFeatures, type BranchRow, type SchoolRow, type StudentRow, type UserRow } from "./context.js";
 
 export const DEFAULT_BRANDING: SchoolBranding = {
   logoUrl: null,

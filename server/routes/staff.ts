@@ -1,7 +1,7 @@
 import { Hono } from "hono";
-import type { QuestionNote, SchoolLanding } from "../../src/api/types";
-import { QUESTIONS } from "../../src/data/questions";
-import { AiRefusal, instructorNotePrompt } from "../ai";
+import type { QuestionNote, SchoolLanding } from "../../src/api/types.js";
+import { QUESTIONS } from "../../src/data/questions.js";
+import { AiRefusal, instructorNotePrompt } from "../ai.js";
 import {
   audit,
   dbOf,
@@ -21,9 +21,9 @@ import {
   type SchoolRow,
   type StudentRow,
   type UserRow
-} from "../context";
-import { iso, isoRequired, json, type Db } from "../db";
-import { Fail, newId, randomCode, toCsv } from "../lib";
+} from "../context.js";
+import { iso, isoRequired, json, type Db } from "../db.js";
+import { Fail, newId, randomCode, toCsv } from "../lib.js";
 import {
   schoolSettings,
   toAppointment,
@@ -36,7 +36,7 @@ import {
   type AppointmentRow,
   type AuditRow,
   type InviteRow
-} from "../mappers";
+} from "../mappers.js";
 import {
   appointmentPatchSchema,
   branchPatchSchema,
@@ -51,10 +51,10 @@ import {
   staffUserPatchSchema,
   studentCreateSchema,
   studentUpdateSchema
-} from "../schemas";
-import { assertBranch, assertInstructor, assertStudentCapacity, deleteStudentData, purgeSchool } from "../services";
-import { computeOverview } from "../overview";
-import { issueLoginCode } from "./student";
+} from "../schemas.js";
+import { assertBranch, assertInstructor, assertStudentCapacity, deleteStudentData, purgeSchool } from "../services.js";
+import { computeOverview } from "../overview.js";
+import { issueLoginCode } from "./student.js";
 
 export const staffRoutes = new Hono<HonoEnv>();
 

@@ -1,6 +1,6 @@
 import { Hono } from "hono";
 import { deleteCookie, getCookie, setCookie } from "hono/cookie";
-import type { MeResponse, RequestLinkResponse } from "../../src/api/types";
+import type { MeResponse, RequestLinkResponse } from "../../src/api/types.js";
 import {
   audit,
   dbOf,
@@ -14,12 +14,12 @@ import {
   type Ctx,
   type HonoEnv,
   type UserRow
-} from "../context";
-import { isoRequired, type Db } from "../db";
-import { magicLinkEmail } from "../email";
-import { addDays, Fail, isProduction, newId, randomToken, sha256 } from "../lib";
-import { schoolSettings, toStaffUser } from "../mappers";
-import { emailSchema, tokenSchema } from "../schemas";
+} from "../context.js";
+import { isoRequired, type Db } from "../db.js";
+import { magicLinkEmail } from "../email.js";
+import { addDays, Fail, isProduction, newId, randomToken, sha256 } from "../lib.js";
+import { schoolSettings, toStaffUser } from "../mappers.js";
+import { emailSchema, tokenSchema } from "../schemas.js";
 
 const LINK_TTL_MS = 15 * 60_000;
 const SESSION_DAYS = 30;

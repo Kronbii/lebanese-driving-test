@@ -1,5 +1,5 @@
-import type { EmailMessage, SendEmail } from "./context";
-import type { Env } from "./lib";
+import type { EmailMessage, SendEmail } from "./context.js";
+import type { Env } from "./lib.js";
 
 /** Resend HTTP API sender, or null when not configured. */
 export function resendSender(env: Env): SendEmail | null {

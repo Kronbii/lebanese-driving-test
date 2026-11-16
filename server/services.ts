@@ -1,7 +1,7 @@
-import type { EventKind } from "../src/api/types";
-import type { SchoolRow } from "./context";
-import type { Db } from "./db";
-import { addDays, dayKey, Fail } from "./lib";
+import type { EventKind } from "../src/api/types.js";
+import type { SchoolRow } from "./context.js";
+import type { Db } from "./db.js";
+import { addDays, dayKey, Fail } from "./lib.js";
 
 /** Anonymous counter: upsert-increment (day, school, kind, ref). Never stores IP/UA. */
 export async function bumpEvent(

@@ -9,11 +9,11 @@ import type {
   SchoolStatus,
   StudentMetrics,
   StudentStatus
-} from "../src/api/types";
-import { PLAN_FEATURES } from "../src/api/types";
-import type { ProgressState } from "../src/domain/types";
-import { json, type Db } from "./db";
-import { Fail, RATE_RULES, newId, sha256, type Env, type RateLimiter, type RateRuleName } from "./lib";
+} from "../src/api/types.js";
+import { PLAN_FEATURES } from "../src/api/types.js";
+import type { ProgressState } from "../src/domain/types.js";
+import { json, type Db } from "./db.js";
+import { Fail, RATE_RULES, newId, sha256, type Env, type RateLimiter, type RateRuleName } from "./lib.js";
 
 // ---------- dependencies ----------
 

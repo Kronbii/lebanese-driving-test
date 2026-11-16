@@ -1,5 +1,5 @@
 import { Hono } from "hono";
-import type { AdminSchoolRow } from "../../src/api/types";
+import type { AdminSchoolRow } from "../../src/api/types.js";
 import {
   audit,
   dbOf,
@@ -8,11 +8,11 @@ import {
   schoolById,
   type HonoEnv,
   type SchoolRow
-} from "../context";
-import { json, type Db } from "../db";
-import { addDays, dayKey, Fail, lastDays, newId } from "../lib";
-import { DEFAULT_BRANDING, EMPTY_CONTACT, EMPTY_LANDING, schoolSettings, toAudit, toErrorReport, type AuditRow, type ErrorRow } from "../mappers";
-import { adminSchoolUpdateSchema, schoolCreateSchema } from "../schemas";
+} from "../context.js";
+import { json, type Db } from "../db.js";
+import { addDays, dayKey, Fail, lastDays, newId } from "../lib.js";
+import { DEFAULT_BRANDING, EMPTY_CONTACT, EMPTY_LANDING, schoolSettings, toAudit, toErrorReport, type AuditRow, type ErrorRow } from "../mappers.js";
+import { adminSchoolUpdateSchema, schoolCreateSchema } from "../schemas.js";
 
 export const adminRoutes = new Hono<HonoEnv>();
 

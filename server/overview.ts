@@ -1,8 +1,8 @@
-import type { StaffOverview, StudentMetrics, StudentStatus } from "../src/api/types";
-import type { TopicId } from "../src/domain/types";
-import type { SchoolRow } from "./context";
-import { isoRequired, type Db } from "./db";
-import { addDays, dayKey, lastDays } from "./lib";
+import type { StaffOverview, StudentMetrics, StudentStatus } from "../src/api/types.js";
+import type { TopicId } from "../src/domain/types.js";
+import type { SchoolRow } from "./context.js";
+import { isoRequired, type Db } from "./db.js";
+import { addDays, dayKey, lastDays } from "./lib.js";
 
 interface OverviewStudentRow {
   id: string;

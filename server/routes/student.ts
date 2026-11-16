@@ -1,5 +1,5 @@
 import { Hono } from "hono";
-import type { StudentAuthResponse } from "../../src/api/types";
+import type { StudentAuthResponse } from "../../src/api/types.js";
 import {
   audit,
   dbOf,
@@ -14,12 +14,12 @@ import {
   type HonoEnv,
   type SchoolRow,
   type StudentRow
-} from "../context";
-import { iso, isoRequired, json, type Db } from "../db";
-import { Fail, formatLoginCode, newId, normalizeCode, randomCode, randomToken, sha256 } from "../lib";
-import { studentSelf, type AppointmentRow, type InviteRow } from "../mappers";
-import { joinSchema, loginSchema, progressSyncSchema } from "../schemas";
-import { assertStudentCapacity, deleteStudentData } from "../services";
+} from "../context.js";
+import { iso, isoRequired, json, type Db } from "../db.js";
+import { Fail, formatLoginCode, newId, normalizeCode, randomCode, randomToken, sha256 } from "../lib.js";
+import { studentSelf, type AppointmentRow, type InviteRow } from "../mappers.js";
+import { joinSchema, loginSchema, progressSyncSchema } from "../schemas.js";
+import { assertStudentCapacity, deleteStudentData } from "../services.js";
 
 const MAX_PROGRESS_BYTES = 300_000;
 const LOGIN_CODE_LENGTH = 10;

@@ -1,9 +1,9 @@
 import { Hono } from "hono";
-import { QUESTIONS } from "../../src/data/questions";
-import { AiRefusal, explainPrompt } from "../ai";
-import { dbOf, depsOf, rateLimit, readBody, requireFeature, schoolBySlug, type HonoEnv } from "../context";
-import { Fail } from "../lib";
-import { aiExplainSchema } from "../schemas";
+import { QUESTIONS } from "../../src/data/questions.js";
+import { AiRefusal, explainPrompt } from "../ai.js";
+import { dbOf, depsOf, rateLimit, readBody, requireFeature, schoolBySlug, type HonoEnv } from "../context.js";
+import { Fail } from "../lib.js";
+import { aiExplainSchema } from "../schemas.js";
 
 export const aiRoutes = new Hono<HonoEnv>();
 

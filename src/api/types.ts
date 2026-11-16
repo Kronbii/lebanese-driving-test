@@ -10,7 +10,7 @@
  * Privacy: public mode never calls the API except anonymous counters (POST /api/events) and
  * optional error reports. Nothing personal is stored unless a student joins a school with consent.
  */
-import type { Lang, ProgressState, TopicId } from "../domain/types";
+import type { Lang, ProgressState, TopicId } from "../domain/types.js";
 
 // ---------- shared enums ----------
 

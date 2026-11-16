@@ -1,4 +1,4 @@
-import type { Db } from "./db";
+import type { Db } from "./db.js";
 
 /**
  * Idempotent schema. Every statement is safe to re-run; new columns are added with

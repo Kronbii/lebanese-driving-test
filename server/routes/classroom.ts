@@ -1,6 +1,6 @@
 import { Hono } from "hono";
-import type { ClassPhase, ClassroomHostState, ClassroomPlayerState } from "../../src/api/types";
-import { QUESTIONS } from "../../src/data/questions";
+import type { ClassPhase, ClassroomHostState, ClassroomPlayerState } from "../../src/api/types.js";
+import { QUESTIONS } from "../../src/data/questions.js";
 import {
   audit,
   bearer,
@@ -15,10 +15,10 @@ import {
   staffSchool,
   type Ctx,
   type HonoEnv
-} from "../context";
-import { json, type Db } from "../db";
-import { Fail, newId, randomCode, randomToken, sha256, toCsv } from "../lib";
-import { advanceSchema, classroomCreateSchema, liveAnswerSchema, liveJoinSchema } from "../schemas";
+} from "../context.js";
+import { json, type Db } from "../db.js";
+import { Fail, newId, randomCode, randomToken, sha256, toCsv } from "../lib.js";
+import { advanceSchema, classroomCreateSchema, liveAnswerSchema, liveJoinSchema } from "../schemas.js";
 
 const QUESTION_BY_ID = new Map(QUESTIONS.map((question) => [question.id, question]));
 const MAX_PARTICIPANTS = 200;

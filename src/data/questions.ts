@@ -1,4 +1,4 @@
-import type { Question } from "../domain/types";
+import type { Question } from "../domain/types.js";
 
 // Auto-generated question bank for the Lebanese motorcycle theory exam.
 // 251 questions transcribed from the official PDF via vision, cross-validated against

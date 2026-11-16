@@ -3,7 +3,7 @@
  * Uses PGlite at .data/pglite unless DATABASE_URL is set. Vite proxies /api here.
  */
 import { serve } from "@hono/node-server";
-import app from "./app";
+import app from "./app.js";
 
 const port = Number(process.env.PORT ?? 8787);
 

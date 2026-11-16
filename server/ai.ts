@@ -1,7 +1,7 @@
 import Anthropic from "@anthropic-ai/sdk";
-import type { Lang, Question } from "../src/domain/types";
-import type { AiComplete } from "./context";
-import type { Env } from "./lib";
+import type { Lang, Question } from "../src/domain/types.js";
+import type { AiComplete } from "./context.js";
+import type { Env } from "./lib.js";
 
 export const DEFAULT_MODEL = "claude-opus-5-5";
 

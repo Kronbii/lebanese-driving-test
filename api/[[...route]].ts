@@ -2,7 +2,7 @@
  * Vercel Function entry (Node.js runtime). Every /api/* request is handled by the Hono app.
  */
 import { handle } from "hono/vercel";
-import app from "../server/app";
+import app from "../server/app.js";
 
 const handler = handle(app);
 

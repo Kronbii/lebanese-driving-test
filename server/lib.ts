@@ -1,5 +1,5 @@
 import { createHash, randomBytes, randomInt, randomUUID } from "node:crypto";
-import type { ErrorCode } from "../src/api/types";
+import type { ErrorCode } from "../src/api/types.js";
 
 // ---------- env ----------
 

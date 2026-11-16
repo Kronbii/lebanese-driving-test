@@ -14,11 +14,11 @@ import {
   schoolBySlug,
   type HonoEnv,
   type SchoolRow
-} from "../context";
-import { cleanRef, clampText, Fail, newId } from "../lib";
-import { publicSchool } from "../mappers";
-import { appointmentSchema, errorReportSchema, eventSchema, leadSchema } from "../schemas";
-import { assertBranch, bumpEvent, purgeAll } from "../services";
+} from "../context.js";
+import { cleanRef, clampText, Fail, newId } from "../lib.js";
+import { publicSchool } from "../mappers.js";
+import { appointmentSchema, errorReportSchema, eventSchema, leadSchema } from "../schemas.js";
+import { assertBranch, bumpEvent, purgeAll } from "../services.js";
 import { createHash, timingSafeEqual } from "node:crypto";
 
 export const publicRoutes = new Hono<HonoEnv>();

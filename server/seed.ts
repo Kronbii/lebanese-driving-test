@@ -6,12 +6,12 @@
  * All names, phones and numbers are synthetic.
  */
 import { pathToFileURL } from "node:url";
-import type { SchoolBranding, SchoolContact, SchoolLanding, StudentMetrics, StudentStatus } from "../src/api/types";
-import { QUESTIONS } from "../src/data/questions";
-import type { ProgressState, Question, QuestionProgress, TopicId } from "../src/domain/types";
-import { createDbFromEnv, json, type Db } from "./db";
-import { addDays, dayKey, newId, readEnv } from "./lib";
-import { migrate } from "./schema";
+import type { SchoolBranding, SchoolContact, SchoolLanding, StudentMetrics, StudentStatus } from "../src/api/types.js";
+import { QUESTIONS } from "../src/data/questions.js";
+import type { ProgressState, Question, QuestionProgress, TopicId } from "../src/domain/types.js";
+import { createDbFromEnv, json, type Db } from "./db.js";
+import { addDays, dayKey, newId, readEnv } from "./lib.js";
+import { migrate } from "./schema.js";
 
 /** Deterministic PRNG so the demo looks the same on every machine. */
 function rng(seed: number) {

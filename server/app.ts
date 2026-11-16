@@ -1,8 +1,8 @@
 import { Hono } from "hono";
 import { getCookie } from "hono/cookie";
 import { HTTPException } from "hono/http-exception";
-import type { ApiErrorBody } from "../src/api/types";
-import { anthropicCompleter } from "./ai";
+import type { ApiErrorBody } from "../src/api/types.js";
+import { anthropicCompleter } from "./ai.js";
 import {
   loadStaff,
   SESSION_COOKIE,
@@ -11,18 +11,18 @@ import {
   type Ctx,
   type HonoEnv,
   type SendEmail
-} from "./context";
-import { createDbFromEnv, type Db } from "./db";
-import { resendSender } from "./email";
-import { Fail, isProduction, RateLimiter, readEnv, type Env } from "./lib";
-import { adminRoutes } from "./routes/admin";
-import { aiRoutes } from "./routes/ai";
-import { authRoutes } from "./routes/auth";
-import { classroomRoutes } from "./routes/classroom";
-import { publicRoutes } from "./routes/public";
-import { staffRoutes } from "./routes/staff";
-import { studentRoutes } from "./routes/student";
-import { migrate } from "./schema";
+} from "./context.js";
+import { createDbFromEnv, type Db } from "./db.js";
+import { resendSender } from "./email.js";
+import { Fail, isProduction, RateLimiter, readEnv, type Env } from "./lib.js";
+import { adminRoutes } from "./routes/admin.js";
+import { aiRoutes } from "./routes/ai.js";
+import { authRoutes } from "./routes/auth.js";
+import { classroomRoutes } from "./routes/classroom.js";
+import { publicRoutes } from "./routes/public.js";
+import { staffRoutes } from "./routes/staff.js";
+import { studentRoutes } from "./routes/student.js";
+import { migrate } from "./schema.js";
 
 export interface CreateAppOptions {
   /** A ready Db, or a lazy factory (resolved on the first request). */
@@ -168,11 +168,16 @@ export type App = ReturnType<typeof createApp>;
 /**
  * Default app (Vercel + dev server): Postgres when DATABASE_URL is set, otherwise PGlite
  * at PGLITE_DIR (default .data/pglite). The database is opened lazily on the first request.
+ * Vercel has no writable disk, so there a missing DATABASE_URL is a clear 500 rather than a
+ * PGlite crash; /health then fails too and the web app hides school features.
  */
 const defaultEnv = readEnv();
 const app = createApp({
   env: defaultEnv,
-  db: () => createDbFromEnv(defaultEnv, process.env.PGLITE_DIR ?? ".data/pglite")
+  db: () =>
+    !defaultEnv.DATABASE_URL && process.env.VERCEL
+      ? Promise.reject(new Fail("server_error", "DATABASE_URL is not set"))
+      : createDbFromEnv(defaultEnv, process.env.PGLITE_DIR ?? ".data/pglite")
 });
 
 export default app;
